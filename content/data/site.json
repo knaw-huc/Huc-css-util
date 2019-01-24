@@ -1,0 +1,14 @@
+{
+  "pages": [
+    {
+      "name": "index",
+      "template": "css-util",
+      "title": " HuC Utility CSS"
+    },
+    {
+      "name": "wp-wordpres-text",
+      "template": "wp-basic-text",
+      "title": " Monarchy in Turmoil"
+    }
+  ]
+}
