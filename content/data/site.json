@@ -8,7 +8,12 @@
     {
       "name": "wp-wordpres-text",
       "template": "wp-basic-text",
-      "title": " Monarchy in Turmoil"
+      "title": " Wordpress"
+    },
+    {
+      "name": "basic-form",
+      "template": "basic-form",
+      "title": " Form elements"
     }
   ]
 }
