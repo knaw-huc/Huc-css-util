@@ -1,0 +1,28 @@
+.hcFormItem {
+  display: flex;
+  flex-direction: column;
+}
+
+
+.hcFormItem > *{
+  width: 100%;
+  // display: flex;
+  // flex-direction: column;
+}
+
+
+@media (min-width: 600px) {
+  .hcFormItem {
+    display: grid;
+  }
+
+}
+
+
+.hcFeedbackError {
+  border-bottom: 3px solid $colorDanger !important;
+}
+
+.hcFeedbackSucces {
+  border-bottom: 3px solid $colorSucces !important;
+}

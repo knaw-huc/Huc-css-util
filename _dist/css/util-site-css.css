@@ -9,7 +9,7 @@ code {
   font-family: 'Roboto Mono', monospace;
   font-weight: 300;
   color: #000;
-  background-color: #f1f7d3;
+  background-color: rgba(241, 247, 211, 0.5);
   border-radius: 3px;
   font-size: 14px;
   padding: .2rem .4rem; }
@@ -21,3 +21,6 @@ code {
 
 .sub {
   font-weight: 300 !important; }
+
+#navigationFromHeaders {
+  padding-bottom: 8rem; }

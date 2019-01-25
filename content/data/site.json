@@ -3,17 +3,22 @@
     {
       "name": "index",
       "template": "css-util",
-      "title": " HuC Utility CSS"
+      "title": "HuC Utility CSS"
     },
     {
       "name": "wp-wordpres-text",
       "template": "wp-basic-text",
-      "title": " Wordpress"
+      "title": "Wordpress"
     },
     {
       "name": "basic-form",
       "template": "basic-form",
-      "title": " Form elements"
+      "title": "Form elements"
+    },
+    {
+      "name": "all-elements-on-page",
+      "template": "all-elements",
+      "title": "All elements page"
     }
   ]
 }

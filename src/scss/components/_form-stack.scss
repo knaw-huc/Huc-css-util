@@ -1,0 +1,27 @@
+.hcFormStack {
+  display: flex;
+  flex-direction: column;
+  border-top: 1px solid $colorGreyLightElement;
+  padding-top: $basicMargin;
+  width: 100%;
+}
+
+.hcFormStack > *{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.hcStackInfo {
+  margin-bottom: 2rem
+}
+
+@media (min-width: 600px) {
+  .hcFormStack {
+    flex-direction: row;
+  }
+
+  .hcStackInfo {
+    width: 33%;
+  }
+}

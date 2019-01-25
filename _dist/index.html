@@ -2,7 +2,7 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title> HuC Utility CSS</title>
+    <title>HuC Utility CSS</title>
     <meta name="description" content="">
     <meta name="keywords" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -16,11 +16,11 @@
     <meta property="og:image"         content="" />
   </head>
   <body>
-<link rel="stylesheet" href="css/utilcss.css">
-<div class="site layoutBasicMainFixedAside">
+<link rel="stylesheet" href="css/util-site-css.css">
+<div class="layoutBasicMainFixedAside">
   <aside class="layoutAside basicSideMargin colorBgGrey blockScroll">
 
-    <div class="headSpace">
+    <div class="hcHeadSpace">
       <div class="brandName">
         <img src="images/logo-knaw-humanities-cluster.png" alt="logo KNAW Humanities Cluster">
         <div>Utility CSS</div>
@@ -31,11 +31,47 @@
 
   </aside>
   <div class="layoutMain blockCenter basicSideMargin">
-    <div class="headSpace blockText">
-      <div class="blockText"><h1>HuC Utility CSS</h1></div>
+    <div class="headSpace hcBlockText">
+      <div class="hcBlockText"><h1>HuC Utility CSS</h1></div>
     </div>
 
-    <article class="blockText">
+    <article class="hcBlockText">
+      <div class="hcForm">
+        <div class="hcFormStack">
+          <div class="hcStackInfo">
+            <h2>Person info</h2>
+            <div class="hcTxtColorGreyMid">Fill it in</div>
+          </div>
+        
+          <div class="hcStackFormItems">
+            <div class="hcFormItem hcMarginBottom2">
+              <label class="hcLabel" for="f1">Given name</label>
+              <input type="text" id="f1" class="hcFeedbackError">
+              <div class="hcSmallTxt hcTxtColorGreyMid">Email adresses must contain an @ and a dot.</div>
+            </div>
+            
+            <div class="hcFormItem hcMarginBottom2">
+            
+              <label class="hcLabel" for="city">Family name</label>
+              <select id="city" class="hcFeedbackSucces">
+                <option value="1">Amsterdam</option>
+                <option value="2">Arnhem</option>
+                <option value="3">The Hague</option>
+              </select>
+              <div class="hcSmallTxt hcTxtColorGreyMid">Email adresses must contain an @ and a dot.</div>
+            
+            </div>
+            
+            <div class="hcFormItem hcMarginBottom2">
+              <label class="hcLabel" for="f3">Bio</label>
+              <textarea name="name"  class="" id="f3"></textarea>
+              <div class="hcSmallTxt hcTxtColorGreyMid"></div>
+            </div>
+          </div>
+        
+        </div>
+      </div>
+
     <div class="utillBlock">
       <h2 id="introduction">Introduction</h2>
       <p>This framework is build for developers of the HuC Digital Infrastructure Teams. It is build on following directives:</p>
@@ -45,9 +81,9 @@
       <li>Keep our tools consistent and recognizable as HuC tools.</li>
       </ul>
       <h2 id="core">Core</h2>
-      <p>Add the following to the <code>&lt;head&gt;</code> of your HTML page:
-      <code>&lt;link rel=&quot;stylesheet&quot; href=&quot;https://util-css.huc.knaw.nl/style.css&quot;&gt;</code>.
-      With this stylesheet the site will use basic Roboto font in 16 pixels.</p>
+      <p>Add the following to the <code>&lt;head&gt;</code> of your HTML page:</p>
+      <p><code>&lt;link rel=&quot;stylesheet&quot; href=&quot;https://huc-css-util.netlify.com/css/huc-css.css&quot;&gt;</code></p>
+      <p>With this stylesheet the site will use basic Roboto font in 16 pixels.</p>
       <ul>
       <li>Normalise</li>
       <li>Roboto font 16px</li>
@@ -58,13 +94,27 @@
       <h2 id="basic-interface-utilities">Basic interface utilities</h2>
       <p>These utilities will give your site hierarchy, clarity and focus.</p>
       <h3 id="blocks-size">Blocks size</h3>
+      <p><code>.hcContainer</code> for flex and center.</p>
       <h4 id="site-block">Site block</h4>
       <p>A site block is a block container that prevents the content to spread all over the screen. It give content a maximum with of 1200 pixels.</p>
       <p><em>Example</em></p>
       <pre><code>&lt;header class=&quot;blockSite&quot;&gt;Site name&lt;/header&gt;</code></pre><h4 id="text-block">Text block</h4>
       <h3 id="margins">Margins</h3>
+      <p>Margins help to create rest and focus.</p>
       <h4 id="basic-left-and-right-margin">Basic left and right margin</h4>
       <p>To keep (namely) text and other content readable a margin is a great help.<br><code>.basicSideMargin</code></p>
+      <h4 id="margin-bottom">Margin bottom</h4>
+      <p>Use the <em>margin bottom</em> to separate elements from each other.
+      <code>.hcMarginBottom1</code>
+      <code>.hcMarginBottom2</code>
+      <code>.hcMarginBottom3</code>
+      <code>.hcMarginBottom5</code></p>
+      <h4 id="margin-top">Margin top</h4>
+      <p>Use the top
+      <code>.hcMarginTop1</code>
+      <code>.hcMarginTop2</code>
+      <code>.hcMarginTop3</code>
+      <code>.hcMarginTop5</code></p>
       <h4 id="header-margin">Header margin</h4>
       <h3 id="alignments">Alignments</h3>
       <p>&amp;^alignHorizontal^&amp;</p>
@@ -73,8 +123,8 @@
       </header>
       ^^
       
-      <p><code>.alignVertical</code> </p>
-      <p><code>.alignLeft</code> </p>
+      <p><code>.alignVertical</code></p>
+      <p><code>.alignLeft</code></p>
       <p><code>.alignRight</code></p>
       <p><code>.alignCenter</code></p>
       <h3 id="headers">Headers</h3>
@@ -83,6 +133,11 @@
     <div class="utillBlock">
       <h2 id="text">Text</h2>
       <h3 id="interface-text">Interface text</h3>
+      <h4 id="small-text">Small text</h4>
+      <p><code>.hcSmallTxt</code></p>
+      <h4 id="grey-text">Grey text</h4>
+      <p>Use it to make text text attentional and less scannable
+      <code>.hcTxtColorGreyMid</code></p>
       <h3 id="large-text">Large text</h3>
     </div>
     <div class="utillBlock">
@@ -121,6 +176,7 @@
       <h3 id="form-stack">Form stack</h3>
       <h3 id="data-fields">Data fields</h3>
     </div>
+
 
 
     </article>
