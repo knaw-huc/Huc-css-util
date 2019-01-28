@@ -296,6 +296,33 @@ strong {
     width: calc(70%);
     padding-top: 1.5rem; } }
 
+.hcProductBar {
+  width: 100vw;
+  padding: 0 1rem;
+  background-image: -webkit-linear-gradient(25deg, #03dbe8 40%, #ddf279 100%);
+  display: flex;
+  justify-content: space-between; }
+  .hcProductBar .icon {
+    width: 1rem;
+    height: auto; }
+
+@media (min-width: 800px) {
+  .hcProductBar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 4rem;
+    height: 100vh;
+    flex-direction: column;
+    align-items: center; }
+    .hcProductBar .icon {
+      width: 1.5rem;
+      margin-bottom: 2rem; } }
+
+@media (max-width: 800px) {
+  .hcProductBar .hcHeadSpace {
+    height: auto; } }
+
 .hcLayoutBasicMainAside, .hcLayoutBasicMainFixedAside {
   display: flex;
   flex-direction: column;

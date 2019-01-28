@@ -1,11 +1,41 @@
 .hcProductBar {
-  width: 3rem;
-  padding: 1rem;
-  height: 100vh;
-  background-color: rgb(8, 210, 162);
-  position: fixed;
-  top: 0;
-  left: 0;
+  width: 100vw;
+  padding: 0 1rem;
+  background-image: -webkit-linear-gradient(25deg, #03dbe8 40%, #ddf279 100%);
+  display: flex;
+  justify-content: space-between;
 
-  
+  .icon {
+    width: 1rem;
+    height: auto;
+  }
+}
+
+@media (min-width: #{$siteBreak}) {
+  .hcProductBar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 4rem;
+    height: 100vh;
+
+    flex-direction: column;
+    align-items: center;
+
+    .icon {
+      width: 1.5rem;
+      margin-bottom: 2rem;
+    }
+
+  }
+}
+
+
+
+@media (max-width: #{$siteBreak}) {
+  .hcProductBar {
+    .hcHeadSpace {
+      height: auto;
+    }
+  }
 }
