@@ -1,13 +1,20 @@
 .hcProductBar {
   width: 100vw;
   padding: 0 1.5rem;
-  
+
   display: flex;
   justify-content: flex-start;
 
   .icon {
     width: 1rem;
     height: auto;
+  }
+
+  .logo {
+    width: 3rem;
+    height: auto;
+    transition: all .4s;
+    margin-left: -1rem;
   }
 }
 
@@ -43,6 +50,12 @@
   }
   .hcProductBar:hover {
     width: 300px;
+  }
+
+  .hcProductBar:hover .logo{
+    width: 4rem;
+    margin-left: 0rem;
+
   }
 
   .hcLayoutAside .hcProductBar {

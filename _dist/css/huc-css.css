@@ -342,6 +342,11 @@ strong {
   .hcProductBar .icon {
     width: 1rem;
     height: auto; }
+  .hcProductBar .logo {
+    width: 3rem;
+    height: auto;
+    transition: all .4s;
+    margin-left: -1rem; }
 
 @media (min-width: 800px) {
   .hcProductBar {
@@ -366,7 +371,10 @@ strong {
       width: 200px;
       color: #fff; }
   .hcProductBar:hover {
-    width: 300px; } }
+    width: 300px; }
+  .hcProductBar:hover .logo {
+    width: 4rem;
+    margin-left: 0rem; } }
 
 @media (max-width: 800px) {
   .hcProductBar .hcHeadSpace {
@@ -384,3 +392,9 @@ strong {
 
 .chBrandHuc .colorBgGrey {
   background-color: #edf7f3 !important; }
+
+.chBrandHuygens .bgColorBrand1 {
+  background-image: -webkit-linear-gradient(25deg, #082045 40%, #082045 100%) !important; }
+
+.chBrandHuygens .colorBgGrey {
+  background-color: #efefef !important; }

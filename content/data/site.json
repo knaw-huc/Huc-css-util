@@ -4,6 +4,7 @@
       "name": "index",
       "template": "css-util",
       "brand": "Huc",
+      "logo": "logo-knaw-humanities-cluster.png",
       "title": "HuC Utility CSS"
     },
     {
@@ -33,7 +34,8 @@
     {
       "name": "all-elements-on-page",
       "template": "all-elements",
-      "brand": "Huc",
+      "brand": "Huygens",
+      "logo": "logo-timbuctoo.svg",
       "title": "All elements page"
     }
   ]
