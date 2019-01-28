@@ -1,19 +1,25 @@
 {{> html-head}}
 <link rel="stylesheet" href="css/util-site-css.css">
 <div class="hcLayoutBasicMainFixedAside">
-  <aside class="hcLayoutAside basicSideMargin colorBgGrey hcBlockScroll">
-    {{> page-product-bar}}
+  <aside class="hcLayoutAside">
 
-    <div class="hcHeadSpace">
-      <div class="brandName">
-        <img src="images/logo-knaw-humanities-cluster.png" alt="logo KNAW Humanities Cluster">
-        <div>Utility CSS</div>
+
+    <div class="asideWithProductBar">
+      {{> page-product-bar}}
+      <div class="colorBgGrey hcBlockScroll basicSideMargin">
+        <div class="hcHeadSpace">
+          <div class="brandName">
+            <img src="images/logo-knaw-humanities-cluster.png" alt="logo KNAW Humanities Cluster">
+            <div>Utility CSS</div>
+          </div>
+        </div>
+        <nav id="navigationFromHeaders" class="navigation alignVertical"></nav>
       </div>
     </div>
-
-    <nav id="navigationFromHeaders" class="navigation alignVertical"></nav>
-
   </aside>
+
+
+
   <div class="hcLayoutMain hcContentContainer ">
     <div class="hcHeadSpace basicSideMargin">
       <h1>HuC Utility CSS</h1>

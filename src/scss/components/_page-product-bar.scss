@@ -1,9 +1,9 @@
 .hcProductBar {
   width: 100vw;
-  padding: 0 1rem;
-  background-image: -webkit-linear-gradient(25deg, #03dbe8 40%, #ddf279 100%);
+  padding: 0 1.5rem;
+  
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-start;
 
   .icon {
     width: 1rem;
@@ -14,20 +14,42 @@
 @media (min-width: #{$siteBreak}) {
   .hcProductBar {
     position: fixed;
+    z-index: 999;
     top: 0;
     left: 0;
-    width: 4rem;
+    width: $productBarWidth;
+    overflow-y: hidden;
     height: 100vh;
 
     flex-direction: column;
-    align-items: center;
+    align-items: flex-start;
+    transition: width .4s;
 
     .icon {
       width: 1.5rem;
+      margin-right: 1rem;
+    }
+
+    nav {
+      display: flex;
+      flex-direction: column;
+    }
+    nav >*{
       margin-bottom: 2rem;
+      width: 200px;
+      color: #fff;
     }
 
   }
+  .hcProductBar:hover {
+    width: 300px;
+  }
+
+  .hcLayoutAside .hcProductBar {
+    //position: relative;
+
+  }
+
 }
 
 

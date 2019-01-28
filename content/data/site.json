@@ -3,21 +3,37 @@
     {
       "name": "index",
       "template": "css-util",
+      "brand": "Huc",
       "title": "HuC Utility CSS"
+    },
+    {
+      "name": "util-components",
+      "template": "css-util",
+      "brand": "Huc",
+      "title": "Components"
+    },
+    {
+      "name": "util-pages",
+      "template": "css-util",
+      "brand": "Huc",
+      "title": "Pages"
     },
     {
       "name": "wp-wordpres-text",
       "template": "wp-basic-text",
+      "brand": "Huc",
       "title": "Wordpress"
     },
     {
       "name": "basic-form",
       "template": "basic-form",
+      "brand": "Clarin",
       "title": "Form elements"
     },
     {
       "name": "all-elements-on-page",
       "template": "all-elements",
+      "brand": "Huc",
       "title": "All elements page"
     }
   ]

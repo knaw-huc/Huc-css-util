@@ -1,5 +1,4 @@
 $asideWith: 300px;
-$asideWithLarge: 450px;
 
 .hcLayoutBasicMainAside, .hcLayoutBasicMainFixedAside {
   display: flex;
@@ -15,7 +14,7 @@ $asideWithLarge: 450px;
   width: 100%;
 }
 
-@media (min-width: 800px) {
+@media (min-width: #{$siteBreak}) {
   .hcLayoutBasicMainAside {
     flex-direction: row;
   }
@@ -48,6 +47,13 @@ $asideWithLarge: 450px;
     .hcLayoutMain {
       width: calc(100vw - #{$asideWith});
       margin-left: $asideWith;
+    }
+
+    .asideWithProductBar {
+      display: flex;
+    }
+    .asideWithProductBar > *:last-child{
+      margin-left: $productBarWidth;
     }
 
   }
