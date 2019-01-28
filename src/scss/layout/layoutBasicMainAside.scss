@@ -1,30 +1,30 @@
-$asideWith: 250px;
+$asideWith: 300px;
 $asideWithLarge: 450px;
 
-.layoutBasicMainAside, .layoutBasicMainFixedAside {
+.hcLayoutBasicMainAside, .hcLayoutBasicMainFixedAside {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
 }
 
-.layoutAside {
+.hcLayoutAside {
   width: 100%;
 }
 
-.layoutMain {
+.hcLayoutMain {
   width: 100%;
 }
 
 @media (min-width: 800px) {
-  .layoutBasicMainAside {
+  .hcLayoutBasicMainAside {
     flex-direction: row;
   }
 
-  .layoutAside {
+  .hcLayoutAside {
     width: $asideWith;
   }
 
-  .layoutMain {
+  .hcLayoutMain {
     width: calc(100vw - #{$asideWith});
     min-width: calc(800px - #{$asideWith});
   }
@@ -33,11 +33,11 @@ $asideWithLarge: 450px;
 //////////////////
 
 @media (min-width: 800px) {
-  .layoutBasicMainFixedAside {
+  .hcLayoutBasicMainFixedAside {
     flex-direction: row;
     justify-content: flex-end;
 
-    .layoutAside {
+    .hcLayoutAside {
       width: $asideWith;
       position: fixed !important;
       top: 0;
@@ -45,7 +45,7 @@ $asideWithLarge: 450px;
       bottom: 0;
     }
 
-    .layoutMain {
+    .hcLayoutMain {
       width: calc(100vw - #{$asideWith});
       margin-left: $asideWith;
     }

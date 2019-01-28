@@ -1,8 +1,8 @@
 @import url("https://fonts.googleapis.com/css?family=Roboto+Mono:300");
-h2 {
+.utillBlock h2 {
   margin-top: 6rem; }
 
-article h2:first-of-type {
+.utillBlock h2:first-of-type {
   margin-top: 0rem; }
 
 code {

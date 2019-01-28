@@ -13,18 +13,13 @@
 
 .hcBlockSite {
   max-width: 1200px;
-  width: 100%; 
+  width: 100%;
+
+  p {
+    max-width: calc(33% + #{$formElementMaxWidth} - 95px);
+    width: 100%;
+  }
 }
-
-@media (min-width: 1300px) {
-  .hcBlockText {
-    max-width: 750px;
-  }
-
-  .hcBlockSite {
-    max-width: 1400px;
-  }
-  }
 
 //
 .hcBlockScroll {

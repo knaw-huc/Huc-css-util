@@ -14,7 +14,7 @@ ul, ol {
 
 li {
   padding: 0;
-  margin: 0 0 0 1.2rem; }
+  margin: 0 0 0 0; }
 
 a {
   text-decoration: none; }
@@ -91,8 +91,8 @@ strong {
   font-size: .85rem; }
 
 .basicSideMargin {
-  padding-left: 1.5rem;
-  padding-right: 1.5rem; }
+  padding-left: 2rem;
+  padding-right: 2rem; }
 
 .hcMarginBottom1 {
   margin-bottom: 1rem; }
@@ -154,49 +154,10 @@ strong {
 .fullHeight {
   min-height: 100vh; }
 
-.hcContainer {
-  display: flex;
-  flex-direction: column;
-  align-items: center; }
-
-.hcBlockText {
-  max-width: 650px;
-  width: 100%; }
-
-.hcBlockSite {
-  max-width: 1200px;
-  width: 100%; }
-
-@media (min-width: 1300px) {
-  .hcBlockText {
-    max-width: 750px; }
-  .hcBlockSite {
-    max-width: 1400px; } }
-
-.hcBlockScroll {
-  min-height: 100vh;
-  overflow-y: auto; }
-
-.hcBlockScroll:hover {
-  overflow-y: scroll; }
-
-.hcHeadSpace {
-  height: 30vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: flex-start; }
-
-@media (min-width: 500px) {
-  .hcHeadSpace {
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between; } }
-
 .hcForm input, .hcForm select, .hcForm option, .hcForm textarea {
   width: 100%;
   background-color: #f0f5f9;
-  max-width: 400px;
+  max-width: 480px;
   padding: .5rem;
   background-color: #f0f5f9;
   border: 1px solid #e1ebf3;
@@ -214,6 +175,68 @@ strong {
   color: #999999;
   text-transform: uppercase;
   font-size: .85rem; }
+
+.hcList {
+  width: 100%; }
+
+.hcListItem {
+  display: flex;
+  flex-direction: column;
+  padding: 0 2rem;
+  background-color: #d8bffb; }
+
+.hcListItem > * {
+  flex: 1; }
+
+@media (min-width: 600px) {
+  .hcListItem {
+    flex-direction: row; } }
+
+.hcContentContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%; }
+
+.hcContentContainer > * {
+  width: 100%;
+  max-width: 1200px; }
+  .hcContentContainer > * img {
+    width: 100%;
+    height: auto; }
+
+.hcBlockText {
+  width: 100%; }
+  .hcBlockText ol, .hcBlockText ul {
+    margin-left: 1rem; }
+
+.hcBlockText > * {
+  width: 100%; }
+
+@media (min-width: 800px) {
+  .hcBlockText > * {
+    max-width: 70%; } }
+
+.hcHeadSpace {
+  height: 25vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start; }
+
+@media (min-width: 800px) {
+  .hcHeadSpace {
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between; } }
+
+.hcBlockScroll {
+  min-height: 100vh;
+  overflow-y: auto; }
+
+.hcBlockScroll:hover {
+  overflow-y: scroll; }
 
 .navigation a {
   color: #3e3e3e;
@@ -252,7 +275,7 @@ strong {
   display: flex;
   flex-direction: column;
   border-top: 1px solid #ededed;
-  padding-top: 1.5rem;
+  padding-top: 2rem;
   width: 100%; }
 
 .hcFormStack > * {
@@ -261,47 +284,51 @@ strong {
   flex-direction: column; }
 
 .hcStackInfo {
-  margin-bottom: 2rem; }
+  margin-bottom: 2rem;
+  margin-right: 2rem; }
 
-@media (min-width: 600px) {
+@media (min-width: 800px) {
   .hcFormStack {
     flex-direction: row; }
   .hcStackInfo {
-    width: 33%; } }
+    width: calc(30% - 2rem); }
+  .hcStackFormItems {
+    width: calc(70%);
+    padding-top: 1.5rem; } }
 
-.layoutBasicMainAside, .layoutBasicMainFixedAside {
+.hcLayoutBasicMainAside, .hcLayoutBasicMainFixedAside {
   display: flex;
   flex-direction: column;
   align-items: flex-start; }
 
-.layoutAside {
+.hcLayoutAside {
   width: 100%; }
 
-.layoutMain {
+.hcLayoutMain {
   width: 100%; }
 
 @media (min-width: 800px) {
-  .layoutBasicMainAside {
+  .hcLayoutBasicMainAside {
     flex-direction: row; }
-  .layoutAside {
-    width: 250px; }
-  .layoutMain {
-    width: calc(100vw - 250px);
-    min-width: calc(800px - 250px); } }
+  .hcLayoutAside {
+    width: 300px; }
+  .hcLayoutMain {
+    width: calc(100vw - 300px);
+    min-width: calc(800px - 300px); } }
 
 @media (min-width: 800px) {
-  .layoutBasicMainFixedAside {
+  .hcLayoutBasicMainFixedAside {
     flex-direction: row;
     justify-content: flex-end; }
-    .layoutBasicMainFixedAside .layoutAside {
-      width: 250px;
+    .hcLayoutBasicMainFixedAside .hcLayoutAside {
+      width: 300px;
       position: fixed !important;
       top: 0;
       left: 0;
       bottom: 0; }
-    .layoutBasicMainFixedAside .layoutMain {
-      width: calc(100vw - 250px);
-      margin-left: 250px; } }
+    .hcLayoutBasicMainFixedAside .hcLayoutMain {
+      width: calc(100vw - 300px);
+      margin-left: 300px; } }
 
 .brandName {
   font-weight: 700; }

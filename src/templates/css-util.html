@@ -1,7 +1,7 @@
 {{> html-head}}
 <link rel="stylesheet" href="css/util-site-css.css">
-<div class="layoutBasicMainFixedAside">
-  <aside class="layoutAside basicSideMargin colorBgGrey blockScroll">
+<div class="hcLayoutBasicMainFixedAside">
+  <aside class="hcLayoutAside basicSideMargin colorBgGrey hcBlockScroll">
 
     <div class="hcHeadSpace">
       <div class="brandName">
@@ -13,15 +13,16 @@
     <nav id="navigationFromHeaders" class="navigation alignVertical"></nav>
 
   </aside>
-  <div class="layoutMain blockCenter basicSideMargin">
-    <div class="headSpace hcBlockText">
-      <div class="hcBlockText"><h1>HuC Utility CSS</h1></div>
+  <div class="hcLayoutMain hcContentContainer ">
+    <div class="hcHeadSpace basicSideMargin">
+      <h1>HuC Utility CSS</h1>
+    </div>
+    <div class="hcForm basicSideMargin">
+      {{> comp-form-stack}}
     </div>
 
-    <article class="hcBlockText">
-      <div class="hcForm">
-        {{> comp-form-stack}}
-      </div>
+    <article class="hcBlockText basicSideMargin">
+
 
     {{> cssUtil-block            file="introduction"}}
     {{> cssUtil-block            file="basicUtilities"}}

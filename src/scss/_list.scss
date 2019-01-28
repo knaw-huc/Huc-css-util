@@ -1,0 +1,20 @@
+.hcList {
+  width: 100%;
+}
+
+.hcListItem {
+  display: flex;
+  flex-direction: column;
+  padding: 0 #{$basicMargin};
+  background-color: rgb(216, 191, 251);
+}
+
+.hcListItem >* {
+  flex: 1;
+}
+
+@media (min-width: 600px) {
+  .hcListItem {
+    flex-direction: row;
+  }
+}

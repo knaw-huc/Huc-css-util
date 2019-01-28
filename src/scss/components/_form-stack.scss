@@ -13,15 +13,21 @@
 }
 
 .hcStackInfo {
-  margin-bottom: 2rem
+  margin-bottom: 2rem;
+  margin-right: $basicMargin;
 }
 
-@media (min-width: 600px) {
+@media (min-width: #{$siteBreak}) {
   .hcFormStack {
     flex-direction: row;
   }
 
   .hcStackInfo {
-    width: 33%;
+    width: calc(30% - #{$basicMargin});
+  }
+
+  .hcStackFormItems {
+    width: calc(70%);
+    padding-top: 1.5rem;
   }
 }
