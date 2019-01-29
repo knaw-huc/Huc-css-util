@@ -64,47 +64,56 @@
       <li>Keep our tools consistent and recognizable as HuC tools.</li>
       </ul>
       <h2 id="core">Core</h2>
-      <p>Add the following to the <code>&lt;head&gt;</code> of your HTML page:</p>
+      <p>Add the following link tag to the <code>&lt;head&gt;</code> of your HTML page:</p>
       <p><code>&lt;link rel=&quot;stylesheet&quot; href=&quot;https://huc-css-util.netlify.com/css/huc-css.css&quot;&gt;</code></p>
-      <p>With this stylesheet the site will use basic Roboto font in 16 pixels.</p>
+      <p>With this stylesheet the site will use basic Roboto font in 17 pixels.</p>
       <ul>
       <li>Normalise</li>
-      <li>Roboto font 16px</li>
+      <li>Roboto font 17px</li>
       <li>White background</li>
       </ul>
     </div>
     <div class="utillBlock">
       <h2 id="basic-interface-utilities">Basic interface utilities</h2>
-      <p>These utilities will give your site hierarchy, clarity and focus.</p>
-      <h3 id="blocks-size">Blocks size</h3>
-      <p><code>.hcContainer</code> for flex and center.</p>
-      <h4 id="site-block">Site block</h4>
-      <p>A site block is a block container that prevents the content to spread all over the screen. It give content a maximum with of 1200 pixels.</p>
-      <p><em>Example</em></p>
-      <pre><code>&lt;header class=&quot;blockSite&quot;&gt;Site name&lt;/header&gt;</code></pre><h4 id="text-block">Text block</h4>
+      <p>Here you&#39;ll find basic building blocks for a page.  These utilities will give your site hierarchy, clarity and focus.</p>
+      <h3 id="page-blocks">Page blocks</h3>
+      <p>Page blocks help to build a responsive and organised page. All page blocks must be wrapped in a container.</p>
+      <p><code>.hcContentContainer</code></p>
+      <p>Alle child elements inside the <code>.hcContentContainer</code> behave the same way.It prevents the content to spread all over the screen. It give content a maximum with of 1200 pixels. On smaller screens</p>
+      <h4 id="text-block">Text block</h4>
+      <pre><code>&lt;div class=&quot;hcBlockText&quot;&gt;
+          &lt;h2&gt;Summary&lt;/h2&gt;
+          &lt;p&gt;Here&#39;s a summery of all the above&lt;/p&gt;
+      
+      &lt;/dic&gt;
+      </code></pre><h4 id="column-block">Column block</h4>
+      <p>2 Columns</p>
+      <p>3 Columns</p>
+      <p>4 Columns</p>
+      <p>5 Columns</p>
       <h3 id="margins">Margins</h3>
       <p>Margins help to create rest and focus.</p>
       <h4 id="basic-left-and-right-margin">Basic left and right margin</h4>
       <p>To keep (namely) text and other content readable a margin is a great help.<br><code>.basicSideMargin</code></p>
       <h4 id="margin-bottom">Margin bottom</h4>
       <p>Use the <em>margin bottom</em> to separate elements from each other.
-      <code>.hcMarginBottom1</code>
-      <code>.hcMarginBottom2</code>
-      <code>.hcMarginBottom3</code>
-      <code>.hcMarginBottom5</code></p>
+      <code>.hcMarginBottom1</code></p>
+      <p><code>.hcMarginBottom2</code></p>
+      <p><code>.hcMarginBottom3</code></p>
+      <p><code>.hcMarginBottom5</code></p>
       <h4 id="margin-top">Margin top</h4>
       <p>Use the top
-      <code>.hcMarginTop1</code>
-      <code>.hcMarginTop2</code>
-      <code>.hcMarginTop3</code>
-      <code>.hcMarginTop5</code></p>
+      <code>.hcMarginTop1</code></p>
+      <p><code>.hcMarginTop2</code></p>
+      <p><code>.hcMarginTop3</code></p>
+      <p><code>.hcMarginTop5</code></p>
       <h4 id="header-margin">Header margin</h4>
       <h3 id="alignments">Alignments</h3>
-      <p>&amp;^alignHorizontal^&amp;</p>
-      <header class="blockSite">
-          Site name
+      <p>alignHorizontal
+      <code>`</code><header class="blockSite">
+          Site name</p>
       </header>
-      ^^
+      ```
       
       <p><code>.alignVertical</code></p>
       <p><code>.alignLeft</code></p>

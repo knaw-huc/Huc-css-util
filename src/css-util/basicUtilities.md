@@ -1,16 +1,33 @@
 ## Basic interface utilities
 
-These utilities will give your site hierarchy, clarity and focus.
-### Blocks size
-`.hcContainer` for flex and center.
-#### Site block
-A site block is a block container that prevents the content to spread all over the screen. It give content a maximum with of 1200 pixels.
+Here you'll find basic building blocks for a page.  These utilities will give your site hierarchy, clarity and focus.
+### Page blocks
+Page blocks help to build a responsive and organised page. All page blocks must be wrapped in a container.
 
-_Example_
-```
-<header class="blockSite">Site name</header>
-```
+`.hcContentContainer`
+
+Alle child elements inside the `.hcContentContainer` behave the same way.It prevents the content to spread all over the screen. It give content a maximum with of 1200 pixels. On smaller screens
+
+
 #### Text block
+
+
+```
+<div class="hcBlockText">
+	<h2>Summary</h2>
+	<p>Here's a summery of all the above</p>
+
+</dic>
+
+```
+#### Column block
+2 Columns
+
+3 Columns
+
+4 Columns
+
+5 Columns
 
 ### Margins
 Margins help to create rest and focus.
@@ -21,15 +38,21 @@ To keep (namely) text and other content readable a margin is a great help.
 #### Margin bottom
 Use the _margin bottom_ to separate elements from each other.
 `.hcMarginBottom1`
+
 `.hcMarginBottom2`
+
 `.hcMarginBottom3`
+
 `.hcMarginBottom5`
 
 #### Margin top
 Use the top
 `.hcMarginTop1`
+
 `.hcMarginTop2`
+
 `.hcMarginTop3`
+
 `.hcMarginTop5`
 
 
@@ -38,11 +61,11 @@ Use the top
 #### Header margin
 
 ### Alignments
-&^alignHorizontal^&
-<header class="blockSite">
+alignHorizontal
+```<header class="blockSite">
 	Site name
 </header>
-^^
+```
 
 `.alignVertical`
 
