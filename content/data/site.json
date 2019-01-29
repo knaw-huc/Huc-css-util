@@ -9,13 +9,15 @@
     },
     {
       "name": "util-components",
-      "template": "css-util",
+      "template": "css-util-comps",
+      "logo": "logo-knaw-humanities-cluster.png",
       "brand": "Huc",
       "title": "Components"
     },
     {
       "name": "util-pages",
-      "template": "css-util",
+      "template": "css-util-pages",
+      "logo": "logo-knaw-humanities-cluster.png",
       "brand": "Huc",
       "title": "Pages"
     },

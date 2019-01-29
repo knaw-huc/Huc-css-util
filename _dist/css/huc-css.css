@@ -265,6 +265,18 @@ strong {
     .hcLayoutBasicMainFixedAside .asideWithProductBar > *:last-child {
       margin-left: 4rem; } }
 
+@media (min-width: 1100px) {
+  .hcLayoutBasicMainFixedAside {
+    flex-direction: row;
+    justify-content: flex-end; }
+    .hcLayoutBasicMainFixedAside .hcLayoutAside {
+      width: 400px; }
+    .hcLayoutBasicMainFixedAside .hcLayoutMain {
+      width: calc(100vw - 400px);
+      margin-left: 400px; }
+    .hcLayoutBasicMainFixedAside .asideWithProductBar > *:last-child {
+      margin-left: 4rem; } }
+
 .navigation a {
   color: #3e3e3e;
   font-weight: 700;

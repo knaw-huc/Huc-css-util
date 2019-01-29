@@ -23,7 +23,7 @@
 
     <div class="asideWithProductBar">
       <div class="hcProductBar bgColorBrand1">
-        <div class="hcHeadSpace"><img src="images/" alt="logo KNAW Humanities Cluster" class="logo"></div>
+        <div class="hcHeadSpace"><img src="images/logo-knaw-humanities-cluster.png" alt="logo KNAW Humanities Cluster" class="logo"></div>
       
         <nav>
           <a href="index.html"><img src="images/icons/prdct-br-styles.svg" alt="CSS styles" class="icon">Css Styles</a>
@@ -36,9 +36,7 @@
       </div>
       <div class="colorBgGrey hcBlockScroll hcBasicSideMargin">
         <div class="hcHeadSpace">
-          <!-- <div class="brandName">
-            <div>Utility CSS</div>
-          </div> -->
+
         </div>
         <nav id="navigationFromHeaders" class="navigation hcAlignVertical"></nav>
       </div>
@@ -47,139 +45,71 @@
 
 
 
-  <div class="hcLayoutMain hcContentContainer ">
+  <div class="hcLayoutMain hcContentContainer hcForm">
     <div class="hcHeadSpace hcBasicSideMargin">
-      <h1>HuC Utility CSS</h1>
+      <h1>HuC Components</h1>
     </div>
-
-    <article class="hcBlockText hcBasicSideMargin">
 
 
     <div class="utillBlock">
-      <h2 id="introduction">Introduction</h2>
-      <p>This framework is build for developers of the HuC Digital Infrastructure Teams. It is build on following directives:</p>
-      <ul>
-      <li>Unburden HuC developers with design decisions and responsive behaviour;</li>
-      <li>Create a default well designed webpage or tool;</li>
-      <li>Keep our tools consistent and recognizable as HuC tools.</li>
-      </ul>
-      <h2 id="core">Core</h2>
-      <p>Add the following link tag to the <code>&lt;head&gt;</code> of your HTML page:</p>
-      <p><code>&lt;link rel=&quot;stylesheet&quot; href=&quot;https://huc-css-util.netlify.com/css/huc-css.css&quot;&gt;</code></p>
-      <p>With this stylesheet the site will use basic Roboto font in 17 pixels.</p>
-      <ul>
-      <li>Normalise</li>
-      <li>Roboto font 17px</li>
-      <li>White background</li>
-      </ul>
-    </div>
-    <div class="utillBlock">
-      <h2 id="basic-interface-utilities">Basic interface utilities</h2>
-      <p>Here you&#39;ll find basic building blocks for a page.  These utilities will give your site hierarchy, clarity and focus.</p>
-      <h3 id="page-blocks">Page blocks</h3>
-      <p>Page blocks help to build a responsive and organised page. All page blocks must be wrapped in a container with the class <code>.hcContentContainer</code>.</p>
-      <pre><code>
-      &lt;div <span class="codeEmp">class=&quot;hcContentContainer&quot;</span>&gt;
-          &lt;div&gt;
-              // some content
-          &lt;/div&gt;
-      &lt;/div&gt;
-      </code></pre><p>Alle child elements inside the <code>.hcContentContainer</code> behave the same way. It prevents the content to spread all over the screen. It give content a maximum with of 1200 pixels. On smaller screens it take 100% of the width.</p>
-      <h4 id="text-block">Text block</h4>
-      <p>Text blocks gives content a nice readable width on all screens. Add the class <code>.hcBlockText</code> to an element and all headings and paragraph tags align.</p>
-      <pre><code>
-      &lt;div class=&quot;hcContentContainer&quot;&gt;
-          &lt;div <span class="codeEmp">class=&quot;hcBlockText&quot;</span>&gt;
-              &lt;h2&gt;Summary&lt;/h2&gt;
-              &lt;p&gt;Here&#39;s a summery of all the above&lt;/p&gt;
-          &lt;/div&gt;
-      &lt;/div&gt;
-      </code></pre><h4 id="column-block">Column block</h4>
-      <p>2 Columns</p>
-      <p>3 Columns</p>
-      <p>4 Columns</p>
-      <p>5 Columns</p>
-      <h3 id="margins">Margins</h3>
-      <p>Margins help to create focus but keep tranquility.</p>
-      <h4 id="basic-left-and-right-margin">Basic left and right margin</h4>
-      <p>The <code>.hcBasicSideMargin</code> prevents content from hitting screen edge. It enhances the readability and understandability of the content.</p>
-      <pre><code>
-      &lt;div class=&quot;hcBlockText <span class="codeEmp">hcBasicSideMargin</span>&quot;&gt;
-          &lt;h2&gt;Summary&lt;/h2&gt;
-          &lt;p&gt;Here&#39;s a summery of all the above&lt;/p&gt;
-      &lt;/div&gt;
-      </code></pre><h4 id="margin-bottom">Margin bottom</h4>
-      <p>Use the <em>margin bottom</em> to separate elements and blocks from each other.</p>
-      <p><code>.hcMarginBottom1</code></p>
-      <p><code>.hcMarginBottom2</code></p>
-      <p><code>.hcMarginBottom3</code></p>
-      <p><code>.hcMarginBottom5</code></p>
-      <h4 id="margin-top">Margin top</h4>
-      <p>Use the top</p>
-      <p><code>.hcMarginTop1</code></p>
-      <p><code>.hcMarginTop2</code></p>
-      <p><code>.hcMarginTop3</code></p>
-      <p><code>.hcMarginTop5</code></p>
-      <h4 id="header-margin">Header margin</h4>
-      <h3 id="alignments">Alignments</h3>
-      <p><code>.hcAlignHorizontal</code></p>
-      <p><code>.hcAlignVertical</code></p>
-      <p><code>.hcAlignLeft</code></p>
-      <p><code>.hcAlignRight</code></p>
-      <p><code>.hcAlignCenter</code></p>
-      <h3 id="headers">Headers</h3>
-      <h3 id="labels">Labels</h3>
-    </div>
-    <div class="utillBlock">
-      <h2 id="text">Text</h2>
-      <h3 id="interface-text">Interface text</h3>
-      <h4 id="small-text">Small text</h4>
-      <p><code>.hcSmallTxt</code></p>
-      <h4 id="grey-text">Grey text</h4>
-      <p>Use it to make text text attentional and less scannable
-      <code>.hcTxtColorGreyMid</code></p>
-      <h3 id="large-text">Large text</h3>
-    </div>
-    <div class="utillBlock">
-      <h2 id="display-multiple-items">Display multiple items</h2>
-      <p>In this section you&#39;ll find some utilities to organise multiple items. For example: list items, result items and cards.</p>
-      <h3 id="list">List</h3>
-      <p>To keep (namely) text and other content readable a margin is a great help.<br><code>.basicSideMargin</code></p>
-      <h3 id="results-list">Results list</h3>
-      <h3 id="cards">Cards</h3>
-      <h3 id="row">Row</h3>
-    </div>
-    <div class="utillBlock">
-      <h2 id="interaction">Interaction</h2>
-      <h3 id="buttons">Buttons</h3>
-    </div>
-    <div class="utillBlock">
-      <h2 id="functional-elements">Functional Elements</h2>
-      <h3 id="aside-panel">Aside panel</h3>
-      <p><code>AsidePanel</code></p>
-      <ul>
-      <li>Navigation</li>
-      </ul>
-      <h3 id="isolated-page-header">Isolated Page header</h3>
-      <p>You can use the <code>.headSpace</code> tag to create a isolated header with big margins around it.</p>
-    </div>
-    <div class="utillBlock">
-      <h2 id="layouts">Layouts</h2>
-      <h3 id="basic-content-with-sidebar-layout">Basic content with sidebar layout</h3>
-      <p><img src="images/cols-aside-big.svg" alt="Content with sidebar"></p>
-      <h3 id="basic-centered-content-with-fixed-sidebar-layout">Basic centered content with fixed sidebar layout</h3>
-      <p><img src="images/cols-fixed-aside.svg" alt="Centered content with fixed sidebar"></p>
-      <h3 id="faceted-search-layout">Faceted search layout</h3>
-    </div>
-    <div class="utillBlock">
-      <h2 id="forms">Forms</h2>
-      <h3 id="form-stack">Form stack</h3>
-      <h3 id="data-fields">Data fields</h3>
+      <div class="scaleItem">
+        <div class="hcFormStack">
+          <div class="hcStackInfo">
+            <h2>Dataset name</h2>
+            <div class="hcTxtColorGreyMid">Give other researchers information about your dataset.</div>
+          </div>
+        
+          <div class="hcStackFormItems">
+            <div class="hcFormItem hcMarginBottom2">
+              <label class="hcLabel" for="f1">Dataset name</label>
+              <input type="text" id="f1" class="hcFeedbackError">
+              <div class="hcSmallTxt hcTxtColorGreyMid">Sorry this name already exists.</div>
+            </div>
+            
+            <div class="hcFormItem hcMarginBottom2">
+            
+              <label class="hcLabel" for="city">Data type</label>
+              <select id="city" class="hcFeedbackSucces">
+                <option value="1">Select a type</option>
+                <option value="2">Arnhem</option>
+                <option value="3">The Hague</option>
+              </select>
+              <div class="hcSmallTxt hcTxtColorGreyMid"></div>
+            
+            </div>
+            
+            <div class="hcFormItem hcMarginBottom2">
+              <label class="hcLabel" for="f3">Description</label>
+              <textarea name="name"  class="" id="f3"></textarea>
+              <div class="hcSmallTxt hcTxtColorGreyMid"></div>
+            </div>
+          </div>
+        
+        </div>
+      </div>
+    
+    
+    <pre>
+      <code>
+        <div class="hcFormStack">
+          <div class="hcStackInfo">
+            <h2>title</h2>
+            <div class="hcTxtColorGreyMid">Description</div>
+          </div>
+    
+          <div class="hcStackFormItems">
+            //
+          </div>
+    
+        </div>
+      </code>
+    </pre>
     </div>
 
 
 
-    </article>
+
+
   </div>
 
   <script src="js/util.js"></script>
