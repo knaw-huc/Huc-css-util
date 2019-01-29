@@ -58,10 +58,6 @@
 
 //
 .hcBlockScroll {
-  min-height: 100vh;
+  height: 100vh;
   overflow-y: auto;
-}
-
-.hcBlockScroll:hover {
-  overflow-y: scroll;
 }

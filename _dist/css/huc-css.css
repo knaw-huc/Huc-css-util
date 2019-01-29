@@ -224,11 +224,8 @@ strong {
     justify-content: space-between; } }
 
 .hcBlockScroll {
-  min-height: 100vh;
+  height: 100vh;
   overflow-y: auto; }
-
-.hcBlockScroll:hover {
-  overflow-y: scroll; }
 
 .hcLayoutBasicMainAside, .hcLayoutBasicMainFixedAside {
   display: flex;

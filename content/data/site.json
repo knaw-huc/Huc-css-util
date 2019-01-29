@@ -23,12 +23,14 @@
       "name": "wp-wordpres-text",
       "template": "wp-basic-text",
       "brand": "Huc",
+      "isPage": true,
       "title": "Wordpress"
     },
     {
       "name": "basic-form",
       "template": "basic-form",
       "brand": "Clarin",
+      "isPage": true,
       "title": "Form elements"
     },
     {
@@ -36,6 +38,7 @@
       "template": "all-elements",
       "brand": "Huygens",
       "logo": "logo-timbuctoo.svg",
+      "isPage": true,
       "title": "All elements page"
     }
   ]

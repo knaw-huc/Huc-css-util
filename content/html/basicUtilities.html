@@ -3,7 +3,7 @@
 <h3 id="page-blocks">Page blocks</h3>
 <p>Page blocks help to build a responsive and organised page. All page blocks must be wrapped in a container with the class <code>.hcContentContainer</code>.</p>
 <pre><code>
-&lt;div^^class=&quot;hcContentContainer&quot;^^&gt;
+&lt;div ^^~class=&quot;hcContentContainer&quot;~^^&gt;
     &lt;div&gt;
         // some content
     &lt;/div&gt;
@@ -13,7 +13,7 @@
 <p>Text blocks gives content a nice readable width on all screens. Add the class <code>.hcBlockText</code> to an element and all headings and paragraph tags align.</p>
 <pre><code>
 &lt;div class=&quot;hcContentContainer&quot;&gt;
-    &lt;div^^class=&quot;hcBlockText&quot;^^&gt;
+    &lt;div ^^~class=&quot;hcBlockText&quot;~^^&gt;
         &lt;h2&gt;Summary&lt;/h2&gt;
         &lt;p&gt;Here&#39;s a summery of all the above&lt;/p&gt;
     &lt;/div&gt;
@@ -24,11 +24,16 @@
 <p>4 Columns</p>
 <p>5 Columns</p>
 <h3 id="margins">Margins</h3>
-<p>Margins help to create rest and focus.</p>
+<p>Margins help to create focus but keep tranquility.</p>
 <h4 id="basic-left-and-right-margin">Basic left and right margin</h4>
-<p>To keep (namely) text and other content readable a margin is a great help.<br><code>.basicSideMargin</code></p>
-<h4 id="margin-bottom">Margin bottom</h4>
-<p>Use the <em>margin bottom</em> to separate elements from each other.</p>
+<p>The <code>.hcBasicSideMargin</code> prevents content from hitting screen edge. It enhances the readability and understandability of the content.</p>
+<pre><code>
+&lt;div class=&quot;hcBlockText ^^~hcBasicSideMargin~^^&quot;&gt;
+    &lt;h2&gt;Summary&lt;/h2&gt;
+    &lt;p&gt;Here&#39;s a summery of all the above&lt;/p&gt;
+&lt;/div&gt;
+</code></pre><h4 id="margin-bottom">Margin bottom</h4>
+<p>Use the <em>margin bottom</em> to separate elements and blocks from each other.</p>
 <p><code>.hcMarginBottom1</code></p>
 <p><code>.hcMarginBottom2</code></p>
 <p><code>.hcMarginBottom3</code></p>
@@ -41,7 +46,7 @@
 <p><code>.hcMarginTop5</code></p>
 <h4 id="header-margin">Header margin</h4>
 <h3 id="alignments">Alignments</h3>
-<p><code>hcAlignHorizontal</code></p>
+<p><code>.hcAlignHorizontal</code></p>
 <p><code>.hcAlignVertical</code></p>
 <p><code>.hcAlignLeft</code></p>
 <p><code>.hcAlignRight</code></p>

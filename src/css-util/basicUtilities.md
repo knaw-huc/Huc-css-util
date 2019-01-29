@@ -6,7 +6,7 @@ Page blocks help to build a responsive and organised page. All page blocks must 
 
 ```
 
-<div^^class="hcContentContainer"^^>
+<div ^^~class="hcContentContainer"~^^>
 	<div>
 		// some content
 	</div>
@@ -24,7 +24,7 @@ Text blocks gives content a nice readable width on all screens. Add the class `.
 ```
 
 <div class="hcContentContainer">
-	<div^^class="hcBlockText"^^>
+	<div ^^~class="hcBlockText"~^^>
 		<h2>Summary</h2>
 		<p>Here's a summery of all the above</p>
 	</div>
@@ -41,13 +41,21 @@ Text blocks gives content a nice readable width on all screens. Add the class `.
 5 Columns
 
 ### Margins
-Margins help to create rest and focus.
+Margins help to create focus but keep tranquility.
 #### Basic left and right margin
-To keep (namely) text and other content readable a margin is a great help.   
-`.basicSideMargin`
+The `.hcBasicSideMargin` prevents content from hitting screen edge. It enhances the readability and understandability of the content.
+
+```
+
+<div class="hcBlockText ^^~hcBasicSideMargin~^^">
+	<h2>Summary</h2>
+	<p>Here's a summery of all the above</p>
+</div>
+
+```
 
 #### Margin bottom
-Use the _margin bottom_ to separate elements from each other.
+Use the _margin bottom_ to separate elements and blocks from each other.
 
 `.hcMarginBottom1`
 
@@ -75,7 +83,7 @@ Use the top
 
 ### Alignments
 
-`hcAlignHorizontal`
+`.hcAlignHorizontal`
 
 
 `.hcAlignVertical`
