@@ -13,7 +13,7 @@
   .logo {
     width: 3rem;
     height: auto;
-    transition: all .4s;
+
     margin-left: -1rem;
   }
 }
@@ -30,7 +30,7 @@
 
     flex-direction: column;
     align-items: flex-start;
-    transition: width .4s;
+
 
     .icon {
       width: 1.5rem;
@@ -50,11 +50,13 @@
   }
   .hcProductBar:hover {
     width: 300px;
+    transition: width .4s;
   }
 
   .hcProductBar:hover .logo{
     width: 4rem;
     margin-left: 0rem;
+    transition: all .4s;
 
   }
 
