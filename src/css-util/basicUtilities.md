@@ -2,22 +2,33 @@
 
 Here you'll find basic building blocks for a page.  These utilities will give your site hierarchy, clarity and focus.
 ### Page blocks
-Page blocks help to build a responsive and organised page. All page blocks must be wrapped in a container.
+Page blocks help to build a responsive and organised page. All page blocks must be wrapped in a container with the class `.hcContentContainer`.
 
-`.hcContentContainer`
+```
 
-Alle child elements inside the `.hcContentContainer` behave the same way.It prevents the content to spread all over the screen. It give content a maximum with of 1200 pixels. On smaller screens
+<div^^class="hcContentContainer"^^>
+	<div>
+		// some content
+	</div>
+</div>
+
+```
+
+Alle child elements inside the `.hcContentContainer` behave the same way. It prevents the content to spread all over the screen. It give content a maximum with of 1200 pixels. On smaller screens it take 100% of the width.
 
 
 #### Text block
+Text blocks gives content a nice readable width on all screens. Add the class `.hcBlockText` to an element and all headings and paragraph tags align.
 
 
 ```
-<div class="hcBlockText">
-	<h2>Summary</h2>
-	<p>Here's a summery of all the above</p>
 
-</dic>
+<div class="hcContentContainer">
+	<div^^class="hcBlockText"^^>
+		<h2>Summary</h2>
+		<p>Here's a summery of all the above</p>
+	</div>
+</div>
 
 ```
 #### Column block
@@ -37,6 +48,7 @@ To keep (namely) text and other content readable a margin is a great help.
 
 #### Margin bottom
 Use the _margin bottom_ to separate elements from each other.
+
 `.hcMarginBottom1`
 
 `.hcMarginBottom2`
@@ -47,6 +59,7 @@ Use the _margin bottom_ to separate elements from each other.
 
 #### Margin top
 Use the top
+
 `.hcMarginTop1`
 
 `.hcMarginTop2`
@@ -61,18 +74,20 @@ Use the top
 #### Header margin
 
 ### Alignments
-alignHorizontal
-```<header class="blockSite">
-	Site name
-</header>
-```
 
-`.alignVertical`
+`hcAlignHorizontal`
 
-`.alignLeft`
 
-`.alignRight`
+`.hcAlignVertical`
 
-`.alignCenter`
+
+`.hcAlignLeft`
+
+
+`.hcAlignRight`
+
+
+`.hcAlignCenter`
+
 ### Headers
 ### Labels

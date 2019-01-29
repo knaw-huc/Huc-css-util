@@ -97,9 +97,10 @@ gulp.task('buildFromTemplates', function(done) {
 
       gulp.src('./src/templates/'+template+'.html')
           .pipe(plumber())
-
           .pipe(handlebars(page, options))
           .pipe(rename(fileName + ".html"))
+          .pipe(replace('^^class=&quot;', '<span class="codeEmp">class=&quot'))
+          .pipe(replace('&quot;^^&gt;', '&quot;</span>&gt;'))
           .pipe(useref())
           .pipe(gulp.dest(dst))
           .pipe(browserSync.stream());

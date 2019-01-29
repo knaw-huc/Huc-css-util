@@ -12,15 +12,45 @@
   margin-top: 4rem;
 }
 
+.utillBlock h4 {
+  margin-top: 4rem;
+}
+
 code {
   font-family: 'Roboto Mono', monospace;
   font-weight: 300;
   color: #000;
-  background-color: rgba(#f1f7d3, 0.5);
+  background-color: rgba(#f1f7d3, 0.2);
   border-radius: 3px;
   font-size: 14px;
   padding: .2rem .4rem;
+}
 
+pre code {
+    display: block;
+    color: rgba(#797c6d, 1);
+    border: 1px solid rgba(#d0d5b6, 0.48);
+}
+
+pre code::before {
+  content: "Code excample";
+  margin-bottom: -2rem;
+  margin-right: -4rem;
+  font-size: .7rem;
+  width: 100%;
+  text-align: right;
+  display: block;
+  color: rgba(#797c6d, .5);
+}
+
+
+.codeEmp {
+  color: #000;
+  //background-color:rgba(#fff, 0.7);
+  padding: 0 .2rem;
+  font-family: 'Roboto', sans-serif;
+	font-weight: 700;
+  font-size: 1rem;
 }
 
 .utillBlock {

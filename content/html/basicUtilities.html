@@ -1,15 +1,23 @@
 <h2 id="basic-interface-utilities">Basic interface utilities</h2>
 <p>Here you&#39;ll find basic building blocks for a page.  These utilities will give your site hierarchy, clarity and focus.</p>
 <h3 id="page-blocks">Page blocks</h3>
-<p>Page blocks help to build a responsive and organised page. All page blocks must be wrapped in a container.</p>
-<p><code>.hcContentContainer</code></p>
-<p>Alle child elements inside the <code>.hcContentContainer</code> behave the same way.It prevents the content to spread all over the screen. It give content a maximum with of 1200 pixels. On smaller screens</p>
+<p>Page blocks help to build a responsive and organised page. All page blocks must be wrapped in a container with the class <code>.hcContentContainer</code>.</p>
+<pre><code>
+&lt;div^^class=&quot;hcContentContainer&quot;^^&gt;
+    &lt;div&gt;
+        // some content
+    &lt;/div&gt;
+&lt;/div&gt;
+</code></pre><p>Alle child elements inside the <code>.hcContentContainer</code> behave the same way. It prevents the content to spread all over the screen. It give content a maximum with of 1200 pixels. On smaller screens it take 100% of the width.</p>
 <h4 id="text-block">Text block</h4>
-<pre><code>&lt;div class=&quot;hcBlockText&quot;&gt;
-    &lt;h2&gt;Summary&lt;/h2&gt;
-    &lt;p&gt;Here&#39;s a summery of all the above&lt;/p&gt;
-
-&lt;/dic&gt;
+<p>Text blocks gives content a nice readable width on all screens. Add the class <code>.hcBlockText</code> to an element and all headings and paragraph tags align.</p>
+<pre><code>
+&lt;div class=&quot;hcContentContainer&quot;&gt;
+    &lt;div^^class=&quot;hcBlockText&quot;^^&gt;
+        &lt;h2&gt;Summary&lt;/h2&gt;
+        &lt;p&gt;Here&#39;s a summery of all the above&lt;/p&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
 </code></pre><h4 id="column-block">Column block</h4>
 <p>2 Columns</p>
 <p>3 Columns</p>
@@ -20,28 +28,23 @@
 <h4 id="basic-left-and-right-margin">Basic left and right margin</h4>
 <p>To keep (namely) text and other content readable a margin is a great help.<br><code>.basicSideMargin</code></p>
 <h4 id="margin-bottom">Margin bottom</h4>
-<p>Use the <em>margin bottom</em> to separate elements from each other.
-<code>.hcMarginBottom1</code></p>
+<p>Use the <em>margin bottom</em> to separate elements from each other.</p>
+<p><code>.hcMarginBottom1</code></p>
 <p><code>.hcMarginBottom2</code></p>
 <p><code>.hcMarginBottom3</code></p>
 <p><code>.hcMarginBottom5</code></p>
 <h4 id="margin-top">Margin top</h4>
-<p>Use the top
-<code>.hcMarginTop1</code></p>
+<p>Use the top</p>
+<p><code>.hcMarginTop1</code></p>
 <p><code>.hcMarginTop2</code></p>
 <p><code>.hcMarginTop3</code></p>
 <p><code>.hcMarginTop5</code></p>
 <h4 id="header-margin">Header margin</h4>
 <h3 id="alignments">Alignments</h3>
-<p>alignHorizontal
-<code>`</code><header class="blockSite">
-    Site name</p>
-</header>
-```
-
-<p><code>.alignVertical</code></p>
-<p><code>.alignLeft</code></p>
-<p><code>.alignRight</code></p>
-<p><code>.alignCenter</code></p>
+<p><code>hcAlignHorizontal</code></p>
+<p><code>.hcAlignVertical</code></p>
+<p><code>.hcAlignLeft</code></p>
+<p><code>.hcAlignRight</code></p>
+<p><code>.hcAlignCenter</code></p>
 <h3 id="headers">Headers</h3>
 <h3 id="labels">Labels</h3>
