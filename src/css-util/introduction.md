@@ -4,7 +4,7 @@ This framework is build for developers of the HuC Digital Infrastructure Teams. 
 * Create a default well designed webpage or tool;
 * Keep our tools consistent and recognizable as HuC tools.
 
-## Core
+## Using the stylesheet
 Add the following link tag to the `<head>` of your HTML page:
 
 `<link rel="stylesheet" href="https://huc-css-util.netlify.com/css/huc-util.css">`
