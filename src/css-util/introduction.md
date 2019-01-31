@@ -9,6 +9,10 @@ Add the following link tag to the `<head>` of your HTML page:
 
 `<link rel="stylesheet" href="https://huc-css-util.netlify.com/css/huc-css.css">`
 
+If your'e building a tool for the Huc, one of the inhousing institutes or Clariah you can use branded css files: `huc-css-huc.css`, `huc-css-huygens.css`, `huc-css-meertens.css`, `huc-css-iisg.css` or `huc-css-clariah.css`
+
+`<link rel="stylesheet" href="https://huc-css-util.netlify.com/css/huc-css-huc.css">`
+
 With this stylesheet the site will use basic Roboto font in 17 pixels.
 * Normalise
 * Roboto font 17px
