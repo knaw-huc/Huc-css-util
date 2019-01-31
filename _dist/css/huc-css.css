@@ -339,7 +339,9 @@ strong {
   width: 100vw;
   padding: 0 1.5rem;
   display: flex;
-  justify-content: flex-start; }
+  justify-content: flex-start;
+  background-color: #494949;
+  color: #fff; }
   .hcProductBar .icon {
     width: 1rem;
     height: auto; }
