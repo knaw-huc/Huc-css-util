@@ -7,11 +7,11 @@ This framework is build for developers of the HuC Digital Infrastructure Teams. 
 ## Core
 Add the following link tag to the `<head>` of your HTML page:
 
-`<link rel="stylesheet" href="https://huc-css-util.netlify.com/css/huc-css.css">`
+`<link rel="stylesheet" href="https://huc-css-util.netlify.com/css/huc-util.css">`
 
-If your'e building a tool for the Huc, one of the inhousing institutes or Clariah you can use branded css files: `huc-css-huc.css`, `huc-css-huygens.css`, `huc-css-meertens.css`, `huc-css-iisg.css` or `huc-css-clariah.css`
+If your'e building a tool for the Huc, one of the inhousing institutes or Clariah you can use branded css files: `huc-util-huc.css`, `huc-util-huygens.css`, `huc-util-meertens.css`, `huc-util-iisg.css` or `huc-util-clariah.css`
 
-`<link rel="stylesheet" href="https://huc-css-util.netlify.com/css/huc-css-huc.css">`
+`<link rel="stylesheet" href="https://huc-css-util.netlify.com/css/huc-util-huc.css">`
 
 With this stylesheet the site will use basic Roboto font in 17 pixels.
 * Normalise
