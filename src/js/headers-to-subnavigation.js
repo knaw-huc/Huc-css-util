@@ -20,7 +20,11 @@ var linkClass = '';
 for (var i = 0; i < elems.length; i++) {
     linkClass = '';
     var hId = elems[i].getAttribute( 'id' );
-    var hTxt = elems[i].innerText;
+    var hTxt = elems[i].innerText; // not working in ie: Use Id replace hyphens
+    if (navigator.appName == 'Microsoft Internet Explorer' ||  !!(navigator.userAgent.match(/Trident/) || navigator.userAgent.match(/rv:11/)))
+      {
+        hTxt = hId.replace('-', ' ')
+      }
     var hTag = elems[i].tagName;
 
     // distinct subnav
