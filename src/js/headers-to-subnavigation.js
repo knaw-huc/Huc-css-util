@@ -4,7 +4,7 @@ var elementTags = 'h2,h3';
 
 
 var elems = document.querySelectorAll(elementTags);
-console.log(elems);
+
 
 // add anchor link to each header
 for (var i = 0; i < elems.length; i++) {
