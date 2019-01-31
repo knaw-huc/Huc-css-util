@@ -1,9 +1,14 @@
 {
   "pages": [
-    {
+      {
+        "name": "Gen",
+        "template": "generate-stylesheets",
+        "title": "Generate stylesheets"
+      }
+      ,{
       "name": "index",
       "template": "css-util",
-      "brand": "Huc",
+      "brand": "-self",
       "logo": "logo-knaw-humanities-cluster.png",
       "title": "HuC Utility CSS"
     },
@@ -11,34 +16,34 @@
       "name": "util-components",
       "template": "css-util-comps",
       "logo": "logo-knaw-humanities-cluster.png",
-      "brand": "Huc",
+      "brand": "-self",
       "title": "Components"
     },
     {
       "name": "util-pages",
       "template": "css-util-pages",
       "logo": "logo-knaw-humanities-cluster.png",
-      "brand": "Huc",
+      "brand": "-self",
       "title": "Pages"
     },
     {
       "name": "wp-wordpres-text",
       "template": "wp-basic-text",
-      "brand": "Huc",
+      "brand": "-huc",
       "isPage": true,
       "title": "Wordpress"
     },
     {
       "name": "basic-form",
       "template": "basic-form",
-      "brand": "Clarin",
+      "brand": "-clariah",
       "isPage": true,
       "title": "Form elements"
     },
     {
       "name": "all-elements-on-page",
       "template": "all-elements",
-      "brand": "Huygens",
+      "brand": "-huygens",
       "logo": "logo-timbuctoo.svg",
       "isPage": true,
       "title": "All elements page"
