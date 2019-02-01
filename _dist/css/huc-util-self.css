@@ -377,7 +377,10 @@ strong {
   .hcProductBar:hover .logo {
     width: 4rem;
     margin-left: 0rem;
-    transition: all .4s; } }
+    transition: all .4s; }
+  .hcProductBar + .hcContentContainer {
+    margin-left: 4rem;
+    width: calc(100% - 4rem); } }
 
 @media (max-width: 800px) {
   .hcProductBar .hcHeadSpace {

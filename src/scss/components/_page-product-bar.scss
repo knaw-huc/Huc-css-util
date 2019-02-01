@@ -59,12 +59,12 @@
     width: 4rem;
     margin-left: 0rem;
     transition: all .4s;
-
   }
 
-  .hcLayoutAside .hcProductBar {
-    //position: relative;
 
+  .hcProductBar + .hcContentContainer{
+    margin-left: $productBarWidth;
+    width: calc(100% - #{$productBarWidth});
   }
 
 }
@@ -77,4 +77,6 @@
       height: auto;
     }
   }
+
+
 }
