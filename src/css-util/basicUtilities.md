@@ -32,13 +32,15 @@ Text blocks gives content a nice readable width on all screens. Add the class `.
 
 ```
 #### Column block
-2 Columns
+`.hc2columns`
 
-3 Columns
+`.hc3columns`
 
-4 Columns
+`.hc4columns`
 
-5 Columns
+`.hc5columns`
+
+`.hc6columns`
 
 ### Margins
 Margins help to create focus but keep tranquility.

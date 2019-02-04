@@ -47,6 +47,14 @@
       "logo": "logo-timbuctoo.svg",
       "isPage": true,
       "title": "All elements page"
+    },
+    {
+      "name": "tim-edit",
+      "template": "tim-edit",
+      "brand": "-huygens",
+      "logo": "logo-timbuctoo.svg",
+      "isPage": true,
+      "title": "Timbuctoo edit"
     }
   ]
 }

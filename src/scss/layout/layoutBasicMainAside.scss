@@ -57,6 +57,10 @@ $asideWithWide: 400px;
       margin-left: $productBarWidth;
     }
 
+    .hcStickyFooter {
+      width: calc(100vw - #{$asideWith});
+    }
+
   }
 }
 
@@ -76,6 +80,11 @@ $asideWithWide: 400px;
 
     .asideWithProductBar > *:last-child{
       margin-left: $productBarWidth;
+      width: 100%;
+    }
+
+    .hcStickyFooter {
+      width: calc(100vw - #{$asideWithWide});
     }
   }
 }

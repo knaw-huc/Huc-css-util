@@ -35,6 +35,9 @@ a {
 .colorBgGrey {
   background-color: #f6f6f6; }
 
+.colorBgGreyPlus {
+  background-color: #dddddd; }
+
 .hcTxtColorGreyMid {
   color: #999999; }
 
@@ -150,6 +153,27 @@ strong {
   display: flex;
   align-items: center; }
 
+.hc2columns, .hc3columns, .hc4columns, .hc5columns, .hc6columns {
+  display: flex;
+  flex-direction: column; }
+
+.hc2columns, .hc3columns, .hc4columns, .hc5columns, .hc6columns > * {
+  flex-basis: 100%; }
+
+@media (min-width: 800px) {
+  .hc2columns, .hc3columns, .hc4columns, .hc5columns, .hc6columns {
+    flex-direction: row; }
+  .hc2columns > * {
+    flex-basis: 50%; }
+  .hc3columns > * {
+    flex-basis: 33%; }
+  .hc4columns > * {
+    flex-basis: 25%; }
+  .hc5columns > * {
+    flex-basis: 20%; }
+  .hc6columns > * {
+    flex-basis: 15%; } }
+
 .hcForm input, .hcForm select, .hcForm option, .hcForm textarea {
   width: 100%;
   background-color: #f0f5f9;
@@ -187,6 +211,14 @@ strong {
 @media (min-width: 600px) {
   .hcListItem {
     flex-direction: row; } }
+
+.hcStickyFooter {
+  position: fixed;
+  width: 100%;
+  min-width: 40px;
+  bottom: 0;
+  padding-top: 1rem;
+  padding-bottom: 1rem; }
 
 .hcContentContainer {
   display: flex;
@@ -267,7 +299,9 @@ strong {
     .hcLayoutBasicMainFixedAside .asideWithProductBar {
       display: flex; }
     .hcLayoutBasicMainFixedAside .asideWithProductBar > *:last-child {
-      margin-left: 4rem; } }
+      margin-left: 4rem; }
+    .hcLayoutBasicMainFixedAside .hcStickyFooter {
+      width: calc(100vw - 300px); } }
 
 @media (min-width: 1100px) {
   .hcLayoutBasicMainFixedAside {
@@ -279,7 +313,10 @@ strong {
       width: calc(100vw - 400px);
       margin-left: 400px; }
     .hcLayoutBasicMainFixedAside .asideWithProductBar > *:last-child {
-      margin-left: 4rem; } }
+      margin-left: 4rem;
+      width: 100%; }
+    .hcLayoutBasicMainFixedAside .hcStickyFooter {
+      width: calc(100vw - 400px); } }
 
 .navigation a {
   color: #3e3e3e;

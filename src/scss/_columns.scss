@@ -1,0 +1,35 @@
+.hc2columns, .hc3columns, .hc4columns, .hc5columns, .hc6columns  {
+  display: flex;
+  flex-direction: column;
+}
+
+.hc2columns, .hc3columns, .hc4columns, .hc5columns, .hc6columns > * {
+  flex-basis: 100%;
+}
+
+
+@media (min-width: #{$siteBreak}) {
+  .hc2columns, .hc3columns, .hc4columns, .hc5columns, .hc6columns {
+    flex-direction: row;
+  }
+
+  .hc2columns > * {
+    flex-basis: 50%;
+  }
+
+  .hc3columns > * {
+    flex-basis: 33%;
+  }
+
+  .hc4columns > * {
+    flex-basis: 25%;
+  }
+
+  .hc5columns > * {
+    flex-basis: 20%;
+  }
+
+  .hc6columns > * {
+    flex-basis: 15%;
+  }
+}

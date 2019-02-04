@@ -1,0 +1,59 @@
+{{> html-head}}
+
+<div class="hcLayoutBasicMainFixedAside">
+  <aside class="hcLayoutAside">
+    <div class="asideWithProductBar">
+      {{> page-product-bar}}
+      <div class="colorBgGrey hcBlockScroll hcBasicSideMargin">
+        <div class="hcHeadSpace">
+          DATA HUYGENS ING
+        </div>
+        <div class="hcLoginInfo">
+          Bas Doppen
+        </div>
+
+        <nav id="navigationFromHeaders" class="navigation hcAlignVertical">
+
+          <a href="#">Account</a>
+          <a href="#">Datasets</a>
+          <a href="#" class="sub">DWC</a>
+          <a href="#" class="sub">Chaterbank</a>
+          <a href="#" class="sub">Biographical Portal</a>
+        </nav>
+      </div>
+    </div>
+  </aside>
+
+
+
+  <div class="hcLayoutMain hcContentContainer hcMarginBottom5">
+    <div class="hcHeadSpace hcBasicSideMargin">
+      <h1>Edit DWC dataset</h1>
+    </div>
+
+
+    <div class="hcForm hcBasicSideMargin">
+      {{> comp-form-stack}}
+    </div>
+
+    <div class="hcForm hcBasicSideMargin">
+      {{> comp-form-stack}}
+    </div>
+
+
+
+
+  </div>
+  <div class="hcStickyFooter colorBgGreyPlus hcContentContainer">
+    <div class="hcBasicSideMargin">
+      <button>Save</button>
+      <button>Cancel</button>
+    </div>
+
+
+  </div>
+</div>
+
+
+
+{{> html-footer}}
