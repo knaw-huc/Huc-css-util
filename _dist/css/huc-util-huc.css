@@ -118,6 +118,10 @@ strong {
 .hcMarginTop5 {
   margin-top: 5rem; }
 
+.hcMarginBackground {
+  padding-top: 4rem;
+  padding-bottom: 4rem; }
+
 .hcAlignHorizontal {
   display: flex;
   flex-direction: row; }
