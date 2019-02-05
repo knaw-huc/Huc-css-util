@@ -13,3 +13,11 @@
 .colorBgGrey{
 	background-color: $colorHuygensGreyLight !important;
 }
+
+.hcFeedbackError {
+  border-bottom: 3px solid $colorHuygensOrange !important;
+}
+
+.hcFeedbackSucces {
+  border-bottom: 3px solid $colorHuygensGreen !important;
+}
