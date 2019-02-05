@@ -56,7 +56,7 @@
       "template": "tim-edit",
       "brand": "-huygens",
       "logo": "logo-timbuctoo.svg",
-      "productBar":"test",
+      "productBar":"<a href=\"#\"><img src=\"images/icons/prdct-br-pages.svg\" alt=\"Pages\" class=\"icon\">Account</a><a href=\"#\"><img src=\"images/icons/prdct-br-pages.svg\" alt=\"Pages\" class=\"icon\">Datasets</a> <a href=\"#\" class=\"sub\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;DWC</a> <a href=\"#\" class=\"sub\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Chaterbank</a> <a href=\"#\" class=\"sub\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Biographical Portal</a>",
 
       "isPage": true,
       "title": "Timbuctoo edit"
