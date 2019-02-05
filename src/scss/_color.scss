@@ -48,6 +48,10 @@ $colorFormElements: #f0f5f9;
   background-color: $greyLight;
 }
 
+// .colorBgGreyMin {
+//   background-color: lighten( $greyLight, 5% );
+// }
+
 .colorBgGreyPlus {
   background-color: darken( $greyLight, 10% );
 }

@@ -4,6 +4,11 @@
   min-width: 40px;
   bottom: 0;
 
+
+}
+
+.hcStickyFooter >*{
   padding-top: 1rem;
   padding-bottom: 1rem;
+  border-radius: #{$basicBorderRadius} #{$basicBorderRadius} 0 0;
 }

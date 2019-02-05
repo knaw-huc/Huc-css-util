@@ -10,12 +10,14 @@
       "template": "css-util",
       "brand": "-self",
       "logo": "logo-knaw-humanities-cluster.png",
+      "productBar":"<a href=\"index.html\"><img src=\"images/icons/prdct-br-styles.svg\" alt=\"CSS styles\" class=\"icon\">Css Styles</a> <a href=\"util-components.html\"><img src=\"images/icons/prdct-br-components.svg\" alt=\"Components\" class=\"icon\">Components</a><a href=\"util-pages.html\"><img src=\"images/icons/prdct-br-pages.svg\" alt=\"Pages\" class=\"icon\">Pages</a>",
       "title": "HuC Utility CSS"
     },
     {
       "name": "util-components",
       "template": "css-util-comps",
       "logo": "logo-knaw-humanities-cluster.png",
+      "productBar":"<a href=\"index.html\"><img src=\"images/icons/prdct-br-styles.svg\" alt=\"CSS styles\" class=\"icon\">Css Styles</a> <a href=\"util-components.html\"><img src=\"images/icons/prdct-br-components.svg\" alt=\"Components\" class=\"icon\">Components</a><a href=\"util-pages.html\"><img src=\"images/icons/prdct-br-pages.svg\" alt=\"Pages\" class=\"icon\">Pages</a>",
       "brand": "-self",
       "title": "Components"
     },
@@ -23,6 +25,7 @@
       "name": "util-pages",
       "template": "css-util-pages",
       "logo": "logo-knaw-humanities-cluster.png",
+      "productBar":"<a href=\"index.html\"><img src=\"images/icons/prdct-br-styles.svg\" alt=\"CSS styles\" class=\"icon\">Css Styles</a> <a href=\"util-components.html\"><img src=\"images/icons/prdct-br-components.svg\" alt=\"Components\" class=\"icon\">Components</a><a href=\"util-pages.html\"><img src=\"images/icons/prdct-br-pages.svg\" alt=\"Pages\" class=\"icon\">Pages</a>",
       "brand": "-self",
       "title": "Pages"
     },
@@ -53,6 +56,8 @@
       "template": "tim-edit",
       "brand": "-huygens",
       "logo": "logo-timbuctoo.svg",
+      "productBar":"test",
+
       "isPage": true,
       "title": "Timbuctoo edit"
     }
