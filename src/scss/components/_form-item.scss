@@ -1,6 +1,7 @@
 .hcFormItem {
   display: flex;
   flex-direction: column;
+  width: 100%;
 }
 
 
@@ -11,13 +12,6 @@
 }
 
 
-@media (min-width: 600px) {
-  .hcFormItem {
-    display: grid;
-  }
-
-}
-
 
 .hcFeedbackError {
   border-bottom: 3px solid $colorDanger !important;
@@ -25,4 +19,14 @@
 
 .hcFeedbackSucces {
   border-bottom: 3px solid $colorSucces !important;
+}
+
+
+
+// row
+.row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  //background-color: rgb(232, 191, 227);
 }
