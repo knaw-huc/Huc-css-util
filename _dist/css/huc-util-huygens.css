@@ -109,6 +109,9 @@ strong {
 .hcMarginBottom5 {
   margin-bottom: 5rem; }
 
+.hcMarginBottom15 {
+  margin-bottom: 15rem; }
+
 .hcMarginTop1 {
   margin-top: 1rem; }
 
@@ -401,7 +404,7 @@ button {
   flex-direction: column;
   display: none; }
   .hcProvenanceComp textarea {
-    background-color: white; }
+    height: 30px !important; }
 
 .hcFormStack {
   display: flex;

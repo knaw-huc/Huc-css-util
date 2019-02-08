@@ -56,6 +56,6 @@
   display: none;
 
   textarea {
-    background-color: lighten($colorFormElements, 5);
+    height: 30px !important;
   }
 }

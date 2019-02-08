@@ -1,11 +1,34 @@
 <div class="hcFormStack">
   <div class="hcStackInfo">
-    <h2>Dataset name</h2>
-    <div class="hcTxtColorGreyMid">Give other researchers information about your dataset.</div>
+    <h2>{{stackName}}</h2>
+    <div class="hcTxtColorGreyMid">{{stackDescription}}</div>
   </div>
 
   <div class="hcStackFormItems">
-    {{> comp-form-item}}
-  </div>
+    {{> comp-form-item
+          formItemLabel="Dataset name"
+          formItemFeedbackText=""
+          formItemFeedbackType=""
+          elemInput=true
+          elemId="f1"
+        }}
 
+    {{> comp-form-item
+          formItemLabel="Dataset name2"
+          formItemFeedbackText=""
+          formItemFeedbackType=""
+          elemSelect=true
+          elemId="f2"
+        }}
+
+    {{> comp-form-item
+          formItemLabel="Dataset name2"
+          formItemFeedbackText=""
+          formItemFeedbackType=""
+          elemTextArea=true
+          elemId="f3"
+        }}
+
+
+  </div>
 </div>

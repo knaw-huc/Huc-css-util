@@ -1,23 +1,41 @@
-<div class="hcFormItem hcMarginBottom2">
-  <label class="hcLabel" for="f1">Dataset name</label>
-  <input type="text" id="f1" class="hcFeedbackError">
-  <div class="hcSmallTxt hcTxtColorGreyMid">Sorry this name already exists.</div>
-</div>
+<div class="row hcMarginBottom2">
+  <div class="hcFormItem ">
+    <label class="hcLabel" for="{{elemId}}">{{formItemLabel}}</label>
 
-<div class="hcFormItem hcMarginBottom2">
+    {{!-- input Text --}}
+    {{#if elemInput}}
+      <input type="text" id="{{elemId}}" class="hcFeedback{{formItemFeedbackType}} hcpr">
+    {{/if}}
 
-  <label class="hcLabel" for="city">Data type</label>
-  <select id="city" class="hcFeedbackSucces">
-    <option value="1">Select a type</option>
-    <option value="2">Arnhem</option>
-    <option value="3">The Hague</option>
-  </select>
-  <div class="hcSmallTxt hcTxtColorGreyMid"></div>
 
-</div>
 
-<div class="hcFormItem hcMarginBottom2">
-  <label class="hcLabel" for="f3">Description</label>
-  <textarea name="name"  class="" id="f3"></textarea>
-  <div class="hcSmallTxt hcTxtColorGreyMid"></div>
-</div>
+    {{!-- input select --}}
+    {{#if elemSelect}}
+      <select id="{{elemId}}" class="hcFeedback{{formItemFeedbackType}} hcpr">
+        <option value="1">Select a type</option>
+        <option value="2">Arnhem</option>
+        <option value="3">The Hague</option>
+      </select>
+    {{/if}}
+
+
+
+    {{!-- input textarea --}}
+    {{#if elemTextArea}}
+      <textarea name="name" id="{{elemId}}" class="hcFeedback{{formItemFeedbackType}} hcpr"></textarea>
+    {{/if}}
+
+
+    <div class="hcSmallTxt hcTxtColorGreyMid">{{formItemFeedbackText}}</div>
+  </div>
+
+
+    {{!-- /extra --}}
+  <div class="extra hcSmallTxt">
+    <div class="hcProvenanceComp">
+      <label class="hcLabel" for="provFor{{elemId}}">Provenance</label>
+      <textarea name="name" class="hcProvenanceText" id="provFor{{elemId}}"></textarea>
+    </div>
+  </div>
+
+</div>{{!-- / row --}}
