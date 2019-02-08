@@ -52,22 +52,44 @@
 
 
 
-
+      <!--  row  -->
       <div class="row hcMarginBottom2">
 
 
         <!--  item-->
         <div class="hcFormItem ">
           <label class="hcLabel" for="f4">Researcher</label>
-          <input type="text" id="f4" class="">
+          <input type="text" id="f4" class="hcpr">
           <div class="hcSmallTxt hcTxtColorGreyMid"></div>
         </div><!--  //item-->
 
-        <div class="extra hcSmallTxt">Extra data <button>+</button></div>
-      </div>
+        <div class="extra hcSmallTxt">
+          <div class="hcProvenanceComp">
+            <label class="hcLabel" for="f4">Provenance</label>
+            <textarea name="name" class="hcProvenanceText">some txt</textarea>
+          </div>
+        </div>
+      </div><!--  / row  -->
 
 
+      <!--  row  -->
+      <div class="row hcMarginBottom2">
 
+
+        <!--  item-->
+        <div class="hcFormItem ">
+          <label class="hcLabel" for="f4">Researcher</label>
+          <input type="text" id="f4" class="hcpr">
+          <div class="hcSmallTxt hcTxtColorGreyMid"></div>
+        </div><!--  //item-->
+
+        <div class="extra hcSmallTxt">
+          <div class="hcProvenanceComp">
+            <label class="hcLabel" for="f4">Provenance</label>
+            <textarea name="name" class="hcProvenanceText">some txt</textarea>
+          </div>
+        </div>
+      </div><!--  / row  -->
 
 
 
@@ -100,5 +122,7 @@
 </div>
 
 
-
+<!-- build:js js/form.js -->
+    <script type="text/javascript" src="../js/form-provenance.js"></script>
+<!-- endbuild -->
 {{> html-footer}}

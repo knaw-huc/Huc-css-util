@@ -33,15 +33,24 @@
       "name": "wp-wordpres-text",
       "template": "wp-basic-text",
       "brand": "-huc",
-      "isPage": true,
+      "isPage": false,
       "title": "Wordpress"
     },
     {
       "name": "basic-form",
       "template": "basic-form",
       "brand": "-clariah",
-      "isPage": true,
+      "isPage": false,
       "title": "Form elements"
+    },
+    {
+      "name": "tim-edit",
+      "template": "tim-edit",
+      "brand": "-huygens",
+      "logo": "logo-timbuctoo.svg",
+      "productBar":"<a href=\"#\"><img src=\"images/icons/prdct-br-pages.svg\" alt=\"Pages\" class=\"icon\">Account</a><a href=\"#\"><img src=\"images/icons/prdct-br-pages.svg\" alt=\"Pages\" class=\"icon\">Datasets</a> <a href=\"#\" class=\"sub\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;DWC</a> <a href=\"#\" class=\"sub\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Chaterbank</a> <a href=\"#\" class=\"sub\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Biographical Portal</a><a href=\"#\" class=\"sub\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;New Dataset</a>",
+      "isPage": true,
+      "title": "Timbuctoo edit screen"
     },
     {
       "name": "all-elements-on-page",
@@ -50,16 +59,6 @@
       "logo": "logo-timbuctoo.svg",
       "isPage": true,
       "title": "All elements page"
-    },
-    {
-      "name": "tim-edit",
-      "template": "tim-edit",
-      "brand": "-huygens",
-      "logo": "logo-timbuctoo.svg",
-      "productBar":"<a href=\"#\"><img src=\"images/icons/prdct-br-pages.svg\" alt=\"Pages\" class=\"icon\">Account</a><a href=\"#\"><img src=\"images/icons/prdct-br-pages.svg\" alt=\"Pages\" class=\"icon\">Datasets</a> <a href=\"#\" class=\"sub\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;DWC</a> <a href=\"#\" class=\"sub\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Chaterbank</a> <a href=\"#\" class=\"sub\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Biographical Portal</a><a href=\"#\" class=\"sub\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;New Dataset</a>",
-
-      "isPage": true,
-      "title": "Timbuctoo edit"
     }
   ]
 }
