@@ -380,8 +380,20 @@ button {
 
 .row {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: space-between; }
+
+.extra {
+  width: 100%; }
+
+@media (min-width: 1280px) {
+  .row {
+    flex-direction: row; }
+  .extra {
+    width: 33%;
+    display: flex;
+    align-items: center;
+    padding-left: 1rem; } }
 
 .hcFormStack {
   display: flex;

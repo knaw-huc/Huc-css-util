@@ -2,24 +2,33 @@
   <defs>
     <style>
       .cls-1 {
-        fill: #f6f5f1;
+        fill: #6dcff6;
       }
 
       .cls-2 {
-        fill: #e9dfae;
+        fill: none;
+        stroke: #ebebeb;
+        stroke-width: 3px;
+        fill-rule: evenodd;
       }
 
       .cls-3 {
-        fill: none;
-        stroke: #aed2d1;
-        stroke-width: 4px;
+        fill: #ebebeb;
+      }
+
+      .cls-4 {
+        fill: #ccc;
       }
     </style>
   </defs>
   <g id="cols-fixed-aside.svg">
-    <rect id="bg" class="cls-1" width="640" height="352"/>
-    <rect id="aside" class="cls-2" x="30" y="27" width="117" height="299"/>
-    <rect id="main" class="cls-2" x="245" y="60" width="286" height="266"/>
-    <rect id="Container" class="cls-3" x="30" y="27" width="581" height="299"/>
+    <rect id="aside" class="cls-1" x="1" y="21" width="117" height="331"/>
+    <rect id="main" class="cls-1" x="177" y="60" width="401" height="292"/>
+    <g id="bar">
+      <path id="Screen_bg" data-name="Screen bg" class="cls-2" d="M745,0h630a5,5,0,0,1,5,5V347a5,5,0,0,1-5,5H745a5,5,0,0,1-5-5V5A5,5,0,0,1,745,0Zm0,0h630a5,5,0,0,1,5,5V347a5,5,0,0,1-5,5H745a5,5,0,0,1-5-5V5A5,5,0,0,1,745,0Z" transform="translate(-740)"/>
+      <rect id="bar-2" data-name="bar" class="cls-3" y="-1" width="640" height="22" rx="5" ry="5"/>
+      <circle id="b" class="cls-4" cx="11.5" cy="11.5" r="4.5"/>
+      <circle id="b-2" data-name="b" class="cls-4" cx="23.5" cy="11.5" r="4.5"/>
+    </g>
   </g>
 </svg>
