@@ -1,1 +1,35 @@
 // Multiple Items
+
+// Lists
+.hcList{
+  display: flex;
+  flex-direction: column;
+}
+
+
+.hcList >*{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  cursor: pointer;
+  background-color: #eee;
+  margin-bottom: 1px;
+}
+
+.hcList >* >*{
+  flex: 1;
+}
+
+@media (min-width: 600px) {
+  .hcList >*{
+    flex-direction: row;
+  }
+}
+
+.hcListItemLong {
+  flex: 4;
+}
+
+.hcListHeader {
+  background: none;
+}
