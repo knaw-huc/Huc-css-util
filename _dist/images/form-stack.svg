@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="352" viewBox="0 0 640 352">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #a9d9ec;
+      }
+
+      .cls-2 {
+        font-size: 16px;
+        font-family: "Roboto Mono";
+        font-weight: 300;
+      }
+
+      .cls-3 {
+        fill: #6dcff6;
+      }
+
+      .cls-4 {
+        fill: none;
+        stroke: #ebebeb;
+        stroke-width: 3px;
+        fill-rule: evenodd;
+      }
+
+      .cls-5 {
+        fill: #ebebeb;
+      }
+
+      .cls-6 {
+        fill: #ccc;
+      }
+    </style>
+  </defs>
+  <g id="form-stack.svg">
+    <rect id="main" class="cls-1" x="120" y="90" width="401" height="172"/>
+    <text id="_.hcFormStack" data-name=".hcFormStack" class="cls-2" x="139.165" y="118.373">.hcFormStack</text>
+    <rect id="Rechthoek_1" data-name="Rechthoek 1" class="cls-3" x="131" y="138" width="123" height="103"/>
+    <rect id="Rechthoek_1-2" data-name="Rechthoek 1" class="cls-3" x="266" y="138" width="245" height="104"/>
+    <text id="_.hcStackInfo" data-name=".hcStackInfo" class="cls-2" x="138.168" y="164.372">.hcStackInfo</text>
+    <text id="_.hcStackFormItems" data-name=".hcStackFormItems" class="cls-2" x="281.168" y="164.372">.hcStackFormItems</text>
+    <g id="bar">
+      <path id="Screen_bg" data-name="Screen bg" class="cls-4" d="M1548,494h630a5,5,0,0,1,5,5V841a5,5,0,0,1-5,5H1548a5,5,0,0,1-5-5V499A5,5,0,0,1,1548,494Zm0,0h630a5,5,0,0,1,5,5V841a5,5,0,0,1-5,5H1548a5,5,0,0,1-5-5V499A5,5,0,0,1,1548,494Z" transform="translate(-1543 -494)"/>
+      <rect id="bar-2" data-name="bar" class="cls-5" y="-1" width="640" height="22" rx="5" ry="5"/>
+      <circle id="b" class="cls-6" cx="11.5" cy="11.5" r="4.5"/>
+      <circle id="b-2" data-name="b" class="cls-6" cx="23.5" cy="11.5" r="4.5"/>
+    </g>
+  </g>
+</svg>

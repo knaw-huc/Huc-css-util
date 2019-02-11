@@ -1,0 +1,4 @@
+[2019-2-11 14:21:53] layer "form-stack.svg": Fonts may render inconsistently and text wrapping is unsupported which can result in clipped text. Convert text to a shape to maintain fidelity.
+[2019-2-11 14:21:51] layer "Header (.hcHeadSpace)": Expected end of input but ")" found.
+[2019-2-11 14:21:54] layer "page-blocks.svg": Fonts may render inconsistently and text wrapping is unsupported which can result in clipped text. Convert text to a shape to maintain fidelity.
+[2019-2-11 14:34:21] layer "stack-item.svg": Fonts may render inconsistently and text wrapping is unsupported which can result in clipped text. Convert text to a shape to maintain fidelity.

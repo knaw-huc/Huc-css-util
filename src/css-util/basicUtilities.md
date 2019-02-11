@@ -31,6 +31,10 @@ Text blocks gives content a nice readable width on all screens. Add the class `.
 </div>
 
 ```
+
+![Using page blocks](images/page-blocks.svg)
+
+
 #### Column block
 `.hc2columns`
 
@@ -83,6 +87,7 @@ Use the top
 
 
 #### Header margin
+Use `.hcHeadSpace` to create a extra space around the header. The total takes up to 25% of the page.
 
 ### Alignments
 

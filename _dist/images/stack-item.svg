@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="352" viewBox="0 0 640 352">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #a9d9ec;
+      }
+
+      .cls-2 {
+        font-size: 16px;
+        font-family: "Roboto Mono";
+        font-weight: 300;
+      }
+
+      .cls-3 {
+        fill: #6dcff6;
+      }
+
+      .cls-4 {
+        fill: #aaa;
+      }
+
+      .cls-5, .cls-6 {
+        fill: none;
+      }
+
+      .cls-5 {
+        stroke: #000;
+        stroke-width: 1px;
+      }
+
+      .cls-6 {
+        stroke: #ebebeb;
+        stroke-width: 3px;
+        fill-rule: evenodd;
+      }
+
+      .cls-7 {
+        fill: #ebebeb;
+      }
+
+      .cls-8 {
+        fill: #ccc;
+      }
+    </style>
+  </defs>
+  <g id="stack-item.svg">
+    <rect id="main" class="cls-1" x="50" y="54" width="554" height="262"/>
+    <text id="hcFormItemRow" class="cls-2" x="66.166" y="82.373">.hcFormItemRow</text>
+    <rect id="Rechthoek_1" data-name="Rechthoek 1" class="cls-3" x="411" y="101" width="180" height="166"/>
+    <text id="_.hcFormItemExtra" data-name=".hcFormItemExtra" class="cls-2" x="418.166" y="127.373">.hcFormItemExtra</text>
+    <rect id="Rechthoek_1-2" data-name="Rechthoek 1" class="cls-3" x="66" y="101" width="331" height="205"/>
+    <rect id="Rechthoek_2" data-name="Rechthoek 2" class="cls-4" x="88" y="255" width="296" height="35"/>
+    <text id="_label_" data-name="&lt;label&gt;" class="cls-2" x="83.666" y="185.405">&lt;label&gt;</text>
+    <text id="_input_" data-name="&lt;input&gt;" class="cls-2" x="101.666" y="228.404">&lt;input&gt;</text>
+    <rect id="Afgeronde_rechthoek_1" data-name="Afgeronde rechthoek 1" class="cls-5" x="85" y="201" width="298" height="42" rx="10" ry="10"/>
+    <text id="_.hcFormItem" data-name=".hcFormItem" class="cls-2" x="81.167" y="127.373">.hcFormItem</text>
+    <text id="_feedback" data-name="// feedback" class="cls-2" x="101.166" y="279.372">// feedback</text>
+    <g id="bar">
+      <path id="Screen_bg" data-name="Screen bg" class="cls-6" d="M1548,929h630a5,5,0,0,1,5,5v342a5,5,0,0,1-5,5H1548a5,5,0,0,1-5-5V934A5,5,0,0,1,1548,929Zm0,0h630a5,5,0,0,1,5,5v342a5,5,0,0,1-5,5H1548a5,5,0,0,1-5-5V934A5,5,0,0,1,1548,929Z" transform="translate(-1543 -929)"/>
+      <rect id="bar-2" data-name="bar" class="cls-7" y="-1" width="640" height="22" rx="5" ry="5"/>
+      <circle id="b" class="cls-8" cx="11.5" cy="11.5" r="4.5"/>
+      <circle id="b-2" data-name="b" class="cls-8" cx="23.5" cy="11.5" r="4.5"/>
+    </g>
+  </g>
+</svg>

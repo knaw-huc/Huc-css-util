@@ -23,11 +23,15 @@ To organise your form one can use form stacks. A stack consists of a information
 </div>
 
 ```
+
+![Using form stacks](images/form-stack.svg)
+
 ### Form items
 Every field in the stack 
 
 
 ```
+
 <div class="^^~hcFormItemRow~^^ hcMarginBottom2">
   <div ^^~class="hcFormItem"~^^>
     <label class="hcLabel" for="{{elemId}}"> ^^^~// Label text~^^^</label>
@@ -47,5 +51,7 @@ Every field in the stack
 </div>
 
 ```
+
+![Using items in a stack](images/stack-item.svg)
 
 [See form example](/tim-edit.html).
