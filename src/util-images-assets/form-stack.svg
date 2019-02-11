@@ -29,20 +29,34 @@
       .cls-6 {
         fill: #ccc;
       }
+
+      .cls-7 {
+        fill: #aaa;
+      }
     </style>
   </defs>
   <g id="form-stack.svg">
-    <rect id="main" class="cls-1" x="120" y="90" width="401" height="172"/>
-    <text id="_.hcFormStack" data-name=".hcFormStack" class="cls-2" x="139.165" y="118.373">.hcFormStack</text>
-    <rect id="Rechthoek_1" data-name="Rechthoek 1" class="cls-3" x="131" y="138" width="123" height="103"/>
-    <rect id="Rechthoek_1-2" data-name="Rechthoek 1" class="cls-3" x="266" y="138" width="245" height="104"/>
-    <text id="_.hcStackInfo" data-name=".hcStackInfo" class="cls-2" x="138.168" y="164.372">.hcStackInfo</text>
+    <rect id="main" class="cls-1" x="59" y="90" width="545" height="222"/>
+    <text id="_.hcFormStack" data-name=".hcFormStack" class="cls-2" x="66.166" y="118.373">.hcFormStack</text>
+    <g id="Groep_3" data-name="Groep 3">
+      <rect id="Rechthoek_1" data-name="Rechthoek 1" class="cls-3" x="81" y="138" width="173" height="153"/>
+      <text id="_.hcStackInfo" data-name=".hcStackInfo" class="cls-2" x="85.167" y="164.372">.hcStackInfo</text>
+    </g>
+    <rect id="Rechthoek_1-2" data-name="Rechthoek 1" class="cls-3" x="266" y="138" width="325" height="153"/>
     <text id="_.hcStackFormItems" data-name=".hcStackFormItems" class="cls-2" x="281.168" y="164.372">.hcStackFormItems</text>
     <g id="bar">
       <path id="Screen_bg" data-name="Screen bg" class="cls-4" d="M1548,494h630a5,5,0,0,1,5,5V841a5,5,0,0,1-5,5H1548a5,5,0,0,1-5-5V499A5,5,0,0,1,1548,494Zm0,0h630a5,5,0,0,1,5,5V841a5,5,0,0,1-5,5H1548a5,5,0,0,1-5-5V499A5,5,0,0,1,1548,494Z" transform="translate(-1543 -494)"/>
       <rect id="bar-2" data-name="bar" class="cls-5" y="-1" width="640" height="22" rx="5" ry="5"/>
       <circle id="b" class="cls-6" cx="11.5" cy="11.5" r="4.5"/>
       <circle id="b-2" data-name="b" class="cls-6" cx="23.5" cy="11.5" r="4.5"/>
+    </g>
+    <g id="form_items" data-name="form items">
+      <rect id="Rechthoek_2" data-name="Rechthoek 2" class="cls-7" x="281" y="180" width="296" height="35"/>
+      <text id="form_items-2" data-name="form items" class="cls-2" x="294.167" y="204.373">form items</text>
+    </g>
+    <g id="form_items-3" data-name="form items">
+      <rect id="Rechthoek_2-2" data-name="Rechthoek 2" class="cls-7" x="281" y="231" width="296" height="35"/>
+      <text id="form_items-4" data-name="form items" class="cls-2" x="294.167" y="255.373">form items</text>
     </g>
   </g>
 </svg>

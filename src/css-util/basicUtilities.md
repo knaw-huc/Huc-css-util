@@ -46,6 +46,8 @@ Text blocks gives content a nice readable width on all screens. Add the class `.
 
 `.hc6columns`
 
+![Some columns examples](images/columns.svg)
+
 ### Margins
 Margins help to create focus but keep tranquility.
 #### Basic left and right margin

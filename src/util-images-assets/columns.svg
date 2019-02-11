@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="399" viewBox="0 0 640 399">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #a9d9ec;
+      }
+
+      .cls-2 {
+        fill: #6dcff6;
+      }
+
+      .cls-3, .cls-5 {
+        fill: #5199b6;
+      }
+
+      .cls-4 {
+        font-size: 16px;
+        font-family: "Roboto Mono";
+        font-weight: 300;
+      }
+
+      .cls-5, .cls-6 {
+        fill-rule: evenodd;
+      }
+
+      .cls-6 {
+        fill: none;
+        stroke: #ebebeb;
+        stroke-width: 3px;
+      }
+
+      .cls-7 {
+        fill: #ebebeb;
+      }
+
+      .cls-8 {
+        fill: #ccc;
+      }
+    </style>
+  </defs>
+  <g id="columns.svg">
+    <rect id="main" class="cls-1" x="56" y="-14" width="526" height="413"/>
+    <g id="_2" data-name="2">
+      <rect id="Rechthoek_1" data-name="Rechthoek 1" class="cls-2" x="68" y="76" width="503" height="125"/>
+      <rect id="Rechthoek_1-2" data-name="Rechthoek 1" class="cls-3" x="68" y="113" width="231" height="72"/>
+      <rect id="Rechthoek_1-3" data-name="Rechthoek 1" class="cls-3" x="324" y="113" width="231" height="72"/>
+      <text id="_div_" data-name="&lt;div&gt;" class="cls-4" x="159.168" y="155.373">&lt;div&gt;</text>
+      <text id="_div_2" data-name="&lt;div&gt;" class="cls-4" x="417.168" y="155.373">&lt;div&gt;</text>
+      <text id="_.hc2columns" data-name=".hc2columns" class="cls-4" x="76.552" y="102.8">.hc2columns</text>
+    </g>
+    <g id="_3" data-name="3">
+      <rect id="Rechthoek_1-4" data-name="Rechthoek 1" class="cls-2" x="68" y="238" width="503" height="125"/>
+      <g id="Groep_1" data-name="Groep 1">
+        <path id="Rechthoek_1-5" data-name="Rechthoek 1" class="cls-5" d="M2350,1225.17h155.96v48.62H2350v-48.62Z" transform="translate(-2282 -929)"/>
+        <text id="_div_3" data-name="&lt;div&gt;" class="cls-4" transform="matrix(0.675, 0, 0, 0.675, 129.553, 324.784)">&lt;div&gt;</text>
+      </g>
+      <g id="Groep_1-2" data-name="Groep 1">
+        <path id="Rechthoek_1-6" data-name="Rechthoek 1" class="cls-5" d="M2697.04,1225.17H2853v48.62H2697.04v-48.62Z" transform="translate(-2282 -929)"/>
+        <text id="_div_4" data-name="&lt;div&gt;" class="cls-4" transform="matrix(0.675, 0, 0, 0.675, 476.377, 324.198)">&lt;div&gt;</text>
+      </g>
+      <g id="Groep_2" data-name="Groep 2">
+        <path id="Rechthoek_1-7" data-name="Rechthoek 1" class="cls-5" d="M2522.84,1225.17h155.97v48.62H2522.84v-48.62Z" transform="translate(-2282 -929)"/>
+        <text id="_div_5" data-name="&lt;div&gt;" class="cls-4" transform="matrix(0.675, 0, 0, 0.675, 303.746, 324.784)">&lt;div&gt;</text>
+      </g>
+      <text id="_.hc3columns" data-name=".hc3columns" class="cls-4" x="76.552" y="264.798">.hc3columns</text>
+    </g>
+    <text id="_.hcContentContainer" data-name=".hcContentContainer" class="cls-4" x="69.389" y="54.665">.hcContentContainer</text>
+    <g id="bar">
+      <path id="Screen_bg" data-name="Screen bg" class="cls-6" d="M2287,929h630a5,5,0,0,1,5,5v389a5,5,0,0,1-5,5H2287a5,5,0,0,1-5-5V934A5,5,0,0,1,2287,929Zm0,0h630a5,5,0,0,1,5,5v389a5,5,0,0,1-5,5H2287a5,5,0,0,1-5-5V934A5,5,0,0,1,2287,929Z" transform="translate(-2282 -929)"/>
+      <rect id="bar-2" data-name="bar" class="cls-7" y="-1" width="640" height="22" rx="5" ry="5"/>
+      <circle id="b" class="cls-8" cx="11.5" cy="11.5" r="4.5"/>
+      <circle id="b-2" data-name="b" class="cls-8" cx="23.5" cy="11.5" r="4.5"/>
+    </g>
+  </g>
+</svg>

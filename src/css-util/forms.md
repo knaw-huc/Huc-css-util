@@ -1,5 +1,5 @@
 ## Forms
-For forms this utility provides a default form markup, and a way to organise forms.
+This utility provides a default form markup, and a way to organise forms.
 ### Default form layout
 By adding the `.hcForm` class forms and child elements automatically get a uniform HuC look. They get a bigger size and a distinctive background color.
 
