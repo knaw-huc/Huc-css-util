@@ -12,8 +12,12 @@
   flex-direction: column;
   justify-content: space-between;
   cursor: pointer;
-  background-color: #eee;
-  margin-bottom: 1px;
+  padding-bottom: .5rem;
+  margin-bottom: .5rem;
+}
+
+.hcList >*:hover{
+  background-color: rgba(#ceeaf5, 0.42);
 }
 
 .hcList >* >*{
