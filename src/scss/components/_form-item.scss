@@ -25,22 +25,22 @@
 
 
 // row
-.row {
+.hcFormItemRow {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
 }
 
-.extra {
+.hcFormItemExtra {
   width: 100%;
 }
 
 @media (min-width: 1280px) {
-  .row {
+  .hcFormItemRow {
     flex-direction: row;
   }
 
-  .extra {
+  .hcFormItemExtra {
     width: 60%;
     display: flex;
     align-items: center;

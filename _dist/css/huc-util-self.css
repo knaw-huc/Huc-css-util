@@ -381,18 +381,18 @@ button {
 .hcFeedbackSucces {
   border-bottom: 3px solid #b4e76b !important; }
 
-.row {
+.hcFormItemRow {
   display: flex;
   flex-direction: column;
   justify-content: space-between; }
 
-.extra {
+.hcFormItemExtra {
   width: 100%; }
 
 @media (min-width: 1280px) {
-  .row {
+  .hcFormItemRow {
     flex-direction: row; }
-  .extra {
+  .hcFormItemExtra {
     width: 60%;
     display: flex;
     align-items: center;
@@ -565,6 +565,9 @@ pre code::before {
   font-family: 'Roboto', sans-serif;
   font-weight: 700;
   font-size: 1rem; }
+
+.codeComment {
+  color: #a8a8a8; }
 
 .utillBlock {
   border-bottom: 1px solid #ede8e8;

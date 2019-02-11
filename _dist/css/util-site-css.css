@@ -41,6 +41,9 @@ pre code::before {
   font-weight: 700;
   font-size: 1rem; }
 
+.codeComment {
+  color: #a8a8a8; }
+
 .utillBlock {
   border-bottom: 1px solid #ede8e8;
   padding-bottom: 8em;

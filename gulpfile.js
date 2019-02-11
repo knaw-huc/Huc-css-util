@@ -100,8 +100,11 @@ gulp.task('buildFromTemplates', function(done) {
           .pipe(plumber())
           .pipe(handlebars(page, options))
           .pipe(rename(fileName + ".html"))
+          .pipe(replace('^^^~', '<span class="codeComment">'))
+          .pipe(replace('~^^^', '</span>'))
           .pipe(replace('^^~', '<span class="codeEmp">'))
           .pipe(replace('~^^', '</span>'))
+
           .pipe(useref())
           .pipe(gulp.dest(dst))
           .pipe(browserSync.stream());

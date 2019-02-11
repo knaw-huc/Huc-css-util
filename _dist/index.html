@@ -142,6 +142,48 @@
       <h3 id="large-text">Large text</h3>
     </div>
     <div class="utillBlock hcBlockText hcBasicSideMargin">
+      <h2 id="forms">Forms</h2>
+      <p>For forms this utility provides a default form markup, and a way to organise forms.</p>
+      <h3 id="default-form-layout">Default form layout</h3>
+      <p>By adding the <code>.hcForm</code> class forms and child elements automatically get a uniform HuC look. They get a bigger size and a distinctive background color.</p>
+      <h3 id="form-stack">Form stack</h3>
+      <p>To organise your form one can use form stacks. A stack consists of a information part and a form part. The information part contains a header and a description. The form part has one or more form fields.</p>
+      <pre><code>
+      &lt;div class=&quot;hcContentContainer&quot;&gt;
+      &lt;div <span class="codeEmp">class=&quot;hcFormStack&quot;</span>&gt;
+        &lt;div <span class="codeEmp">class=&quot;hcStackInfo&quot;</span>&gt;
+          &lt;h2&gt;Name of the stack&lt;/h2&gt;
+          &lt;div class=&quot;hcTxtColorGreyMid&quot;&gt;
+              <span class="codeComment">// a description text</span>
+          &lt;/div&gt;
+        &lt;/div&gt;
+      
+        &lt;div <span class="codeEmp">class=&quot;hcStackFormItems&quot;</span>&gt;
+                  <span class="codeComment">// Form items</span>
+        &lt;/div&gt;
+      &lt;/div&gt;
+      </code></pre><h3 id="form-items">Form items</h3>
+      <p>Every field in the stack </p>
+      <pre><code>&lt;div class=&quot;<span class="codeEmp">hcFormItemRow</span> hcMarginBottom2&quot;&gt;
+        &lt;div <span class="codeEmp">class=&quot;hcFormItem&quot;</span>&gt;
+          &lt;label class=&quot;hcLabel&quot; for=&quot;&quot;&gt; <span class="codeComment">// Label text</span>&lt;/label&gt;
+          &lt;input type=&quot;text&quot; id=&quot;&quot;&gt; <span class="codeComment">// Or an &lt;select&gt; or &lt;textarea&gt; </span>
+          &lt;div class=&quot;hcSmallTxt hcTxtColorGreyMid&quot;&gt;
+              <span class="codeComment">// Text for feedback</span>
+          &lt;/div&gt;
+      &lt;/div&gt;
+      
+      <span class="codeComment">// space for extra info or provenance</span>
+      &lt;div class=&quot;<span class="codeEmp">hcFormItemExtra</span> hcSmallTxt&quot;&gt;
+      &lt;div <span class="codeEmp">class=&quot;hcProvenanceComp&quot;</span>&gt;
+        &lt;label class=&quot;hcLabel&quot; for=&quot;provFor&quot;&gt;Provenance&lt;/label&gt;
+        &lt;textarea name=&quot;name&quot; class=&quot;hcProvenanceText&quot; id=&quot;provFor&quot;&gt;&lt;/textarea&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      </code></pre><p><a href="/tim-edit.html">See form example</a>.</p>
+    </div>
+    <div class="utillBlock hcBlockText hcBasicSideMargin">
       <h2 id="display-multiple-items">Display multiple items</h2>
       <p>In this section you&#39;ll find some utilities to organise multiple items. For example: list items, result items and cards.</p>
       <h3 id="list">List</h3>
@@ -172,18 +214,14 @@
       <p><img src="images/cols-fixed-aside.svg" alt="Centered content with fixed sidebar"></p>
       <h3 id="faceted-search-layout">Faceted search layout</h3>
     </div>
-    <div class="utillBlock hcBlockText hcBasicSideMargin">
-      <h2 id="forms">Forms</h2>
-      <h3 id="form-stack">Form stack</h3>
-      <h3 id="data-fields">Data fields</h3>
-    </div>
+
 
 
 
 
   </div>
 
-  <script src="js/util.js"></script>
+<script src="js/util.js"></script>
   <!-- <script src="js/navigation.js" charset="utf-8"></script>
   <script>(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){ (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o), m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m) })(window,document,'script','https://www.google-analytics.com/analytics.js','ga'); ga('create', 'UA-90872465-1', 'auto'); ga('send', 'pageview');</script>
   </body> -->
