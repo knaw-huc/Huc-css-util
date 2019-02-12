@@ -1,0 +1,22 @@
+body {
+  background-color: #fff;
+  color: #3e3e3e; }
+
+a {
+  color: #0087d4; }
+
+.colorBgGrey {
+  background-color: #f6f6f6; }
+
+.colorBgGreyPlus {
+  background-color: #dddddd; }
+
+.hcTxtColorGreyMid {
+  color: #999999; }
+
+.bgColorBrand1 {
+  background-image: none !important;
+  background-color: #83ffcc; }
+
+.colorBgGrey {
+  background-color: #edf7f3 !important; }

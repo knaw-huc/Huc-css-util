@@ -111,6 +111,38 @@
                     }
                 ]
 
+    },
+    {
+      "name": "dpp-home",
+      "template": "dpp-home",
+      "brand": "-ddp",
+      "logo": "logo-dutch-prize-papers.svg",
+      "isPage": true,
+      "title": "Dutch Prize Papers | Homepage"
+    },
+    {
+      "name": "dpp-text",
+      "template": "dpp-text",
+      "brand": "-dpp",
+      "logo": "logo-dutch-prize-papers.svg",
+      "isPage": true,
+      "title": "Dutch Prize Papers | Text page"
+    },
+    {
+      "name": "dpp-search",
+      "template": "dpp-search",
+      "brand": "-dpp",
+      "logo": "logo-dutch-prize-papers.svg",
+      "isPage": true,
+      "title": "Dutch Prize Papers | Search page",
+      "facets": [
+                  {
+                    "facetName": "Ship name",
+                    "items": [
+
+                    ]
+                  }
+      ]
     }
   ]
 }
