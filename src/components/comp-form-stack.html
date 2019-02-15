@@ -1,4 +1,4 @@
-<div class="hcFormStack">
+<div class="hcFormStack hcMarginBottom5">
   <div class="hcStackInfo">
     <h2>{{stackName}}</h2>
     <div class="hcTxtColorGreyMid">{{stackDescription}}</div>
@@ -14,7 +14,7 @@
         }}
 
     {{> comp-form-item
-          formItemLabel="Dataset name2"
+          formItemLabel="Dataset type"
           formItemFeedbackText=""
           formItemFeedbackType=""
           elemSelect=true
@@ -22,13 +22,20 @@
         }}
 
     {{> comp-form-item
-          formItemLabel="Dataset name2"
+          formItemLabel="Curator"
+          formItemFeedbackText=""
+          formItemFeedbackType=""
+          elemSelect=true
+          elemId="f3"
+        }}
+
+    {{> comp-form-item
+          formItemLabel="Description"
           formItemFeedbackText=""
           formItemFeedbackType=""
           elemTextArea=true
           elemId="f3"
         }}
-
 
   </div>
 </div>
