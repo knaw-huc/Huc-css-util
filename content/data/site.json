@@ -135,11 +135,36 @@
       "logo": "logo-dutch-prize-papers.svg",
       "isPage": true,
       "title": "Dutch Prize Papers | Search page",
-      "facets": [
+      "facets": [ 
                   {
                     "facetName": "Ship name",
-                    "items": [
-
+                    "facetItems": [
+                      {"facetItemsName": "De Spiegel"}
+                      {"facetItemsName": "Provincie van Utrecht"}
+                      {"facetItemsName": "Het Geloof"}
+                      {"facetItemsName": "Middelburg"}
+                      {"facetItemsName": "Edam"}
+                      {"facetItemsName": "Damiaten"}
+                      {"facetItemsName": "Princes Louise"}
+                      {"facetItemsName": "Rotterdam"}
+                      {"facetItemsName": "Het Wapen van Rotterdam"}
+                      {"facetItemsName": "Harderwijk"}
+                    ]
+                  },
+                  {
+                    "facetName": "Master name",
+                    "facetItems": [
+                      {"facetItemsName": "Michiel de Ruyter"}
+                      {"facetItemsName": "Gideon de Wildt"}
+                      {"facetItemsName": "Willem van der Zaan"}
+                      {"facetItemsName": "Isaack Sweers"}
+                      {"facetItemsName": "Swart"}
+                      {"facetItemsName": "Hendrik Adriaenszn. Stavoren"}
+                      {"facetItemsName": "Aert Jansz. van Nes"}
+                      {"facetItemsName": "Leendert Ariensz. Haexwant"}
+                      {"facetItemsName": "Jan Jansz. van Nes"}
+                      {"facetItemsName": "Pieter Bartholomeus Hases"}
+                      {"facetItemsName": "Barent Roos"}
                     ]
                   }
       ]
