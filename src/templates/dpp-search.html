@@ -1,20 +1,44 @@
 {{> html-head}}
 
 
-<div class="hcLayoutFacet-Result">
-  <div class="hcLayoutFacets">facets<br>
-    {{#each facets}}
-      {{> comp-facet}}
-    {{/each}}
+<div class="hcContentContainer hcLayoutFacet-Result">
+
+
+
+  <div class="hcLayoutFacets">
+    <button type="button" name="button">Filter results</button>
+    <div class="hcLayoutFacetsToggel">
+      {{#each facets}}
+        {{> comp-facet}}
+      {{/each}}
+    </div>
   </div>
+
+
+
+
   <div class="hcLayoutResults">results<br>
-    {{#each results}}
-      {{> list-item-DPP}}<br>
-    {{/each}}
+    <div class="hcList">
+      {{#each results}}
+        {{> list-item-DPP}}<br>
+      {{/each}}
+    </div>
+
   </div>
+
+
+
+
+
 </div>
 
-<!-- build:js js/dpp-facets.js -->
 
+
+
+
+
+
+
+<!-- build:js js/dpp-facets.js -->
 <!-- endbuild -->
 {{> html-footer}}

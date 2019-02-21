@@ -1,0 +1,30 @@
+$asideFacets: 300px;
+
+.hcLayoutFacet-Result {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.hcLayoutFacets {
+  width: 100%;
+}
+
+.hcLayoutResults {
+  width: 100%;
+}
+
+@media (min-width: #{$siteBreak}) {
+  .hcLayoutFacet-Result {
+    flex-direction: row;
+  }
+
+  .hcLayoutFacets {
+    width: $asideFacets;
+  }
+
+  .hcLayoutResults {
+    width: calc(100vw - #{$asideFacets});
+    min-width: calc(800px - #{$asideFacets});
+  }
+}

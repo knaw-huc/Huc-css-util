@@ -257,8 +257,7 @@ button {
 .hcListItem {
   display: flex;
   flex-direction: column;
-  padding: 0 2rem;
-  background-color: #d8bffb; }
+  padding: 0 2rem; }
 
 .hcListItem > * {
   flex: 1; }
@@ -266,6 +265,22 @@ button {
 @media (min-width: 600px) {
   .hcListItem {
     flex-direction: row; } }
+
+.hcListItemThumb {
+  height: 120px;
+  overflow-y: hidden;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  background-color: #414141; }
+
+.hcListItemThumb img {
+  width: 100% !important;
+  max-width: 150px;
+  height: auto !important; }
+
+.hcListItemBlockBig {
+  flex: 3; }
 
 .hcStickyFooter {
   position: fixed;
@@ -378,6 +393,26 @@ button {
       width: 100%; }
     .hcLayoutBasicMainFixedAside .hcStickyFooter {
       width: calc(100vw - 400px); } }
+
+.hcLayoutFacet-Result {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start; }
+
+.hcLayoutFacets {
+  width: 100%; }
+
+.hcLayoutResults {
+  width: 100%; }
+
+@media (min-width: 800px) {
+  .hcLayoutFacet-Result {
+    flex-direction: row; }
+  .hcLayoutFacets {
+    width: 300px; }
+  .hcLayoutResults {
+    width: calc(100vw - 300px);
+    min-width: calc(800px - 300px); } }
 
 .navigation a {
   color: #3e3e3e;
