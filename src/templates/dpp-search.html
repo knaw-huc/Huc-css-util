@@ -1,33 +1,20 @@
 {{> html-head}}
-<link rel="stylesheet" href="css/util-site-css.css">
-<div class="hcLayoutBasicMainFixedAside">
-  <aside class="hcLayoutAside">
 
 
-    <div class="asideWithProductBar">
-      {{> page-product-bar}}
-      <div class="colorBgGrey hcBlockScroll hcBasicSideMargin">
-        <div class="hcHeadSpace">
-
-        </div>
-        <nav id="navigationFromHeaders" class="navigation hcAlignVertical"></nav>
-      </div>
-    </div>
-  </aside>
-
-
-
-  <div class="hcLayoutMain hcContentContainer ">
-    <div class="hcHeadSpace hcBasicSideMargin">
-      <h1>Multiple items</h1>
-    </div>
-    <div class="hcBasicSideMargin">
-      {{> list}}
-    </div>
-
+<div class="hcLayoutFacet-Result">
+  <div class="hcLayoutFacets">facets<br>
+    {{#each facets}}
+      {{> comp-facet}}
+    {{/each}}
   </div>
+  <div class="hcLayoutResults">results<br>
+    {{#each results}}
+      {{> list-item-DPP}}<br>
+    {{/each}}
+  </div>
+</div>
 
-  <!-- build:js js/util.js -->
-      <script type="text/javascript" src="../js/headers-to-subnavigation.js"></script>
-      <!-- endbuild -->
+<!-- build:js js/dpp-facets.js -->
+
+<!-- endbuild -->
 {{> html-footer}}
