@@ -24,7 +24,7 @@ $asideFacets: 350px;
   }
 
   .hcLayoutResults {
-    width: calc(100vw - #{$asideFacets});
-    min-width: calc(800px - #{$asideFacets});
+    width: calc(100% - #{$asideFacets});
+
   }
 }

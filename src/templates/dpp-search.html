@@ -1,35 +1,38 @@
 {{> html-head}}
 
 
-<div class="hcContentContainer hcLayoutFacet-Result">
-
-
-
-  <div class="hcLayoutFacets">
-    <button type="button" name="button">Filter results</button>
-    <div class="hcLayoutFacetsToggel">
-      {{#each facets}}
-        {{> comp-facet}}
-      {{/each}}
-    </div>
+<div class="hcContentContainer">
+  <div class="hcHeadSpace">
+    <h1>Dutch Prize Papers</h1>
   </div>
 
+  <div class="hcLayoutFacet-Result">
 
-
-
-  <div class="hcLayoutResults">results<br>
-    <div class="hcList">
-      {{#each results}}
-        {{> list-item-DPP}}<br>
-      {{/each}}
+    <div class="hcLayoutFacets">
+      <button type="button" name="button">Filter results</button>
+      <div class="hcLayoutFacetsToggel">
+        {{#each facets}}
+          {{> comp-facet}}
+        {{/each}}
+      </div>
     </div>
 
+
+
+
+    <div class="hcLayoutResults">results<br>
+      <div class="hcList">
+        {{#each results}}
+          {{> list-item-DPP}}<br>
+        {{/each}}
+      </div>
+
+    </div>
+
+
+
+    
   </div>
-
-
-
-
-
 </div>
 
 

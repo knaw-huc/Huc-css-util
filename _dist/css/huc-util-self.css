@@ -429,8 +429,7 @@ button {
   .hcLayoutFacets {
     width: 350px; }
   .hcLayoutResults {
-    width: calc(100vw - 350px);
-    min-width: calc(800px - 350px); } }
+    width: calc(100% - 350px); } }
 
 .navigation a {
   color: #3e3e3e;
