@@ -19,21 +19,48 @@
 }
 
 
+
+.hcListItemBlock {
+  padding: 0;
+  transition: background-color .3s;
+}
+
+.hcListItemBlock:hover {
+  background-color: rgb(245, 245, 245);
+}
+
+.hcListItemBlock > *{
+  padding: 1rem;
+  background-color: rgb(245, 245, 245);
+  margin-right: 10px;
+}
+
+
+
+
 .hcListItemThumb {
-  height:120px;
-  overflow-y: hidden;
+  height:170px;
+  overflow-y: scroll;
   display: flex;
   align-items: flex-start;
   justify-content: center;
-  background-color: #414141;
+  background-color: #3b3b3b;
+  padding-top: .5rem;
 }
 
 .hcListItemThumb img {
   width: 100% !important;
-  max-width: 150px;
+  max-width: 170px;
   height: auto !important;
 }
 
 .hcListItemBlockBig  {
   flex: 3;
+}
+
+
+.hcKwic {
+  background-color: rgba(255, 214, 73, 0.5);
+  padding: 0 .5rem;
+  border-radius: 3px;
 }
