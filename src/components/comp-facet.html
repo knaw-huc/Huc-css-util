@@ -1,6 +1,13 @@
+
 <div class="hcFacet">
-  <strong>{{facetName}}</strong><br>
-  {{#each facetItems}}
-    {{facetItemsName}}<br>
-  {{/each}}
+  <div class="hcFacetTitle">{{facetName}}</div>
+  <div class="hcFacetItems">
+    {{#each facetItems}}
+    <div class="hcFacetItem">
+      {{facetItemsName}} <span class="hcFacetCount">143</span>
+    </div>
+    {{/each}}
+    <a href="">More</a>
+  </div>
+
 </div>

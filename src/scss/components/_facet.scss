@@ -1,0 +1,30 @@
+.hcFacet {
+  margin-bottom: 3rem;
+  max-width: 250px;
+    font-size: .85rem;
+}
+
+.hcFacetItems {
+  display: flex;
+  flex-direction: column;
+
+  border-top: 1px solid #eee;
+  margin-top: .2rem;
+  padding-top: .2rem;
+}
+
+.hcFacetItem {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.hcFacetTitle {
+  text-transform: uppercase;
+  color: #888888;
+}
+
+.hcFacetCount {
+  font-size: .6rem;
+  color: #888888;
+}

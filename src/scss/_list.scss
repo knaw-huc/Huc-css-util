@@ -25,27 +25,30 @@
   transition: background-color .3s;
 }
 
-.hcListItemBlock:hover {
-  background-color: rgb(245, 245, 245);
-}
+
 
 .hcListItemBlock > *{
   padding: 1rem;
   background-color: rgb(245, 245, 245);
-  margin-right: 10px;
+  margin-right: 5px;
 }
+
+
 
 
 
 
 .hcListItemThumb {
-  height:170px;
   overflow-y: scroll;
   display: flex;
   align-items: flex-start;
   justify-content: center;
   background-color: #3b3b3b;
   padding-top: .5rem;
+}
+
+.hcListItemThumb div{
+  height:170px;
 }
 
 .hcListItemThumb img {
@@ -59,8 +62,8 @@
 }
 
 
-.hcKwic {
-  background-color: rgba(255, 214, 73, 0.5);
-  padding: 0 .5rem;
-  border-radius: 3px;
-}
+// .hcKwic {
+//   background-color: rgba(255, 214, 73, 0.5);
+//   padding: 0 .5rem;
+//   border-radius: 3px;
+// }

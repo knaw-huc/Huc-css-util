@@ -164,12 +164,7 @@ strong {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  cursor: pointer;
-  padding-bottom: .5rem;
-  margin-bottom: .5rem; }
-
-.hcList > *:hover {
-  background-color: rgba(206, 234, 245, 0.42); }
+  cursor: pointer; }
 
 .hcList > * > * {
   flex: 1; }
@@ -270,22 +265,21 @@ button {
   padding: 0;
   transition: background-color .3s; }
 
-.hcListItemBlock:hover {
-  background-color: whitesmoke; }
-
 .hcListItemBlock > * {
   padding: 1rem;
   background-color: whitesmoke;
-  margin-right: 10px; }
+  margin-right: 5px; }
 
 .hcListItemThumb {
-  height: 170px;
   overflow-y: scroll;
   display: flex;
   align-items: flex-start;
   justify-content: center;
   background-color: #3b3b3b;
   padding-top: .5rem; }
+
+.hcListItemThumb div {
+  height: 170px; }
 
 .hcListItemThumb img {
   width: 100% !important;
@@ -294,11 +288,6 @@ button {
 
 .hcListItemBlockBig {
   flex: 3; }
-
-.hcKwic {
-  background-color: rgba(255, 214, 73, 0.5);
-  padding: 0 .5rem;
-  border-radius: 3px; }
 
 .hcStickyFooter {
   position: fixed;
@@ -561,6 +550,31 @@ button {
 @media (max-width: 800px) {
   .hcProductBar .hcHeadSpace {
     height: auto; } }
+
+.hcFacet {
+  margin-bottom: 3rem;
+  max-width: 250px;
+  font-size: .85rem; }
+
+.hcFacetItems {
+  display: flex;
+  flex-direction: column;
+  border-top: 1px solid #eee;
+  margin-top: .2rem;
+  padding-top: .2rem; }
+
+.hcFacetItem {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between; }
+
+.hcFacetTitle {
+  text-transform: uppercase;
+  color: #888888; }
+
+.hcFacetCount {
+  font-size: .6rem;
+  color: #888888; }
 
 .brandName {
   font-weight: 700; }
