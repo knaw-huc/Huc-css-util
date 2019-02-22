@@ -1,12 +1,22 @@
 {{> html-head}}
 
+<div class="hcContentContainer bgColorBrand1">
+  <header class=" hcPageHeaderSimple hcBasicSideMargin">
+    <div class="hcBrandLogo"><img src="images/{{logo}}" class="logo"></div>
+    <nav>
+      <a href="">Home</a>
+      <a href="">Search the papers</a>
+      <a href="">About</a>
+    </nav>
+  </header>
+</div>
 
 <div class="hcContentContainer">
   <div class="hcHeadSpace hcBasicSideMargin">
-    <h1>Dutch Prize Papers</h1>
+    <h1>Search the papers</h1>
   </div>
 
-  <div class="hcLayoutFacet-Result hcBasicSideMargin">
+  <div class="hcLayoutFacet-Result hcBasicSideMargin hcMarginBottom15">
 
     <div class="hcLayoutFacets">
       <button type="button" name="button" id="showFacets"><img src="images/icons/icon-set-facets.svg" class="icon"></button>
@@ -23,13 +33,17 @@
 
 
     <div class="hcLayoutResults">
-      <div class="hcResultsHeader hcMarginBottom2">
+      <div class="hcResultsHeader hcMarginBottom1">
         <div>12.873 Results</div>
         <div><select class="" name="">
           <option value="">Order by Date</option>
           <option value="">Order by Relevance</option>
           <option value="">Order by archive number</option>
         </select></div>
+      </div>
+
+      <div class="hcMarginBottom1">
+        <span class="hcSelectedFacet">De Spiegel</span>
       </div>
       <div class="hcList">
         {{#each results}}

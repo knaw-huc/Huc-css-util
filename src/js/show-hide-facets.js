@@ -16,9 +16,17 @@ var clFacets = document.querySelectorAll("#showFacets");
 
 function handleMenu() {
   if (facetsOpen == true) {
-    document.getElementById("hcLayoutFacetsToggel").style.display = "flex";
+    document.getElementById("hcLayoutFacetsToggel").style.display = "block";
   }
   if (facetsOpen == false) {
     document.getElementById("hcLayoutFacetsToggel").style.display = "none";
   }
 }
+
+function checkFacetsSize() {
+  if (window.matchMedia("(max-width: 800px)").matches) {
+      document.getElementById("hcLayoutFacetsToggel").style.display = "block";
+    }
+}
+
+window.addEventListener("resize", checkFacetsSize);

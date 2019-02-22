@@ -18,5 +18,11 @@ a {
   background-image: none !important;
   background-color: #83ffcc; }
 
+a, h1 {
+  color: #035591; }
+
 .colorBgGrey {
-  background-color: #edf7f3 !important; }
+  background-color: #f5fbff !important; }
+
+.hcKwic {
+  border-bottom: 3px solid #83ffcc; }

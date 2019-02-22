@@ -43,3 +43,20 @@
     border-radius: 0 $basicBorderRadius $basicBorderRadius 0 ;
   }
 }
+
+
+.hcSelectedFacet {
+  font-size: .85rem;
+  padding: .2rem .5rem;
+  background-color: #e6f7f2;
+  border-radius: 3px;
+}
+
+.hcSelectedFacet:after{
+  background-image: url(../images/icons/close.svg);
+  background-size: 10px 20px;
+
+
+
+
+}

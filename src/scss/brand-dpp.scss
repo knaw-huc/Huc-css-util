@@ -6,6 +6,14 @@
 	background-color: $colorDutchPrizePapersGreen;
 }
 
+a, h1 {
+	color: $colorDutchPrizePapersBlue;
+}
+
 .colorBgGrey{
-	background-color: #edf7f3 !important;
+	background-color: lighten($colorDutchPrizePapersBlue, 69) !important;
+}
+
+.hcKwic {
+  border-bottom: 3px solid #{$colorDutchPrizePapersGreen};
 }
