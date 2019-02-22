@@ -1,18 +1,22 @@
+input, select, option, textarea{
+  width: 100%;
+  padding: .5rem;
+  border: 1px solid darken( $colorFormElements, 4% );
+  border-radius: $basicBorderRadius;
+  font-size: 1rem;
+  font-weight: 300;
+  color: $colorTxt;
+  height: 40px;
+}
+
+
 
 
 .hcForm {
   input, select, option, textarea{
-    width: 100%;
     background-color: $colorFormElements;
     max-width: 480px;
-    padding: .5rem;
     background-color: $colorFormElements;
-    border: 1px solid darken( $colorFormElements, 4% );
-    border-radius: $basicBorderRadius;
-    font-size: 1rem;
-    font-weight: 300;
-    color: $colorTxt;
-    height: 40px;
   }
 
   textarea {

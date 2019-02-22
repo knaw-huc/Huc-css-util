@@ -11,6 +11,8 @@
     <div class="hcLayoutFacets">
       <!-- <button type="button" name="button">Filter results</button> -->
       <div class="hcLayoutFacetsToggel">
+        {{> comp-facet-text}}
+
         {{#each facets}}
           {{> comp-facet}}
         {{/each}}
@@ -23,7 +25,7 @@
     <div class="hcLayoutResults">results<br>
       <div class="hcList">
         {{#each results}}
-          {{> list-item-DPP}}<br>
+          {{> list-item-DPP}}
         {{/each}}
       </div>
 

@@ -8,9 +8,9 @@
   display: flex;
   flex-direction: column;
 
-  border-top: 1px solid #eee;
-  margin-top: .2rem;
-  padding-top: .2rem;
+  //border-top: 1px solid #000;
+  //margin-top: .2rem;
+  //padding-top: .2rem;
 }
 
 .hcFacetItem {
@@ -21,10 +21,25 @@
 
 .hcFacetTitle {
   text-transform: uppercase;
-  color: #888888;
+  font-size: .85rem;
+  font-weight: 700;
 }
 
 .hcFacetCount {
-  font-size: .6rem;
-  color: #888888;
+  //font-size: .6rem;
+  color: $colorGreyMid;
+}
+
+
+.hcFacetSearch {
+  display: flex;
+  justify-content: space-between;
+
+  input{
+    border-radius: $basicBorderRadius 0 0 $basicBorderRadius;
+    border-right: 0px;
+  }
+  button {
+    border-radius: 0 $basicBorderRadius $basicBorderRadius 0 ;
+  }
 }

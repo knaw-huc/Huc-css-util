@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" height="41.40928021895684" width="41.40928021895684">
+  <defs>
+    <ellipse id="ellipse-0" opacity="1" rx="10.468098191489329" ry="10.468091648936154" cx="20.78974659884022" cy="20.619533673308197"/>
+    <mask id="mask-1" maskUnits="userSpaceOnUse" maskContentUnits="userSpaceOnUse">
+      <rect opacity="1" x="0" y="0" width="41.40928021895684" height="41.40928021895684" fill="black"/>
+      <use xlink:href="#ellipse-0" fill="white"/>
+    </mask>
+    <path id="path-2" opacity="1" fill-rule="evenodd" d="M20.70464010947842,4.704630109478444 L20.70464010947842,36.70465010947839 "/>
+    <path id="path-3" opacity="1" fill-rule="evenodd" d="M20.70464010947842,4.704630109478444 L20.70464010947842,36.70465010947839 "/>
+    <path id="path-4" opacity="1" fill-rule="evenodd" d="M20.70464010947842,4.704630109478444 L20.70464010947842,36.70465010947839 "/>
+    <path id="path-5" opacity="1" fill-rule="evenodd" d="M20.70464010947842,4.704630109478444 L20.70464010947842,36.70465010947839 "/>
+  </defs>
+  <g opacity="1">
+    <g opacity="1">
+      <use xlink:href="#ellipse-0" fill-opacity="0" stroke="rgb(68,68,68)" stroke-opacity="1" stroke-width="4" stroke-linecap="butt" stroke-linejoin="miter" mask="url(#mask-1)"/>
+    </g>
+    <g opacity="1">
+      <use xlink:href="#path-2" fill-opacity="0" stroke="rgb(68,68,68)" stroke-opacity="1" stroke-width="2" stroke-linecap="butt" stroke-linejoin="miter"/>
+    </g>
+    <g transform="translate(20.70464010947842, 20.70464010947842) rotate(270.0000965423251) translate(-20.70464010947842, -20.70464010947842)" opacity="1">
+      <use xlink:href="#path-3" fill-opacity="0" stroke="rgb(68,68,68)" stroke-opacity="1" stroke-width="2" stroke-linecap="butt" stroke-linejoin="miter"/>
+    </g>
+    <g transform="translate(20.70464010947842, 20.70464010947842) rotate(315.0001126327126) translate(-20.70464010947842, -20.70464010947842)" opacity="1">
+      <use xlink:href="#path-4" fill-opacity="0" stroke="rgb(68,68,68)" stroke-opacity="1" stroke-width="2" stroke-linecap="butt" stroke-linejoin="miter"/>
+    </g>
+    <g transform="translate(20.70464010947842, 20.70464010947842) rotate(45.00001609038752) translate(-20.70464010947842, -20.70464010947842)" opacity="1">
+      <use xlink:href="#path-5" fill-opacity="0" stroke="rgb(68,68,68)" stroke-opacity="1" stroke-width="2" stroke-linecap="butt" stroke-linejoin="miter"/>
+    </g>
+  </g>
+</svg>
