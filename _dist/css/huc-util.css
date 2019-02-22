@@ -97,6 +97,14 @@ strong {
   width: 1.3rem !important;
   height: auto !important; }
 
+.hcIconText {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center; }
+  .hcIconText .icon {
+    margin-right: .5rem; }
+
 .hcBasicSideMargin {
   padding-left: 2rem;
   padding-right: 2rem; }
@@ -289,11 +297,21 @@ button {
 
 .hcListItemThumb img {
   width: 100% !important;
-  max-width: 170px;
+  max-width: 200px;
   height: auto !important; }
 
-.hcListItemBlockBig {
-  flex: 4; }
+.hcListItemDPPBlock {
+  flex: 2;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; }
+
+.hcKwic {
+  border-bottom: 3px solid #e7da67; }
+
+.hcResultsHeader {
+  display: flex;
+  justify-content: space-between; }
 
 .hcStickyFooter {
   position: fixed;
@@ -418,13 +436,26 @@ button {
 .hcLayoutResults {
   width: 100%; }
 
+.hcLayoutFacetsToggel {
+  display: none; }
+
+#showFacets {
+  position: fixed;
+  top: 45vh;
+  left: 0; }
+
 @media (min-width: 800px) {
   .hcLayoutFacet-Result {
     flex-direction: row; }
   .hcLayoutFacets {
     width: 350px; }
   .hcLayoutResults {
-    width: calc(100% - 350px); } }
+    width: calc(100% - 350px); }
+  .hcLayoutFacetsToggel {
+    display: block; }
+  #showFacets {
+    display: none;
+    position: fixed; } }
 
 .navigation a {
   color: #3e3e3e;

@@ -54,17 +54,23 @@
 
 .hcListItemThumb img {
   width: 100% !important;
-  max-width: 170px;
+  max-width: 200px;
   height: auto !important;
 }
 
-.hcListItemBlockBig  {
-  flex: 4;
+.hcListItemDPPBlock  {
+  flex: 2;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 
-// .hcKwic {
-//   background-color: rgba(255, 214, 73, 0.5);
-//   padding: 0 .5rem;
-//   border-radius: 3px;
-// }
+.hcKwic {
+  border-bottom: 3px solid rgb(231, 218, 103);
+}
+
+.hcResultsHeader {
+  display: flex;
+  justify-content: space-between;
+}

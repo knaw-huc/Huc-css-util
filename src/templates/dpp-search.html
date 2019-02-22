@@ -2,15 +2,15 @@
 
 
 <div class="hcContentContainer">
-  <div class="hcHeadSpace">
+  <div class="hcHeadSpace hcBasicSideMargin">
     <h1>Dutch Prize Papers</h1>
   </div>
 
-  <div class="hcLayoutFacet-Result">
+  <div class="hcLayoutFacet-Result hcBasicSideMargin">
 
     <div class="hcLayoutFacets">
-      <!-- <button type="button" name="button">Filter results</button> -->
-      <div class="hcLayoutFacetsToggel">
+      <button type="button" name="button" id="showFacets"><img src="images/icons/icon-set-facets.svg" class="icon"></button>
+      <div class="hcLayoutFacetsToggel" id="hcLayoutFacetsToggel">
         {{> comp-facet-text}}
 
         {{#each facets}}
@@ -22,7 +22,15 @@
 
 
 
-    <div class="hcLayoutResults">results<br>
+    <div class="hcLayoutResults">
+      <div class="hcResultsHeader hcMarginBottom2">
+        <div>12.873 Results</div>
+        <div><select class="" name="">
+          <option value="">Order by Date</option>
+          <option value="">Order by Relevance</option>
+          <option value="">Order by archive number</option>
+        </select></div>
+      </div>
       <div class="hcList">
         {{#each results}}
           {{> list-item-DPP}}
@@ -45,5 +53,6 @@
 
 
 <!-- build:js js/dpp-facets.js -->
+  <script type="text/javascript" src="../js/show-hide-facets.js"></script>
 <!-- endbuild -->
 {{> html-footer}}

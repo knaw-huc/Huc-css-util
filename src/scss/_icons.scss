@@ -1,5 +1,16 @@
 .icon {
   width: 1.3rem !important;
-  height: auto !important; 
+  height: auto !important;
   //background-color: #eb517e;
+}
+
+.hcIconText {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+
+  .icon {
+    margin-right: .5rem;
+  }
 }

@@ -5,17 +5,26 @@
 
 
 
-    <div class="hcListItemBlockBig">
 
-      <div class="hcSmallTxt">
-        <div><img src="images/icons/icon-dpp-year.svg" class="icon"> {{CaptureDate}}</div>
-        <div><img src="images/icons/icon-dpp-ship-name.svg" class="icon"> {{shipName}}</div>
-        <div><img src="images/icons/icon-dpp-ship-captain.svg" class="icon"> {{shipMaster}}</div>
 
+    <div class="hcListItemDPPBlock">
+      <div class="hcMarginBottom1">
+        {{{Kwic}}}
       </div>
 
-      {{{Kwic}}}
-      <div class="hcSmallTxt"><img src="images/icons/icon-dpp-file.svg" class="icon"> {{Book}} / page {{Page}}</div>
+
+      <div class="hc2columns hcSmallTxt ">
+        <span>
+          <div class="hcIconText"><img src="images/icons/icon-dpp-year.svg" class="icon"> <span>{{CaptureDate}}</span></div>
+          <div class="hcIconText"><img src="images/icons/icon-dpp-file.svg" class="icon"> <span>{{Book}} / page {{Page}}</span></div>
+        </span>
+        <span>
+          <div class="hcIconText"><img src="images/icons/icon-dpp-ship-name.svg" class="icon"> <span>{{shipName}}</span></div>
+          <div class="hcIconText"><img src="images/icons/icon-dpp-ship-captain.svg" class="icon"> <span>{{shipMaster}}</span></div>
+        </span>
+      </div>
+
+
     </div>
 
 
