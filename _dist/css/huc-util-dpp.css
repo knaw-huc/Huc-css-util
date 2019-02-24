@@ -278,7 +278,7 @@ button {
 .hcListItemBlock {
   padding: 0;
   transition: background-color .3s;
-  margin-bottom: 20px; }
+  margin-bottom: 1.5rem; }
 
 .hcListItemBlock > * {
   padding: 1rem 2rem; }
@@ -510,7 +510,7 @@ nav a:first-child {
   flex-direction: column;
   justify-content: space-between;
   font-size: .9rem;
-  height: 100px; }
+  height: 70px; }
 
 .hcPageHeaderSimple > * {
   height: 100%;
@@ -780,5 +780,8 @@ a, h1 {
 .colorBgGrey {
   background-color: #f5fbff !important; }
 
+.hcBrandLogo img {
+  height: 40px; }
+
 .hcKwic {
-  border-bottom: 3px solid #83ffcc; }
+  border-bottom: 2px solid #00e989; }
