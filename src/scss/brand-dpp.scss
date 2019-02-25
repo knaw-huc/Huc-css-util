@@ -11,7 +11,7 @@ a, h1 {
 }
 
 .colorBgGrey{
-	background-color: lighten($colorDutchPrizePapersBlue, 69) !important;
+	background-color: rgba(#dfe9f1, 0.6) !important;
 }
 
 .hcBrandLogo img {
@@ -20,5 +20,5 @@ a, h1 {
 
 
 .hcKwic {
-  border-bottom: 2px solid #{darken($colorDutchPrizePapersGreen, 30)};
+  border-bottom: 2px solid #{$colorDutchPrizePapersBlue};
 }

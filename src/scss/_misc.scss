@@ -15,3 +15,11 @@
   flex-direction: row;
   justify-content: space-between;
 }
+
+.hcTextSnippit::before {
+  content: " ..."
+}
+
+.hcTextSnippit::after {
+  content: "... "
+}

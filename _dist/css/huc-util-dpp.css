@@ -325,6 +325,12 @@ button {
   flex-direction: row;
   justify-content: space-between; }
 
+.hcTextSnippit::before {
+  content: " ..."; }
+
+.hcTextSnippit::after {
+  content: "... "; }
+
 .hcContentContainer {
   display: flex;
   flex-direction: column;
@@ -778,10 +784,10 @@ a, h1 {
   color: #035591; }
 
 .colorBgGrey {
-  background-color: #f5fbff !important; }
+  background-color: rgba(223, 233, 241, 0.6) !important; }
 
 .hcBrandLogo img {
   height: 40px; }
 
 .hcKwic {
-  border-bottom: 2px solid #00e989; }
+  border-bottom: 2px solid #035591; }
