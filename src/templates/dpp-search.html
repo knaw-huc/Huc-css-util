@@ -21,14 +21,20 @@
     <div class="hcLayoutFacets">
       <button type="button" name="button" id="showFacets"><img src="images/icons/icon-set-facets.svg" class="icon"></button>
       <div class="hcLayoutFacetsToggel" id="hcLayoutFacetsToggel">
-        {{> comp-facet-text}}
 
         {{#each facets}}
-          {{> comp-facet}}
+          {{#if facetTypelist}}
+            {{> comp-facet}}
+          {{/if}}
+          {{#if facetTypeSearch}}
+            {{> comp-facet-text}}
+          {{/if}}
+          {{#if facetTypeRange}}
+            {{> comp-facet-range}}
+          {{/if}}
+
         {{/each}}
-        {{#each facets}}
-          {{> comp-facet}}
-        {{/each}}
+
       </div>
     </div>
 
