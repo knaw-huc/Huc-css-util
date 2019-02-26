@@ -52,13 +52,15 @@
       </div>
 
       <div class="hcMarginBottom1">
-        <span class="hcSelectedFacet">De Spiegel</span>
+        <span class="hcSelectedFacet">Ship | De Spiegel</span>
       </div>
-      <div class="hcList">
+      <div class="hcList hcMarginBottom2">
         {{#each results}}
           {{> list-item-DPP}}
         {{/each}}
+
       </div>
+      {{> comp-pagination}}
 
     </div>
 

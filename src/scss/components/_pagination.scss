@@ -1,0 +1,14 @@
+.hcPagination {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+
+}
+
+.hcPagination >* {
+  margin: 0 .5rem;
+}
+
+.hcPagination a {
+  padding: .5rem;
+}
