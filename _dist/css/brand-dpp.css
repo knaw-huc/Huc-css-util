@@ -46,3 +46,23 @@ a, h1, h2 {
   background-image: url(../images/dpp/dpp-bg.png) !important;
   background-size: contain;
   background-position: center bottom; }
+
+@media screen and (orientation: portrait) {
+  .hcDPPHeroBg {
+    background-size: cover; } }
+
+.hcDppHeroSearch {
+  min-height: 200px;
+  max-height: 300px;
+  align-self: center;
+  background-color: #035591;
+  color: #fff;
+  padding: 4rem 2rem;
+  border-radius: 5px; }
+  .hcDppHeroSearch button {
+    width: 100%;
+    background-color: #fff;
+    color: #035591;
+    padding: 1rem;
+    font-size: 1.2rem;
+    margin-top: 1rem; }
