@@ -304,7 +304,7 @@ button {
   justify-content: space-between; }
 
 .hcKwic {
-  border-bottom: 3px solid #e7da67; }
+  border-bottom: 3px dotted #e7da67; }
 
 .hcResultsHeader {
   display: flex;
@@ -648,7 +648,7 @@ button {
   display: flex;
   justify-content: flex-start;
   background-color: #494949;
-  color: #fff; }
+  color: #3e3e3e; }
   .hcProductBar .icon {
     width: 1rem;
     height: auto; }
@@ -677,7 +677,7 @@ button {
     .hcProductBar nav > * {
       margin-bottom: 2rem;
       width: 200px;
-      color: #fff; }
+      color: #3e3e3e; }
   .hcProductBar:hover {
     width: 300px;
     transition: width .4s; }
@@ -728,11 +728,14 @@ button {
   font-size: .85rem;
   padding: .2rem .5rem;
   background-color: #e6f7f2;
-  border-radius: 3px; }
+  border-radius: 3px;
+  margin: 0 .5rem .5rem 0;
+  cursor: pointer; }
 
 .hcSelectedFacet:after {
-  background-image: url(../images/icons/close.svg);
-  background-size: 10px 20px; }
+  content: url(../images/icons/icon-delete.svg);
+  margin-left: .3rem;
+  opacity: .4; }
 
 .hcSelectedFacetType {
   color: rgba(0, 0, 0, 0.4);
@@ -789,6 +792,14 @@ a {
   background-image: none !important;
   background-color: #83ffcc; }
 
+.bgColorBrand2 {
+  background-image: none !important;
+  background-color: #035591;
+  color: #fff; }
+
+.bgColorBrand2 a {
+  color: #fff; }
+
 a, h1 {
   color: #035591; }
 
@@ -799,4 +810,8 @@ a, h1 {
   height: 40px; }
 
 .hcKwic {
-  border-bottom: 2px solid #035591; }
+  border-bottom: 2px dotted #035591; }
+
+.hcPageHeaderSimple nav a:hover {
+  background-color: #035591;
+  color: #fff; }

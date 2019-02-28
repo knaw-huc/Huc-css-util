@@ -5,7 +5,7 @@
   display: flex;
   justify-content: flex-start;
   background-color: rgb(73, 73, 73);
-  color: #fff;
+  color: $colorTxt;
 
   .icon {
     width: 1rem;
@@ -46,7 +46,7 @@
     nav >*{
       margin-bottom: 2rem;
       width: 200px;
-      color: #fff;
+      color: $colorTxt;
     }
 
   }
@@ -66,7 +66,6 @@
     margin-left: $productBarWidth;
     width: calc(100% - #{$productBarWidth});
   }
-
 }
 
 

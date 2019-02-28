@@ -6,6 +6,16 @@
 	background-color: $colorDutchPrizePapersGreen;
 }
 
+.bgColorBrand2 {
+	background-image: none !important;
+	background-color: $colorDutchPrizePapersBlue;
+	color: #fff;
+}
+
+.bgColorBrand2 a{
+	color: #fff;
+}
+
 a, h1 {
 	color: $colorDutchPrizePapersBlue;
 }
@@ -20,5 +30,12 @@ a, h1 {
 
 
 .hcKwic {
-  border-bottom: 2px solid #{$colorDutchPrizePapersBlue};
+  border-bottom: 2px dotted #{$colorDutchPrizePapersBlue};
+}
+
+.hcPageHeaderSimple {
+	nav a:hover {
+		background-color:$colorDutchPrizePapersBlue;
+		color: #fff;
+	}
 }

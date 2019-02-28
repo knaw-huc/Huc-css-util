@@ -10,10 +10,10 @@
   </defs>
   <g opacity="1">
     <g opacity="1">
-      <use xlink:href="#path-0" fill-opacity="0" stroke="rgb(255,255,255)" stroke-opacity="1" stroke-width="8" stroke-linecap="butt" stroke-linejoin="miter" mask="url(#mask-1)"/>
+      <use xlink:href="#path-0" fill-opacity="0" stroke="rgb(8,8,8)" stroke-opacity="1" stroke-width="8" stroke-linecap="butt" stroke-linejoin="miter" mask="url(#mask-1)"/>
     </g>
     <g transform="translate(10.968892476976215, 10.983388914938146) rotate(315.0001126327126) translate(-10.968892476976215, -10.983388914938146)" opacity="1">
-      <use xlink:href="#path-2" fill="rgb(255,255,255)" fill-opacity="1"/>
+      <use xlink:href="#path-2" fill="rgb(0,0,0)" fill-opacity="1"/>
     </g>
   </g>
 </svg>

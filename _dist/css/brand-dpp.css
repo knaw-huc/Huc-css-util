@@ -18,6 +18,14 @@ a {
   background-image: none !important;
   background-color: #83ffcc; }
 
+.bgColorBrand2 {
+  background-image: none !important;
+  background-color: #035591;
+  color: #fff; }
+
+.bgColorBrand2 a {
+  color: #fff; }
+
 a, h1 {
   color: #035591; }
 
@@ -28,4 +36,8 @@ a, h1 {
   height: 40px; }
 
 .hcKwic {
-  border-bottom: 2px solid #035591; }
+  border-bottom: 2px dotted #035591; }
+
+.hcPageHeaderSimple nav a:hover {
+  background-color: #035591;
+  color: #fff; }
