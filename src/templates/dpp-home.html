@@ -1,33 +1,43 @@
 {{> html-head}}
-<link rel="stylesheet" href="css/util-site-css.css">
-<div class="hcLayoutBasicMainFixedAside">
-  <aside class="hcLayoutAside">
 
-
-    <div class="asideWithProductBar">
-      {{> page-product-bar}}
-      <div class="colorBgGrey hcBlockScroll hcBasicSideMargin">
-        <div class="hcHeadSpace">
-
-        </div>
-        <nav id="navigationFromHeaders" class="navigation hcAlignVertical"></nav>
-      </div>
-    </div>
-  </aside>
+<div class="hcContentContainer bgColorBrand1">
+  <header class="hcPageHeaderSimple hcBasicSideMargin">
+    <div class="hcBrandLogo"></div>
+    <nav>
+      <a href="dpp-home.html">Home</a>
+      <a href="dpp-search.html">Search the papers</a>
+      <a href="dpp-text.html">About</a>
+    </nav>
+  </header>
+</div>
 
 
 
-  <div class="hcLayoutMain hcContentContainer ">
-    <div class="hcHeadSpace hcBasicSideMargin">
-      <h1>Multiple items</h1>
-    </div>
-    <div class="hcBasicSideMargin">
-      {{> list}}
+  <div class="hcContentContainer bgColorBrand1 hcMarginBottom3 hcBlockHeroWithTeaser hcDPPHeroBg">
+    <div class="hc2columns">
+      <div class="hcBasicSideMargin hcAlignCenter"><img src="images/logo-dutch-prize-papers-full.svg" alt="Dutch Prize Papers"></div>
+      <div class="hcBasicSideMargin hcAlignCenter"> </div>
     </div>
 
   </div>
 
-  <!-- build:js js/util.js -->
-      <script type="text/javascript" src="../js/headers-to-subnavigation.js"></script>
-      <!-- endbuild -->
+
+<div class="hcContentContainer hcMarginBottom3">
+  <div class="hc3columns">
+    <div class="hcBasicSideMargin"><h2>What are the Dutch Prize Papers</h2>
+      <p>The Prize Papers are documents seized by British navy and privateers from enemy ships in the period 1652-1815. The documents contain ship’s journals, lists of cargo, accounts, plantation lists and interrogations of crew members, business- and private letters.</p>
+    </div>
+    <div class="hcBasicSideMargin"><h2>Search the Prize Papers</h2>
+      <p>The Prize Papers are documents seized by British navy and privateers from enemy ships in the period 1652-1815. The documents contain ship’s journals, lists of cargo, accounts, plantation lists and interrogations of crew members, business- and private letters.</p>
+    </div>
+    <div class="hcBasicSideMargin"><h2>Organisation of the archive</h2>
+      <p>The Prize Papers are documents seized by British navy and privateers from enemy ships in the period 1652-1815. The documents contain ship’s journals, lists of cargo, accounts, plantation lists and interrogations of crew members, business- and private letters.</p>
+    </div>
+  </div>
+
+</div>
+
+
+<!-- build:js js/util.js -->
+<!-- endbuild -->
 {{> html-footer}}

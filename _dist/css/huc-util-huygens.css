@@ -373,6 +373,11 @@ button {
   height: 100vh;
   overflow-y: auto; }
 
+.hcBlockHeroWithTeaser {
+  height: 66vh;
+  display: flex;
+  justify-content: center; }
+
 .hcLayoutBasicMainAside, .hcLayoutBasicMainFixedAside {
   display: flex;
   flex-direction: column;

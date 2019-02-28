@@ -373,6 +373,11 @@ button {
   height: 100vh;
   overflow-y: auto; }
 
+.hcBlockHeroWithTeaser {
+  height: 66vh;
+  display: flex;
+  justify-content: center; }
+
 .hcLayoutBasicMainAside, .hcLayoutBasicMainFixedAside {
   display: flex;
   flex-direction: column;
@@ -800,7 +805,7 @@ a {
 .bgColorBrand2 a {
   color: #fff; }
 
-a, h1 {
+a, h1, h2 {
   color: #035591; }
 
 .colorBgGrey {
@@ -815,3 +820,8 @@ a, h1 {
 .hcPageHeaderSimple nav a:hover {
   background-color: #035591;
   color: #fff; }
+
+.hcDPPHeroBg {
+  background-image: url(../images/dpp/dpp-bg.png) !important;
+  background-size: contain;
+  background-position: center bottom; }

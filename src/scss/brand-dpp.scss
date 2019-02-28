@@ -16,7 +16,7 @@
 	color: #fff;
 }
 
-a, h1 {
+a, h1, h2{
 	color: $colorDutchPrizePapersBlue;
 }
 
@@ -38,4 +38,13 @@ a, h1 {
 		background-color:$colorDutchPrizePapersBlue;
 		color: #fff;
 	}
+}
+
+
+// site specific classes
+
+.hcDPPHeroBg {
+	background-image: url(../images/dpp/dpp-bg.png) !important;
+	background-size: contain;
+	background-position: center bottom;
 }
