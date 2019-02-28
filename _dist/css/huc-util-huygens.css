@@ -476,46 +476,40 @@ button {
 .navigation .navigation-secundairy-items {
   display: none; }
 
-nav {
-  display: flex;
-  flex-direction: row;
-  height: 100%;
-  align-items: center; }
-
-nav a {
-  font-weight: 700;
-  height: 100%;
-  padding: 0 1rem;
-  display: flex;
-  align-items: center; }
-
-nav a:hover {
-  background-color: rgba(255, 255, 255, 0.11); }
-
-nav a:first-child {
-  margin-left: -1rem; }
-
-.hcMenuButton {
-  border: none;
-  background: none;
-  font-size: .9rem;
-  color: #fff;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  margin-left: 2rem; }
-
-.hcMenuButton img {
-  width: .7rem;
-  height: .7rem;
-  margin-left: .5rem; }
-
 .hcPageHeaderSimple {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   font-size: .9rem;
   height: 70px; }
+  .hcPageHeaderSimple nav {
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    align-items: center; }
+  .hcPageHeaderSimple nav a {
+    font-weight: 700;
+    height: 100%;
+    padding: 0 1rem;
+    display: flex;
+    align-items: center; }
+  .hcPageHeaderSimple nav a:hover {
+    background-color: rgba(255, 255, 255, 0.11); }
+  .hcPageHeaderSimple nav a:first-child {
+    margin-left: -1rem; }
+  .hcPageHeaderSimple .hcMenuButton {
+    border: none;
+    background: none;
+    font-size: .9rem;
+    color: #fff;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 2rem; }
+  .hcPageHeaderSimple .hcMenuButton img {
+    width: .7rem;
+    height: .7rem;
+    margin-left: .5rem; }
 
 .hcPageHeaderSimple > * {
   height: 100%;
@@ -739,6 +733,11 @@ nav a:first-child {
 .hcSelectedFacet:after {
   background-image: url(../images/icons/close.svg);
   background-size: 10px 20px; }
+
+.hcSelectedFacetType {
+  color: rgba(0, 0, 0, 0.4);
+  font-style: italic;
+  margin-right: .3rem; }
 
 .hcPagination {
   display: flex;

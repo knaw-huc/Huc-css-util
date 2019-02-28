@@ -1,51 +1,54 @@
-nav {
-  display: flex;
-  flex-direction: row;
-  height: 100%;
-  align-items: center;
-}
-
-nav a {
-  font-weight: 700;
-  height: 100%;
-  padding: 0 1rem;
-  display: flex;
-  align-items: center;
-}
-
-nav a:hover {
-  background-color:rgba(255, 255, 255, 0.11);
-}
-
-nav a:first-child {
-  margin-left: -1rem;
-}
-
-.hcMenuButton {
-  border: none;
-  background: none;
-  font-size: .9rem;
-  color: #fff;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  margin-left: 2rem;
-}
-
-.hcMenuButton img{
-  width: .7rem;
-  height: .7rem;
-  margin-left: .5rem;
-
-}
-
 .hcPageHeaderSimple {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   font-size: .9rem;
   height: 70px;
+
+
+  nav {
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    align-items: center;
+  }
+
+  nav a {
+    font-weight: 700;
+    height: 100%;
+    padding: 0 1rem;
+    display: flex;
+    align-items: center;
+  }
+
+  nav a:hover {
+    background-color:rgba(255, 255, 255, 0.11);
+  }
+
+  nav a:first-child {
+    margin-left: -1rem;
+  }
+
+  .hcMenuButton {
+    border: none;
+    background: none;
+    font-size: .9rem;
+    color: #fff;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 2rem;
+  }
+
+  .hcMenuButton img{
+    width: .7rem;
+    height: .7rem;
+    margin-left: .5rem;
+
+  }
+
 }
+
 
 .hcPageHeaderSimple >* {
   height: 100%;

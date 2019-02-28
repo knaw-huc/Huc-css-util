@@ -141,7 +141,7 @@
                     "facetTypeSearch": true
                   },
                   {
-                    "facetName": "Ship name",
+                    "facetName": "Ship",
                     "facetTypelist": true,
                     "facetItems": [
                       {"facetItemsName": "De Spiegel"},
@@ -152,7 +152,7 @@
                     ]
                   },
                   {
-                    "facetName": "Master name",
+                    "facetName": "Shipmaster",
                     "facetTypelist": true,
                     "facetItems": [
                       {"facetItemsName": "Michiel de Ruyter"},

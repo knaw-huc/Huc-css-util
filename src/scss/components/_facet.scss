@@ -55,8 +55,10 @@
 .hcSelectedFacet:after{
   background-image: url(../images/icons/close.svg);
   background-size: 10px 20px;
+}
 
-
-
-
+.hcSelectedFacetType {
+  color: rgba(#000000, 0.4);
+  font-style: italic;
+  margin-right: .3rem;
 }
