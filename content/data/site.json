@@ -118,7 +118,8 @@
       "brand": "-dpp",
       "logo": "logo-dutch-prize-papers.svg",
       "isPage": true,
-      "title": "Dutch Prize Papers | Homepage"
+      "title": "Dutch Prize Papers | Homepage",
+      "favi":"favi-dpp.png"
     },
     {
       "name": "dpp-text",
@@ -126,7 +127,8 @@
       "brand": "-dpp",
       "logo": "logo-dutch-prize-papers.svg",
       "isPage": true,
-      "title": "Dutch Prize Papers | Text page"
+      "title": "Dutch Prize Papers | Text page",
+      "favi":"favi-dpp.png"
     },
     {
       "name": "dpp-search",
@@ -135,6 +137,7 @@
       "logo": "logo-dutch-prize-papers.svg",
       "isPage": true,
       "title": "Dutch Prize Papers | Search page",
+      "favi":"favi-dpp.png",
       "facets": [
                   {
                     "facetName": "Text search",
