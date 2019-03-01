@@ -17,6 +17,7 @@ var reload      = browserSync.reload;
 const using = require('gulp-using');
 const get = require('simple-get');
 const markdown = require('gulp-markdown');
+const loadJsonFile = require('load-json-file');
 
 var options = {
     batch : ['./src/components/', './content/html/']
@@ -30,11 +31,20 @@ var fHtmlNot=   '!src/components/nav.html';
 var fImages=    'src/images/**/*';
 var fAssets=    'src/util-images-assets/**/*';
 var fJs=        'src/js/**/*';
-var fJson=      ['src/**/*.json', 'content/**/*.json'];
+var fJson=      'content/data/**/*.json';
 var fMd=        'content/**/*.md';
 var cssUtil=    'src/css-util/**/*';
 
-var siteJson = require('./content/data/site.json');
+//var siteJson = require('./content/data/site.json');
+var siteJson;
+
+gulp.task('loadJson', function(done) {
+  loadJsonFile('./content/data/site.json').then(json => {
+    siteJson =json;
+  });
+  done();
+});
+
 
 
 gulp.task('browserSync', function(done) {
@@ -128,7 +138,7 @@ gulp.task('copyFiles', function(done) {
 
 
 gulp.task('build',
-  gulp.series('clean', 'nav', 'md', 'sass', 'buildFromTemplates', 'copyFiles',
+  gulp.series('loadJson', 'clean', 'nav', 'md', 'sass', 'buildFromTemplates', 'copyFiles',
   function(done) {
       done();
   }
@@ -136,7 +146,7 @@ gulp.task('build',
 
 
 gulp.task('watch', function () {
-  gulp.watch([fHtml, fHtmlNot, fScss, fJs, cssUtil, fAssets], gulp.series('build'));
+  gulp.watch([fJson, fHtml, fHtmlNot, fScss, fJs, cssUtil, fAssets], gulp.series('build'));
 });
 
 
