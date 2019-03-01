@@ -1,0 +1,50 @@
+{{> html-head}}
+
+<div class="hcContentContainer bgColorBrand1">
+  <header class=" hcPageHeaderSimple hcBasicSideMargin">
+    <div class="hcBrandLogo"><img src="images/{{logo}}" class="logo"></div>
+    <nav>
+      <a href="dpp-home.html">Home</a>
+      <a href="dpp-search.html">Search the papers</a>
+      <a href="dpp-text.html">About</a>
+    </nav>
+  </header>
+</div>
+
+<div class="hcContentContainer">
+  <div class="hcHeadSpace hcBasicSideMargin">
+    <h1>{{Book}} / page {{Page}}</h1>
+  </div>
+  <div class="hc3columns">
+    <div>
+      {{#each thumbs}}
+          <img src="images/dpp/{{thumb}}" style="width:150px; height:auto;"><br>
+      {{/each}}
+    </div>
+    <div class="hcBasicSideMargin"><strong>Content</strong><br>{{{Content-txt}}}</div>
+    <div class="hcBasicSideMargin">
+      <strong>Ship</strong>: {{shipName}}<br>
+      <strong>Ship Master</strong>: {{shipMaster}}<br>
+      <strong>Capture Date</strong>: {{CaptureDate}}
+    </div>
+  </div>
+
+
+
+
+  <div class="uv" data-locale="en-GB:English (GB),cy-GB:Cymraeg" data-config="https://viewer.library.wales/config/standalone.json" data-uri="https://damsssl.llgc.org.uk/iiif/2.0/4389767/manifest.json" data-collectionindex="0" data-manifestindex="0" data-sequenceindex="0" data-canvasindex="0" data-xywh="-227,-312,4533,4702" data-rotation="0" style="width:100%; height:700px; background-color: #fff"></div><script type="text/javascript" id="embedUV" src="https://viewer.library.wales/build/lib/embed.js"></script><script type="text/javascript">/* wordpress fix */</script>
+
+
+</div>
+
+
+
+
+
+
+
+
+<!-- build:js js/dpp-facets.js -->
+
+<!-- endbuild -->
+{{> html-footer}}
