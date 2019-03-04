@@ -42,6 +42,9 @@ a, h1, h2 {
   background-color: #035591;
   color: #fff; }
 
+.hcThumbnailBgColor {
+  background-color: #3b3b3b; }
+
 .hcDPPHeroBg {
   background-image: url(../images/dpp/dpp-bg.png) !important;
   background-size: contain;

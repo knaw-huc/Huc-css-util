@@ -7,14 +7,14 @@
 
 }
 
-.hcStickyFooter >*{
-  padding-top: 1rem;
-  padding-bottom: 1rem;
-  border-radius: #{$basicBorderRadius} #{$basicBorderRadius} 0 0;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-}
+// .hcStickyFooter >*{
+//   padding-top: 1rem;
+//   padding-bottom: 1rem;
+//   border-radius: #{$basicBorderRadius} #{$basicBorderRadius} 0 0;
+//   display: flex;
+//   flex-direction: row;
+//   justify-content: space-between;
+// }
 
 .hcTextSnippit::before {
   content: " ..."
