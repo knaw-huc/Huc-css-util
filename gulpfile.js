@@ -35,7 +35,6 @@ var fJson=      'content/data/**/*.json';
 var fMd=        'content/**/*.md';
 var cssUtil=    'src/css-util/**/*';
 
-//var siteJson = require('./content/data/site.json');
 var siteJson;
 
 gulp.task('loadJson', function(done) {
