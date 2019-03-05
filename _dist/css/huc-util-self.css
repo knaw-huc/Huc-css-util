@@ -461,6 +461,13 @@ button {
   display: flex;
   flex-direction: row; }
 
+.hclayoutTextImageDivider {
+  display: flex;
+  flex-direction: row; }
+
+.hclayoutTextImageDivider:first-child {
+  flex: 4; }
+
 .navigation a {
   color: #3e3e3e;
   font-weight: 700;

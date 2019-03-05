@@ -2,3 +2,12 @@
   display: flex;
   flex-direction: row;
 }
+
+.hclayoutTextImageDivider {
+  display: flex;
+  flex-direction: row;
+}
+
+.hclayoutTextImageDivider:first-child {
+  flex: 4;
+}
