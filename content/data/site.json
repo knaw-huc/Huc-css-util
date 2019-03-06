@@ -138,6 +138,7 @@
       "isPage": true,
       "title": "Dutch Prize Papers | Search page",
       "favi":"favi-dpp.png",
+      "code": "code-dpp-search",
       "messageTxt": "Please note that the content is organised by archive folder. This may affect your results. <a href=\"#\">Learn more about the structure of the archive.</a>",
       "facets": [
                   {
@@ -224,7 +225,7 @@
           "Kwic": "<div class=\"hcTextSnippit hcMarginBottom1\">EA De Koffy en <span class=\"hcKwic\">Suiker</span> als boven verkogt: Zullen door de Koopers van Batavia</div><div class=\"hcTextSnippit hcMarginBottom1\">D.,Omme, ingevalle eenige Scheepen tot afhaal van gezegde Koffy en <span class=\"hcKwic\">Suiker</span> op de EE moeten afgehaald zyn,<span class=\"hcKwic\">Suiker</span>, boven de van denzelven Eigenaar bedongen Kooppenningen.</div>"
         },
         {
-          "shipName": "Provincie van Utrecht",
+          "shipName": "Provincie van Utrecht<br>De Spiegel<br>Het Geloof",
           "shipMaster": "Gideon de Wildt",
           "Book": "HCA32-155",
           "Page": 3,

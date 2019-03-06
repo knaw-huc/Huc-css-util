@@ -1,0 +1,36 @@
+// buttons
+button {
+  font-size: .7rem;
+	padding: .5rem;
+  border-radius: $basicBorderRadius;
+	background-color:rgba(0, 0, 0, 0.07);
+  border: 1px solid rgba(0, 0, 0, 0.09);
+	cursor: pointer;
+  font-weight: 700;
+}
+
+.hc-loud {
+	padding: .8rem;
+	font-size: 1rem;
+	background-color: $colorReward;
+
+}
+
+.hc-small {
+	padding: .5rem;
+	font-size: .8rem;
+}
+
+
+.hc-subtle {
+	background: none;
+	border: none;
+	box-shadow: none;
+	color: $colorLink;
+}
+
+.hcfixedSideButton {
+  width: $basicMargin;
+  padding: .2rem;
+  border-radius: 0 $basicBorderRadius $basicBorderRadius 0;
+}

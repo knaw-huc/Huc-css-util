@@ -100,7 +100,7 @@ strong {
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
-  align-items: center; }
+  align-items: flex-start; }
   .hcIconText .icon {
     margin-right: .5rem; }
 
@@ -210,8 +210,10 @@ strong {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
+  width: 100%;
   font-size: .85rem;
   line-height: 140%;
+  font-style: italic;
   background-color: #fafafa;
   border-radius: 4px; }
 
@@ -225,6 +227,30 @@ strong {
     fill: #005466; }
   .notificationInform .hcIconStroke {
     stroke: #005466; }
+
+.notificationCaution {
+  color: #967d1c;
+  background-color: white; }
+  .notificationCaution .hcIconFill {
+    fill: #967d1c; }
+  .notificationCaution .hcIconStroke {
+    stroke: #967d1c; }
+
+.notificationError {
+  color: #3b0b00;
+  background-color: #ffb2a1; }
+  .notificationError .hcIconFill {
+    fill: #3b0b00; }
+  .notificationError .hcIconStroke {
+    stroke: #3b0b00; }
+
+.notificationReward {
+  color: #476018;
+  background-color: #f1f8e5; }
+  .notificationReward .hcIconFill {
+    fill: #476018; }
+  .notificationReward .hcIconStroke {
+    stroke: #476018; }
 
 .hc2columns, .hc3columns, .hc4columns, .hc5columns, .hc6columns {
   display: flex;
@@ -246,30 +272,6 @@ strong {
     flex-basis: 20%; }
   .hc6columns > * {
     flex-basis: 15%; } }
-
-input, select, option, textarea {
-  width: 100%;
-  padding: .5rem;
-  border: 1px solid #e1ebf3;
-  border-radius: 4px;
-  font-size: 1rem;
-  font-weight: 300;
-  color: #3e3e3e;
-  height: 40px; }
-
-.hcForm input, .hcForm select, .hcForm option, .hcForm textarea {
-  background-color: #f0f5f9;
-  max-width: 480px;
-  background-color: #f0f5f9; }
-
-.hcForm textarea {
-  height: auto;
-  min-height: 150px; }
-
-.hcLabel {
-  color: #999999;
-  text-transform: uppercase;
-  font-size: .85rem; }
 
 button {
   font-size: .7rem;
@@ -294,6 +296,35 @@ button {
   border: none;
   box-shadow: none;
   color: #0087d4; }
+
+.hcfixedSideButton {
+  width: 2rem;
+  padding: .2rem;
+  border-radius: 0 4px 4px 0; }
+
+input, select, option, textarea {
+  width: 100%;
+  padding: .5rem;
+  border: 1px solid #e1ebf3;
+  border-radius: 4px;
+  font-size: 1rem;
+  font-weight: 300;
+  color: #3e3e3e;
+  height: 40px; }
+
+.hcForm input, .hcForm select, .hcForm option, .hcForm textarea {
+  background-color: #f0f5f9;
+  max-width: 480px;
+  background-color: #f0f5f9; }
+
+.hcForm textarea {
+  height: auto;
+  min-height: 150px; }
+
+.hcLabel {
+  color: #999999;
+  text-transform: uppercase;
+  font-size: .85rem; }
 
 .hcList {
   width: 100%; }
@@ -794,7 +825,8 @@ button {
 .hcPagination {
   display: flex;
   flex-direction: row;
-  justify-content: center; }
+  justify-content: center;
+  flex-wrap: wrap; }
 
 .hcPagination > * {
   margin: 0 .5rem; }

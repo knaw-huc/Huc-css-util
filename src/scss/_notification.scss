@@ -9,9 +9,12 @@
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
+  width: 100%;
 
   font-size: .85rem;
   line-height: 140%;
+  font-style: italic;
+
   background-color: $colorGreyLightBg;
   border-radius:$basicBorderRadius;
 }
@@ -20,6 +23,7 @@
   padding: .5rem;
 }
 
+// INFORM
 .notificationInform {
   color:darken($colorInfo,30);
   background-color: lighten($colorInfo, 40);
@@ -30,5 +34,47 @@
 
   .hcIconStroke {
     stroke: darken($colorInfo,30);
+  }
+}
+
+// CAUTION
+.notificationCaution {
+  color:darken($colorCaution,30);
+  background-color: lighten($colorCaution, 40);
+
+  .hcIconFill {
+    fill: darken($colorCaution,30);
+  }
+
+  .hcIconStroke {
+    stroke: darken($colorCaution,30);
+  }
+}
+
+// ERROR
+.notificationError {
+  color:darken($colorError,30);
+  background-color: lighten($colorError, 40);
+
+  .hcIconFill {
+    fill: darken($colorError,30);
+  }
+
+  .hcIconStroke {
+    stroke: darken($colorError,30);
+  }
+}
+
+// REWARD
+.notificationReward {
+  color:darken($colorReward,30);
+  background-color: lighten($colorReward, 40);
+
+  .hcIconFill {
+    fill: darken($colorReward,30);
+  }
+
+  .hcIconStroke {
+    stroke: darken($colorReward,30);
   }
 }
