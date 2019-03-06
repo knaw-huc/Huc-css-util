@@ -104,6 +104,21 @@ strong {
   .hcIconText .icon {
     margin-right: .5rem; }
 
+.hcIcon svg {
+  display: block;
+  width: 2rem;
+  height: auto; }
+
+.hcIconFill {
+  fill: #3e3e3e; }
+
+.hcIconStroke {
+  stroke: #3e3e3e;
+  stroke-width: 3px; }
+
+.hcIconSmall svg {
+  width: 1rem; }
+
 .hcBasicSideMargin {
   padding-left: 2rem;
   padding-right: 2rem; }
@@ -190,6 +205,27 @@ strong {
 .hcListHeader {
   background: none; }
 
+.hcMessageBar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  font-size: .85rem;
+  line-height: 140%;
+  background-color: #fafafa;
+  border-radius: 4px; }
+
+.hcMessageBar > * {
+  padding: .5rem; }
+
+.notificationInform {
+  color: #005466;
+  background-color: #ccf6ff; }
+  .notificationInform .hcIconFill {
+    fill: #005466; }
+  .notificationInform .hcIconStroke {
+    stroke: #005466; }
+
 .hc2columns, .hc3columns, .hc4columns, .hc5columns, .hc6columns {
   display: flex;
   flex-direction: column; }
@@ -247,7 +283,7 @@ button {
 .hc-loud {
   padding: .8rem;
   font-size: 1rem;
-  background-color: #b4e76b; }
+  background-color: #9ed041; }
 
 .hc-small {
   padding: .5rem;
@@ -603,7 +639,7 @@ button {
   border-bottom: 3px solid #d42600 !important; }
 
 .hcFeedbackSucces {
-  border-bottom: 3px solid #b4e76b !important; }
+  border-bottom: 3px solid #d42600 !important; }
 
 .hcFormItemRow {
   display: flex;

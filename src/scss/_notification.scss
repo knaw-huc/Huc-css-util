@@ -1,0 +1,34 @@
+// Neutral: no emotion attached.
+// Inform: Please note: you need to know this to understand what you are seeing.
+// Caution: you might need to take action in oder to proceed
+// Error: You cannot go any further
+// Reward: what you dit was good!
+
+.hcMessageBar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+
+  font-size: .85rem;
+  line-height: 140%;
+  background-color: $colorGreyLightBg;
+  border-radius:$basicBorderRadius;
+}
+
+.hcMessageBar > *{
+  padding: .5rem;
+}
+
+.notificationInform {
+  color:darken($colorInfo,30);
+  background-color: lighten($colorInfo, 40);
+
+  .hcIconFill {
+    fill: darken($colorInfo,30);
+  }
+
+  .hcIconStroke {
+    stroke: darken($colorInfo,30);
+  }
+}

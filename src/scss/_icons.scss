@@ -14,3 +14,28 @@
     margin-right: .5rem;
   }
 }
+
+
+
+.hcIcon {
+}
+
+.hcIcon svg{
+  display: block;
+  width: 2rem;
+  height: auto;
+}
+
+
+.hcIconFill {
+  fill: $colorTxt;
+}
+
+.hcIconStroke {
+  stroke: $colorTxt;
+  stroke-width: 3px;
+}
+
+.hcIconSmall svg{
+  width: 1rem;
+}

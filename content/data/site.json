@@ -44,21 +44,12 @@
       "title": "Form elements"
     },
     {
-      "name": "tim-edit",
-      "template": "tim-edit",
-      "brand": "-huygens",
-      "logo": "logo-timbuctoo.svg",
-      "productBar":"<a href=\"#\"><img src=\"images/icons/prdct-br-pages.svg\" alt=\"Pages\" class=\"icon\">Account</a><a href=\"#\"><img src=\"images/icons/prdct-br-pages.svg\" alt=\"Pages\" class=\"icon\">Datasets</a> <a href=\"#\" class=\"sub\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;DWC</a> <a href=\"#\" class=\"sub\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Chaterbank</a> <a href=\"#\" class=\"sub\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Biographical Portal</a><a href=\"#\" class=\"sub\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;New Dataset</a>",
-      "isPage": true,
-      "title": "Timbuctoo edit screen"
-    },
-    {
       "name": "all-elements-on-page",
       "template": "all-elements",
       "brand": "-huygens",
       "logo": "logo-timbuctoo.svg",
       "isPage": true,
-      "title": "All elements page"
+      "title": "HuC | All elements page"
     },
     {
       "name": "multiple",
@@ -66,7 +57,7 @@
       "brand": "-self",
       "logo": "logo-knaw-humanities-cluster.png",
       "isPage": true,
-      "title": "multiple items page",
+      "title": "HuC | Multiple items page",
       "fileList":[
                   {
                     "file-name": "File-text.txt",
@@ -113,6 +104,15 @@
 
     },
     {
+      "name": "tim-edit",
+      "template": "tim-edit",
+      "brand": "-huygens",
+      "logo": "logo-timbuctoo.svg",
+      "productBar":"<a href=\"#\"><img src=\"images/icons/prdct-br-pages.svg\" alt=\"Pages\" class=\"icon\">Account</a><a href=\"#\"><img src=\"images/icons/prdct-br-pages.svg\" alt=\"Pages\" class=\"icon\">Datasets</a> <a href=\"#\" class=\"sub\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;DWC</a> <a href=\"#\" class=\"sub\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Chaterbank</a> <a href=\"#\" class=\"sub\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Biographical Portal</a><a href=\"#\" class=\"sub\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;New Dataset</a>",
+      "isPage": true,
+      "title": "Timbuctoo | Edit screen"
+    },
+    {
       "name": "dpp-home",
       "template": "dpp-home",
       "brand": "-dpp",
@@ -138,6 +138,7 @@
       "isPage": true,
       "title": "Dutch Prize Papers | Search page",
       "favi":"favi-dpp.png",
+      "messageTxt": "Please note that the content is organised by archive folder. This may affect your results. <a href=\"#\">Learn more about the structure of the archive.</a>",
       "facets": [
                   {
                     "facetName": "Text search",
@@ -319,6 +320,15 @@
       "Book": "HCA32-200",
       "Page": 3,
       "Content-txt": "<p>Contested cause. Captured ship: Johannes und Maria Magdalena of Altona (master Johannes LorenzLangenberg).</p><p>History: a Danish ship, bound from the Texel, Amsterdam, to Surinam, laden with brick, tiles, lime, cheese, butter and geneva [gin]; taken on 28 July 1796 about 11 leagues west of the Skelligs of the coast of Ireland by HMS Magnanime (Michael De Courcy | commanding), and brought first into Cork and then into Plymouth.</p><p>Documents:</p><p>Nos 1-33: ship's papers; Nos 34-165: mail in transit from the Netherlands to Surinam (these letters were opened and numbered bythe court).</p><p>1796</p>"
+    },
+    {
+      "name": "ga-home",
+      "template": "ga-home",
+      "brand": "-ga",
+      "logo": "logo-golden-agents.svg",
+      "productBar":"<a href=\"#\"><img src=\"images/icons/prdct-br-pages.svg\" alt=\"Pages\" class=\"icon\">Account</a><a href=\"#\"><img src=\"images/icons/prdct-br-pages.svg\" alt=\"Pages\" class=\"icon\">Datasets</a> <a href=\"#\" class=\"sub\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;DWC</a> <a href=\"#\" class=\"sub\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Chaterbank</a> <a href=\"#\" class=\"sub\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Biographical Portal</a><a href=\"#\" class=\"sub\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;New Dataset</a>",
+      "isPage": true,
+      "title": "Golden Agents | Home"
     }
   ]
 }

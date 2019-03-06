@@ -19,8 +19,9 @@ const get = require('simple-get');
 const markdown = require('gulp-markdown');
 const loadJsonFile = require('load-json-file');
 
+// handlebars includes folders
 var options = {
-    batch : ['./src/components/', './content/html/']
+    batch : ['./src/components/', './content/html/', './src/icons/']
     }
 
 var dst =       '_dist/';
