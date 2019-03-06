@@ -38,9 +38,11 @@ a, h1, h2 {
 .hcKwic {
   border-bottom: 2px dotted #035591; }
 
-.hcPageHeaderSimple nav a:hover {
-  background-color: #035591;
-  color: #fff; }
+.hcPageHeaderSimple {
+  color: #035591; }
+  .hcPageHeaderSimple nav a:hover {
+    background-color: #035591;
+    color: #fff; }
 
 .hcThumbnailBgColor {
   background-color: #3b3b3b; }

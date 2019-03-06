@@ -34,6 +34,8 @@ a, h1, h2{
 }
 
 .hcPageHeaderSimple {
+	color:$colorDutchPrizePapersBlue;
+	
 	nav a:hover {
 		background-color:$colorDutchPrizePapersBlue;
 		color: #fff;
