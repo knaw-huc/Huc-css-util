@@ -926,3 +926,6 @@ a, h1, h2 {
     padding: 1rem;
     font-size: 1.2rem;
     margin-top: 1rem; }
+
+.hcDPPHeroBg .heroLogo {
+  max-width: 300px; }
