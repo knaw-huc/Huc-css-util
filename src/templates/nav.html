@@ -2,6 +2,18 @@
 {{#each pages}}
   {{#if isPage}}
     <a href="{{name}}.html">{{title}}</a><br>
+    <div class="" style="color:red">
+
+          {{#if code}}
+          <pre>
+            <code>
+            {{> (lookup . 'code') }}
+          </code>
+        </pre>
+          {{/if}}
+
+    </div>
+
   {{/if}}
 
 {{/each}}

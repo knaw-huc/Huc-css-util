@@ -21,7 +21,7 @@ const loadJsonFile = require('load-json-file');
 
 // handlebars includes folders
 var options = {
-    batch : ['./src/components/', './content/html/', './src/icons/']
+    batch : ['./src/components/', './content/html/', './src/icons/', './src/example-code/']
     }
 
 var dst =       '_dist/';
