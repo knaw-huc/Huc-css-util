@@ -57,6 +57,15 @@ pre code::before {
   color: rgb(168, 168, 168);
 }
 
+.codeRepeat {
+  color: #8c6487;
+  font-weight: 700;
+}
+
+.codeRepeat::before {
+  content: '';
+}
+
 
 .utillBlock {
   //min-height: 90vh;

@@ -43,6 +43,13 @@ pre code::before {
 .codeComment {
   color: #a8a8a8; }
 
+.codeRepeat {
+  color: #8c6487;
+  font-weight: 700; }
+
+.codeRepeat::before {
+  content: ''; }
+
 .utillBlock {
   border-bottom: 1px solid #ede8e8;
   padding-bottom: 8em;

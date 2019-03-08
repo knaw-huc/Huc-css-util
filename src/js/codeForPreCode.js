@@ -9,6 +9,9 @@ for (c = 0; c < preCodeItems.length; c++) {
   codeInner = codeInner.replace(/                  /g, "");
 
 
+  codeInner = codeInner.replace(/####~/g, '<span class="codeRepeat">');
+  codeInner = codeInner.replace(/~####/g, '</span>');
+
   codeInner = codeInner.replace(/###~/g, '<span class="codeComment">');
   codeInner = codeInner.replace(/~###/g, '</span>');
 
