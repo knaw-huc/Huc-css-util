@@ -2,9 +2,18 @@ var preCodeItems = document.getElementsByTagName("code");
 
 
 for (c = 0; c < preCodeItems.length; c++) {
-  //preCodeItems[c].style.backgroundColor = "red";
+
   var  codeInner = preCodeItems[c].innerHTML;
-  var codeInner = codeInner.replace(/</g, "&#60;");
-  var codeInner = codeInner.replace(/>/g, "&#62;");
+  codeInner = codeInner.replace(/</g, "&#60;");
+  codeInner = codeInner.replace(/>/g, "&#62;");
+  codeInner = codeInner.replace(/                  /g, "");
+
+
+  codeInner = codeInner.replace(/###~/g, '<span class="codeComment">');
+  codeInner = codeInner.replace(/~###/g, '</span>');
+
+  codeInner = codeInner.replace(/##~/g, '<span class="codeEmp">');
+  codeInner = codeInner.replace(/~##/g, '</span>');
+
   preCodeItems[c].innerHTML = codeInner;
 }

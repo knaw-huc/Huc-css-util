@@ -1,8 +1,9 @@
 <nav>
 {{#each pages}}
   {{#if isPage}}
-    <a href="{{name}}.html">{{title}}</a><br>
-    <div class="" style="color:red">
+    <h3>{{title}}</h3>
+    <a href="{{name}}.html">Go tot page</a>
+
 
           {{#if code}}
           <pre>
@@ -12,8 +13,8 @@
         </pre>
           {{/if}}
 
-    </div>
 
+<br><br><br>
   {{/if}}
 
 {{/each}}
