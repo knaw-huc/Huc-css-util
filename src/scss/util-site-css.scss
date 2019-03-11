@@ -30,6 +30,7 @@ pre code {
     display: block;
     color: rgba(#797c6d, 1);
     border: 1px solid rgba(#d0d5b6, 0.48);
+    overflow-y: scroll;
 }
 
 pre code::before {
@@ -55,15 +56,22 @@ pre code::before {
 
 .codeComment {
   color: rgb(168, 168, 168);
+  font-style: italic;
 }
 
 .codeRepeat {
-  color: #8c6487;
-  font-weight: 700;
+  color: #0079b5;
+  //font-weight: 700;
 }
 
 .codeRepeat::before {
-  content: '';
+  content: '// Start component';
+  color: #00b0b5;
+}
+
+.codeRepeat::after {
+  content: '// End component';
+  color: #00b0b5;
 }
 
 
@@ -89,4 +97,9 @@ pre code::before {
   transform-origin: left top 0px;
   overflow: scroll;
   border: 4px solid #ede8e8;
+
+  iframe {
+    width: 100%;
+    height: 800px;
+  }
 }

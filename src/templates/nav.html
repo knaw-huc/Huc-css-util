@@ -1,8 +1,12 @@
-<nav>
 {{#each pages}}
   {{#if isPage}}
     <h3>{{title}}</h3>
     <a href="{{name}}.html">Go tot page</a>
+
+
+      {{!-- <div class="scaleItem"><iframe src="{{name}}.html" class="scaleItem" border="0"></iframe></div> --}}
+
+
 
 
           {{#if code}}
@@ -13,9 +17,6 @@
         </pre>
           {{/if}}
 
-
-<br><br><br>
   {{/if}}
 
 {{/each}}
-</nav>

@@ -1,4 +1,10 @@
+###~
+// use this line for the stylesheets
+<link rel="stylesheet" href="https://huc-css-util.netlify.com/css/huc-util-dpp.css">
+~###
+
 ###~// page header~###
+####~
 <div class="hcContentContainer bgColorBrand1">
   <header class=" hcPageHeaderSimple hcBasicSideMargin">
     <div class="hcBrand">
@@ -12,54 +18,71 @@
     </nav>
   </header>
 </div>
-//content
+~####
+
+
+###~// page content~###
 <div class="hcContentContainer">
   <div class="hcHeadSpace hcBasicSideMargin">
     <h1>Search the papers</h1>
   </div>
   <div class="hcLayoutFacet-Result hcBasicSideMargin hcMarginBottom15">
     <div class="hcLayoutFacets">
-      <button type="button" name="button" id="showFacets" class="hcfixedSideButton"><img src="images/icons/icon-set-facets.svg" class="icon"></button>
+      <button type="button" name="button" id="showFacets" class="hcfixedSideButton"><img src="icon-set-facets.svg" class="icon"></button>
       <div class="hcLayoutFacetsToggel" id="hcLayoutFacetsToggel">
-      // facets here
+      ###~// code for facets~###
       </div>
     </div>
 
     <div class="hcLayoutResults">
       <div class="hcResultsHeader hcMarginBottom1">
-        <div>12.873 Results</div>
+        <div>###~// results amount~###</div>
         <div><select class="" name="">
           <option value="">Order by Date</option>
         </select></div>
       </div>
       <div class="hcMarginBottom2">
         <span class="hcSmallTxt hcTxtColorGreyMid">Selected facets:</span>
-        <span class="hcSelectedFacet"><span class="hcSelectedFacetType">Ship</span>De Spiegel</span>
+        ####~<span class="hcSelectedFacet"><span class="hcSelectedFacetType">###~// Facet name~###</span>###~// Facet item~###</span>~####
       </div>
-        // page message
+
+
+      ###~// Disclaimer message~###
+      ####~
+      <div class="hcMessageBar notificationInform hcMarginBottom1">
+        <div class="hcMessageIcon hcIcon">
+          ###~// notification information icon~###
+        </div>
+        <div class="hcMessageContent">###~// Disclaimer message~###</div>
+        <div class="hcClose hcIcon hcIconSmall">
+          <button type="button" name="button">###~// close icon~###</button>
+        </div>
+      </div>
+      ~####
+
+
       <div class="hcList hcMarginBottom2">
-
-
+        ###~// Result items~###
         ####~
-        <div class="hcListItem hcListItemBlock" onclick="location.href='dpp-detail.html';">
+        <div class="hcListItem hcListItemBlock">
             <div class="hcListItemDPPBlock colorBgGrey">
               <div class="hc2columns hcSmallTxt hcMarginBottom2">
                 <span>
-                  <div class="hcIconText"><img src="images/icons/icon-dpp-file.svg" class="icon"> <span> Book / page #</span></div>
-                  <div class="hcIconText"><img src="images/icons/icon-dpp-ship-name.svg" class="icon"> <span>shipName</span></div>
+                <div class="hcIconText"><img src="icon-dpp-file.svg" class="icon"> <span>###~// Archive / page #~###</span></div>
+                <div class="hcIconText"><img src="icon-dpp-ship-name.svg" class="icon"> <span>###~// shipname~###</span></div>
                 </span>
                 <span>
-                  <div class="hcIconText"><img src="images/icons/icon-dpp-year.svg" class="icon"> <span>CaptureDate</span></div>
-                  <div class="hcIconText"><img src="images/icons/icon-dpp-ship-captain.svg" class="icon"> <span>shipMaster</span></div>
+                <div class="hcIconText"><img src="icon-dpp-year.svg" class="icon"> <span>###~// code for capture year~###</span></div>
+                <div class="hcIconText"><img src="icon-dpp-ship-captain.svg" class="icon"> <span>###~// code for shipmaster~###</span></div>
                 </span>
               </div>
               <div>
-                // Kwic
+                ###~// code for Kwic~###
               </div>
             </div>
           <div class="hcListItemThumb">
             <div>
-              <img src="images/dpp/}">
+              <img src="">###~// code for thumbnail~###
             </div>
           </div>
         </div>
@@ -67,7 +90,22 @@
 
 
       </div>
-      //pagenation
+      ###~// code for pagination~###
+        ####~
+        <div class="hcPagination">
+          <div><a href="#">&#8592; Previous</a></div>
+          <div><a href="#">1</a></div>
+          <div class="bgColorBrand2"><a href="#">2</a></div>
+          <div><a href="#">3</a></div>
+          <div><a href="#">4</a></div>
+          <div><a href="#">5</a></div>
+          <div><a href="#">6</a></div>
+          <div><a href="#">7</a></div>
+          <div><a href="#">8</a></div>
+          <div><a href="#">Next &#8594;</a></div>
+        </div>
+        ~####
+
     </div>
 
   </div>

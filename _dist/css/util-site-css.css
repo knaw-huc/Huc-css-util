@@ -22,7 +22,8 @@ code {
 pre code {
   display: block;
   color: #797c6d;
-  border: 1px solid rgba(208, 213, 182, 0.48); }
+  border: 1px solid rgba(208, 213, 182, 0.48);
+  overflow-y: scroll; }
 
 pre code::before {
   content: "Code excample";
@@ -41,14 +42,19 @@ pre code::before {
   font-size: 1rem; }
 
 .codeComment {
-  color: #a8a8a8; }
+  color: #a8a8a8;
+  font-style: italic; }
 
 .codeRepeat {
-  color: #8c6487;
-  font-weight: 700; }
+  color: #0079b5; }
 
 .codeRepeat::before {
-  content: ''; }
+  content: '// Start component';
+  color: #00b0b5; }
+
+.codeRepeat::after {
+  content: '// End component';
+  color: #00b0b5; }
 
 .utillBlock {
   border-bottom: 1px solid #ede8e8;
@@ -68,3 +74,6 @@ pre code::before {
   transform-origin: left top 0px;
   overflow: scroll;
   border: 4px solid #ede8e8; }
+  .scaleItem iframe {
+    width: 100%;
+    height: 800px; }
