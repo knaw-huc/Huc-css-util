@@ -537,8 +537,19 @@ input, select, option, textarea {
   flex-direction: row;
   height: calc(100vh - 150px); }
 
-.hclayoutTextImageDivider:first-child {
-  flex: 4; }
+.hcViewer {
+  width: 45%; }
+
+.hcMeta {
+  max-width: 250px; }
+
+.hcText {
+  display: flex;
+  flex-direction: row;
+  justify-content: center; }
+
+.hcText > * {
+  max-width: 550px; }
 
 .navigation a {
   color: #3e3e3e;
