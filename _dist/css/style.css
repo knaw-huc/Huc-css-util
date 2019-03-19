@@ -549,7 +549,8 @@ input, select, option, textarea {
   justify-content: center; }
 
 .hcText > * {
-  max-width: 550px; }
+  max-width: 550px;
+  margin-bottom: 500px; }
 
 .navigation a {
   color: #3e3e3e;
