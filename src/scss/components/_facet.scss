@@ -23,6 +23,10 @@
   text-transform: uppercase;
   font-size: .85rem;
   font-weight: 700;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
 
 .hcFacetCount {
@@ -64,4 +68,33 @@
   color: rgba(#000000, 0.4);
   font-style: italic;
   margin-right: .3rem;
+}
+
+
+.hcFacetFilter input {
+  padding: .3rem;
+  font-size: .85rem;
+  height: auto;
+  border: 1px solid darken( $colorGreyLightBg, 4% );
+}
+
+.hcFacetFilter input::placeholder {
+  font-style: italic;
+  color: rgba(#000000, 0.4);
+}
+
+// needs to bee replaces by icons
+.hcIconHelp img{
+  width: 1.3rem;
+  height: auto;
+  cursor: pointer;
+}
+
+
+.hcFacetHelp {
+  display: none;
+  position: absolute;
+  background-color: rgb(37, 163, 154);
+  padding: .5rem;
+  width: 250px;
 }
