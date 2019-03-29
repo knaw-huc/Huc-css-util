@@ -537,8 +537,20 @@ input, select, option, textarea {
   flex-direction: row;
   height: calc(100vh - 150px); }
 
-.hclayoutTextImageDivider:first-child {
-  flex: 4; }
+.hcViewer {
+  width: 45%; }
+
+.hcMeta {
+  max-width: 250px; }
+
+.hcText {
+  display: flex;
+  flex-direction: row;
+  justify-content: center; }
+
+.hcText > * {
+  max-width: 550px;
+  margin-bottom: 500px; }
 
 .navigation a {
   color: #3e3e3e;
@@ -790,7 +802,10 @@ input, select, option, textarea {
 .hcFacetTitle {
   text-transform: uppercase;
   font-size: .85rem;
-  font-weight: 700; }
+  font-weight: 700;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between; }
 
 .hcFacetCount {
   color: #999999; }
@@ -821,6 +836,28 @@ input, select, option, textarea {
   color: rgba(0, 0, 0, 0.4);
   font-style: italic;
   margin-right: .3rem; }
+
+.hcFacetFilter input {
+  padding: .3rem;
+  font-size: .85rem;
+  height: auto;
+  border: 1px solid #f0f0f0; }
+
+.hcFacetFilter input::placeholder {
+  font-style: italic;
+  color: rgba(0, 0, 0, 0.4); }
+
+.hcIconHelp img {
+  width: 1.3rem;
+  height: auto;
+  cursor: pointer; }
+
+.hcFacetHelp {
+  display: none;
+  position: absolute;
+  background-color: #25a39a;
+  padding: .5rem;
+  width: 250px; }
 
 .hcPagination {
   display: flex;

@@ -14,6 +14,27 @@
   height: calc(100vh - 150px);
 }
 
-.hclayoutTextImageDivider:first-child {
-  flex: 4;
+
+
+.hcViewer {
+  width: 45%;
+}
+
+.hcMeta {
+  //width: 25%;
+  max-width: 250px;
+
+}
+
+.hcText {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+
+
+}
+
+.hcText >*{
+  max-width: 550px;
+  margin-bottom: 500px;
 }
