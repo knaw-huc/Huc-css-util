@@ -1,0 +1,72 @@
+{
+  "pages": [
+      {
+        "name": "Gen",
+        "template": "generate-stylesheets",
+        "title": "Generate stylesheets"
+      }
+      ,{
+      "name": "index",
+      "template": "css-util",
+      "brand": "-self",
+      "logo": "logo-knaw-humanities-cluster.png",
+      "productBar":"<a href=\"index.html\"><img src=\"images/icons/prdct-br-styles.svg\" alt=\"CSS styles\" class=\"icon\">Css Styles</a> <a href=\"util-components.html\"><img src=\"images/icons/prdct-br-components.svg\" alt=\"Components\" class=\"icon\">Components</a><a href=\"util-pages.html\"><img src=\"images/icons/prdct-br-pages.svg\" alt=\"Pages\" class=\"icon\">Pages</a>",
+      "title": "HuC Utility CSS"
+    },
+    {
+      "name": "util-components",
+      "template": "css-util-comps",
+      "logo": "logo-knaw-humanities-cluster.png",
+      "productBar":"<a href=\"index.html\"><img src=\"images/icons/prdct-br-styles.svg\" alt=\"CSS styles\" class=\"icon\">Css Styles</a> <a href=\"util-components.html\"><img src=\"images/icons/prdct-br-components.svg\" alt=\"Components\" class=\"icon\">Components</a><a href=\"util-pages.html\"><img src=\"images/icons/prdct-br-pages.svg\" alt=\"Pages\" class=\"icon\">Pages</a>",
+      "brand": "-self",
+      "title": "Components"
+    },
+    {
+      "name": "util-pages",
+      "template": "css-util-pages",
+      "logo": "logo-knaw-humanities-cluster.png",
+      "productBar":"<a href=\"index.html\"><img src=\"images/icons/prdct-br-styles.svg\" alt=\"CSS styles\" class=\"icon\">Css Styles</a> <a href=\"util-components.html\"><img src=\"images/icons/prdct-br-components.svg\" alt=\"Components\" class=\"icon\">Components</a><a href=\"util-pages.html\"><img src=\"images/icons/prdct-br-pages.svg\" alt=\"Pages\" class=\"icon\">Pages</a>",
+      "brand": "-self",
+      "title": "Pages"
+    },
+    {
+      "name": "all-elements-on-page",
+      "template": "all-elements",
+      "brand": "-huygens",
+      "logo": "logo-timbuctoo.svg",
+      "isPage": true,
+      "title": "HuC | All elements page"
+    },
+    {
+      "name": "multiple",
+      "template": "multiple",
+      "brand": "-self",
+      "logo": "logo-knaw-humanities-cluster.png",
+      "isPage": true,
+      "title": "HuC | Multiple items page",
+      "fileList":[
+        {{> list-files}}
+                ]
+
+    },
+    {
+      "name": "tim-edit",
+      "template": "tim-edit",
+      "brand": "-huygens",
+      "logo": "logo-timbuctoo.svg",
+      "productBar":"<a href=\"#\"><img src=\"images/icons/prdct-br-pages.svg\" alt=\"Pages\" class=\"icon\">Account</a><a href=\"#\"><img src=\"images/icons/prdct-br-pages.svg\" alt=\"Pages\" class=\"icon\">Datasets</a> <a href=\"#\" class=\"sub\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;DWC</a> <a href=\"#\" class=\"sub\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Chaterbank</a> <a href=\"#\" class=\"sub\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Biographical Portal</a><a href=\"#\" class=\"sub\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;New Dataset</a>",
+      "isPage": true,
+      "title": "Timbuctoo | Edit screen"
+    },
+    {{> pages-dpp}}
+    {
+      "name": "ga-home",
+      "template": "ga-home",
+      "brand": "-ga",
+      "logo": "logo-golden-agents.svg",
+      "productBar":"<a href=\"#\"><img src=\"images/icons/prdct-br-pages.svg\" alt=\"Pages\" class=\"icon\">Account</a><a href=\"#\"><img src=\"images/icons/prdct-br-pages.svg\" alt=\"Pages\" class=\"icon\">Datasets</a> <a href=\"#\" class=\"sub\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;DWC</a> <a href=\"#\" class=\"sub\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Chaterbank</a> <a href=\"#\" class=\"sub\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Biographical Portal</a><a href=\"#\" class=\"sub\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;New Dataset</a>",
+      "isPage": true,
+      "title": "Golden Agents | Home"
+    }
+  ]
+}

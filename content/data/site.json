@@ -30,20 +30,6 @@
       "title": "Pages"
     },
     {
-      "name": "wp-wordpres-text",
-      "template": "wp-basic-text",
-      "brand": "-huc",
-      "isPage": false,
-      "title": "Wordpress"
-    },
-    {
-      "name": "basic-form",
-      "template": "basic-form",
-      "brand": "-clariah",
-      "isPage": false,
-      "title": "Form elements"
-    },
-    {
       "name": "all-elements-on-page",
       "template": "all-elements",
       "brand": "-huygens",
@@ -59,47 +45,47 @@
       "isPage": true,
       "title": "HuC | Multiple items page",
       "fileList":[
-                  {
-                    "file-name": "File-text.txt",
-                    "file-path": "c://docs/folder/otherfolder/folder-def/",
-                    "file-type": "Plain text",
-                    "file-user": "John",
-                    "file-date": "21-12-2017"
-                  },
-                  {
-                    "file-name": "Onthology.txt",
-                    "file-path": "c://docs/folder/otherfolder/folder-def/",
-                    "file-type": "Plain text",
-                    "file-user": "Paul",
-                    "file-date": "21-12-2017"
-                  },
-                  {
-                    "file-name": "Results.txt",
-                    "file-path": "c://docs/folder/otherfolder/folder-def/",
-                    "file-type": "Plain text",
-                    "file-user": "George",
-                    "file-date": "21-12-2017"
-                  },{
-                    "file-name": "File-text.txt",
-                    "file-path": "c://docs/folder/otherfolder/folder-def/",
-                    "file-type": "Plain text",
-                    "file-user": "Ringo",
-                    "file-date": "21-12-2017"
-                  },
-                  {
-                    "file-name": "Onthology.txt",
-                    "file-path": "c://docs/folder/otherfolder/folder-def/",
-                    "file-type": "Plain text",
-                    "file-user": "Paul",
-                    "file-date": "21-12-2017"
-                  },
-                  {
-                    "file-name": "Results.txt",
-                    "file-path": "c://docs/folder/otherfolder/folder-def/",
-                    "file-type": "Plain text",
-                    "file-user": "George",
-                    "file-date": "21-12-2017"
-                    }
+        {
+          "file-name": "File-text.txt",
+          "file-path": "c://docs/folder/otherfolder/folder-def/",
+          "file-type": "Plain text",
+          "file-user": "John",
+          "file-date": "21-12-2017"
+        },
+        {
+          "file-name": "Onthology.txt",
+          "file-path": "c://docs/folder/otherfolder/folder-def/",
+          "file-type": "Plain text",
+          "file-user": "Paul",
+          "file-date": "21-12-2017"
+        },
+        {
+          "file-name": "Results.txt",
+          "file-path": "c://docs/folder/otherfolder/folder-def/",
+          "file-type": "Plain text",
+          "file-user": "George",
+          "file-date": "21-12-2017"
+        },{
+          "file-name": "File-text.txt",
+          "file-path": "c://docs/folder/otherfolder/folder-def/",
+          "file-type": "Plain text",
+          "file-user": "Ringo",
+          "file-date": "21-12-2017"
+        },
+        {
+          "file-name": "Onthology.txt",
+          "file-path": "c://docs/folder/otherfolder/folder-def/",
+          "file-type": "Plain text",
+          "file-user": "Paul",
+          "file-date": "21-12-2017"
+        },
+        {
+          "file-name": "Results.txt",
+          "file-path": "c://docs/folder/otherfolder/folder-def/",
+          "file-type": "Plain text",
+          "file-user": "George",
+          "file-date": "21-12-2017"
+          }
                 ]
 
     },
@@ -141,77 +127,77 @@
       "code": "code-dpp-search",
       "messageTxt": "Please note that the content is organised by archive folder. This may affect your results. <a href=\"#\">Learn more about the structure of the archive.</a>",
       "facets": [
-                  {
-                    "facetName": "Text search",
-                    "facetTypeSearch": true
-                  },
-                  {
-                    "facetName": "Ship",
-                    "facetTypelist": true,
-                    "facetItems": [
-                      {"facetItemsName": "De Spiegel"},
-                      {"facetItemsName": "Provincie van Utrecht"},
-                      {"facetItemsName": "Het Geloof"},
-                      {"facetItemsName": "Middelburg"},
-                      {"facetItemsName": "Edam"}
-                    ]
-                  },
-                  {
-                    "facetName": "Shipmaster",
-                    "facetTypelist": true,
-                    "facetItems": [
-                      {"facetItemsName": "Michiel de Ruyter"},
-                      {"facetItemsName": "Gideon de Wildt"},
-                      {"facetItemsName": "Willem van der Zaan"},
-                      {"facetItemsName": "Isaack Sweers"},
-                      {"facetItemsName": "Swart"}
-                    ]
-                  },
-                  {
-                    "facetName": "Capture date",
-                    "facetTypeRange": true,
-                    "startVal": 1600,
-                    "endVal": 1799
-                  },
-                  {
-                    "facetName": "Archive file",
-                    "facetTypeRange": true,
-                    "startVal": 1600,
-                    "endVal": 1799
-                  },
-                  {
-                    "facetName": "Language",
-                    "facetTypelist": true,
-                    "facetItems": [
-                      {"facetItemsName": "nl"},
-                      {"facetItemsName": "fr"},
-                      {"facetItemsName": "en"},
-                      {"facetItemsName": "la"},
-                      {"facetItemsName": "it"}
-                    ]
-                  },
-                  {
-                    "facetName": "Persons",
-                    "facetTypelist": true,
-                    "facetItems": [
-                      {"facetItemsName": "Candy"},
-                      {"facetItemsName": "Chin"},
-                      {"facetItemsName": "Hendrik"},
-                      {"facetItemsName": "Long"},
-                      {"facetItemsName": "Willem"}
-                    ]
-                  },
-                  {
-                    "facetName": "Locations",
-                    "facetTypelist": true,
-                    "facetItems": [
-                      {"facetItemsName": "Wed"},
-                      {"facetItemsName": "Keizersgraft"},
-                      {"facetItemsName": "Comp"},
-                      {"facetItemsName": "Heeregraft"},
-                      {"facetItemsName": "Den"}
-                    ]
-                  }
+        {
+          "facetName": "Text search",
+          "facetTypeSearch": true
+        },
+        {
+          "facetName": "Ship",
+          "facetTypelist": true,
+          "facetItems": [
+            {"facetItemsName": "De Spiegel"},
+            {"facetItemsName": "Provincie van Utrecht"},
+            {"facetItemsName": "Het Geloof"},
+            {"facetItemsName": "Middelburg"},
+            {"facetItemsName": "Edam"}
+          ]
+        },
+        {
+          "facetName": "Shipmaster",
+          "facetTypelist": true,
+          "facetItems": [
+            {"facetItemsName": "Michiel de Ruyter"},
+            {"facetItemsName": "Gideon de Wildt"},
+            {"facetItemsName": "Willem van der Zaan"},
+            {"facetItemsName": "Isaack Sweers"},
+            {"facetItemsName": "Swart"}
+          ]
+        },
+        {
+          "facetName": "Capture date",
+          "facetTypeRange": true,
+          "startVal": 1600,
+          "endVal": 1799
+        },
+        {
+          "facetName": "Archive file",
+          "facetTypeRange": true,
+          "startVal": 1600,
+          "endVal": 1799
+        },
+        {
+          "facetName": "Language",
+          "facetTypelist": true,
+          "facetItems": [
+            {"facetItemsName": "nl"},
+            {"facetItemsName": "fr"},
+            {"facetItemsName": "en"},
+            {"facetItemsName": "la"},
+            {"facetItemsName": "it"}
+          ]
+        },
+        {
+          "facetName": "Persons",
+          "facetTypelist": true,
+          "facetItems": [
+            {"facetItemsName": "Candy"},
+            {"facetItemsName": "Chin"},
+            {"facetItemsName": "Hendrik"},
+            {"facetItemsName": "Long"},
+            {"facetItemsName": "Willem"}
+          ]
+        },
+        {
+          "facetName": "Locations",
+          "facetTypelist": true,
+          "facetItems": [
+            {"facetItemsName": "Wed"},
+            {"facetItemsName": "Keizersgraft"},
+            {"facetItemsName": "Comp"},
+            {"facetItemsName": "Heeregraft"},
+            {"facetItemsName": "Den"}
+          ]
+        }
       ],
       "results": [
         {

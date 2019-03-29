@@ -1,6 +1,8 @@
 // npm i
 // npm audit fix --force
 
+// gulp json
+
 var gulp = require('gulp');
 var sass = require('gulp-sass');
 var plumber = require('gulp-plumber');
@@ -21,7 +23,7 @@ const loadJsonFile = require('load-json-file');
 
 // handlebars includes folders
 var options = {
-    batch : ['./src/components/', './content/html/', './src/icons/', './src/example-code/']
+    batch : ['./src/components/', './content/html/', './src/icons/', './src/example-code/', './content/data/json-files/']
     }
 
 var dst =       '_dist/';
@@ -68,6 +70,19 @@ gulp.task('clean', function () {
         .pipe(plumber())
         .pipe(clean())
 });
+
+
+gulp.task('json', function(done) {
+  var prejson = [];
+
+  gulp.src('./content/data/templ-site.html')
+      .pipe(plumber())
+      .pipe(handlebars(prejson, options))
+      .pipe(rename('site.json'))
+      .pipe(gulp.dest('content/data/'));
+  done();
+});
+
 
 
 gulp.task('md', function() {
