@@ -1,31 +1,52 @@
 {{> html-head}}
-<link rel="stylesheet" href="css/util-site-css.css">
-<div class="hcLayoutBasicMainFixedAside">
-  <aside class="hcLayoutAside">
 
 
-    <div class="asideWithProductBar">
-      {{> page-product-bar}}
-      <div class="colorBgGrey hcBlockScroll hcBasicSideMargin">
-        <div class="hcHeadSpace">
-
-        </div>
-        <nav id="navigationFromHeaders" class="navigation hcAlignVertical"></nav>
-      </div>
-    </div>
-  </aside>
-
-
-
-  <div class="hcLayoutMain hcContentContainer ">
-    <div class="hcHeadSpace hcBasicSideMargin">
-      <h1>Multiple items</h1>
-    </div>
-    <div class="hcBasicSideMargin">
-      {{> list}}
+<div class="hcContentContainer bgColorBrand1">
+  <header class=" hcPageHeaderSimple hcBasicSideMargin">
+    <div class="hcBrand">
+      <div class="hcBrandLogo"><img src="images/{{logo}}" class="logo"></div>
+      <div class="hcBrandName">Dutch Prize Papers</div>
     </div>
 
+    <nav>
+      <a href="dpp-home.html">Home</a>
+      <a href="dpp-search.html">Search the papers</a>
+      <a href="dpp-text.html">About</a>
+    </nav>
+  </header>
+</div>
+
+<div class="hcContentContainer">
+  <div class="hcHeadSpace hcBasicSideMargin">
+    <h1>About the Dutch Prize Papers</h1>
   </div>
+  <div class="hcBlockText hcBasicSideMargin hcMarginBottom15">
+    <h2>About Dutch Prize Papers</h2>
+
+    <p>The Prize Papers are documents seized by British navy and privateers from enemy ships in the period 1652-1815. Approximately a quarter of the Prize Papers originates from Dutch ships. Apart from ship’s journals, lists of cargo, accounts, plantation lists and interrogations of crew members, this collection also contains approximately 38,000 business and private letters. The letters originate from all social strata of society and most of them never reached their intended destination. A description of the project is on <a href="https://www.huygens.knaw.nl/dutch-prize-papers/?lang=en">Huygens ING website</a>.</p>
+    <p>A substantial subsidy by Metamorfoze, the national programme for the preservation of paper heritage, made it possible to preserve and digitise a small selection of especially Dutch documents.</p>
+    <p>In order to make all digitised material accessible, Huygens ING is developing a Virtual Research Environment (VRE), that has been financed by Samenwerkende Maritieme Fondsen (SMF).</p>
+
+    <a name="organiation" id="organiation"></a><h2>Organisation of the archive</h2>
+    <p>The Prize Papers are kept in the Archive of the High Court of Admiralty (HCA) in The National Archives in Kew, London. Two series have been selected:</p>
+    <ul>
+      <li><a href="https://discovery.nationalarchives.gov.uk/details/r/C8628">HCA 30 series consists of miscellaneous Admiralty papers</a>.</li>
+      <li> <a href="https://discovery.nationalarchives.gov.uk/details/r/C8630">HCA 32 series consists of papers relating to cases concerning ships captured.</a></li>
+    </ul>
+
+    <img src="images/dpp/dpp-illu.jpg" alt="" class="hcMarginTop1">
+    <p class="hcSmallTxt hcTxtColorGreyMid hcMarginBottom1 ">Photo: Erik van der Doe </p>
+
+    <h2>Metadata</h2>
+    <p>DPP project is work in progress. The first step to disclosure all selected documents are so-called metadata.</p>
+    <p>These key terms include ship name(s), ship master(s), capture date and are based on descriptions made by The National Archives.</p>
+    <p>We will endeavour to complete the data.</p>
+
+    <h2>Contact</h2>
+    <a href="mailto:prizepapers@huygens.knaw.nl">prizepapers@huygens.knaw.nl</a>
+  </div>
+
+</div>
 
   <!-- build:js js/util.js -->
       <script type="text/javascript" src="../js/headers-to-subnavigation.js"></script>
