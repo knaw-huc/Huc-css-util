@@ -1,13 +1,13 @@
-<li class="hcMarginBottom1">
+<li class="hcRowCard">
   <div class="hcListItemLong">
     <div> <strong>{{name}}</strong> </div>
     <div class="hcTxtColorGreyMid">{{description}}</div>
-    <div class="">
-      {{#each objects}}
-        {{this}} /
-      {{/each}}
 
-    </div>
+  </div>
+  <div class="">
+    {{#each objects}}
+      <span class="hcTimEntity">{{this}}</span>
+    {{/each}}
   </div>
   <div>{{status}}</div>
 </li>
