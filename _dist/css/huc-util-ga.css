@@ -212,6 +212,11 @@ strong {
   margin: 0 -1rem .5rem -1rem;
   border-radius: 2px; }
 
+.hcRowCard > * {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start; }
+
 .hcMessageBar {
   display: flex;
   flex-direction: row;
@@ -398,11 +403,15 @@ input, select, option, textarea {
 
 .hcTimEntity {
   font-size: .85rem;
-  padding: .3rem .5rem;
+  padding: .0rem .5rem;
   border: 1px solid #babbb6;
   border-radius: .5rem;
   color: #babbb6;
   margin: 0 .5rem .5rem 0; }
+
+.hcPartnerLogo img {
+  width: 100px !important;
+  height: auto !important; }
 
 .hcContentContainer {
   display: flex;
@@ -937,7 +946,7 @@ a {
   color: #075446; }
 
 .colorBgGrey {
-  background-color: rgba(7, 84, 70, 0.1) !important; }
+  background-color: rgba(7, 84, 70, 0.05) !important; }
 
 .hcBrandLogo img {
   height: 40px; }
