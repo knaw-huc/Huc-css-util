@@ -1,0 +1,32 @@
+{{> html-head}}
+
+<div class="hcContentContainer">
+  <div class="hcHeadSpace hcBasicSideMargin">
+    <h1>Datasets</h1>
+  </div>
+</div>
+
+<div class="hcContentContainer colorBgGrey">
+  <div class="hcBasicSideMargin">
+
+    <div class="hcList">
+      <div class="hcListHeader">
+        <div class="hcSmallTxt hcTxtColorGreyMid hcListItemLong">Name</div>
+        <div class="hcSmallTxt hcTxtColorGreyMid">Status</div>
+      </div>
+    </div>
+
+    <ul class="hcList">
+      {{#each datasets}}
+        {{> list-items/list-tim-dataset-basic}}
+      {{/each}}
+    </ul>
+
+  </div>
+</div>
+
+
+
+<!-- build:js js/form.js   (lookup . 'listComponents')    -->
+<!-- endbuild -->
+{{> html-footer}}

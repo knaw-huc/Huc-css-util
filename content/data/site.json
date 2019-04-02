@@ -211,11 +211,11 @@
           "Kwic": "<div class=\"hcTextSnippit hcMarginBottom1\">EA De Koffy en <span class=\"hcKwic\">Suiker</span> als boven verkogt: Zullen door de Koopers van Batavia</div><div class=\"hcTextSnippit hcMarginBottom1\">D.,Omme, ingevalle eenige Scheepen tot afhaal van gezegde Koffy en <span class=\"hcKwic\">Suiker</span> op de EE moeten afgehaald zyn,<span class=\"hcKwic\">Suiker</span>, boven de van denzelven Eigenaar bedongen Kooppenningen.</div>"
         },
         {
-          "shipName": "De Spiegel<br>Provincie van Utrecht<br>Het Geloof<br>Middelburg<br>Edam<br>Damiaten<br>Princes Louise<br>Rotterdam<br>Het Wapen van Rotterdam<br>Harderwijk",
-          "shipMaster": "Michiel de Ruyter<br>Gideon de Wildt<br>Willem van der Zaan<br>Isaack Sweers<br>Swart<br>Hendrik Adriaenszn. Stavoren<br>Aert Jansz. van Nes<br>Leendert Ariensz. Haexwant<br>Unknown master 30-1050<br>Jan Jansz. van Nes",
+          "shipName": "Provincie van Utrecht<br>De Spiegel<br>Het Geloof",
+          "shipMaster": "Gideon de Wildt",
           "Book": "HCA32-155",
           "Page": 3,
-          "CaptureDate": "1665<br>1666<br>1667",
+          "CaptureDate": "1665",
           "Image": "NL-HaNA_2.22.24_HCA32-1511_0080.jpg",
           "ImagePath": "https://images.huygens.knaw.nl/iiif/NL-HaNA_2.22.24/HCA32-1511/NL-HaNA_2.22.24_HCA32-1511_0080.tif",
           "Kwic": "<div class=\"hcTextSnippit hcMarginBottom1\">Schepen zullen te Batavia geenfints mogen worden opgehouden het zy in het EE De meergemelde Koffy en <span class=\"hcKwic\">Suiker</span></div>"
@@ -303,21 +303,137 @@
       "thumbs": [{"thumb": "NL-HaNA_2.22.24_HCA32-1511_0077.jpg"},{"thumb": "NL-HaNA_2.22.24_HCA32-1511_0080.jpg"},{"thumb": "NL-HaNA_2.22.24_HCA32-1511_0080.jpg"},{"thumb": "NL-HaNA_2.22.24_HCA32-1511_0080.jpg"}],
       "shipName": "Het Geloof",
       "shipMaster": "Willem van der Zaan",
-      "ImagePath": "https://images.huygens.knaw.nl/iiif/NL-HaNA_2.22.24/HCA32-797.34A/NL-HaNA_2.22.24_HCA32-797.34A_0117.tif",
       "CaptureDate": "1690",
       "Book": "HCA32-200",
-      "Language":"Fr",
       "Page": 3,
-      "Content-txt": "<p>Contested cause. Captured ship: Johannes und Maria Magdalena of Altona (master Johannes LorenzLangenberg).</p><p>History: a Danish ship, bound from the Texel, Amsterdam, to Surinam, laden with brick, tiles, lime, cheese, butter and geneva [gin]; taken on 28 July 1796 about 11 leagues west of the Skelligs of the coast of Ireland by HMS Magnanime (Michael De Courcy | commanding), and brought first into Cork and then into Plymouth.</p><p>Documents:</p><p>Nos 1-33: ship's papers; Nos 34-165: mail in transit from the Netherlands to Surinam (these letters were opened and numbered bythe court).</p><p>1796</p><p>Contested cause. Captured ship: Johannes und Maria Magdalena of Altona (master Johannes LorenzLangenberg).</p><p>History: a Danish ship, bound from the Texel, Amsterdam, to Surinam, laden with brick, tiles, lime, cheese, butter and geneva [gin]; taken on 28 July 1796 about 11 leagues west of the Skelligs of the coast of Ireland by HMS Magnanime (Michael De Courcy | commanding), and brought first into Cork and then into Plymouth.</p><p>Documents:</p><p>Nos 1-33: ship's papers; Nos 34-165: mail in transit from the Netherlands to Surinam (these letters were opened and numbered bythe court).</p><p>1796</p><br><br><br><br><br>"
+      "Content-txt": "<p>Contested cause. Captured ship: Johannes und Maria Magdalena of Altona (master Johannes LorenzLangenberg).</p><p>History: a Danish ship, bound from the Texel, Amsterdam, to Surinam, laden with brick, tiles, lime, cheese, butter and geneva [gin]; taken on 28 July 1796 about 11 leagues west of the Skelligs of the coast of Ireland by HMS Magnanime (Michael De Courcy | commanding), and brought first into Cork and then into Plymouth.</p><p>Documents:</p><p>Nos 1-33: ship's papers; Nos 34-165: mail in transit from the Netherlands to Surinam (these letters were opened and numbered bythe court).</p><p>1796</p>"
     },
     {
       "name": "ga-home",
-      "template": "ga-home",
+      "template": "timbuctoo/tim-01-all-datasets",
       "brand": "-ga",
       "logo": "logo-golden-agents.svg",
-      "productBar":"<a href=\"#\"><img src=\"images/icons/prdct-br-pages.svg\" alt=\"Pages\" class=\"icon\">Account</a><a href=\"#\"><img src=\"images/icons/prdct-br-pages.svg\" alt=\"Pages\" class=\"icon\">Datasets</a> <a href=\"#\" class=\"sub\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;DWC</a> <a href=\"#\" class=\"sub\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Chaterbank</a> <a href=\"#\" class=\"sub\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Biographical Portal</a><a href=\"#\" class=\"sub\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;New Dataset</a>",
       "isPage": true,
-      "title": "Golden Agents | Home"
+      "favi":"favi-ga.png",
+      "title": "Golden Agents | All Datasets",
+      "datasets": [
+      {
+        "name": "Stadsarchief: index op kwijtscheldingen",
+        "description": "+25,000 matches, +10,000 players, 11 European Countries with their lead championship, Seasons 2008 to 2016, Players and Teams' attributes* sourced from EA Sports' FIFA video game series, including the weekly updates",
+        "status": "completed",
+        "objects": [ "Persons", "Locations", "Properties", "Organisations"]
+      },{
+        "name": "Stadsarchief: index op doopregister",
+        "description": "+25,000 matches, +10,000 players, 11 European Countries with their lead championship, Seasons 2008 to 2016, Players and Teams' attributes* sourced from EA Sports' FIFA video game series, including the weekly updates",
+        "status": "completed",
+        "objects": [ "Persons", "Doopregister"]
+      },{
+        "name": "LinkSet: 20181030"
+      },{
+        "name": "Stadsarchief: index op confessieboeken",
+        "description": "+25,000 matches, +10,000 players, 11 European Countries with their lead championship, Seasons 2008 to 2016, Players and Teams' attributes* sourced from EA Sports' FIFA video game series, including the weekly updates",
+        "status": "completed",
+        "objects": [ "Persons", "Locations", "Confessieboeken"]
+      },{
+        "name": "Stadsarchief: Notarieel Archief",
+        "description": "+25,000 matches, +10,000 players, 11 European Countries with their lead championship, Seasons 2008 to 2016, Players and Teams' attributes* sourced from EA Sports' FIFA video game series, including the weekly updates",
+        "status": "completed",
+        "objects": [ "Persons", "Locations", "Voogdij", "Contract", "Uitspraak", "Boedelinventaris", "Hypotheek"]
+      },{
+        "name": "Stadsarchief: index op begraafregisters voor 1811",
+        "description": "+25,000 matches, +10,000 players, 11 European Countries with their lead championship, Seasons 2008 to 2016, Players and Teams' attributes* sourced from EA Sports' FIFA video game series, including the weekly updates",
+        "status": "completed"
+      },{
+        "name": "LinkSet: Alignment STCN-Onstage 1"
+      },{
+        "name": "Onstage",
+        "description": "+25,000 matches, +10,000 players, 11 European Countries with their lead championship, Seasons 2008 to 2016, Players and Teams' attributes* sourced from EA Sports' FIFA video game series, including the weekly updates",
+        "status": "completed"
+      },{
+        "name": "Ecartico",
+        "description": "+25,000 matches, +10,000 players, 11 European Countries with their lead championship, Seasons 2008 to 2016, Players and Teams' attributes* sourced from EA Sports' FIFA video game series, including the weekly updates",
+        "status": "completed"
+      },{
+        "name": "Stadsarchief: index op poorterboeken",
+        "description": "+25,000 matches, +10,000 players, 11 European Countries with their lead championship, Seasons 2008 to 2016, Players and Teams' attributes* sourced from EA Sports' FIFA video game series, including the weekly updates",
+        "status": "completed"
+      },{
+        "name": "Rijksmuseum",
+        "description": "+25,000 matches, +10,000 players, 11 European Countries with their lead championship, Seasons 2008 to 2016, Players and Teams' attributes* sourced from EA Sports' FIFA video game series, including the weekly updates",
+        "status": "completed"
+      },{
+        "name": "Stadsarchief: index op ondertrouwregister",
+        "description": "+25,000 matches, +10,000 players, 11 European Countries with their lead championship, Seasons 2008 to 2016, Players and Teams' attributes* sourced from EA Sports' FIFA video game series, including the weekly updates",
+        "status": "completed"
+      },{
+        "name": "LinkSet: Alignment STCN-Onstage 2"
+      },{
+        "name": "Stadsarchief: index op boetes op trouwen en begraven",
+        "description": "+25,000 matches, +10,000 players, 11 European Countries with their lead championship, Seasons 2008 to 2016, Players and Teams' attributes* sourced from EA Sports' FIFA video game series, including the weekly updates",
+        "status": "completed"
+      },{
+        "name": "STCN: Short-Title Catalogue Netherlands",
+        "description": "+25,000 matches, +10,000 players, 11 European Countries with their lead championship, Seasons 2008 to 2016, Players and Teams' attributes* sourced from EA Sports' FIFA video game series, including the weekly updates",
+        "status": "completed"
+      },{
+        "name": "lenticular_lenses_linkset"
+      }
+    ]
+    
+    },
+    {
+      "name": "ga-one-datset",
+      "template": "timbuctoo/tim-02-dataset-landingspage",
+      "brand": "-ga",
+      "logo": "logo-golden-agents.svg",
+      "isPage": true,
+      "favi":"favi-ga.png",
+      "title": "Golden Agents | Dataset landingspage"
+    },
+    {
+      "name": "ga-collection-search",
+      "template": "timbuctoo/tim-03-collection-search",
+      "brand": "-ga",
+      "logo": "logo-golden-agents.svg",
+      "isPage": true,
+      "favi":"favi-ga.png",
+      "title": "Golden Agents | Search in collection"
+    },
+    {
+      "name": "ga-collection-detail",
+      "template": "timbuctoo/tim-04-collection-detail",
+      "brand": "-ga",
+      "logo": "logo-golden-agents.svg",
+      "isPage": true,
+      "favi":"favi-ga.png",
+      "title": "Golden Agents | Collection item detail page"
+    },
+    {
+      "name": "emlo-one-datset",
+      "template": "timbuctoo/tim-02-dataset-landingspage",
+      "brand": "-emlo",
+      "logo": "emlo-logo.png",
+      "isPage": true,
+      "favi":"favi-emlo.png",
+      "title": "Emlo | EM Places"
+    },
+    {
+      "name": "emlo-collection-search",
+      "template": "timbuctoo/tim-03-collection-search",
+      "brand": "-emlo",
+      "logo": "emlo-logo.png",
+      "isPage": true,
+      "favi":"favi-emlo.png",
+      "title": "Emlo | EM Places Search"
+    },
+    {
+      "name": "emlo-collection-detail",
+      "template": "timbuctoo/tim-04-collection-detail",
+      "brand": "-emlo",
+      "logo": "emlo-logo.png",
+      "isPage": true,
+      "favi":"favi-emlo.png",
+      "title": "Emlo | EM Places detail page"
     }
   ]
 }

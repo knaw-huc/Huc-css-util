@@ -1,0 +1,74 @@
+{{> html-head}}
+
+<div class="hcLayoutBasicMainFixedAside">
+  <aside class="hcLayoutAside">
+    <div class="asideWithProductBar">
+      {{> page-product-bar}}
+      <div class="colorBgGrey hcBlockScroll hcBasicSideMargin">
+        <div class="hcHeadSpace">
+          Digital Web Centre <br>for the History of Science
+        </div>
+        <!-- <div class="hcLoginInfo">
+          Bas Doppen
+        </div> -->
+
+        <nav id="navigationFromHeaders" class="navigation hcAlignVertical">
+        <a href="#"><em>Collections</em></a>
+        <a href="#">Places</a>
+        <a href="#">ProvenanceType</a>
+        <a href="#">Education</a>
+        <a href="#">Biography</a>
+        <a href="#">Membership</a>
+        <a href="#">Authorship</a>
+        <a href="#">Persons</a>
+        <button>Add collection</button>
+
+
+        </nav>
+      </div>
+    </div>
+  </aside>
+
+
+
+  <div class="hcLayoutMain hcContentContainer hcMarginBottom15">
+    <div class="hcHeadSpace hcBasicSideMargin">
+      <h1>Edit DWC dataset</h1>
+    </div>
+
+
+    <div class="hcForm hcBasicSideMargin">
+      <!--  Form stack-->
+      {{> comp-form-stack stackName="Dataset" stackDescription="Give other researchers information about your dataset."}}
+      {{> comp-form-stack stackName="Account Settings" stackDescription="Here you can update yor personal settings."}}
+
+    </div>
+
+
+
+
+
+
+  </div>
+  <!--  sticky footer-->
+  <div class="hcStickyFooter hcContentContainer">
+    <div class="hcBasicSideMargin colorBgGreyPlus">
+      <div class="buttons-infoot">
+
+      </div>
+      <div class="buttons-infoot">
+        <button>Save</button>
+        <button>Cancel</button>
+      </div>
+
+    </div>
+
+
+  </div>
+</div>
+
+
+<!-- build:js js/form.js -->
+    <script type="text/javascript" src="../js/form-provenance.js"></script>
+<!-- endbuild -->
+{{> html-footer}}
