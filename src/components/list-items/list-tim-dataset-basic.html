@@ -6,7 +6,10 @@
   </div>
   <div class="">
     {{#each objects}}
-      <span class="hcTimEntity">{{this}}</span>
+      <span class="hcDatasetEntity">
+        <span>{{objectName}}</span>
+        <span class="hcDatasetEntityAmount">{{objectAmount}}</span>
+      </span>
     {{/each}}
   </div>
   <div class="hcPartnerLogo">

@@ -1,5 +1,19 @@
 {{> html-head}}
 
+<div class="hcContentContainer bgColorBrand1">
+  <header class=" hcPageHeaderSimple hcBasicSideMargin">
+    <a href="dpp-home.html" class="hcBrand">
+      <div class="hcBrandLogo"><img src="images/{{logo}}" class="logo"></div>
+
+    </a>
+
+    <nav>
+      <a href="dpp-home.html">All datasets</a>
+      <a href="dpp-text.html">About</a>
+    </nav>
+  </header>
+</div>
+
 <div class="hcContentContainer">
   <div class="hcHeadSpace hcBasicSideMargin">
     <h1>Datasets</h1>
@@ -21,7 +35,7 @@
       {{#each datasets}}
         {{> list-items/list-tim-dataset-basic}}
       {{/each}}
-    </ul>
+    </ul> 
 
   </div>
 </div>
