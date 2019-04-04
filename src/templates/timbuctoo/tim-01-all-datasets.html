@@ -1,31 +1,23 @@
 {{> html-head}}
 
-<div class="hcContentContainer bgColorBrand1">
-  <header class=" hcPageHeaderSimple hcBasicSideMargin">
-    <a href="dpp-home.html" class="hcBrand">
-      <div class="hcBrandLogo"><img src="images/{{logo}}" class="logo"></div>
+{{> page-product-header}}
 
-    </a>
 
-    <nav>
-      <a href="dpp-home.html">All datasets</a>
-      <a href="dpp-text.html">About</a>
-    </nav>
-  </header>
-</div>
-
-<div class="hcContentContainer">
-  <div class="hcHeadSpace hcBasicSideMargin">
-    <h1>Datasets</h1>
+<div class="hcContentContainer hcMarginBottom5">
+  <div class="hcBasicSideMargin">
+    <h1>{{project-name}}</h1>
+    <p>{{{project-description}}}</p>
+    <p>These datasets are powered by <a href="#">Timbuctoo</a>.</p>
   </div>
 </div>
 
-<div class="hcContentContainer colorBgGrey">
+<div class="hcContentContainer colorBgGrey" onclick="javascript:location.href='{{linkResultPage}}.html'">
   <div class="hcBasicSideMargin hcMarginTop2  hcMarginBottom5">
+    <h2>The datasets of {{project-name}}</h2>
 
     <div class="hcList">
       <div class="hcListHeader">
-        <div class="hcSmallTxt hcTxtColorGreyMid hcListItemLong">Datasetname</div>
+        <div class="hcSmallTxt hcTxtColorGreyMid hcListItemLong">Name / description</div>
         <div class="hcSmallTxt hcTxtColorGreyMid">Entities</div>
         <div class="hcSmallTxt hcTxtColorGreyMid">Created by</div>
       </div>
@@ -35,7 +27,7 @@
       {{#each datasets}}
         {{> list-items/list-tim-dataset-basic}}
       {{/each}}
-    </ul> 
+    </ul>
 
   </div>
 </div>
@@ -43,6 +35,6 @@
 
 
 
-<!-- build:js js/form.js   (lookup . 'listComponents')    -->
+<!-- build:js js/form.js    -->
 <!-- endbuild -->
 {{> html-footer}}

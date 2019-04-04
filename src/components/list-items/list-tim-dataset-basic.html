@@ -1,14 +1,14 @@
 <li class="hcRowCard">
   <div class="hcListItemLong">
-    <div> <strong>{{name}}</strong> </div>
-    <div class="hcTxtColorGreyMid">{{description}}</div>
+    <div> <strong>{{name}}</strong></div>
+    <div class="hcTxtColorGreyMid">{{{description}}}</div>
 
   </div>
   <div class="">
-    {{#each objects}}
+    {{#each collections}}
       <span class="hcDatasetEntity">
-        <span>{{objectName}}</span>
-        <span class="hcDatasetEntityAmount">{{objectAmount}}</span>
+        <span>{{collectionName}}</span>
+        <span class="hcDatasetEntityAmount">{{collectionAmount}}</span>
       </span>
     {{/each}}
   </div>

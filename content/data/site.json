@@ -311,30 +311,33 @@
     {
       "name": "ga-home",
       "template": "timbuctoo/tim-01-all-datasets",
+      "project-name": "Golden Agents",
+      "project-description": "Access to distributed, heterogeneous resources (both existing and new) on creative industries in the Dutch Golden Age.",
       "brand": "-ga",
       "logo": "logo-golden-agents.svg",
       "isPage": true,
       "favi":"favi-ga.png",
       "title": "Golden Agents | All Datasets",
       "listComponents": "list-tim-dataset-basic",
+      "followpage": "ga-one-dataset",
       "datasets": [
       {
         "name": "Stadsarchief: index op kwijtscheldingen",
         "description": "+25,000 matches, +10,000 players, 11 European Countries with their lead championship, Seasons 2008 to 2016, Players and Teams' attributes* sourced from EA Sports' FIFA video game series, including the weekly updates",
         "status": "Completed",
-        "objects": [
+        "collections": [
           {
-            "objectName": "Persons",
-            "objectAmount": 2579
+            "collectionName": "Persons",
+            "collectionAmount": 2579
           },{
-            "objectName": "Locations",
-            "objectAmount": 423
+            "collectionName": "Locations",
+            "collectionAmount": 423
           },{
-            "objectName": "Properties",
-            "objectAmount": 5234
+            "collectionName": "Properties",
+            "collectionAmount": 5234
           },{
-            "objectName": "Organisations",
-            "objectAmount": 223
+            "collectionName": "Organisations",
+            "collectionAmount": 223
           }
         ],
         "logos":["logo-stadsArchiefAmsterdam.png"]
@@ -342,12 +345,12 @@
         "name": "Stadsarchief: index op doopregister",
         "description": "+25,000 matches, +10,000 players, 11 European Countries with their lead championship, Seasons 2008 to 2016, Players and Teams' attributes* sourced from EA Sports' FIFA video game series, including the weekly updates",
         "status": "Completed",
-        "objects": [{
-          "objectName": "Persons",
-          "objectAmount": 2579
+        "collections": [{
+          "collectionName": "Persons",
+          "collectionAmount": 2579
         },{
-          "objectName": "Doopregister",
-          "objectAmount": 423
+          "collectionName": "Doopregister",
+          "collectionAmount": 423
         }],
         "logos":["logo-stadsArchiefAmsterdam.png"]
       },{
@@ -356,15 +359,15 @@
         "name": "Stadsarchief: index op confessieboeken",
         "description": "+25,000 matches, +10,000 players, 11 European Countries with their lead championship, Seasons 2008 to 2016, Players and Teams' attributes* sourced from EA Sports' FIFA video game series, including the weekly updates",
         "status": "Completed",
-        "objects": [{
-          "objectName": "Persons",
-          "objectAmount": 2579
+        "collections": [{
+          "collectionName": "Persons",
+          "collectionAmount": 2579
         },{
-          "objectName": "Locations",
-          "objectAmount": 423
+          "collectionName": "Locations",
+          "collectionAmount": 423
         },{
-          "objectName": "Confessieboeken",
-          "objectAmount": 7382
+          "collectionName": "Confessieboeken",
+          "collectionAmount": 7382
         }
       ],
         "logos":["logo-stadsArchiefAmsterdam.png"]
@@ -372,27 +375,27 @@
         "name": "Stadsarchief: Notarieel Archief",
         "description": "+25,000 matches, +10,000 players, 11 European Countries with their lead championship, Seasons 2008 to 2016, Players and Teams' attributes* sourced from EA Sports' FIFA video game series, including the weekly updates",
         "status": "Completed",
-        "objects": [ {
-            "objectName": "Persons",
-            "objectAmount": 1579
+        "collections": [ {
+            "collectionName": "Persons",
+            "collectionAmount": 1579
           },{
-            "objectName": "Locations",
-            "objectAmount": 423
+            "collectionName": "Locations",
+            "collectionAmount": 423
           },{
-            "objectName": "Voogdij",
-            "objectAmount": 5234
+            "collectionName": "Voogdij",
+            "collectionAmount": 5234
           },{
-            "objectName": "Contract",
-            "objectAmount": 223
+            "collectionName": "Contract",
+            "collectionAmount": 223
           },{
-            "objectName": "Uitspraak",
-            "objectAmount": 423
+            "collectionName": "Uitspraak",
+            "collectionAmount": 423
           },{
-            "objectName": "Boedelinventaris",
-            "objectAmount": 5234
+            "collectionName": "Boedelinventaris",
+            "collectionAmount": 5234
           },{
-            "objectName": "Hypotheek",
-            "objectAmount": 223
+            "collectionName": "Hypotheek",
+            "collectionAmount": 223
           }
         ],
         "logos":["logo-stadsArchiefAmsterdam.png"]
@@ -446,8 +449,9 @@
     
     },
     {
-      "name": "ga-one-datset",
+      "name": "ga-one-dataset",
       "template": "timbuctoo/tim-02-dataset-landingspage",
+      "project-name": "Golden Agents",
       "brand": "-ga",
       "logo": "logo-golden-agents.svg",
       "isPage": true,
@@ -457,6 +461,7 @@
     {
       "name": "ga-collection-search",
       "template": "timbuctoo/tim-03-collection-search",
+      "project-name": "Golden Agents",
       "brand": "-ga",
       "logo": "logo-golden-agents.svg",
       "isPage": true,
@@ -466,11 +471,305 @@
     {
       "name": "ga-collection-detail",
       "template": "timbuctoo/tim-04-collection-detail",
+      "project-name": "Golden Agents",
       "brand": "-ga",
       "logo": "logo-golden-agents.svg",
       "isPage": true,
       "favi":"favi-ga.png",
       "title": "Golden Agents | Collection item detail page"
+    },
+    {
+      "name": "hi-home",
+      "project-name": "Data Huygens ING",
+      "project-description": "Data related to Dutch history, literature, and the history of knowledge – ready for reference, scholarly analysis, and linkage.",
+      "template": "timbuctoo/tim-01-all-datasets",
+      "brand": "-huygens",
+      "logo": "logo-data-huygensIng.png",
+      "isPage": true,
+      "favi":"favi-hi.png",
+      "title": "Data Huygens ING | All Datasets",
+      "listComponents": "list-tim-dataset-basic",
+      "linkResultPage": "hi-one-dataset",
+      "datasets": [
+      {
+      "name": "Digital Web Centre for the History of Science",
+      "description": "Dataset compiled by the Digital Web Centre for the History of Science, an initiative of Huygens ING. The dataset consists of four subsets:<ul><li>Past members of the Royal Netherlands Academy of Arts and Sciences (KNAW)</li><li>Scientific Instrument Makers in the Netherlands</li><li>The network of Carolus Clusius (1526-1609)</li><li>Members of Dutch scientific societies</li></ul>",
+      "status": "In progress",
+      "collections": [
+        {
+          "collectionName": "Persons",
+          "collectionAmount": 18604,
+          "collectionUri": "dwc_col_Persons",
+          "collectionDescription": "Members of KNAW and Dutch scientific societies and Dutch instrument makers",
+          "collectionProperties": [
+            {
+              "propertyName": "Birth Date Remark",
+              "propertyDensity": 45,
+              "propertyUri": ":dwc_pred:birthDateRemark"
+            },
+            {
+              "propertyName": "data Set Name",
+              "propertyDensity": 45,
+              "propertyUri": ":dwc_pred:dataSetName(s)‎"
+            },
+            {
+              "propertyName": "Death date remark",
+              "propertyDensity": 95,
+              "propertyUri": ":dwc_pred:deathDateRemark"
+            },
+            {
+              "propertyName": "Obituary url",
+              "propertyDensity": 75,
+              "propertyUri": ":dwc_pred:obituaryUrl(s)"
+            },
+            {
+              "propertyName": "Origin Db",
+              "propertyDensity": 100,
+              "propertyUri": ":dwc_pred:originDb(s)‎"
+            },
+            {
+              "propertyName": "URL of portrait",
+              "propertyDensity": 100,
+              "propertyUri": ":dwc_pred:portraitUrl(s)"
+            },
+            {
+              "propertyName": "Same as",
+              "propertyDensity": 65,
+              "propertyUri": ":owl:sameAs(s)‎"
+            }
+          ]
+        },
+        {
+          "collectionName": "Places",
+          "collectionAmount": 4252,
+          "collectionUri": "dwc_col_Places",
+          "collectionDescription": "Cities, villages and other places in the Netherlands.",
+          "collectionProperties": [
+            {
+              "propertyName": "Country",
+              "propertyDensity": 95,
+              "propertyUri": ":dwc_pred:Country"
+            },
+            {
+              "propertyName": "Country code",
+              "propertyDensity": 95,
+              "propertyUri": ":http://www.geonames.org/ontology#countryCode"
+            },
+            {
+              "propertyName": "Latitude",
+              "propertyDensity": 95,
+              "propertyUri": ":http://www.w3.org/2003/01/geo/wgs84_pos#lat"
+            },
+            {
+              "propertyName": "Longitude",
+              "propertyDensity": 95,
+              "propertyUri": ":http://www.w3.org/2003/01/geo/wgs84_pos#long"
+            },
+            {
+              "propertyName": "Same as",
+              "propertyDensity": 95,
+              "propertyUri": ":owl:sameAs(s)"
+            },
+            {
+              "propertyName": "Type",
+              "propertyDensity": 100,
+              "propertyUri": ":rdf:type"
+            },
+            {
+              "propertyName": "Names",
+              "propertyDensity": 100,
+              "propertyUri": ":schema:name(s)‎"
+            }
+          ]
+        },
+        {
+          "collectionName": "Education",
+          "collectionAmount": 2472,
+          "collectionUri": "dwc_col_Places",
+          "collectionDescription": "Formal education."
+        },
+        {
+          "collectionName": "Institutes",
+          "collectionAmount": 1874
+        },
+        {
+          "collectionName": "Publications",
+          "collectionAmount": 9084
+        },
+        {
+          "collectionName": "Occupation",
+          "collectionAmount": 11446
+        },
+        {
+          "collectionName": "Membership",
+          "collectionAmount": 23810
+        }
+      ],
+      "logos":["logo-huygensIng.png"]
+    }
+    ,
+      {
+        "name": "Biography portal of the Netherlands",
+        "description": "Links a variety of online reference works and data sets on inhabitants of the Netherlands from the earliest times until the present. It does not include people who are still alive.",
+        "status": "Completed",
+        "collections": [
+          {
+            "collectionName": "Persons",
+            "collectionAmount": 82862
+    
+          }
+        ],
+        "logos":["logo-huygensIng.png"]
+      }
+    ]
+    
+    },
+    {
+      "name": "hi-one-dataset",
+      "project-name": "Data Huygens ING",
+      "template": "timbuctoo/tim-02-dataset-landingspage",
+      "brand": "-huygens",
+      "logo": "logo-data-huygensIng.png",
+      "isPage": true,
+      "favi":"favi-hi.png",
+      "dataset": [{
+      "name": "Digital Web Centre for the History of Science",
+      "description": "Dataset compiled by the Digital Web Centre for the History of Science, an initiative of Huygens ING. The dataset consists of four subsets:<ul><li>Past members of the Royal Netherlands Academy of Arts and Sciences (KNAW)</li><li>Scientific Instrument Makers in the Netherlands</li><li>The network of Carolus Clusius (1526-1609)</li><li>Members of Dutch scientific societies</li></ul>",
+      "status": "In progress",
+      "collections": [
+        {
+          "collectionName": "Persons",
+          "collectionAmount": 18604,
+          "collectionUri": "dwc_col_Persons",
+          "collectionDescription": "Members of KNAW and Dutch scientific societies and Dutch instrument makers",
+          "collectionProperties": [
+            {
+              "propertyName": "Birth Date Remark",
+              "propertyDensity": 45,
+              "propertyUri": ":dwc_pred:birthDateRemark"
+            },
+            {
+              "propertyName": "data Set Name",
+              "propertyDensity": 45,
+              "propertyUri": ":dwc_pred:dataSetName(s)‎"
+            },
+            {
+              "propertyName": "Death date remark",
+              "propertyDensity": 95,
+              "propertyUri": ":dwc_pred:deathDateRemark"
+            },
+            {
+              "propertyName": "Obituary url",
+              "propertyDensity": 75,
+              "propertyUri": ":dwc_pred:obituaryUrl(s)"
+            },
+            {
+              "propertyName": "Origin Db",
+              "propertyDensity": 100,
+              "propertyUri": ":dwc_pred:originDb(s)‎"
+            },
+            {
+              "propertyName": "URL of portrait",
+              "propertyDensity": 100,
+              "propertyUri": ":dwc_pred:portraitUrl(s)"
+            },
+            {
+              "propertyName": "Same as",
+              "propertyDensity": 65,
+              "propertyUri": ":owl:sameAs(s)‎"
+            }
+          ]
+        },
+        {
+          "collectionName": "Places",
+          "collectionAmount": 4252,
+          "collectionUri": "dwc_col_Places",
+          "collectionDescription": "Cities, villages and other places in the Netherlands.",
+          "collectionProperties": [
+            {
+              "propertyName": "Country",
+              "propertyDensity": 95,
+              "propertyUri": ":dwc_pred:Country"
+            },
+            {
+              "propertyName": "Country code",
+              "propertyDensity": 95,
+              "propertyUri": ":http://www.geonames.org/ontology#countryCode"
+            },
+            {
+              "propertyName": "Latitude",
+              "propertyDensity": 95,
+              "propertyUri": ":http://www.w3.org/2003/01/geo/wgs84_pos#lat"
+            },
+            {
+              "propertyName": "Longitude",
+              "propertyDensity": 95,
+              "propertyUri": ":http://www.w3.org/2003/01/geo/wgs84_pos#long"
+            },
+            {
+              "propertyName": "Same as",
+              "propertyDensity": 95,
+              "propertyUri": ":owl:sameAs(s)"
+            },
+            {
+              "propertyName": "Type",
+              "propertyDensity": 100,
+              "propertyUri": ":rdf:type"
+            },
+            {
+              "propertyName": "Names",
+              "propertyDensity": 100,
+              "propertyUri": ":schema:name(s)‎"
+            }
+          ]
+        },
+        {
+          "collectionName": "Education",
+          "collectionAmount": 2472,
+          "collectionUri": "dwc_col_Places",
+          "collectionDescription": "Formal education."
+        },
+        {
+          "collectionName": "Institutes",
+          "collectionAmount": 1874
+        },
+        {
+          "collectionName": "Publications",
+          "collectionAmount": 9084
+        },
+        {
+          "collectionName": "Occupation",
+          "collectionAmount": 11446
+        },
+        {
+          "collectionName": "Membership",
+          "collectionAmount": 23810
+        }
+      ],
+      "logos":["logo-huygensIng.png"]
+    }
+    ],
+      "title": "Data Huygens ING | Dataset landingspage"
+    },
+    {
+      "name": "hi-collection-search",
+      "project-name": "Data Huygens ING",
+      "template": "timbuctoo/tim-03-collection-search",
+      "brand": "-huygens",
+      "logo": "logo-data-huygensIng.png",
+      "isPage": true,
+      "favi":"favi-hi.png",
+      "title": "Data Huygens ING | Search in collection"
+    },
+    {
+      "name": "hi-collection-detail",
+      "project-name": "Data Huygens ING",
+      "template": "timbuctoo/tim-04-collection-detail",
+      "brand": "-huygens",
+      "logo": "logo-data-huygensIng.png",
+      "isPage": true,
+      "favi":"favi-hi.png",
+      "title": "Data Huygens ING | Collection item detail page"
     },
     {
       "name": "emlo-one-datset",
@@ -498,6 +797,176 @@
       "isPage": true,
       "favi":"favi-emlo.png",
       "title": "Emlo | EM Places detail page"
+    },
+    {
+      "name": "clariah-home",
+      "template": "timbuctoo/tim-01-all-datasets",
+      "project-name": "Clariah Anansi",
+      "project-description": "<h2>Bridge to networked research data</h2>ANANSI is the central data connection between the three primary CLARIAH domains (Linguistics, Social & Economical History and Media Studies). ANANSI facilitates the connectivity of structured (meta-)data served by the research infrastructures constructed in these domains. Furthermore, ANANSI integrates data with large scale existing data infrastructures outside CLARIAH - both within and outside the humanities.",
+      "brand": "-clariah",
+      "logo": "logo-clariah.svg",
+      "isPage": true,
+      "favi":"favi-clariah.png",
+      "title": "Clariah Anansi | All Datasets",
+      "followpage": "clariah-one-dataset",
+      "listComponents": "list-tim-dataset-basic",
+      "datasets": [
+      {
+        "name": "Stadsarchief: index op kwijtscheldingen",
+        "description": "+25,000 matches, +10,000 players, 11 European Countries with their lead championship, Seasons 2008 to 2016, Players and Teams' attributes* sourced from EA Sports' FIFA video game series, including the weekly updates",
+        "status": "Completed",
+        "collections": [
+          {
+            "collectionName": "Persons",
+            "collectionAmount": 2579
+          },{
+            "collectionName": "Locations",
+            "collectionAmount": 423
+          },{
+            "collectionName": "Properties",
+            "collectionAmount": 5234
+          },{
+            "collectionName": "Organisations",
+            "collectionAmount": 223
+          }
+        ],
+        "logos":["logo-stadsArchiefAmsterdam.png"]
+      },{
+        "name": "Stadsarchief: index op doopregister",
+        "description": "+25,000 matches, +10,000 players, 11 European Countries with their lead championship, Seasons 2008 to 2016, Players and Teams' attributes* sourced from EA Sports' FIFA video game series, including the weekly updates",
+        "status": "Completed",
+        "collections": [{
+          "collectionName": "Persons",
+          "collectionAmount": 2579
+        },{
+          "collectionName": "Doopregister",
+          "collectionAmount": 423
+        }],
+        "logos":["logo-stadsArchiefAmsterdam.png"]
+      },{
+        "name": "LinkSet: 20181030"
+      },{
+        "name": "Stadsarchief: index op confessieboeken",
+        "description": "+25,000 matches, +10,000 players, 11 European Countries with their lead championship, Seasons 2008 to 2016, Players and Teams' attributes* sourced from EA Sports' FIFA video game series, including the weekly updates",
+        "status": "Completed",
+        "collections": [{
+          "collectionName": "Persons",
+          "collectionAmount": 2579
+        },{
+          "collectionName": "Locations",
+          "collectionAmount": 423
+        },{
+          "collectionName": "Confessieboeken",
+          "collectionAmount": 7382
+        }
+      ],
+        "logos":["logo-stadsArchiefAmsterdam.png"]
+      },{
+        "name": "Stadsarchief: Notarieel Archief",
+        "description": "+25,000 matches, +10,000 players, 11 European Countries with their lead championship, Seasons 2008 to 2016, Players and Teams' attributes* sourced from EA Sports' FIFA video game series, including the weekly updates",
+        "status": "Completed",
+        "collections": [ {
+            "collectionName": "Persons",
+            "collectionAmount": 1579
+          },{
+            "collectionName": "Locations",
+            "collectionAmount": 423
+          },{
+            "collectionName": "Voogdij",
+            "collectionAmount": 5234
+          },{
+            "collectionName": "Contract",
+            "collectionAmount": 223
+          },{
+            "collectionName": "Uitspraak",
+            "collectionAmount": 423
+          },{
+            "collectionName": "Boedelinventaris",
+            "collectionAmount": 5234
+          },{
+            "collectionName": "Hypotheek",
+            "collectionAmount": 223
+          }
+        ],
+        "logos":["logo-stadsArchiefAmsterdam.png"]
+      },{
+        "name": "Stadsarchief: index op begraafregisters voor 1811",
+        "description": "+25,000 matches, +10,000 players, 11 European Countries with their lead championship, Seasons 2008 to 2016, Players and Teams' attributes* sourced from EA Sports' FIFA video game series, including the weekly updates",
+        "status": "Completed",
+        "logos":["logo-stadsArchiefAmsterdam.png"]
+      },{
+        "name": "LinkSet: Alignment STCN-Onstage 1"
+      },{
+        "name": "Onstage",
+        "description": "+25,000 matches, +10,000 players, 11 European Countries with their lead championship, Seasons 2008 to 2016, Players and Teams' attributes* sourced from EA Sports' FIFA video game series, including the weekly updates",
+        "status": "Completed",
+        "logos":["logo-uva.png"]
+      },{
+        "name": "Ecartico",
+        "description": "+25,000 matches, +10,000 players, 11 European Countries with their lead championship, Seasons 2008 to 2016, Players and Teams' attributes* sourced from EA Sports' FIFA video game series, including the weekly updates",
+        "status": "Completed",
+        "logos":["logo-uva.png"]
+      },{
+        "name": "Stadsarchief: index op poorterboeken",
+        "description": "+25,000 matches, +10,000 players, 11 European Countries with their lead championship, Seasons 2008 to 2016, Players and Teams' attributes* sourced from EA Sports' FIFA video game series, including the weekly updates",
+        "status": "Completed",
+        "logos":["logo-stadsArchiefAmsterdam.png"]
+      },{
+        "name": "Rijksmuseum",
+        "description": "+25,000 matches, +10,000 players, 11 European Countries with their lead championship, Seasons 2008 to 2016, Players and Teams' attributes* sourced from EA Sports' FIFA video game series, including the weekly updates",
+        "status": "Completed",
+        "logos":["logo-rijksmuseum.png"]
+      },{
+        "name": "Stadsarchief: index op ondertrouwregister",
+        "description": "+25,000 matches, +10,000 players, 11 European Countries with their lead championship, Seasons 2008 to 2016, Players and Teams' attributes* sourced from EA Sports' FIFA video game series, including the weekly updates",
+        "status": "Completed",
+        "logos":["logo-stadsArchiefAmsterdam.png"]
+      },{
+        "name": "LinkSet: Alignment STCN-Onstage 2"
+      },{
+        "name": "Stadsarchief: index op boetes op trouwen en begraven",
+        "description": "+25,000 matches, +10,000 players, 11 European Countries with their lead championship, Seasons 2008 to 2016, Players and Teams' attributes* sourced from EA Sports' FIFA video game series, including the weekly updates",
+        "status": "Completed",
+        "logos":["logo-stadsArchiefAmsterdam.png"]
+      },{
+        "name": "STCN: Short-Title Catalogue Netherlands",
+        "description": "+25,000 matches, +10,000 players, 11 European Countries with their lead championship, Seasons 2008 to 2016, Players and Teams' attributes* sourced from EA Sports' FIFA video game series, including the weekly updates",
+        "status": "completed"
+      },{
+        "name": "lenticular_lenses_linkset"
+      }
+    ]
+    
+    },
+    {
+      "name": "clariah-one-dataset",
+      "template": "timbuctoo/tim-02-dataset-landingspage",
+      "project-name": "Clariah Anansi",
+      "brand": "-clariah",
+      "logo": "logo-clariah.svg",
+      "isPage": true,
+      "favi":"favi-clariah.png",
+      "title": "Clariah Anansi | Dataset landingspage"
+    },
+    {
+      "name": "clariah-collection-search",
+      "template": "timbuctoo/tim-03-collection-search",
+      "project-name": "Clariah Anansi",
+      "brand": "-clariah",
+      "logo": "logo-clariah.svg",
+      "isPage": true,
+      "favi":"favi-clariah.png",
+      "title": "Clariah Anansi | Search in collection"
+    },
+    {
+      "name": "clariah-collection-detail",
+      "template": "timbuctoo/tim-04-collection-detail",
+      "project-name": "Clariah Anansi",
+      "brand": "-clariah",
+      "logo": "logo-clariah.svg",
+      "isPage": true,
+      "favi":"favi-clariah.png",
+      "title": "Clariah Anansi | Collection item detail page"
     }
   ]
 }
