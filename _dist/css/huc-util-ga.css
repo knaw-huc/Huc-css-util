@@ -705,12 +705,35 @@ input, select, option, textarea {
   .hcFullscreenMenu .hcPageHeaderSimple {
     flex-direction: column; }
 
-.hcTabLabel {
-  background-color: #ccf692; }
+.hcTabs {
+  display: flex;
+  width: 100%; }
+
+.hcTabsVert {
+  flex-direction: row; }
+  .hcTabsVert .hcTabLabels {
+    display: flex;
+    flex-direction: column; }
+
+.hcTabsHoriz {
+  flex-direction: column; }
+  .hcTabsHoriz .hcTabLabels {
+    display: flex;
+    flex-direction: row; }
+
+.hcTabLabels {
+  width: 25%;
+  background-color: #fafafa; }
+
+.hcTabAllContent {
+  width: 75%; }
 
 .hcTabContent {
-  background-color: #92abf6;
-  display: none; }
+  width: 100%; }
+
+.hcTabLabel {
+  cursor: pointer;
+  margin-bottom: .5rem; }
 
 .hcFormItem {
   display: flex;

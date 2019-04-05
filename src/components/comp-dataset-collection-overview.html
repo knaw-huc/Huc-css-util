@@ -1,11 +1,22 @@
 <div class="hcTabContent" id="tab-content-{{collectionUri}}">
-  <strong>Collection</strong><br>
-  {{collectionName}}<br>
+  <h2>{{collectionName}}</h2>
   {{collectionAmount}}<br>
   {{collectionUri}}<br>
   {{collectionDescription}}<br>
 
-  {{#each collectionProperties}}
-    {{> comp-dataset-property-overview}}
-  {{/each}}
+
+  <div class="hcList">
+    <div class="hcListHeader">
+      <div class="hcSmallTxt hcTxtColorGreyMid">Property name</div>
+      <div class="hcSmallTxt hcTxtColorGreyMid">Property density</div>
+      <div class="hcSmallTxt hcTxtColorGreyMid">Property Uri</div>
+    </div>
+  </div>
+
+  <ul class="hcList">
+    {{#each collectionProperties}}
+      {{> comp-dataset-property-overview}}
+    {{/each}}
+  </ul>
+
 </div>

@@ -2,13 +2,17 @@
 <h1>{{name}}</h1>
 <p>{{{description}}}</p>
 {{status}}<br>
-<ul>
-{{#each collections}}
-  {{> comp-dataset-collection-list}}
-{{/each}}
-</ul>
 
+<div class="hcTabs hcTabsVert hcMarginTop3">
+  <div class="hcTabLabels">
+    {{#each collections}}
+      <div class="hcTabLabel" id="tab-list-{{collectionUri}}">{{collectionName}}</div>
+    {{/each}}
+  </div>
+  <div class="hcTabAllContent hcBasicSideMargin">
+    {{#each collections}}
+      {{> comp-dataset-collection-overview}}
+    {{/each}}
 
-{{#each collections}}
-  {{> comp-dataset-collection-overview}}
-{{/each}}
+  </div>
+</div>

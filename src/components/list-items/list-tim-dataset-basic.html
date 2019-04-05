@@ -6,10 +6,7 @@
   </div>
   <div class="">
     {{#each collections}}
-      <span class="hcDatasetEntity">
-        <span>{{collectionName}}</span>
-        <span class="hcDatasetEntityAmount">{{collectionAmount}}</span>
-      </span>
+      {{> comp-tim-collectionShort}}
     {{/each}}
   </div>
   <div class="hcPartnerLogo">
