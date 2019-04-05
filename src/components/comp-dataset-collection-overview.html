@@ -1,9 +1,11 @@
-<strong>Collection</strong><br>
-{{collectionName}}<br>
-{{collectionAmount}}<br>
-{{collectionUri}}<br>
-{{collectionDescription}}<br>
+<div class="hcTabContent" id="tab-content-{{collectionUri}}">
+  <strong>Collection</strong><br>
+  {{collectionName}}<br>
+  {{collectionAmount}}<br>
+  {{collectionUri}}<br>
+  {{collectionDescription}}<br>
 
-{{#each collectionProperties}}
-  {{> comp-dataset-property-overview}}
-{{/each}}
+  {{#each collectionProperties}}
+    {{> comp-dataset-property-overview}}
+  {{/each}}
+</div>

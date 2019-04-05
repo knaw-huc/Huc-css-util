@@ -705,6 +705,13 @@ input, select, option, textarea {
   .hcFullscreenMenu .hcPageHeaderSimple {
     flex-direction: column; }
 
+.hcTabLabel {
+  background-color: #ccf692; }
+
+.hcTabContent {
+  background-color: #92abf6;
+  display: none; }
+
 .hcFormItem {
   display: flex;
   flex-direction: column;

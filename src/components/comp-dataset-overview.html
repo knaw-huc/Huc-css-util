@@ -1,7 +1,14 @@
-<strong>Dataset</strong><br>
-{{name}}<br>
-{{{description}}}<br>
+
+<h1>{{name}}</h1>
+<p>{{{description}}}</p>
 {{status}}<br>
+<ul>
+{{#each collections}}
+  {{> comp-dataset-collection-list}}
+{{/each}}
+</ul>
+
+
 {{#each collections}}
   {{> comp-dataset-collection-overview}}
 {{/each}}
