@@ -47,11 +47,13 @@
         <span class="hcSmallTxt hcTxtColorGreyMid">Selected facets:</span>
         <span class="hcSelectedFacet"><span class="hcSelectedFacetType">Ship</span>De Spiegel</span>
       </div>
-        {{> page-message}}
       <div class="hcList hcMarginBottom2">
-        {{#each results}}
-          {{> list-items/list-tim-collection-result }}
-        {{/each}}
+        <ul>
+          {{#each results}}
+            {{> list-items/list-tim-collection-result }}
+          {{/each}}
+        </ul>
+
 
       </div>
       {{> comp-pagination}}
