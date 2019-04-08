@@ -1,0 +1,39 @@
+$asideRight: 250px;
+
+.hcLayout-right-sidebar {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.hcLayout-right-sidebar-main {
+  width: 100%;
+}
+
+.hcLayout-right-sidebar-aside {
+  width: 100%;
+
+
+}
+
+@media (min-width: #{$siteBreak}) {
+  .hcLayout-right-sidebar {
+    flex-direction: row;
+  }
+
+  .hcLayout-right-sidebar-main {
+    width: calc(100% - #{$asideRight} - 2rem)
+  }
+
+  .hcLayout-right-sidebar-aside {
+    width: $asideRight;
+  }
+}
+
+.hcSidebar {
+
+  div {
+    margin-bottom: 1.5rem;
+  }
+}

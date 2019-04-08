@@ -1,6 +1,10 @@
 .hcTabs {
   display: flex;
   width: 100%;
+
+  .hcSelectedTab {
+      font-weight: 700;
+  }
 }
 
 .hcTabsVert {
@@ -25,12 +29,11 @@
 
 
 .hcTabLabels {
-  width: 25%;
-  background-color: $colorGreyLightBg;
+  width: 20%;
 }
 
 .hcTabAllContent{
-    width: 75%;
+    width: 80%;
 }
 
 .hcTabContent {
@@ -41,8 +44,10 @@
 
 .hcTabLabel {
   cursor: pointer;
-  margin-bottom: .5rem;
+  padding: .5rem
 }
+
+
 
 .hcTabContent {
 }

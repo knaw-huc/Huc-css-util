@@ -1,15 +1,15 @@
-<div class="hcTabContent" id="tab-content-{{collectionUri}}">
-  <h2>{{collectionName}}</h2>
-  {{collectionAmount}}<br>
-  {{collectionUri}}<br>
+<div class="hcTabContent colorBgGrey hcBasicPading" id="tab-content-{{collectionUri}}">
+  <h2>{{collectionName}} ({{collectionAmount}})</h2>
+  <div class="hcUriType">{{collectionUri}}</div>
   {{collectionDescription}}<br>
 
 
-  <div class="hcList">
+
+  <div class="hcList hcMarginTop2">
     <div class="hcListHeader">
-      <div class="hcSmallTxt hcTxtColorGreyMid">Property name</div>
-      <div class="hcSmallTxt hcTxtColorGreyMid">Property density</div>
-      <div class="hcSmallTxt hcTxtColorGreyMid">Property Uri</div>
+      <div class="hcLabel hcListItemLong">Property</div>
+      <div class="hcLabel hcListItemLong">URI</div>
+      <div class="hcLabel">Density</div>
     </div>
   </div>
 
@@ -18,5 +18,6 @@
       {{> comp-dataset-property-overview}}
     {{/each}}
   </ul>
+
 
 </div>

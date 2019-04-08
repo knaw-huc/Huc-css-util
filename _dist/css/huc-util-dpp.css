@@ -13,7 +13,7 @@ ul, ol {
 
 li {
   padding: 0;
-  margin: 0 0 0 0; }
+  margin: 0 0 0 1rem; }
 
 a {
   text-decoration: none; }
@@ -33,6 +33,9 @@ a {
 
 .colorBgGrey {
   background-color: #f6f6f6; }
+
+.colorBgGreyLight {
+  background-color: #fbfbfb; }
 
 .colorBgGreyPlus {
   background-color: #dddddd; }
@@ -92,6 +95,9 @@ strong {
 .hcSmallTxt {
   font-size: .85rem; }
 
+.hcMonospace {
+  font-family: monospace; }
+
 .icon {
   width: 1.3rem !important;
   height: auto !important; }
@@ -122,6 +128,9 @@ strong {
 .hcBasicSideMargin {
   padding-left: 2rem;
   padding-right: 2rem; }
+
+.hcBasicPading {
+  padding: 1rem; }
 
 .hcMarginBottom1 {
   margin-bottom: 1rem; }
@@ -185,23 +194,27 @@ strong {
 .hcList {
   display: flex;
   flex-direction: column; }
+  .hcList li {
+    margin: .5rem 0 .5rem 0; }
 
 .hcList > * {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
-  cursor: pointer; }
+  justify-content: space-between; }
 
 .hcList > * > * {
   flex: 1;
-  margin-right: 1rem; }
+  margin-right: 1rem;
+  overflow-wrap: break-word;
+  word-break: break-all;
+  hyphens: auto; }
 
 @media (min-width: 600px) {
   .hcList > * {
     flex-direction: row; } }
 
 .hcListItemLong {
-  flex: 4; }
+  flex: 2; }
 
 .hcListHeader {
   background: none; }
@@ -216,6 +229,42 @@ strong {
   display: flex;
   flex-direction: column;
   justify-content: flex-start; }
+
+.hcListItemBlock {
+  padding: 0;
+  transition: background-color .3s;
+  margin-bottom: 1.5rem; }
+
+.hcListItemBlock > * {
+  padding: 1rem 2rem; }
+
+.hcListItemDPPBlock {
+  flex: 2;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; }
+
+.hcKwic {
+  border-bottom: 3px dotted #e7da67; }
+
+.hcListItemThumb {
+  overflow-y: scroll;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  background-color: #3b3b3b;
+  padding-top: .5rem; }
+
+.hcListItemThumb div {
+  height: 170px; }
+
+.hcListItemThumb img {
+  width: 200px !important;
+  height: auto !important; }
+
+.hcResultsHeader {
+  display: flex;
+  justify-content: space-between; }
 
 .hcMessageBar {
   display: flex;
@@ -338,57 +387,6 @@ input, select, option, textarea {
   text-transform: uppercase;
   font-size: .85rem; }
 
-.hcList {
-  width: 100%; }
-
-.hcListItem {
-  display: flex;
-  flex-direction: column;
-  padding: 0 2rem; }
-
-.hcListItem > * {
-  flex: 1; }
-
-@media (min-width: 600px) {
-  .hcListItem {
-    flex-direction: row; } }
-
-.hcListItemBlock {
-  padding: 0;
-  transition: background-color .3s;
-  margin-bottom: 1.5rem; }
-
-.hcListItemBlock > * {
-  padding: 1rem 2rem; }
-
-.hcListItemThumb {
-  overflow-y: scroll;
-  display: flex;
-  align-items: flex-start;
-  justify-content: center;
-  background-color: #3b3b3b;
-  padding-top: .5rem; }
-
-.hcListItemThumb div {
-  height: 170px; }
-
-.hcListItemThumb img {
-  width: 200px !important;
-  height: auto !important; }
-
-.hcListItemDPPBlock {
-  flex: 2;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between; }
-
-.hcKwic {
-  border-bottom: 3px dotted #e7da67; }
-
-.hcResultsHeader {
-  display: flex;
-  justify-content: space-between; }
-
 .hcStickyFooter {
   position: fixed;
   width: 100%;
@@ -423,6 +421,21 @@ input, select, option, textarea {
 .hcPartnerLogo img {
   width: 100px !important;
   height: auto !important; }
+
+.hcDensity {
+  width: 100%;
+  min-width: 100px;
+  background-color: #e3e3e3; }
+
+.hcDensityBar {
+  background-color: #3aa5b0;
+  font-size: .5rem;
+  color: #fff;
+  padding: 0 0 0 .5rem; }
+
+.hcUriType {
+  font-family: monospace;
+  font-size: .85rem; }
 
 .hcContentContainer {
   display: flex;
@@ -587,6 +600,29 @@ input, select, option, textarea {
   max-width: 550px;
   margin-bottom: 500px; }
 
+.hcLayout-right-sidebar {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 100%; }
+
+.hcLayout-right-sidebar-main {
+  width: 100%; }
+
+.hcLayout-right-sidebar-aside {
+  width: 100%; }
+
+@media (min-width: 800px) {
+  .hcLayout-right-sidebar {
+    flex-direction: row; }
+  .hcLayout-right-sidebar-main {
+    width: calc(100% - 250px - 2rem); }
+  .hcLayout-right-sidebar-aside {
+    width: 250px; } }
+
+.hcSidebar div {
+  margin-bottom: 1.5rem; }
+
 .navigation a {
   color: #3e3e3e;
   font-weight: 700;
@@ -708,6 +744,8 @@ input, select, option, textarea {
 .hcTabs {
   display: flex;
   width: 100%; }
+  .hcTabs .hcSelectedTab {
+    font-weight: 700; }
 
 .hcTabsVert {
   flex-direction: row; }
@@ -722,18 +760,17 @@ input, select, option, textarea {
     flex-direction: row; }
 
 .hcTabLabels {
-  width: 25%;
-  background-color: #fafafa; }
+  width: 20%; }
 
 .hcTabAllContent {
-  width: 75%; }
+  width: 80%; }
 
 .hcTabContent {
   width: 100%; }
 
 .hcTabLabel {
   cursor: pointer;
-  margin-bottom: .5rem; }
+  padding: .5rem; }
 
 .hcFormItem {
   display: flex;
@@ -964,6 +1001,9 @@ a {
 
 .colorBgGrey {
   background-color: #f6f6f6; }
+
+.colorBgGreyLight {
+  background-color: #fbfbfb; }
 
 .colorBgGreyPlus {
   background-color: #dddddd; }
