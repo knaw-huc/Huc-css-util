@@ -16,6 +16,121 @@
   </head>
   <body>
 
+<div class="hcContentContainer bgColorBrand1 hcMarginBottom5">
+  <header class=" hcPageHeaderSimple hcBasicSideMargin">
+    <a href="dpp-home.html" class="hcBrand">
+      <div class="hcBrandLogo"><img src="images/emlo-logo.png" class="logo"></div>
+    </a>
+
+    <nav>
+      <a href="dpp-home.html">All datasets</a>
+      <a href="dpp-text.html">About</a>
+    </nav>
+  </header>
+</div>
+
+
+<div class="hcContentContainer">
+  <div class="hcHeadSpace hcBasicSideMargin">
+    <h1>Person search</h1>
+  </div>
+
+  <div class="hcLayoutFacet-Result hcBasicSideMargin hcMarginBottom15">
+
+    <div class="hcLayoutFacets">
+      <button type="button" name="button" id="showFacets" class="hcfixedSideButton"><img src="images/icons/icon-set-facets.svg" class="icon"></button>
+      <div class="hcLayoutFacetsToggel" id="hcLayoutFacetsToggel">
+
+
+      </div>
+    </div>
+
+
+
+
+    <div class="hcLayoutResults">
+      <div class="hcResultsHeader hcMarginBottom1">
+        <div>12.873 Results</div>
+        <div><select class="" name="">
+        <option value="">Order by Relevance</option>
+          <option value="">Order by given name</option>
+          <option value="">Order by family name</option>
+        </select></div>
+      </div>
+
+      <div class="hcMarginBottom2">
+        <span class="hcSmallTxt hcTxtColorGreyMid">Selected facets:</span>
+        <span class="hcSelectedFacet"><span class="hcSelectedFacetType">Ship</span>De Spiegel</span>
+      </div>
+        <div class="hcMessageBar notificationInform hcMarginBottom1">
+          <div class="hcMessageIcon hcIcon">
+            <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" height="32" width="32">
+              <defs>
+                <ellipse id="ellipse-0" opacity="1" rx="16" ry="16" cx="16" cy="16"/>
+                <mask id="mask-1" maskUnits="userSpaceOnUse" maskContentUnits="userSpaceOnUse">
+                  <rect opacity="1" x="0" y="0" width="32" height="32" fill="black"/>
+                  <use xlink:href="#ellipse-0" fill="white"/>
+                </mask>
+                <path id="path-2" opacity="1" fill-rule="evenodd" d="M15,13 L17,13 C18.103830048988,13 19,13.896169951012 19,15 L19,25 C19,26.103830048988 18.103830048988,27 17,27 L15,27 C13.896169951012,27 13,26.103830048988 13,25 L13,15 C13,13.896169951012 13.896169951012,13 15,13Z"/>
+                <ellipse id="ellipse-3" opacity="1" rx="3" ry="3" cx="16" cy="8"/>
+              </defs>
+              <g opacity="1">
+                <g opacity="1">
+                  <use xlink:href="#ellipse-0" fill-opacity="0" class="hcIconStroke" stroke-linecap="butt" stroke-linejoin="miter" mask="url(#mask-1)"/>
+                </g>
+                <g opacity="1">
+                  <use xlink:href="#path-2" class="hcIconFill" />
+                </g>
+                <g opacity="1">
+                  <use xlink:href="#ellipse-3" class="hcIconFill" />
+                </g>
+              </g>
+            </svg>
+          </div>
+          <div class="hcMessageContent"></div>
+          <div class="hcClose hcIcon hcIconSmall">
+            <button type="button" name="button"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" height="32" width="32" viewbox="0 0 32 32" preserveAspectRatio="xMinYMin meet">
+          <defs>
+            <path id="path-0" opacity="1" fill-rule="evenodd" d="M14.42726390280393,-3.0546604337730514 L17.572772939300993,-3.0546604337730514 C18.67660298828899,-3.0546604337730514 19.572772939300993,-2.158490482761051 19.572772939300993,-1.0546604337730514 L19.572772939300993,33.054697275877515 C19.572772939300993,34.15852732486552 18.67660298828899,35.054697275877515 17.572772939300993,35.054697275877515 L14.42726390280393,35.054697275877515 C13.32343385381593,35.054697275877515 12.42726390280393,34.15852732486552 12.42726390280393,33.054697275877515 L12.42726390280393,-1.0546604337730514 C12.42726390280393,-2.158490482761051 13.32343385381593,-3.0546604337730514 14.42726390280393,-3.0546604337730514Z"/>
+            <path id="path-1" opacity="1" fill-rule="evenodd" d="M-1.0546723429395115,12.427266135772811 L33.05470918504483,12.427266135772811 C34.15853923403283,12.427266135772811 35.05470918504483,13.323436086784811 35.05470918504483,14.427266135772811 L35.05470918504483,17.572770706332292 C35.05470918504483,18.67660075532029 34.15853923403283,19.572770706332292 33.05470918504483,19.572770706332292 L-1.0546723429395115,19.572770706332292 C-2.1585023919275113,19.572770706332292 -3.0546723429395115,18.676600755320294 -3.0546723429395115,17.572770706332292 L-3.0546723429395115,14.427266135772811 C-3.0546723429395115,13.323436086784811 -2.158502391927512,12.427266135772811 -1.0546723429395115,12.427266135772811Z"/>
+          </defs>
+          <g opacity="1">
+            <g transform="translate(16.00001842105246, 16.000018421052232) rotate(315.0001126327126) translate(-16.00001842105246, -16.000018421052232)" opacity="1">
+              <use xlink:href="#path-0"  class="hcIconFill"/>
+            </g>
+            <g transform="translate(16.00001842105266, 16.000018421052552) rotate(315.0001126327126) translate(-16.00001842105266, -16.000018421052552)" opacity="1">
+              <use xlink:href="#path-1"  class="hcIconFill"/>
+            </g>
+          </g>
+        </svg>
+        </button>
+          </div>
+        </div>
+      <div class="hcList hcMarginBottom2">
+
+      </div>
+      <div class="hcPagination">
+      <div><a href="#">&#8592; Previous</a></div>
+      <div><a href="#">1</a></div>
+      <div class="bgColorBrand2"><a href="#">2</a></div>
+      <div><a href="#">3</a></div>
+      <div><a href="#">4</a></div>
+      <div><a href="#">5</a></div>
+      <div><a href="#">6</a></div>
+      <div><a href="#">7</a></div>
+      <div><a href="#">8</a></div>
+      <div><a href="#">Next &#8594;</a></div>
+      </div>
+
+    </div>
+
+
+
+
+  </div>
+</div>
+
+
 
 
   <!-- <script src="js/navigation.js" charset="utf-8"></script>

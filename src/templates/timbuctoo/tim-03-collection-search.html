@@ -1,5 +1,70 @@
 {{> html-head}}
 
+{{> page-product-header}}
+
+
+<div class="hcContentContainer">
+  <div class="hcHeadSpace hcBasicSideMargin">
+    <h1>Person search</h1>
+  </div>
+
+  <div class="hcLayoutFacet-Result hcBasicSideMargin hcMarginBottom15">
+
+    <div class="hcLayoutFacets">
+      <button type="button" name="button" id="showFacets" class="hcfixedSideButton"><img src="images/icons/icon-set-facets.svg" class="icon"></button>
+      <div class="hcLayoutFacetsToggel" id="hcLayoutFacetsToggel">
+
+        {{#each facets}}
+          {{#if facetTypelist}}
+            {{> comp-facet}}
+          {{/if}}
+          {{#if facetTypeSearch}}
+            {{> comp-facet-text}}
+          {{/if}}
+          {{#if facetTypeRange}}
+            {{> comp-facet-range}}
+          {{/if}}
+
+        {{/each}}
+
+      </div>
+    </div>
+
+
+
+
+    <div class="hcLayoutResults">
+      <div class="hcResultsHeader hcMarginBottom1">
+        <div>12.873 Results</div>
+        <div><select class="" name="">
+        <option value="">Order by Relevance</option>
+          <option value="">Order by given name</option>
+          <option value="">Order by family name</option>
+        </select></div>
+      </div>
+
+      <div class="hcMarginBottom2">
+        <span class="hcSmallTxt hcTxtColorGreyMid">Selected facets:</span>
+        <span class="hcSelectedFacet"><span class="hcSelectedFacetType">Ship</span>De Spiegel</span>
+      </div>
+        {{> page-message}}
+      <div class="hcList hcMarginBottom2">
+        {{#each results}}
+          {{> list-items/list-tim-collection-result }}
+        {{/each}}
+
+      </div>
+      {{> comp-pagination}}
+
+    </div>
+
+
+
+
+  </div>
+</div>
+
+
 
 <!-- build:js js/form.js -->
 <!-- endbuild -->
