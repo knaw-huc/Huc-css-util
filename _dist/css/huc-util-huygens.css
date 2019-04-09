@@ -204,20 +204,23 @@ strong {
 
 .hcList > * > * {
   flex: 1;
-  margin-right: 1rem;
-  overflow-wrap: break-word;
-  word-break: break-all;
-  hyphens: auto; }
+  margin-right: 1rem; }
 
 @media (min-width: 600px) {
   .hcList > * {
-    flex-direction: row; } }
+    flex-direction: row;
+    display: flex; } }
 
 .hcListItemLong {
   flex: 2; }
 
 .hcListHeader {
   background: none; }
+
+.hcListBasicResult {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+  padding: .7rem 0;
+  cursor: pointer; }
 
 .hcRowCard {
   background-color: #fff;
@@ -436,6 +439,11 @@ input, select, option, textarea {
 .hcUriType {
   font-family: monospace;
   font-size: .85rem; }
+
+.hcBreakAll {
+  overflow-wrap: break-word;
+  word-break: break-all;
+  hyphens: auto; }
 
 .hcContentContainer {
   display: flex;
@@ -748,7 +756,7 @@ input, select, option, textarea {
     font-weight: 700; }
 
 .hcTabsVert {
-  flex-direction: row; }
+  flex-direction: column; }
   .hcTabsVert .hcTabLabels {
     display: flex;
     flex-direction: column; }
@@ -760,10 +768,18 @@ input, select, option, textarea {
     flex-direction: row; }
 
 .hcTabLabels {
-  width: 20%; }
+  width: 100%; }
 
 .hcTabAllContent {
-  width: 80%; }
+  width: 100%; }
+
+@media (min-width: 500px) {
+  .hcTabsVert {
+    flex-direction: row; }
+  .hcTabLabels {
+    width: 20%; }
+  .hcTabAllContent {
+    width: 80%; } }
 
 .hcTabContent {
   width: 100%; }

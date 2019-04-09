@@ -70,3 +70,9 @@
   font-size: .85rem;
 
 }
+
+.hcBreakAll {
+  overflow-wrap: break-word;
+  word-break: break-all;
+  hyphens: auto;
+}

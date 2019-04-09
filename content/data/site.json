@@ -129,7 +129,8 @@
       "facets": [
         {
           "facetName": "Text search",
-          "facetTypeSearch": true
+          "facetTypeSearch": true,
+          "facetValue": "suiker"
         },
         {
           "facetName": "Ship",
@@ -289,6 +290,17 @@
           "Image": "NL-HaNA_2.22.24_HCA32-1511_0077.jpg",
           "ImagePath": "https://images.huygens.knaw.nl/iiif/NL-HaNA_2.22.24/HCA32-1511/NL-HaNA_2.22.24_HCA32-1511_0077.tif",
           "Kwic": "<div class=\"hcTextSnippit hcMarginBottom1\"><span class=\"hcKwic\">Suiker</span> ‚ als tot behoorlyke CC, : ‚onderlast der Schépen zal nodig zyn tot den</div><div class=\"hcTextSnippit hcMarginBottom1\">1 Prys van vier Grooten,brieven voor de Hooge Regeering te Batavia, houdende bevel tot afleve_ zing der voormelde Koffy en <span class=\"hcKwic\">Suiker</span></div>"
+        }
+      ],
+      "resultsAmount": 4533,
+      "selectedFacets": [
+        {
+          "facetName": "ship",
+          "facetValue": "De Spiegel"
+        },
+        {
+          "facetName": "Shipmaster",
+          "facetValue": "Gideon de Wildt"
         }
       ]
     },
@@ -773,7 +785,8 @@
       "facets": [
         {
           "facetName": "Text search",
-          "facetTypeSearch": true
+          "facetTypeSearch": true,
+          "facetValue": ""
         },
         {
           "facetName": "Source dataset",
@@ -822,73 +835,165 @@
       ],
       "results": [
         {
-          "person-name": "Jan Willem Giltay",
-          "person-short-bio": "Jan Boeke was born in 1874 in Hengelo. He attended the gymnasium in Utrecht and in 1894 he went to study medicine in Amsterdam. As a third year student he won a gold medal that the Amsterdam Medical Faculty had put up for the best answer to the prize question Over de invloed van aethyl-alcohol op het hart, met name op de hartspier. After sitting his medical finals in 1900, Boeke left for the Zoological Station (Deep Sea Institute) in Naples to study the development of muraenoids. With the publication arising from this, De ontwikkelingsgeschiedenis der muraenoieden he firmly established his name as a zoologist. Back in the Netherlands he assisted professor Thomas Place at the Physiological laboratory in Amsterdam and after one year he gained his doctorate under Place for his thesis Bijdrage tot de pharmacologie van het hart, a more detailed version of his answer to the prize question. Back in Naples, he became acquainted with the famous Hungarian professor Stefan Apáthy, expert in the area of the anatomy and histology of nervous tissue. He taught Boeke about the problems and methods of research in this area. Fur thermore, Boeke was his guest for four months in his laboratory in Kolozsvar Hungary. Back in Amsterdam Boeke worked for a shor t period at the Histology Depar tment of the Physiology Laboratory, but he soon left the university to accept a position as first assistant at the newly founded Rijksinstituut voor Onderzoek der Zee [National Institute for Marine Research] in Den Helder. From there he took part in a number of fishing investigations on the Nor th Sea and the Caribbean Sea.",
-          "person-birth-date": "1851",
-          "person-birth-place": "Dordrecht",
-          "person-death-date": "1929",
-          "person-death-place": "",
-          "person-Gender": "male",
-          "person-Source collections": ["Database Boerhaave", "KNAW-Lid"],
-          "person-Title or role": ["instrument retailer and maker", "KNAW-Lid"],
-          "person-Memberships": ["Koninklijke Nederlandsche Akademie van Wetenschappen", "Royal Dutch Academy of Arts and Sciences", "Nederlands Natuur- en Geneeskundig Congres"],
-          "person-Related materials": [
-            "DE AANTALLEN KWADRATISCHE HYPERRUIMTEN IN DE RUIMTE VAN VIJF AFMETINGEN",
-            "Experimental-Untersuchung über die Möglichkeit einer Doppeltelephonie mittels unterbrochener Klänge",
-            "On the motion of the bridge of the violin",
-            "The effect of the induction coil in telephonic apparatus. (1st part.)",
-            "The effect of the induction coil in telephonic apparatus. (2nd part)",
-            "Verhandelingen Natuurkunde, Eerste Sectie, deel 9, nummer 1-7 (1905-1908)",
-            "Verhandelingen Natuurkunde, Eerste Sectie, deel 9, nummer 3 (1906), 1-36"
-          ]
-        },
+      "person-name": "Jan Willem Giltay",
+      "resultListComp":"list-items/list-tim-simple-person",
+      "person-short-bio": "Jan Boeke was born in 1874 in Hengelo. He attended the gymnasium in Utrecht and in 1894 he went to study medicine in Amsterdam. As a third year student he won a gold medal that the Amsterdam Medical Faculty had put up for the best answer to the prize question Over de invloed van aethyl-alcohol op het hart, met name op de hartspier. After sitting his medical finals in 1900, Boeke left for the Zoological Station (Deep Sea Institute) in Naples to study the development of muraenoids. With the publication arising from this, De ontwikkelingsgeschiedenis der muraenoieden he firmly established his name as a zoologist. Back in the Netherlands he assisted professor Thomas Place at the Physiological laboratory in Amsterdam and after one year he gained his doctorate under Place for his thesis Bijdrage tot de pharmacologie van het hart, a more detailed version of his answer to the prize question. Back in Naples, he became acquainted with the famous Hungarian professor Stefan Apáthy, expert in the area of the anatomy and histology of nervous tissue. He taught Boeke about the problems and methods of research in this area. Fur thermore, Boeke was his guest for four months in his laboratory in Kolozsvar Hungary. Back in Amsterdam Boeke worked for a shor t period at the Histology Depar tment of the Physiology Laboratory, but he soon left the university to accept a position as first assistant at the newly founded Rijksinstituut voor Onderzoek der Zee [National Institute for Marine Research] in Den Helder. From there he took part in a number of fishing investigations on the Nor th Sea and the Caribbean Sea.",
+      "person-birth-date": "1851",
+      "person-birth-place": "Dordrecht",
+      "person-death-date": "1929",
+      "person-death-place": "",
+      "person-Gender": "male",
+      "person-Source collections": ["Database Boerhaave", "KNAW-Lid"],
+      "person-Title or role": ["instrument retailer and maker", "KNAW-Lid"],
+      "person-Memberships": ["Koninklijke Nederlandsche Akademie van Wetenschappen", "Royal Dutch Academy of Arts and Sciences", "Nederlands Natuur- en Geneeskundig Congres"],
+      "person-Related materials": [
+        "DE AANTALLEN KWADRATISCHE HYPERRUIMTEN IN DE RUIMTE VAN VIJF AFMETINGEN",
+        "Experimental-Untersuchung über die Möglichkeit einer Doppeltelephonie mittels unterbrochener Klänge",
+        "On the motion of the bridge of the violin",
+        "The effect of the induction coil in telephonic apparatus. (1st part.)",
+        "The effect of the induction coil in telephonic apparatus. (2nd part)",
+        "Verhandelingen Natuurkunde, Eerste Sectie, deel 9, nummer 1-7 (1905-1908)",
+        "Verhandelingen Natuurkunde, Eerste Sectie, deel 9, nummer 3 (1906), 1-36"
+      ]
+    },
+    {
+      "person-name": "Abraham Gerardus Stipriaan Luïscius van",
+      "resultListComp":"list-items/list-tim-simple-person",
+      "person-short-bio": "In 1788 the Medical Doctor Van Stipriaan Luïscius was a lecturer of chemistry (1789) in Delft. He won various scientific competitions. He was the inventor and maker of a kind of bathometer (depth gange). In 1805 he published a description of that instrument. Collections: Universiteitsmuseum Utrecht (wine ganging rod and a bathometer (depth gange), Museum Boerhaave Leiden (two portrets and a prize medal).",
+      "person-birth-date": "1851",
+      "person-birth-place": "Dordrecht",
+      "person-death-date": "1829-05-02",
+      "person-death-place": "Delft"
+    },
+    {
+      "person-name": "Jan Boeke",
+      "resultListComp":"list-items/list-tim-simple-person",
+      "person-short-bio": "Jan Boeke was born in 1874 in Hengelo. He attended the gymnasium in Utrecht and in 1894 he went to study medicine in Amsterdam. As a third year student he won a gold medal that the Amsterdam Medical Faculty had put up for the best answer to the prize question Over de invloed van aethyl-alcohol op het hart, met name op de hartspier. After sitting his medical finals in 1900, Boeke left for the Zoological Station (Deep Sea Institute) in Naples to study the development of muraenoids. With the publication arising from this, De ontwikkelingsgeschiedenis der muraenoieden he firmly established his name as a zoologist. Back in the Netherlands he assisted professor Thomas Place at the Physiological laboratory in Amsterdam and after one year he gained his doctorate under Place for his thesis Bijdrage tot de pharmacologie van het hart, a more detailed version of his answer to the prize question. Back in Naples, he became acquainted with the famous Hungarian professor Stefan Apáthy, exper t in the area of the anatomy and histology of nervous tissue. He taught Boeke about the problems and methods of research in this area. Fur thermore, Boeke was his guest for four months in his laboratory in Kolozsvar Hungary. Back in Amsterdam Boeke worked for a shor t period at the Histology Depar tment of the Physiology Laboratory, but he soon left the university to accept a position as first assistant at the newly founded Rijksinstituut voor Onderzoek der Zee [National Institute for Marine Research] in Den Helder. From there he took par t in a number of fishing investigations on the Nor th Sea and the Caribbean Sea.",
+      "person-birth-date": "1741",
+      "person-birth-place": "Hengelo",
+      "person-death-date": "1956-09-12",
+      "person-death-place": "Bandung"
+    },
+    {
+      "person-name": "Lambertus Johannes Nieuwenhuis",
+      "resultListComp":"list-items/list-tim-simple-person",
+      "person-short-bio": " ",
+      "person-birth-date": "1810-10-14",
+      "person-birth-place": "",
+      "person-death-date": "1929",
+      "person-death-place": "Enschede"
+    },
+    {
+      "person-name": "Henricus Aeneae",
+      "resultListComp":"list-items/list-tim-simple-person",
+      "person-short-bio": " ",
+      "person-birth-date": "1743-08-19",
+      "person-birth-place": "Oudemirdum",
+      "person-death-date": "1810-11-01",
+      "person-death-place": "'s-Gravenhage"
+    },
+    {
+      "person-name": "Martinus Marum van",
+      "resultListComp":"list-items/list-tim-simple-person",
+      "person-short-bio": " ",
+      "person-birth-date": "1750-03-20",
+      "person-birth-place": "Delft",
+      "person-death-date": "1837-12-26",
+      "person-death-place": "Haarlem"
+    },
+    {
+      "person-name": "Gilles Holst",
+      "resultListComp":"list-items/list-tim-simple-person",
+      "person-short-bio": " ",
+      "person-birth-date": "1886-03-20",
+      "person-birth-place": "Haarlem",
+      "person-death-date": "1968-10-11",
+      "person-death-place": "Waalre"
+    }
+    ,{
+      "person-name": "Jan Willem Giltay",
+      "resultListComp":"list-items/list-tim-simple-person",
+      "person-short-bio": "Jan Boeke was born in 1874 in Hengelo. He attended the gymnasium in Utrecht and in 1894 he went to study medicine in Amsterdam. As a third year student he won a gold medal that the Amsterdam Medical Faculty had put up for the best answer to the prize question Over de invloed van aethyl-alcohol op het hart, met name op de hartspier. After sitting his medical finals in 1900, Boeke left for the Zoological Station (Deep Sea Institute) in Naples to study the development of muraenoids. With the publication arising from this, De ontwikkelingsgeschiedenis der muraenoieden he firmly established his name as a zoologist. Back in the Netherlands he assisted professor Thomas Place at the Physiological laboratory in Amsterdam and after one year he gained his doctorate under Place for his thesis Bijdrage tot de pharmacologie van het hart, a more detailed version of his answer to the prize question. Back in Naples, he became acquainted with the famous Hungarian professor Stefan Apáthy, expert in the area of the anatomy and histology of nervous tissue. He taught Boeke about the problems and methods of research in this area. Fur thermore, Boeke was his guest for four months in his laboratory in Kolozsvar Hungary. Back in Amsterdam Boeke worked for a shor t period at the Histology Depar tment of the Physiology Laboratory, but he soon left the university to accept a position as first assistant at the newly founded Rijksinstituut voor Onderzoek der Zee [National Institute for Marine Research] in Den Helder. From there he took part in a number of fishing investigations on the Nor th Sea and the Caribbean Sea.",
+      "person-birth-date": "1851",
+      "person-birth-place": "Dordrecht",
+      "person-death-date": "1929",
+      "person-death-place": "",
+      "person-Gender": "male",
+      "person-Source collections": ["Database Boerhaave", "KNAW-Lid"],
+      "person-Title or role": ["instrument retailer and maker", "KNAW-Lid"],
+      "person-Memberships": ["Koninklijke Nederlandsche Akademie van Wetenschappen", "Royal Dutch Academy of Arts and Sciences", "Nederlands Natuur- en Geneeskundig Congres"],
+      "person-Related materials": [
+        "DE AANTALLEN KWADRATISCHE HYPERRUIMTEN IN DE RUIMTE VAN VIJF AFMETINGEN",
+        "Experimental-Untersuchung über die Möglichkeit einer Doppeltelephonie mittels unterbrochener Klänge",
+        "On the motion of the bridge of the violin",
+        "The effect of the induction coil in telephonic apparatus. (1st part.)",
+        "The effect of the induction coil in telephonic apparatus. (2nd part)",
+        "Verhandelingen Natuurkunde, Eerste Sectie, deel 9, nummer 1-7 (1905-1908)",
+        "Verhandelingen Natuurkunde, Eerste Sectie, deel 9, nummer 3 (1906), 1-36"
+      ]
+    },
+    {
+      "person-name": "Abraham Gerardus Stipriaan Luïscius van",
+      "resultListComp":"list-items/list-tim-simple-person",
+      "person-short-bio": "In 1788 the Medical Doctor Van Stipriaan Luïscius was a lecturer of chemistry (1789) in Delft. He won various scientific competitions. He was the inventor and maker of a kind of bathometer (depth gange). In 1805 he published a description of that instrument. Collections: Universiteitsmuseum Utrecht (wine ganging rod and a bathometer (depth gange), Museum Boerhaave Leiden (two portrets and a prize medal).",
+      "person-birth-date": "1851",
+      "person-birth-place": "Dordrecht",
+      "person-death-date": "1829-05-02",
+      "person-death-place": "Delft"
+    },
+    {
+      "person-name": "Jan Boeke",
+      "resultListComp":"list-items/list-tim-simple-person",
+      "person-short-bio": "Jan Boeke was born in 1874 in Hengelo. He attended the gymnasium in Utrecht and in 1894 he went to study medicine in Amsterdam. As a third year student he won a gold medal that the Amsterdam Medical Faculty had put up for the best answer to the prize question Over de invloed van aethyl-alcohol op het hart, met name op de hartspier. After sitting his medical finals in 1900, Boeke left for the Zoological Station (Deep Sea Institute) in Naples to study the development of muraenoids. With the publication arising from this, De ontwikkelingsgeschiedenis der muraenoieden he firmly established his name as a zoologist. Back in the Netherlands he assisted professor Thomas Place at the Physiological laboratory in Amsterdam and after one year he gained his doctorate under Place for his thesis Bijdrage tot de pharmacologie van het hart, a more detailed version of his answer to the prize question. Back in Naples, he became acquainted with the famous Hungarian professor Stefan Apáthy, exper t in the area of the anatomy and histology of nervous tissue. He taught Boeke about the problems and methods of research in this area. Fur thermore, Boeke was his guest for four months in his laboratory in Kolozsvar Hungary. Back in Amsterdam Boeke worked for a shor t period at the Histology Depar tment of the Physiology Laboratory, but he soon left the university to accept a position as first assistant at the newly founded Rijksinstituut voor Onderzoek der Zee [National Institute for Marine Research] in Den Helder. From there he took par t in a number of fishing investigations on the Nor th Sea and the Caribbean Sea.",
+      "person-birth-date": "1741",
+      "person-birth-place": "Hengelo",
+      "person-death-date": "1956-09-12",
+      "person-death-place": "Bandung"
+    },
+    {
+      "person-name": "Lambertus Johannes Nieuwenhuis",
+      "resultListComp":"list-items/list-tim-simple-person",
+      "person-short-bio": " ",
+      "person-birth-date": "1810-10-14",
+      "person-birth-place": "",
+      "person-death-date": "1929",
+      "person-death-place": "Enschede"
+    },
+    {
+      "person-name": "Henricus Aeneae",
+      "resultListComp":"list-items/list-tim-simple-person",
+      "person-short-bio": " ",
+      "person-birth-date": "1743-08-19",
+      "person-birth-place": "Oudemirdum",
+      "person-death-date": "1810-11-01",
+      "person-death-place": "'s-Gravenhage"
+    },
+    {
+      "person-name": "Martinus Marum van",
+      "resultListComp":"list-items/list-tim-simple-person",
+      "person-short-bio": " ",
+      "person-birth-date": "1750-03-20",
+      "person-birth-place": "Delft",
+      "person-death-date": "1837-12-26",
+      "person-death-place": "Haarlem"
+    },
+    {
+      "person-name": "Gilles Holst",
+      "resultListComp":"list-items/list-tim-simple-person",
+      "person-short-bio": " ",
+      "person-birth-date": "1886-03-20",
+      "person-birth-place": "Haarlem",
+      "person-death-date": "1968-10-11",
+      "person-death-place": "Waalre"
+    }
+    
+      ],
+      "resultListComp":"list-items/list-tim-simple-person",
+      "resultsAmount": 143,
+      "selectedFacets": [
         {
-          "person-name": "Abraham Gerardus Stipriaan Luïscius van",
-          "person-short-bio": "In 1788 the Medical Doctor Van Stipriaan Luïscius was a lecturer of chemistry (1789) in Delft. He won various scientific competitions. He was the inventor and maker of a kind of bathometer (depth gange). In 1805 he published a description of that instrument. Collections: Universiteitsmuseum Utrecht (wine ganging rod and a bathometer (depth gange), Museum Boerhaave Leiden (two portrets and a prize medal).",
-          "person-birth-date": "1851",
-          "person-birth-place": "Dordrecht",
-          "person-death-date": "1829-05-02",
-          "person-death-place": "Delft"
-        },
-        {
-          "person-name": "Jan Boeke",
-          "person-short-bio": "Jan Boeke was born in 1874 in Hengelo. He attended the gymnasium in Utrecht and in 1894 he went to study medicine in Amsterdam. As a third year student he won a gold medal that the Amsterdam Medical Faculty had put up for the best answer to the prize question Over de invloed van aethyl-alcohol op het hart, met name op de hartspier. After sitting his medical finals in 1900, Boeke left for the Zoological Station (Deep Sea Institute) in Naples to study the development of muraenoids. With the publication arising from this, De ontwikkelingsgeschiedenis der muraenoieden he firmly established his name as a zoologist. Back in the Netherlands he assisted professor Thomas Place at the Physiological laboratory in Amsterdam and after one year he gained his doctorate under Place for his thesis Bijdrage tot de pharmacologie van het hart, a more detailed version of his answer to the prize question. Back in Naples, he became acquainted with the famous Hungarian professor Stefan Apáthy, exper t in the area of the anatomy and histology of nervous tissue. He taught Boeke about the problems and methods of research in this area. Fur thermore, Boeke was his guest for four months in his laboratory in Kolozsvar Hungary. Back in Amsterdam Boeke worked for a shor t period at the Histology Depar tment of the Physiology Laboratory, but he soon left the university to accept a position as first assistant at the newly founded Rijksinstituut voor Onderzoek der Zee [National Institute for Marine Research] in Den Helder. From there he took par t in a number of fishing investigations on the Nor th Sea and the Caribbean Sea.",
-          "person-birth-date": "1741",
-          "person-birth-place": "Hengelo",
-          "person-death-date": "1956-09-12",
-          "person-death-place": "Bandung"
-        },
-        {
-          "person-name": "Lambertus Johannes Nieuwenhuis",
-          "person-short-bio": " ",
-          "person-birth-date": "1810-10-14",
-          "person-birth-place": "",
-          "person-death-date": "1929",
-          "person-death-place": "Enschede"
-        },
-        {
-          "person-name": "Henricus Aeneae",
-          "person-short-bio": " ",
-          "person-birth-date": "1743-08-19",
-          "person-birth-place": "Oudemirdum",
-          "person-death-date": "1810-11-01",
-          "person-death-place": "'s-Gravenhage"
-        },
-        {
-          "person-name": "Martinus Marum van",
-          "person-short-bio": " ",
-          "person-birth-date": "1750-03-20",
-          "person-birth-place": "Delft",
-          "person-death-date": "1837-12-26",
-          "person-death-place": "Haarlem"
-        },
-        {
-          "person-name": "Gilles Holst",
-          "person-short-bio": " ",
-          "person-birth-date": "1886-03-20",
-          "person-birth-place": "Haarlem",
-          "person-death-date": "1968-10-11",
-          "person-death-place": "Waalre"
+          "facetName": "Fields of interest",
+          "facetValue": "mathematics"
         }
       ]
     },

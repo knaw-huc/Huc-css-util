@@ -47,7 +47,7 @@
 
     <div class="hcLayoutResults">
       <div class="hcResultsHeader hcMarginBottom1">
-        <div>12.873 Results</div>
+        <div>{{resultsAmount}} Results</div>
         <div><select class="" name="">
           <option value="">Order by Date</option>
           <option value="">Order by Pagenumber</option>
@@ -57,9 +57,7 @@
       </div>
 
       <div class="hcMarginBottom2">
-        <span class="hcSmallTxt hcTxtColorGreyMid">Selected facets:</span>
-        <span class="hcSelectedFacet"><span class="hcSelectedFacetType">Ship</span>De Spiegel</span>
-        <span class="hcSelectedFacet"><span class="hcSelectedFacetType">Shipmaster</span>Gideon de Wildt</span>
+        {{> comp-facet-selected}}
       </div>
         {{> page-message}}
       <div class="hcList hcMarginBottom2">

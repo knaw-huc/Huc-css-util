@@ -35,7 +35,7 @@
 
     <div class="hcLayoutResults">
       <div class="hcResultsHeader hcMarginBottom1">
-        <div>12.873 Results</div>
+        <div>{{resultsAmount}} Results</div>
         <div><select class="" name="">
         <option value="">Order by Relevance</option>
           <option value="">Order by given name</option>
@@ -44,15 +44,23 @@
       </div>
 
       <div class="hcMarginBottom2">
-        <span class="hcSmallTxt hcTxtColorGreyMid">Selected facets:</span>
-        <span class="hcSelectedFacet"><span class="hcSelectedFacetType">Ship</span>De Spiegel</span>
+        {{> comp-facet-selected}}
       </div>
+
+      <div class="hcList">
+        <div class="hcListHeader">
+          <div class="hcLabel hcListItemLong">Name </div>
+          <div class="hcLabel">Birth</div>
+          <div class="hcLabel">Death</div>
+        </div>
+      </div>
+
       <div class="hcList hcMarginBottom2">
-        <ul>
+
           {{#each results}}
-            {{> list-items/list-tim-collection-result }}
+            {{> (lookup . 'resultListComp') }}
           {{/each}}
-        </ul>
+
 
 
       </div>

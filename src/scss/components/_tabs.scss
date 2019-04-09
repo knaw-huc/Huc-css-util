@@ -7,8 +7,12 @@
   }
 }
 
+
+
+
+
 .hcTabsVert {
-  flex-direction: row;
+  flex-direction: column;
 
   .hcTabLabels {
     display: flex;
@@ -27,14 +31,34 @@
 }
 
 
-
 .hcTabLabels {
-  width: 20%;
+  width: 100%;
 }
 
 .hcTabAllContent{
-    width: 80%;
+    width: 100%;
 }
+
+
+
+@media (min-width: 500px) {
+  .hcTabsVert {
+    flex-direction: row;
+  }
+
+  .hcTabLabels {
+    width: 20%;
+  }
+
+  .hcTabAllContent{
+      width: 80%;
+  }
+}
+
+
+
+
+
 
 .hcTabContent {
   width: 100%;
