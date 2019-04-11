@@ -1,6 +1,79 @@
 {{> html-head}}
+{{> page-product-header}}
+
+<div class="hcContentContainer">
+
+  {{#each personData}}
+  <div class="hcBasicSideMargin hcMarginTop4 hcMarginBottom1">
+    <h1>{{person-name}}</h1>
+    <p>{{person-birth-date}} - {{person-death-date}}</p>
+  </div>
+
+  <div class="hcFormStack hcMarginBottom3 hcBasicSideMargin">
+    <div class="hcStackInfo">
+      <h2>Person info</h2>
+      <div class="hcTxtColorGreyMid">Personal info</div>
+    </div>
+    <div class="hcStackFormItems">
+      <div class="hcLabel">Birth</div>
+      <div class="hcMarginBottom1">{{person-birth-date}}<br>
+      {{person-birth-place}}</div>
+
+      <div class="hcLabel">Death</div>
+      <div class="hcMarginBottom1">{{person-death-date}}<br>
+      {{person-death-place}}</div>
+
+      <div class="hcLabel">Gender</div>
+      <div class="hcMarginBottom1">{{person-Gender}}</div>
+
+      <div class="hcLabel">Short bio</div>
+      <div class="hcMarginBottom1">{{person-short-bio}}</div>
+
+    </div>
+  </div>
+
+  <div class="hcFormStack hcMarginBottom5 hcBasicSideMargin">
+    <div class="hcStackInfo">
+      <h2>Collections and memberships</h2>
+      <div class="hcTxtColorGreyMid">Personal info</div>
+    </div>
+    <div class="hcStackFormItems">
+      <div class="hcLabel">Source</div>
+      <div class="hcMarginBottom1">
+        {{#each person-SourceCollections}}
+          {{this}}<br>
+        {{/each}}</div>
+
+      <div class="hcLabel">Title and roles</div>
+      <div class="hcMarginBottom1">
+        {{#each person-TitleRole}}
+          {{this}}<br>
+        {{/each}}</div>
+
+        <div class="hcLabel">Memberships</div>
+        <div class="hcMarginBottom1">
+          {{#each person-Memberships}}
+            {{this}}<br>
+          {{/each}}</div>
+
+        <div class="hcLabel">Related materials</div>
+        <div class="hcMarginBottom1">
+          {{#each person-RelatedMaterials}}
+            {{this}}<br>
+          {{/each}}</div>
+
+    </div>
+  </div>
 
 
+{{/each}}
+
+
+
+
+</div>
+
+{{>page-footer-timbuctoo}}
 <!-- build:js js/form.js -->
 <!-- endbuild -->
 {{> html-footer}}

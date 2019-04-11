@@ -55,13 +55,13 @@
         </div>
       </div>
 
-      <div class="hcList hcMarginBottom2">
+      <div class="hcList hcMarginBottom2" onclick="javascript:location.href='{{linkResultPage}}.html'">
 
           {{#each results}}
             {{> (lookup . 'resultListComp') }}
           {{/each}}
 
-
+ 
 
       </div>
       {{> comp-pagination}}
@@ -75,7 +75,7 @@
 </div>
 
 
-
+{{>page-footer-timbuctoo}}
 <!-- build:js js/form.js -->
 <!-- endbuild -->
 {{> html-footer}}
