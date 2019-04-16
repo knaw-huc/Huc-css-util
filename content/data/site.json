@@ -999,6 +999,144 @@
           "facetValue": "mathematics"
         }
       ],
+      "datasets": [
+      {
+      "name": "Digital Web Centre for the History of Science",
+      "description": "Dataset compiled by the Digital Web Centre for the History of Science, an initiative of Huygens ING. The dataset consists of four subsets:<ul><li>Past members of the Royal Netherlands Academy of Arts and Sciences (KNAW)</li><li>Scientific Instrument Makers in the Netherlands</li><li>The network of Carolus Clusius (1526-1609)</li><li>Members of Dutch scientific societies</li></ul>",
+      "status": "In progress",
+      "dataset-created": "10-04-2017",
+      "dataset-lastModified": "03-04-2019",
+      "dataset-tags": "history",
+      "dataset-licence": "ODC-BY",
+      "linkResultPage": "hi-collection-search",
+      "dataset-team": ["Huib Zuidervaart", "Ilja Nieuwland", "Ger Dijkstra"],
+      "collections": [
+        {
+          "collectionName": "Persons",
+          "collectionAmount": 18604,
+          "collectionUri": "dwc_col_Persons",
+          "collectionDescription": "Members of KNAW and Dutch scientific societies and Dutch instrument makers",
+          "collectionProperties": [
+            {
+              "propertyName": "Birth Date Remark",
+              "propertyDensity": 45,
+              "propertyUri": ":dwc_pred:birthDateRemark"
+            },
+            {
+              "propertyName": "data Set Name",
+              "propertyDensity": 45,
+              "propertyUri": ":dwc_pred:dataSetName(s)‎"
+            },
+            {
+              "propertyName": "Death date remark",
+              "propertyDensity": 95,
+              "propertyUri": ":dwc_pred:deathDateRemark"
+            },
+            {
+              "propertyName": "Obituary url",
+              "propertyDensity": 5,
+              "propertyUri": ":dwc_pred:obituaryUrl(s)"
+            },
+            {
+              "propertyName": "Origin Db",
+              "propertyDensity": 100,
+              "propertyUri": ":dwc_pred:originDb(s)‎"
+            },
+            {
+              "propertyName": "URL of portrait",
+              "propertyDensity": 100,
+              "propertyUri": ":dwc_pred:portraitUrl(s)"
+            },
+            {
+              "propertyName": "Same as",
+              "propertyDensity": 65,
+              "propertyUri": ":owl:sameAs(s)‎"
+            }
+          ]
+        },
+        {
+          "collectionName": "Places",
+          "collectionAmount": 4252,
+          "collectionUri": "dwc_col_Places",
+          "collectionDescription": "Cities, villages and other places in the Netherlands.",
+          "collectionProperties": [
+            {
+              "propertyName": "Country",
+              "propertyDensity": 95,
+              "propertyUri": ":dwc_pred:Country"
+            },
+            {
+              "propertyName": "Country code",
+              "propertyDensity": 95,
+              "propertyUri": ":http://www.geonames.org/ontology#countryCode"
+            },
+            {
+              "propertyName": "Latitude",
+              "propertyDensity": 95,
+              "propertyUri": ":http://www.w3.org/2003/01/geo/wgs84_pos#lat"
+            },
+            {
+              "propertyName": "Longitude",
+              "propertyDensity": 95,
+              "propertyUri": ":http://www.w3.org/2003/01/geo/wgs84_pos#long"
+            },
+            {
+              "propertyName": "Same as",
+              "propertyDensity": 95,
+              "propertyUri": ":owl:sameAs(s)"
+            },
+            {
+              "propertyName": "Type",
+              "propertyDensity": 100,
+              "propertyUri": ":rdf:type"
+            },
+            {
+              "propertyName": "Names",
+              "propertyDensity": 100,
+              "propertyUri": ":schema:name(s)‎"
+            }
+          ]
+        },
+        {
+          "collectionName": "Education",
+          "collectionAmount": 2472,
+          "collectionUri": "dwc_col_Education",
+          "collectionDescription": "Formal education."
+        },
+        {
+          "collectionName": "Institutes",
+          "collectionUri": "dwc_col_Institutes",
+          "collectionAmount": 9084
+        },
+        {
+          "collectionName": "Occupation",
+          "collectionUri": "dwc_col_Occupation",
+          "collectionAmount": 11446
+        },
+        {
+          "collectionName": "Membership",
+          "collectionUri": "dwc_col_Memberships",
+          "collectionAmount": 23810
+        }
+      ],
+      "logos":["logo-huygensIng.png"]
+    }
+    ,
+      {
+        "name": "Biography portal of the Netherlands",
+        "description": "Links a variety of online reference works and data sets on inhabitants of the Netherlands from the earliest times until the present. It does not include people who are still alive.",
+        "status": "Completed",
+        "collections": [
+          {
+            "collectionName": "Persons",
+            "collectionAmount": 82862
+    
+          }
+        ],
+        "logos":["logo-huygensIng.png"]
+      }
+    ]
+    ,
       "dataset": {
       "name": "Digital Web Centre for the History of Science",
       "description": "Dataset compiled by the Digital Web Centre for the History of Science, an initiative of Huygens ING. The dataset consists of four subsets:<ul><li>Past members of the Royal Netherlands Academy of Arts and Sciences (KNAW)</li><li>Scientific Instrument Makers in the Netherlands</li><li>The network of Carolus Clusius (1526-1609)</li><li>Members of Dutch scientific societies</li></ul>",
