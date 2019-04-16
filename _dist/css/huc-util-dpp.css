@@ -445,6 +445,25 @@ input, select, option, textarea {
   word-break: break-all;
   hyphens: auto; }
 
+.hcBarDataset {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 1rem; }
+
+@media (min-width: 600px) {
+  .hcBarDataset {
+    flex-direction: row; }
+  span {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    padding-right: 1rem; }
+  select {
+    background-color: none; } }
+
+.hcBorderBottom {
+  border-bottom: 1px solid #ededed; }
+
 .hcContentContainer {
   display: flex;
   flex-direction: column;
