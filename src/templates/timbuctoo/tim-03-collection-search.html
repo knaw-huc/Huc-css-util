@@ -1,10 +1,9 @@
 {{> html-head}}
-
-{{> page-product-header}}
+{{> comp-tim-header}}
 
 
 <div class="hcContentContainer">
-  <div class="hcHeadSpace hcBasicSideMargin">
+  <div class="hcBasicSideMargin hcMarginTop4 hcMarginBottom1">
     <h1>Person search</h1>
   </div>
 
@@ -61,7 +60,7 @@
             {{> (lookup . 'resultListComp') }}
           {{/each}}
 
- 
+
 
       </div>
       {{> comp-pagination}}
