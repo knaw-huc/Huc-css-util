@@ -579,7 +579,14 @@ input, select, option, textarea {
   width: 100%; }
 
 .hcLayoutFacetsToggel {
-  display: none; }
+  display: flex;
+  height: 230px;
+  flex-direction: row;
+  overflow-x: auto;
+  background-color: #fbfbfb; }
+  .hcLayoutFacetsToggel div {
+    width: 250px;
+    margin-right: 3rem; }
 
 #showFacets {
   position: fixed;
@@ -594,7 +601,14 @@ input, select, option, textarea {
   .hcLayoutResults {
     width: calc(100% - 350px); }
   .hcLayoutFacetsToggel {
-    display: block; }
+    display: block;
+    overflow-x: none;
+    height: auto;
+    flex-direction: column;
+    background: none; }
+    .hcLayoutFacetsToggel div {
+      width: 100%;
+      margin-right: auto; }
   #showFacets {
     display: none;
     position: fixed; } }

@@ -16,7 +16,7 @@ var clFacets = document.querySelectorAll("#showFacets");
 
 function handleMenu() {
   if (facetsOpen == true) {
-    document.getElementById("hcLayoutFacetsToggel").style.display = "block";
+    document.getElementById("hcLayoutFacetsToggel").style.display = "flex";
   }
   if (facetsOpen == false) {
     document.getElementById("hcLayoutFacetsToggel").style.display = "none";
@@ -25,7 +25,7 @@ function handleMenu() {
 
 function checkFacetsSize() {
   if (window.matchMedia("(max-width: 800px)").matches) {
-      document.getElementById("hcLayoutFacetsToggel").style.display = "block";
+      document.getElementById("hcLayoutFacetsToggel").style.display = "flex";
     }
 }
 

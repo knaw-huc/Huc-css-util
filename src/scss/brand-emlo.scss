@@ -1,0 +1,23 @@
+@import 'var';
+@import 'color';
+
+.bgColorBrand1 { 
+	background-color: #efc319;
+	color: #172854;
+}
+
+.bgColorBrand1 a{
+	color: #172854;
+}
+
+.colorBgGrey{
+	background-color: $colorHuygensGreyLight !important;
+}
+
+.hcFeedbackError {
+  border-bottom: 3px solid $colorHuygensOrange !important;
+}
+
+.hcFeedbackSucces {
+  border-bottom: 3px solid $colorHuygensGreen !important;
+}

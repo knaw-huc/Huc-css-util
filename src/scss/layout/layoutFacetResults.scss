@@ -15,8 +15,20 @@ $asideFacets: 350px;
 }
 
 .hcLayoutFacetsToggel {
-  display: none;
+  display: flex;
+  height: 230px;
+  flex-direction: row;
+  overflow-x: auto;
+
+  background-color: $colorGreyVeryLight;
+  //padding: 0.5rem;
+
+  div {
+    width: 250px;
+    margin-right: 3rem;
+  }
 }
+
 #showFacets {
   position: fixed;
   top: 45vh;
@@ -38,6 +50,18 @@ $asideFacets: 350px;
   }
   .hcLayoutFacetsToggel {
   display: block;
+  overflow-x: none;
+  height: auto;
+  flex-direction: column;
+
+  background: none;
+
+
+  div {
+    width: 100%;
+    margin-right: auto;
+  }
+
   }
 
   #showFacets {

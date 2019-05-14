@@ -14,7 +14,23 @@
   "logo": "emlo-logo.png",
   "isPage": true,
   "favi":"favi-emlo.png",
-  "title": "Emlo | EM Places Search"
+  "title": "Emlo | EM Places Search",
+  "facets": [
+    {{> facets-dwc-persons }}
+  ],
+  "results": [
+    {{> results-dwc-persons }},{{> results-dwc-persons }}
+  ],
+  "resultListComp":"list-items/list-tim-simple-person",
+  "resultsAmount": 143,
+  "selectedFacets": [
+    {
+      "facetName": "Fields of interest",
+      "facetValue": "mathematics"
+    }
+  ],
+  "datasets": {{> datasets-huygens }},
+  "dataset": {{> dataset-dwc }}
 },
 {
   "name": "emlo-collection-detail",

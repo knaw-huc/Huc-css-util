@@ -1570,7 +1570,483 @@
       "logo": "emlo-logo.png",
       "isPage": true,
       "favi":"favi-emlo.png",
-      "title": "Emlo | EM Places Search"
+      "title": "Emlo | EM Places Search",
+      "facets": [
+        {
+          "facetName": "Text search",
+          "facetTypeSearch": true,
+          "facetValue": ""
+        },
+        {
+          "facetName": "Source dataset",
+          "facetTypelist": true,
+          "facetItems": [
+            {"facetItemsName": "KNAW-Lid"},
+            {"facetItemsName": "Auteur KNAW"},
+            {"facetItemsName": "KNAW-lid"},
+            {"facetItemsName": "Database Boerhave"},
+            {"facetItemsName": "Medical Professors Leiden"}
+          ]
+        },
+        {
+          "facetName": "Place of birth",
+          "facetTypelist": true,
+          "facetItems": [
+            {"facetItemsName": "Wissekerke"},
+            {"facetItemsName": "Oudewater"},
+            {"facetItemsName": "Oudemirdum"},
+            {"facetItemsName": "Hengelo"},
+            {"facetItemsName": "Haarlem"}
+          ]
+        },
+        {
+          "facetName": "Place of death",
+          "facetTypelist": true,
+          "facetItems": [
+            {"facetItemsName": "Middelburg"},
+            {"facetItemsName": "Hagam Comitis"},
+            {"facetItemsName": "Hagae"},
+            {"facetItemsName": "Haarlem"},
+            {"facetItemsName": "Enschede"}
+          ]
+        },
+        {
+          "facetName": "Field of interest",
+          "facetTypelist": true,
+          "facetItems": [
+            {"facetItemsName": "scientific instruments"},
+            {"facetItemsName": "physics"},
+            {"facetItemsName": "mathematics"},
+            {"facetItemsName": "medicine"},
+            {"facetItemsName": "chemistry"}
+          ]
+        }
+      ],
+      "results": [
+        {
+      "person-name": "Jan Willem Giltay",
+      "resultListComp":"list-items/list-tim-simple-person",
+      "person-short-bio": "Jan Boeke was born in 1874 in Hengelo. He attended the gymnasium in Utrecht and in 1894 he went to study medicine in Amsterdam. As a third year student he won a gold medal that the Amsterdam Medical Faculty had put up for the best answer to the prize question Over de invloed van aethyl-alcohol op het hart, met name op de hartspier. After sitting his medical finals in 1900, Boeke left for the Zoological Station (Deep Sea Institute) in Naples to study the development of muraenoids. With the publication arising from this, De ontwikkelingsgeschiedenis der muraenoieden he firmly established his name as a zoologist. Back in the Netherlands he assisted professor Thomas Place at the Physiological laboratory in Amsterdam and after one year he gained his doctorate under Place for his thesis Bijdrage tot de pharmacologie van het hart, a more detailed version of his answer to the prize question. Back in Naples, he became acquainted with the famous Hungarian professor Stefan Apáthy, expert in the area of the anatomy and histology of nervous tissue. He taught Boeke about the problems and methods of research in this area. Fur thermore, Boeke was his guest for four months in his laboratory in Kolozsvar Hungary. Back in Amsterdam Boeke worked for a shor t period at the Histology Depar tment of the Physiology Laboratory, but he soon left the university to accept a position as first assistant at the newly founded Rijksinstituut voor Onderzoek der Zee [National Institute for Marine Research] in Den Helder. From there he took part in a number of fishing investigations on the Nor th Sea and the Caribbean Sea.",
+      "person-birth-date": "1851",
+      "person-birth-place": "Dordrecht",
+      "person-death-date": "1929",
+      "person-death-place": "",
+      "person-Gender": "male",
+      "person-SourceCollections": ["Database Boerhaave", "KNAW-Lid"],
+      "person-TitleRole": ["instrument retailer and maker", "KNAW-Lid"],
+      "person-Memberships": ["Koninklijke Nederlandsche Akademie van Wetenschappen", "Royal Dutch Academy of Arts and Sciences", "Nederlands Natuur- en Geneeskundig Congres"],
+      "person-RelatedMaterials": [
+        "DE AANTALLEN KWADRATISCHE HYPERRUIMTEN IN DE RUIMTE VAN VIJF AFMETINGEN",
+        "Experimental-Untersuchung über die Möglichkeit einer Doppeltelephonie mittels unterbrochener Klänge",
+        "On the motion of the bridge of the violin",
+        "The effect of the induction coil in telephonic apparatus. (1st part.)",
+        "The effect of the induction coil in telephonic apparatus. (2nd part)",
+        "Verhandelingen Natuurkunde, Eerste Sectie, deel 9, nummer 1-7 (1905-1908)",
+        "Verhandelingen Natuurkunde, Eerste Sectie, deel 9, nummer 3 (1906), 1-36"
+      ]
+    }
+    ,
+    {
+      "person-name": "Abraham Gerardus Stipriaan Luïscius van",
+      "resultListComp":"list-items/list-tim-simple-person",
+      "person-short-bio": "In 1788 the Medical Doctor Van Stipriaan Luïscius was a lecturer of chemistry (1789) in Delft. He won various scientific competitions. He was the inventor and maker of a kind of bathometer (depth gange). In 1805 he published a description of that instrument. Collections: Universiteitsmuseum Utrecht (wine ganging rod and a bathometer (depth gange), Museum Boerhaave Leiden (two portrets and a prize medal).",
+      "person-birth-date": "1851",
+      "person-birth-place": "Dordrecht",
+      "person-death-date": "1829-05-02",
+      "person-death-place": "Delft"
+    },
+    {
+      "person-name": "Jan Boeke",
+      "resultListComp":"list-items/list-tim-simple-person",
+      "person-short-bio": "Jan Boeke was born in 1874 in Hengelo. He attended the gymnasium in Utrecht and in 1894 he went to study medicine in Amsterdam. As a third year student he won a gold medal that the Amsterdam Medical Faculty had put up for the best answer to the prize question Over de invloed van aethyl-alcohol op het hart, met name op de hartspier. After sitting his medical finals in 1900, Boeke left for the Zoological Station (Deep Sea Institute) in Naples to study the development of muraenoids. With the publication arising from this, De ontwikkelingsgeschiedenis der muraenoieden he firmly established his name as a zoologist. Back in the Netherlands he assisted professor Thomas Place at the Physiological laboratory in Amsterdam and after one year he gained his doctorate under Place for his thesis Bijdrage tot de pharmacologie van het hart, a more detailed version of his answer to the prize question. Back in Naples, he became acquainted with the famous Hungarian professor Stefan Apáthy, exper t in the area of the anatomy and histology of nervous tissue. He taught Boeke about the problems and methods of research in this area. Fur thermore, Boeke was his guest for four months in his laboratory in Kolozsvar Hungary. Back in Amsterdam Boeke worked for a shor t period at the Histology Depar tment of the Physiology Laboratory, but he soon left the university to accept a position as first assistant at the newly founded Rijksinstituut voor Onderzoek der Zee [National Institute for Marine Research] in Den Helder. From there he took par t in a number of fishing investigations on the Nor th Sea and the Caribbean Sea.",
+      "person-birth-date": "1741",
+      "person-birth-place": "Hengelo",
+      "person-death-date": "1956-09-12",
+      "person-death-place": "Bandung"
+    },
+    {
+      "person-name": "Lambertus Johannes Nieuwenhuis",
+      "resultListComp":"list-items/list-tim-simple-person",
+      "person-short-bio": " ",
+      "person-birth-date": "1810-10-14",
+      "person-birth-place": "",
+      "person-death-date": "1929",
+      "person-death-place": "Enschede"
+    },
+    {
+      "person-name": "Henricus Aeneae",
+      "resultListComp":"list-items/list-tim-simple-person",
+      "person-short-bio": " ",
+      "person-birth-date": "1743-08-19",
+      "person-birth-place": "Oudemirdum",
+      "person-death-date": "1810-11-01",
+      "person-death-place": "'s-Gravenhage"
+    },
+    {
+      "person-name": "Martinus Marum van",
+      "resultListComp":"list-items/list-tim-simple-person",
+      "person-short-bio": " ",
+      "person-birth-date": "1750-03-20",
+      "person-birth-place": "Delft",
+      "person-death-date": "1837-12-26",
+      "person-death-place": "Haarlem"
+    },
+    {
+      "person-name": "Gilles Holst",
+      "resultListComp":"list-items/list-tim-simple-person",
+      "person-short-bio": " ",
+      "person-birth-date": "1886-03-20",
+      "person-birth-place": "Haarlem",
+      "person-death-date": "1968-10-11",
+      "person-death-place": "Waalre"
+    }
+    ,{
+      "person-name": "Jan Willem Giltay",
+      "resultListComp":"list-items/list-tim-simple-person",
+      "person-short-bio": "Jan Boeke was born in 1874 in Hengelo. He attended the gymnasium in Utrecht and in 1894 he went to study medicine in Amsterdam. As a third year student he won a gold medal that the Amsterdam Medical Faculty had put up for the best answer to the prize question Over de invloed van aethyl-alcohol op het hart, met name op de hartspier. After sitting his medical finals in 1900, Boeke left for the Zoological Station (Deep Sea Institute) in Naples to study the development of muraenoids. With the publication arising from this, De ontwikkelingsgeschiedenis der muraenoieden he firmly established his name as a zoologist. Back in the Netherlands he assisted professor Thomas Place at the Physiological laboratory in Amsterdam and after one year he gained his doctorate under Place for his thesis Bijdrage tot de pharmacologie van het hart, a more detailed version of his answer to the prize question. Back in Naples, he became acquainted with the famous Hungarian professor Stefan Apáthy, expert in the area of the anatomy and histology of nervous tissue. He taught Boeke about the problems and methods of research in this area. Fur thermore, Boeke was his guest for four months in his laboratory in Kolozsvar Hungary. Back in Amsterdam Boeke worked for a shor t period at the Histology Depar tment of the Physiology Laboratory, but he soon left the university to accept a position as first assistant at the newly founded Rijksinstituut voor Onderzoek der Zee [National Institute for Marine Research] in Den Helder. From there he took part in a number of fishing investigations on the Nor th Sea and the Caribbean Sea.",
+      "person-birth-date": "1851",
+      "person-birth-place": "Dordrecht",
+      "person-death-date": "1929",
+      "person-death-place": "",
+      "person-Gender": "male",
+      "person-SourceCollections": ["Database Boerhaave", "KNAW-Lid"],
+      "person-TitleRole": ["instrument retailer and maker", "KNAW-Lid"],
+      "person-Memberships": ["Koninklijke Nederlandsche Akademie van Wetenschappen", "Royal Dutch Academy of Arts and Sciences", "Nederlands Natuur- en Geneeskundig Congres"],
+      "person-RelatedMaterials": [
+        "DE AANTALLEN KWADRATISCHE HYPERRUIMTEN IN DE RUIMTE VAN VIJF AFMETINGEN",
+        "Experimental-Untersuchung über die Möglichkeit einer Doppeltelephonie mittels unterbrochener Klänge",
+        "On the motion of the bridge of the violin",
+        "The effect of the induction coil in telephonic apparatus. (1st part.)",
+        "The effect of the induction coil in telephonic apparatus. (2nd part)",
+        "Verhandelingen Natuurkunde, Eerste Sectie, deel 9, nummer 1-7 (1905-1908)",
+        "Verhandelingen Natuurkunde, Eerste Sectie, deel 9, nummer 3 (1906), 1-36"
+      ]
+    }
+    ,
+    {
+      "person-name": "Abraham Gerardus Stipriaan Luïscius van",
+      "resultListComp":"list-items/list-tim-simple-person",
+      "person-short-bio": "In 1788 the Medical Doctor Van Stipriaan Luïscius was a lecturer of chemistry (1789) in Delft. He won various scientific competitions. He was the inventor and maker of a kind of bathometer (depth gange). In 1805 he published a description of that instrument. Collections: Universiteitsmuseum Utrecht (wine ganging rod and a bathometer (depth gange), Museum Boerhaave Leiden (two portrets and a prize medal).",
+      "person-birth-date": "1851",
+      "person-birth-place": "Dordrecht",
+      "person-death-date": "1829-05-02",
+      "person-death-place": "Delft"
+    },
+    {
+      "person-name": "Jan Boeke",
+      "resultListComp":"list-items/list-tim-simple-person",
+      "person-short-bio": "Jan Boeke was born in 1874 in Hengelo. He attended the gymnasium in Utrecht and in 1894 he went to study medicine in Amsterdam. As a third year student he won a gold medal that the Amsterdam Medical Faculty had put up for the best answer to the prize question Over de invloed van aethyl-alcohol op het hart, met name op de hartspier. After sitting his medical finals in 1900, Boeke left for the Zoological Station (Deep Sea Institute) in Naples to study the development of muraenoids. With the publication arising from this, De ontwikkelingsgeschiedenis der muraenoieden he firmly established his name as a zoologist. Back in the Netherlands he assisted professor Thomas Place at the Physiological laboratory in Amsterdam and after one year he gained his doctorate under Place for his thesis Bijdrage tot de pharmacologie van het hart, a more detailed version of his answer to the prize question. Back in Naples, he became acquainted with the famous Hungarian professor Stefan Apáthy, exper t in the area of the anatomy and histology of nervous tissue. He taught Boeke about the problems and methods of research in this area. Fur thermore, Boeke was his guest for four months in his laboratory in Kolozsvar Hungary. Back in Amsterdam Boeke worked for a shor t period at the Histology Depar tment of the Physiology Laboratory, but he soon left the university to accept a position as first assistant at the newly founded Rijksinstituut voor Onderzoek der Zee [National Institute for Marine Research] in Den Helder. From there he took par t in a number of fishing investigations on the Nor th Sea and the Caribbean Sea.",
+      "person-birth-date": "1741",
+      "person-birth-place": "Hengelo",
+      "person-death-date": "1956-09-12",
+      "person-death-place": "Bandung"
+    },
+    {
+      "person-name": "Lambertus Johannes Nieuwenhuis",
+      "resultListComp":"list-items/list-tim-simple-person",
+      "person-short-bio": " ",
+      "person-birth-date": "1810-10-14",
+      "person-birth-place": "",
+      "person-death-date": "1929",
+      "person-death-place": "Enschede"
+    },
+    {
+      "person-name": "Henricus Aeneae",
+      "resultListComp":"list-items/list-tim-simple-person",
+      "person-short-bio": " ",
+      "person-birth-date": "1743-08-19",
+      "person-birth-place": "Oudemirdum",
+      "person-death-date": "1810-11-01",
+      "person-death-place": "'s-Gravenhage"
+    },
+    {
+      "person-name": "Martinus Marum van",
+      "resultListComp":"list-items/list-tim-simple-person",
+      "person-short-bio": " ",
+      "person-birth-date": "1750-03-20",
+      "person-birth-place": "Delft",
+      "person-death-date": "1837-12-26",
+      "person-death-place": "Haarlem"
+    },
+    {
+      "person-name": "Gilles Holst",
+      "resultListComp":"list-items/list-tim-simple-person",
+      "person-short-bio": " ",
+      "person-birth-date": "1886-03-20",
+      "person-birth-place": "Haarlem",
+      "person-death-date": "1968-10-11",
+      "person-death-place": "Waalre"
+    }
+    
+      ],
+      "resultListComp":"list-items/list-tim-simple-person",
+      "resultsAmount": 143,
+      "selectedFacets": [
+        {
+          "facetName": "Fields of interest",
+          "facetValue": "mathematics"
+        }
+      ],
+      "datasets": [
+      {
+      "name": "Digital Web Centre for the History of Science",
+      "description": "Dataset compiled by the Digital Web Centre for the History of Science, an initiative of Huygens ING. The dataset consists of four subsets:<ul><li>Past members of the Royal Netherlands Academy of Arts and Sciences (KNAW)</li><li>Scientific Instrument Makers in the Netherlands</li><li>The network of Carolus Clusius (1526-1609)</li><li>Members of Dutch scientific societies</li></ul>",
+      "status": "In progress",
+      "dataset-created": "10-04-2017",
+      "dataset-lastModified": "03-04-2019",
+      "dataset-tags": "history",
+      "dataset-licence": "ODC-BY",
+      "linkResultPage": "hi-collection-search",
+      "dataset-team": ["Huib Zuidervaart", "Ilja Nieuwland", "Ger Dijkstra"],
+      "collections": [
+        {
+          "collectionName": "Persons",
+          "collectionAmount": 18604,
+          "collectionUri": "dwc_col_Persons",
+          "collectionDescription": "Members of KNAW and Dutch scientific societies and Dutch instrument makers",
+          "collectionProperties": [
+            {
+              "propertyName": "Birth Date Remark",
+              "propertyDensity": 45,
+              "propertyUri": ":dwc_pred:birthDateRemark"
+            },
+            {
+              "propertyName": "data Set Name",
+              "propertyDensity": 45,
+              "propertyUri": ":dwc_pred:dataSetName(s)‎"
+            },
+            {
+              "propertyName": "Death date remark",
+              "propertyDensity": 95,
+              "propertyUri": ":dwc_pred:deathDateRemark"
+            },
+            {
+              "propertyName": "Obituary url",
+              "propertyDensity": 5,
+              "propertyUri": ":dwc_pred:obituaryUrl(s)"
+            },
+            {
+              "propertyName": "Origin Db",
+              "propertyDensity": 100,
+              "propertyUri": ":dwc_pred:originDb(s)‎"
+            },
+            {
+              "propertyName": "URL of portrait",
+              "propertyDensity": 100,
+              "propertyUri": ":dwc_pred:portraitUrl(s)"
+            },
+            {
+              "propertyName": "Same as",
+              "propertyDensity": 65,
+              "propertyUri": ":owl:sameAs(s)‎"
+            }
+          ]
+        },
+        {
+          "collectionName": "Places",
+          "collectionAmount": 4252,
+          "collectionUri": "dwc_col_Places",
+          "collectionDescription": "Cities, villages and other places in the Netherlands.",
+          "collectionProperties": [
+            {
+              "propertyName": "Country",
+              "propertyDensity": 95,
+              "propertyUri": ":dwc_pred:Country"
+            },
+            {
+              "propertyName": "Country code",
+              "propertyDensity": 95,
+              "propertyUri": ":http://www.geonames.org/ontology#countryCode"
+            },
+            {
+              "propertyName": "Latitude",
+              "propertyDensity": 95,
+              "propertyUri": ":http://www.w3.org/2003/01/geo/wgs84_pos#lat"
+            },
+            {
+              "propertyName": "Longitude",
+              "propertyDensity": 95,
+              "propertyUri": ":http://www.w3.org/2003/01/geo/wgs84_pos#long"
+            },
+            {
+              "propertyName": "Same as",
+              "propertyDensity": 95,
+              "propertyUri": ":owl:sameAs(s)"
+            },
+            {
+              "propertyName": "Type",
+              "propertyDensity": 100,
+              "propertyUri": ":rdf:type"
+            },
+            {
+              "propertyName": "Names",
+              "propertyDensity": 100,
+              "propertyUri": ":schema:name(s)‎"
+            }
+          ]
+        },
+        {
+          "collectionName": "Education",
+          "collectionAmount": 2472,
+          "collectionUri": "dwc_col_Education",
+          "collectionDescription": "Formal education."
+        },
+        {
+          "collectionName": "Institutes",
+          "collectionUri": "dwc_col_Institutes",
+          "collectionAmount": 9084
+        },
+        {
+          "collectionName": "Occupation",
+          "collectionUri": "dwc_col_Occupation",
+          "collectionAmount": 11446
+        },
+        {
+          "collectionName": "Membership",
+          "collectionUri": "dwc_col_Memberships",
+          "collectionAmount": 23810
+        }
+      ],
+      "logos":["logo-huygensIng.png"]
+    }
+    ,
+      {
+        "name": "Biography portal of the Netherlands",
+        "description": "Links a variety of online reference works and data sets on inhabitants of the Netherlands from the earliest times until the present. It does not include people who are still alive.",
+        "status": "Completed",
+        "collections": [
+          {
+            "collectionName": "Persons",
+            "collectionAmount": 82862
+    
+          }
+        ],
+        "logos":["logo-huygensIng.png"]
+      }
+    ]
+    ,
+      "dataset": {
+      "name": "Digital Web Centre for the History of Science",
+      "description": "Dataset compiled by the Digital Web Centre for the History of Science, an initiative of Huygens ING. The dataset consists of four subsets:<ul><li>Past members of the Royal Netherlands Academy of Arts and Sciences (KNAW)</li><li>Scientific Instrument Makers in the Netherlands</li><li>The network of Carolus Clusius (1526-1609)</li><li>Members of Dutch scientific societies</li></ul>",
+      "status": "In progress",
+      "dataset-created": "10-04-2017",
+      "dataset-lastModified": "03-04-2019",
+      "dataset-tags": "history",
+      "dataset-licence": "ODC-BY",
+      "linkResultPage": "hi-collection-search",
+      "dataset-team": ["Huib Zuidervaart", "Ilja Nieuwland", "Ger Dijkstra"],
+      "collections": [
+        {
+          "collectionName": "Persons",
+          "collectionAmount": 18604,
+          "collectionUri": "dwc_col_Persons",
+          "collectionDescription": "Members of KNAW and Dutch scientific societies and Dutch instrument makers",
+          "collectionProperties": [
+            {
+              "propertyName": "Birth Date Remark",
+              "propertyDensity": 45,
+              "propertyUri": ":dwc_pred:birthDateRemark"
+            },
+            {
+              "propertyName": "data Set Name",
+              "propertyDensity": 45,
+              "propertyUri": ":dwc_pred:dataSetName(s)‎"
+            },
+            {
+              "propertyName": "Death date remark",
+              "propertyDensity": 95,
+              "propertyUri": ":dwc_pred:deathDateRemark"
+            },
+            {
+              "propertyName": "Obituary url",
+              "propertyDensity": 5,
+              "propertyUri": ":dwc_pred:obituaryUrl(s)"
+            },
+            {
+              "propertyName": "Origin Db",
+              "propertyDensity": 100,
+              "propertyUri": ":dwc_pred:originDb(s)‎"
+            },
+            {
+              "propertyName": "URL of portrait",
+              "propertyDensity": 100,
+              "propertyUri": ":dwc_pred:portraitUrl(s)"
+            },
+            {
+              "propertyName": "Same as",
+              "propertyDensity": 65,
+              "propertyUri": ":owl:sameAs(s)‎"
+            }
+          ]
+        },
+        {
+          "collectionName": "Places",
+          "collectionAmount": 4252,
+          "collectionUri": "dwc_col_Places",
+          "collectionDescription": "Cities, villages and other places in the Netherlands.",
+          "collectionProperties": [
+            {
+              "propertyName": "Country",
+              "propertyDensity": 95,
+              "propertyUri": ":dwc_pred:Country"
+            },
+            {
+              "propertyName": "Country code",
+              "propertyDensity": 95,
+              "propertyUri": ":http://www.geonames.org/ontology#countryCode"
+            },
+            {
+              "propertyName": "Latitude",
+              "propertyDensity": 95,
+              "propertyUri": ":http://www.w3.org/2003/01/geo/wgs84_pos#lat"
+            },
+            {
+              "propertyName": "Longitude",
+              "propertyDensity": 95,
+              "propertyUri": ":http://www.w3.org/2003/01/geo/wgs84_pos#long"
+            },
+            {
+              "propertyName": "Same as",
+              "propertyDensity": 95,
+              "propertyUri": ":owl:sameAs(s)"
+            },
+            {
+              "propertyName": "Type",
+              "propertyDensity": 100,
+              "propertyUri": ":rdf:type"
+            },
+            {
+              "propertyName": "Names",
+              "propertyDensity": 100,
+              "propertyUri": ":schema:name(s)‎"
+            }
+          ]
+        },
+        {
+          "collectionName": "Education",
+          "collectionAmount": 2472,
+          "collectionUri": "dwc_col_Education",
+          "collectionDescription": "Formal education."
+        },
+        {
+          "collectionName": "Institutes",
+          "collectionUri": "dwc_col_Institutes",
+          "collectionAmount": 9084
+        },
+        {
+          "collectionName": "Occupation",
+          "collectionUri": "dwc_col_Occupation",
+          "collectionAmount": 11446
+        },
+        {
+          "collectionName": "Membership",
+          "collectionUri": "dwc_col_Memberships",
+          "collectionAmount": 23810
+        }
+      ],
+      "logos":["logo-huygensIng.png"]
+    }
+    
     },
     {
       "name": "emlo-collection-detail",
