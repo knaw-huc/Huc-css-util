@@ -2050,7 +2050,7 @@
     },
     {
       "name": "emlo-collection-detail",
-      "template": "timbuctoo/tim-04-collection-detail",
+      "template": "timbuctoo/tim-04-emPlaces-detail",
       "brand": "-emlo",
       "logo": "emlo-logo.png",
       "isPage": true,
