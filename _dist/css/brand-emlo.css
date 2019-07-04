@@ -32,3 +32,64 @@ a {
 
 .hcFeedbackSucces {
   border-bottom: 3px solid #64a264 !important; }
+
+.hcEmplDataBlock {
+  width: 100%; }
+
+.hcEmplacesItemHeader {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between; }
+  .hcEmplacesItemHeader h2 {
+    font-size: 1.1rem; }
+
+.hcEmplacesTitle {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: baseline; }
+
+.hcEmplacesTitle > * {
+  margin-right: 1rem; }
+
+.hcEmplHierarchy ul, .hcEmplHierarchy ul ul, .hcEmplHierarchy ul ul ul, .hcEmplHierarchy ul ul ul ul, .hcEmplHierarchy ul ul ul ul ul, .hcEmplHierarchy ul ul ul ul ul ul {
+  margin-left: 0;
+  list-style: none; }
+
+.hcEmplHierarchy li:before {
+  content: "+";
+  padding-right: 8px;
+  color: #999999; }
+
+.hcEmplList {
+  display: flex;
+  flex-direction: column; }
+
+.hcEmplListHeader, .hcEmplListRow {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between; }
+
+.hcEmplListHeader > *, .hcEmplListRow > * {
+  flex: 1;
+  padding: .3rem; }
+
+.hcEmplListHeader {
+  background-color: #fafafa;
+  font-weight: 700; }
+
+.hcEmplCalBar {
+  width: 100%;
+  border: 1px solid #999999; }
+
+.hcEmplCalBarFill {
+  height: 10px; }
+
+.hcEmplCalBarLegend {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between; }
+
+.hcEmplCalMarker {
+  margin-bottom: -.85rem; }
