@@ -112,7 +112,8 @@ a {
     border-bottom: 3px solid #efc319; }
 
 .hcEmplTabBar > * {
-  margin-right: 1.5rem; }
+  margin-right: 1.5rem;
+  cursor: pointer; }
 
 .hcEmplEmbedBox {
   min-height: 300px;
