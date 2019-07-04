@@ -48,7 +48,7 @@
 }
 
 .hcEmplacesTitle > *{
-	margin-right: 1rem;
+	margin-right: .5rem;
 }
 
 
@@ -100,9 +100,14 @@
 .hcEmplCalBar {
 	width: 100%;
 	border: 1px solid $colorGreyMid;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
 }
-.hcEmplCalBarFill {
-	height: 10px;
+
+.hcEmplCalBar >* {
+	padding: 0 .2rem;
+
 }
 
 .hcEmplCalBarLegend {
@@ -112,5 +117,11 @@
 }
 
 .hcEmplCalMarker {
-	margin-bottom: -.85rem;
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	width: auto;
+	align-items: baseline;
+	margin-bottom: -2rem;
+
 }
