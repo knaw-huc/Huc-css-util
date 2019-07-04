@@ -1,8 +1,10 @@
 @import 'var';
 @import 'color';
 
+$ColorBrand1 : #efc319;
+
 .bgColorBrand1 {
-	background-color: #efc319;
+	background-color: $ColorBrand1;
 	color: #172854;
 }
 
@@ -99,7 +101,7 @@
 
 .hcEmplCalBar {
 	width: 100%;
-	border: 1px solid $colorGreyMid;
+	border: 1px solid rgba(0, 0, 0, 0.3);
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
@@ -107,6 +109,7 @@
 
 .hcEmplCalBar >* {
 	padding: 0 .2rem;
+	color: rgba(0, 0, 0, 0.3);
 
 }
 
@@ -122,6 +125,25 @@
 	justify-content: flex-start;
 	width: auto;
 	align-items: baseline;
-	margin-bottom: -2rem;
+	margin-bottom: -1.5rem;
+}
 
+.hcEmplTabBar {
+	background-color: $colorGreyLightBg;
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+
+	.hcSelected {
+		border-bottom: 3px solid $ColorBrand1;
+	}
+}
+
+.hcEmplTabBar >*{
+	margin-right: 1.5rem;
+}
+
+.hcEmplEmbedBox {
+	min-height: 300px;
+	border: 1px solid $colorGreyLightBg;
 }

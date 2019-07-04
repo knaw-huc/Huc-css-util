@@ -1124,13 +1124,14 @@ a {
 
 .hcEmplCalBar {
   width: 100%;
-  border: 1px solid #999999;
+  border: 1px solid rgba(0, 0, 0, 0.3);
   display: flex;
   flex-direction: row;
   justify-content: space-between; }
 
 .hcEmplCalBar > * {
-  padding: 0 .2rem; }
+  padding: 0 .2rem;
+  color: rgba(0, 0, 0, 0.3); }
 
 .hcEmplCalBarLegend {
   display: flex;
@@ -1143,4 +1144,19 @@ a {
   justify-content: flex-start;
   width: auto;
   align-items: baseline;
-  margin-bottom: -2rem; }
+  margin-bottom: -1.5rem; }
+
+.hcEmplTabBar {
+  background-color: #fafafa;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start; }
+  .hcEmplTabBar .hcSelected {
+    border-bottom: 3px solid #efc319; }
+
+.hcEmplTabBar > * {
+  margin-right: 1.5rem; }
+
+.hcEmplEmbedBox {
+  min-height: 300px;
+  border: 1px solid #fafafa; }
