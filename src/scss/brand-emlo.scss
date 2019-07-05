@@ -132,6 +132,12 @@ $ColorBrand1 : #efc319;
 	justify-content: space-between;
 }
 
+
+.hcEmplCalBarFill {
+	overflow: hidden;
+	line-height: 110%;
+}
+
 .hcEmplCalMarker {
 	display: flex;
 	flex-direction: row;
@@ -200,5 +206,6 @@ $navBoxWidth: 150px;
 }
 
 .hcEmplacesHierarchyItemDot {
+	fill:"#000";
 
 }

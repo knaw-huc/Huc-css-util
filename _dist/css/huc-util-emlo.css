@@ -1148,6 +1148,10 @@ a {
   flex-direction: row;
   justify-content: space-between; }
 
+.hcEmplCalBarFill {
+  overflow: hidden;
+  line-height: 110%; }
+
 .hcEmplCalMarker {
   display: flex;
   flex-direction: row;
@@ -1198,3 +1202,6 @@ a {
 .hcEmplacesHierarchyItemLine {
   stroke: #000;
   stroke-width: 1; }
+
+.hcEmplacesHierarchyItemDot {
+  fill: "#000"; }
