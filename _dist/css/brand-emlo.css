@@ -151,3 +151,7 @@ a {
 
 .hcEmplEmbedBoxContent {
   width: calc(100% - 150px); }
+
+.hcEmplacesHierarchyItemLine {
+  stroke: #000;
+  stroke-width: 1; }
