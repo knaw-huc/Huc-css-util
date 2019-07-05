@@ -27,6 +27,19 @@ $ColorBrand1 : #efc319;
 //
 
 
+.hcEmpl2Col{
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+.hcEmpl2Col >*{
+	flex: 1;
+	padding: 0 4rem 0 2rem;
+}
+
+
 .hcEmplDataBlock {
 	width: 100%;
 }
@@ -147,4 +160,35 @@ $ColorBrand1 : #efc319;
 .hcEmplEmbedBox {
 	min-height: 300px;
 	border: 1px solid $colorGreyLightBg;
+}
+
+.hcEmplacesHierarchyItem >*{
+	text-align: center;
+	width: 100%;
+}
+
+.hcEmplacesHierarchyItem {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	margin-bottom: 1rem;
+
+	svg {
+		height: 10px;
+		//background-color: #4239e7;
+	}
+}
+
+.hcEmplEmbedBoxaSide {
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+}
+
+$navBoxWidth: 150px;
+.hcEmplEmbedBoxNav {
+	width: $navBoxWidth;
+}
+.hcEmplEmbedBoxContent {
+	width: calc(100% - #{$navBoxWidth})
 }

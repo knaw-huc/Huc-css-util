@@ -33,6 +33,16 @@ a {
 .hcFeedbackSucces {
   border-bottom: 3px solid #64a264 !important; }
 
+.hcEmpl2Col {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between; }
+
+.hcEmpl2Col > * {
+  flex: 1;
+  padding: 0 4rem 0 2rem; }
+
 .hcEmplDataBlock {
   width: 100%; }
 
@@ -118,3 +128,26 @@ a {
 .hcEmplEmbedBox {
   min-height: 300px;
   border: 1px solid #fafafa; }
+
+.hcEmplacesHierarchyItem > * {
+  text-align: center;
+  width: 100%; }
+
+.hcEmplacesHierarchyItem {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-bottom: 1rem; }
+  .hcEmplacesHierarchyItem svg {
+    height: 10px; }
+
+.hcEmplEmbedBoxaSide {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start; }
+
+.hcEmplEmbedBoxNav {
+  width: 150px; }
+
+.hcEmplEmbedBoxContent {
+  width: calc(100% - 150px); }
