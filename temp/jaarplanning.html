@@ -1,0 +1,239 @@
+<html>
+<head>
+  <style>
+  .sprintPlanning-productLine, .sprintPlanning-headerLine {
+    display:grid;
+    grid-template-columns: 200px repeat(9, 100px);
+    grid-auto-flow: dense;
+    grid-gap: 3px 0px;
+    min-height: 28px;
+    padding: 5px;
+  }
+
+  .sprintPlanning-epic, .sprintPlanning-heading {
+    margin-left: 2px;
+    margin-right: 2px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+  .sprintPlanning-productLine:nth-child(even) {
+    background-color: rgb(233, 232, 232);
+  }
+
+  .sprintPlanning-label {
+    grid-column: 1 / 2;
+  }
+
+  .sprintPlanning-epic {
+    --span: 1;
+    --start: 1;
+    grid-column-start: calc(1 + var(--start));
+    grid-column-end: span var(--span);
+
+    display: grid;
+    grid-template-columns: repeat(var(--span), 1fr);
+
+    background-color: papayawhip;
+    border-color: sandybrown;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 10px; 
+    box-shadow: #AAA 2px 2px 3px;
+
+    align-items: center;
+  }
+
+  .sprintPlanning-epic.sprintPlanning-ghost {
+    --span: 1;
+    background-color: rgba(255, 239, 213, 0.5);
+    border-color: rgba(244, 165, 96, 0.5);
+    box-shadow: none;
+    text-align: center;
+  }
+  .sprintPlanning-epicTitle {
+    grid-row-start: 1;
+    grid-row-end: 1;
+    grid-column: 1 / -1;
+    padding-left: 5px;
+  }
+  .sprintPlanning-hourCount {
+    grid-row-start: 2;
+    grid-row-end: 2;
+    padding-left: 5px;
+  }
+  .sprintPlanning-hourCountLine {
+    display: contents;
+    font-size: small
+  }
+
+  .sprintPlanning-epic.sprintPlanning-real:hover {
+    margin-left: -20px;
+    margin-right: -20px;
+    z-index: 2;
+    box-shadow: #888 2px 2px 15px;
+    grid-template-columns: 20px repeat(var(--span), 1fr) 20px 
+  }
+  .sprintPlanning-epic.sprintPlanning-real:hover::before {
+    display: block;
+    content: "⬅︎";
+    grid-column: 1 / 2;
+    grid-row: 1 / 3;
+    text-align: center;
+  }
+  .sprintPlanning-epic.sprintPlanning-real:hover::after {
+    display: block;
+    content: "➡︎";
+    grid-column: -2 / -1;
+    grid-row: 1 / 3;
+  }
+  .sprintPlanning-epic.sprintPlanning-real:hover .sprintPlanning-epicTitle {
+    grid-column-start: 2
+  }
+  .sprintPlanning-otherTeam {
+    font-size: x-small
+  }
+
+  .projectReport {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr; 
+    grid-column-gap: 20px;
+  }
+
+  .projectReport-title {
+    grid-row: 1;
+    grid-column: 1 / span 2;
+    font-size: 3em;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+  }
+  .projectReport-shorthand {
+    font-size: 0.3em;
+  }
+
+  .projectReport-goal {
+    grid-row: 1;
+    grid-column: 3 / span 2;
+  }
+  .projectReport-basicInfo  {
+    grid-row: 2;
+    grid-column: 1 / span 2;
+  }
+  .projectReport-projectEvents {
+    grid-row: 2;
+    grid-column: 3 / span 2;
+  }
+
+  .projectReport-deliverables {
+    --maxhours: 0;
+    grid-column: 1 / span 4;
+  }
+
+  .projectReport-progressbar {
+    --total-hours: 0;
+    display: flex;
+    height: 20px;
+  }
+
+  .projectReport-progressbarsegment {
+    --hours: 0;
+    flex-grow: var(--hours);
+  }
+
+  .projectReport-hoursPadding {
+    flex-grow: calc(var(--maxhours) - var(--total-hours))
+  }
+  .projectReport-hoursSpent {
+    background-color: #888;
+  }
+  .projectReport-hoursScheduled {
+    background-color: papayawhip;
+    
+  }
+  .projectReport-hoursUnScheduled {
+    background-color: #EEE;
+  }
+
+  .projectReport-label {
+    grid-column: 1 / span var(--maxhours)
+  }
+
+
+
+  </style>
+</head>  
+<body>
+  <div class="sprintPlanning">
+    <div> + navigatie tussen jaarplanning, projectoverzicht, vakantiedagenplanning</div>
+    <h1>Year planning team CI</h1>
+    <div> + navigatie naar de plannings van de andere teams</div>
+      <div class="sprintPlanning-headerLine">
+        <div class="sprintPlanning-label"></div>
+        <div class="sprintPlanning-Heading">Sprint 17</div>
+        <div class="sprintPlanning-Heading">Sprint 18</div>
+        <div class="sprintPlanning-Heading">Sprint 19</div>
+        <div class="sprintPlanning-Heading">Sprint 20</div>
+        <div class="sprintPlanning-Heading">Sprint 21</div>
+        <div class="sprintPlanning-Heading">Sprint 22</div>
+        <div class="sprintPlanning-Heading">Sprint 23</div>  
+        <div class="sprintPlanning-Heading">Sprint 24</div>  
+        <div class="sprintPlanning-Heading">Sprint 25</div>  
+        <div class="sprintPlanning-label">Product</div>
+        <div class="sprintPlanning-Heading">70 / 90h</div>
+        <div class="sprintPlanning-Heading">50 / 90h</div>
+        <div class="sprintPlanning-Heading">70 / 90h</div>
+        <div class="sprintPlanning-Heading">20 / 90h</div>
+        <div class="sprintPlanning-Heading">0 / 90h</div>
+        <div class="sprintPlanning-Heading">0 / 90h</div>
+        <div class="sprintPlanning-Heading">0 / 90h</div>  
+        <div class="sprintPlanning-Heading">0 / 90h</div>  
+        <div class="sprintPlanning-Heading">0 / 90h</div>  
+      </div>
+      <div class="sprintPlanning-productLine">
+        <div class="sprintPlanning-label">CLaaS</div>
+        <div class="sprintPlanning-epic sprintPlanning-real" style="--span: 1">
+          <div class="sprintPlanning-epicTitle">Storage</div>
+          <div class="sprintPlanning-hourCountLine"><span class="sprintPlanning-hourCount">20h <span class="sprintPlanning-otherTeam">(+2h TXT)</span></span></div>
+        </div>
+        <div class="sprintPlanning-epic sprintPlanning-real" style="--span: 3; --start: 1">
+          <div class="sprintPlanning-epicTitle">Documentation</div>
+          <div class="sprintPlanning-hourCountLine"><span class="sprintPlanning-hourCount">30h</span><span class="sprintPlanning-hourCount">30h</span><span class="sprintPlanning-hourCount">30h</span></div>
+        </div>
+        <div class="sprintPlanning-epic sprintPlanning-real" style="--span: 1; --start: 3">
+          <div class="sprintPlanning-epicTitle">Alpha</div>
+          <div class="sprintPlanning-hourCountLine"><span class="sprintPlanning-hourCount">20h</span></div>
+        </div>
+      </div>
+      <div class="sprintPlanning-productLine">
+        <div class="sprintPlanning-label">Text Repo <span class="sprintPlanning-otherTeam">(TXT)</span></div>
+        <div class="sprintPlanning-epic sprintPlanning-real" style="--span: 1; --start: 1">
+          <div class="sprintPlanning-epicTitle">Design</div>
+          <div class="sprintPlanning-hourCountLine"><span class="sprintPlanning-hourCount">20h</span></div>
+        </div>
+        <div class="sprintPlanning-epic sprintPlanning-real" style="--span: 1; --start: 2">
+          <div class="sprintPlanning-epicTitle">Test server</div>
+          <div class="sprintPlanning-hourCountLine"><span class="sprintPlanning-hourCount">20h</span></div>
+        </div>
+      </div>
+      <div class="sprintPlanning-productLine">
+        <div class="sprintPlanning-label">Pipelines <span class="sprintPlanning-otherTeam">(TXT)</span></div>
+      </div>
+      <div class="sprintPlanning-productLine">
+        <div class="sprintPlanning-label">Anne Frank <span class="sprintPlanning-otherTeam">(TXT)</span></div>
+        <div class="sprintPlanning-epic sprintPlanning-real" style="--span: 1; --start: 2">
+            <div class="sprintPlanning-epicTitle">Test server</div>
+          <div class="sprintPlanning-hourCountLine"><span class="sprintPlanning-hourCount">20h</span></div>
+        </div>
+        <div class="sprintPlanning-epic sprintPlanning-real" style="--span: 2; --start: 3">
+          <div class="sprintPlanning-epicTitle">Engelse versie</div>
+          <div class="sprintPlanning-hourCountLine"><span class="sprintPlanning-hourCount">20h</span><span class="sprintPlanning-hourCount">20h</span></div>
+        </div>
+        <div class="sprintPlanning-epic sprintPlanning-ghost" style="--span: 1; --start: 6">
+          new&hellip;
+        </div>
+    </div>
+</div>
+
+</body>
+</html>
+
+
