@@ -1,0 +1,42 @@
+body {
+  background-color: #fff;
+  color: #3e3e3e; }
+
+a {
+  color: #0087d4; }
+
+.colorBgGrey {
+  background-color: #f6f6f6; }
+
+.colorBgGreyLight {
+  background-color: #fbfbfb; }
+
+.colorBgGreyPlus {
+  background-color: #dddddd; }
+
+.hcTxtColorGreyMid {
+  color: #999999; }
+
+.bgColorBrand1 {
+  background-image: none !important;
+  background-color: #efc501; }
+
+.bgColorBrand2 {
+  background-image: none !important;
+  background-color: #075446;
+  color: #fff; }
+
+.bgColorBrand2 a {
+  color: #fff; }
+
+a {
+  color: #075446; }
+
+.colorBgGrey {
+  background-color: rgba(7, 84, 70, 0.05) !important; }
+
+.hcBrandLogo img {
+  height: 50px; }
+
+.hcPageHeaderSimple a {
+  color: #000; }

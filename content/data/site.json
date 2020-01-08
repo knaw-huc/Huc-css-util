@@ -491,6 +491,26 @@
       "title": "Golden Agents | Collection item detail page"
     },
     {
+      "name": "ga-multi-agent-home",
+      "template": "golden-agents/ga-ma-home",
+      "project-name": "Golden Agents",
+      "brand": "-ga",
+      "logo": "logo-golden-agents.svg",
+      "isPage": true,
+      "favi":"favi-ga.png",
+      "title": "Golden Agents | Multi-Agent search | Home"
+    },
+    {
+      "name": "ga-ll-home",
+      "template": "golden-agents/ga-ma-home",
+      "project-name": "Golden Agents",
+      "brand": "-ga",
+      "logo": "logo-golden-agents.svg",
+      "isPage": true,
+      "favi":"favi-ga.png",
+      "title": "Golden Agents | Lenticular Lenses II | Home"
+    },
+    {
       "name": "hi-home",
       "project-name": "Data Huygens ING",
       "project-description": "Data related to Dutch history, literature, and the history of knowledge – ready for reference, scholarly analysis, and linkage.",
@@ -2226,6 +2246,206 @@
       "isPage": true,
       "favi":"favi-clariah.png",
       "title": "Clariah Anansi | Collection item detail page"
+    },
+    {
+      "name": "clariah-home",
+      "template": "timbuctoo/tim-01-all-datasets",
+      "project-name": "Clariah Anansi",
+      "project-description": "<h2>Bridge to networked research data</h2>ANANSI is the central data connection between the three primary CLARIAH domains (Linguistics, Social & Economical History and Media Studies). ANANSI facilitates the connectivity of structured (meta-)data served by the research infrastructures constructed in these domains. Furthermore, ANANSI integrates data with large scale existing data infrastructures outside CLARIAH - both within and outside the humanities.",
+      "brand": "-clariah",
+      "logo": "logo-clariah.svg",
+      "isPage": true,
+      "favi":"favi-clariah.png",
+      "title": "Clariah Anansi | All Datasets",
+      "followpage": "clariah-one-dataset",
+      "listComponents": "list-tim-dataset-basic",
+      "datasets": [
+      {
+        "name": "Stadsarchief: index op kwijtscheldingen",
+        "description": "+25,000 matches, +10,000 players, 11 European Countries with their lead championship, Seasons 2008 to 2016, Players and Teams' attributes* sourced from EA Sports' FIFA video game series, including the weekly updates",
+        "status": "Completed",
+        "collections": [
+          {
+            "collectionName": "Persons",
+            "collectionAmount": 2579
+          },{
+            "collectionName": "Locations",
+            "collectionAmount": 423
+          },{
+            "collectionName": "Properties",
+            "collectionAmount": 5234
+          },{
+            "collectionName": "Organisations",
+            "collectionAmount": 223
+          }
+        ],
+        "logos":["logo-stadsArchiefAmsterdam.png"]
+      },{
+        "name": "Stadsarchief: index op doopregister",
+        "description": "+25,000 matches, +10,000 players, 11 European Countries with their lead championship, Seasons 2008 to 2016, Players and Teams' attributes* sourced from EA Sports' FIFA video game series, including the weekly updates",
+        "status": "Completed",
+        "collections": [{
+          "collectionName": "Persons",
+          "collectionAmount": 2579
+        },{
+          "collectionName": "Doopregister",
+          "collectionAmount": 423
+        }],
+        "logos":["logo-stadsArchiefAmsterdam.png"]
+      },{
+        "name": "LinkSet: 20181030"
+      },{
+        "name": "Stadsarchief: index op confessieboeken",
+        "description": "+25,000 matches, +10,000 players, 11 European Countries with their lead championship, Seasons 2008 to 2016, Players and Teams' attributes* sourced from EA Sports' FIFA video game series, including the weekly updates",
+        "status": "Completed",
+        "collections": [{
+          "collectionName": "Persons",
+          "collectionAmount": 2579
+        },{
+          "collectionName": "Locations",
+          "collectionAmount": 423
+        },{
+          "collectionName": "Confessieboeken",
+          "collectionAmount": 7382
+        }
+      ],
+        "logos":["logo-stadsArchiefAmsterdam.png"]
+      },{
+        "name": "Stadsarchief: Notarieel Archief",
+        "description": "+25,000 matches, +10,000 players, 11 European Countries with their lead championship, Seasons 2008 to 2016, Players and Teams' attributes* sourced from EA Sports' FIFA video game series, including the weekly updates",
+        "status": "Completed",
+        "collections": [ {
+            "collectionName": "Persons",
+            "collectionAmount": 1579
+          },{
+            "collectionName": "Locations",
+            "collectionAmount": 423
+          },{
+            "collectionName": "Voogdij",
+            "collectionAmount": 5234
+          },{
+            "collectionName": "Contract",
+            "collectionAmount": 223
+          },{
+            "collectionName": "Uitspraak",
+            "collectionAmount": 423
+          },{
+            "collectionName": "Boedelinventaris",
+            "collectionAmount": 5234
+          },{
+            "collectionName": "Hypotheek",
+            "collectionAmount": 223
+          }
+        ],
+        "logos":["logo-stadsArchiefAmsterdam.png"]
+      },{
+        "name": "Stadsarchief: index op begraafregisters voor 1811",
+        "description": "+25,000 matches, +10,000 players, 11 European Countries with their lead championship, Seasons 2008 to 2016, Players and Teams' attributes* sourced from EA Sports' FIFA video game series, including the weekly updates",
+        "status": "Completed",
+        "logos":["logo-stadsArchiefAmsterdam.png"]
+      },{
+        "name": "LinkSet: Alignment STCN-Onstage 1"
+      },{
+        "name": "Onstage",
+        "description": "+25,000 matches, +10,000 players, 11 European Countries with their lead championship, Seasons 2008 to 2016, Players and Teams' attributes* sourced from EA Sports' FIFA video game series, including the weekly updates",
+        "status": "Completed",
+        "logos":["logo-uva.png"]
+      },{
+        "name": "Ecartico",
+        "description": "+25,000 matches, +10,000 players, 11 European Countries with their lead championship, Seasons 2008 to 2016, Players and Teams' attributes* sourced from EA Sports' FIFA video game series, including the weekly updates",
+        "status": "Completed",
+        "logos":["logo-uva.png"]
+      },{
+        "name": "Stadsarchief: index op poorterboeken",
+        "description": "+25,000 matches, +10,000 players, 11 European Countries with their lead championship, Seasons 2008 to 2016, Players and Teams' attributes* sourced from EA Sports' FIFA video game series, including the weekly updates",
+        "status": "Completed",
+        "logos":["logo-stadsArchiefAmsterdam.png"]
+      },{
+        "name": "Rijksmuseum",
+        "description": "+25,000 matches, +10,000 players, 11 European Countries with their lead championship, Seasons 2008 to 2016, Players and Teams' attributes* sourced from EA Sports' FIFA video game series, including the weekly updates",
+        "status": "Completed",
+        "logos":["logo-rijksmuseum.png"]
+      },{
+        "name": "Stadsarchief: index op ondertrouwregister",
+        "description": "+25,000 matches, +10,000 players, 11 European Countries with their lead championship, Seasons 2008 to 2016, Players and Teams' attributes* sourced from EA Sports' FIFA video game series, including the weekly updates",
+        "status": "Completed",
+        "logos":["logo-stadsArchiefAmsterdam.png"]
+      },{
+        "name": "LinkSet: Alignment STCN-Onstage 2"
+      },{
+        "name": "Stadsarchief: index op boetes op trouwen en begraven",
+        "description": "+25,000 matches, +10,000 players, 11 European Countries with their lead championship, Seasons 2008 to 2016, Players and Teams' attributes* sourced from EA Sports' FIFA video game series, including the weekly updates",
+        "status": "Completed",
+        "logos":["logo-stadsArchiefAmsterdam.png"]
+      },{
+        "name": "STCN: Short-Title Catalogue Netherlands",
+        "description": "+25,000 matches, +10,000 players, 11 European Countries with their lead championship, Seasons 2008 to 2016, Players and Teams' attributes* sourced from EA Sports' FIFA video game series, including the weekly updates",
+        "status": "completed"
+      },{
+        "name": "lenticular_lenses_linkset"
+      }
+    ]
+    
+    },
+    {
+      "name": "clariah-one-dataset",
+      "template": "timbuctoo/tim-02-dataset-landingspage",
+      "project-name": "Clariah Anansi",
+      "brand": "-clariah",
+      "logo": "logo-clariah.svg",
+      "isPage": true,
+      "favi":"favi-clariah.png",
+      "title": "Clariah Anansi | Dataset landingspage"
+    },
+    {
+      "name": "clariah-collection-search",
+      "template": "timbuctoo/tim-03-collection-search",
+      "project-name": "Clariah Anansi",
+      "brand": "-clariah",
+      "logo": "logo-clariah.svg",
+      "isPage": true,
+      "favi":"favi-clariah.png",
+      "title": "Clariah Anansi | Search in collection"
+    },
+    {
+      "name": "clariah-collection-detail",
+      "template": "timbuctoo/tim-04-collection-detail",
+      "project-name": "Clariah Anansi",
+      "brand": "-clariah",
+      "logo": "logo-clariah.svg",
+      "isPage": true,
+      "favi":"favi-clariah.png",
+      "title": "Clariah Anansi | Collection item detail page"
+    },
+    {
+      "name": "isebel-home",
+      "template": "golden-agents/ga-ma-home",
+      "project-name": "Isebel",
+      "brand": "-is",
+      "logo": "logo-isebel.png",
+      "isPage": true,
+      "favi":"favi-isebel.png",
+      "title": "Isebel | Home"
+    },
+    {
+      "name": "isebel-search",
+      "template": "golden-agents/ga-ma-home",
+      "project-name": "Isebel",
+      "brand": "-is",
+      "logo": "logo-isebel.png",
+      "isPage": true,
+      "favi":"favi-isebel.png",
+      "title": "Isebel | Search"
+    },
+    {
+      "name": "isebel-detail",
+      "template": "golden-agents/ga-ma-home",
+      "project-name": "Isebel",
+      "brand": "-is",
+      "logo": "logo-isebel.png",
+      "isPage": true,
+      "favi":"favi-isebel.png",
+      "title": "Isebel | detail"
     }
   ]
 }

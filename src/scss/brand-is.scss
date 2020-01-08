@@ -1,0 +1,36 @@
+@import 'var';
+@import 'color';
+
+$colorGoldenAgentsYellow: #efc501;
+$colorGoldenAgentsYGreen: #075446;
+
+.bgColorBrand1 {
+	background-image: none !important;
+	background-color: $colorGoldenAgentsYellow;
+}
+
+.bgColorBrand2 {
+	background-image: none !important;
+	background-color: $colorGoldenAgentsYGreen;
+	color: #fff;
+}
+
+.bgColorBrand2 a{
+	color: #fff;
+}
+
+a{
+	color: $colorGoldenAgentsYGreen;
+}
+
+.colorBgGrey{
+	background-color: rgba(#075446, 0.05) !important;
+}
+
+.hcBrandLogo img {
+  height: 50px;
+}
+
+.hcPageHeaderSimple a {
+	color: #000;
+}

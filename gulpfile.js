@@ -36,7 +36,7 @@ var fAssets=    'src/util-images-assets/**/*';
 var fJs=        'src/js/**/*';
 var fJson=      'content/data/**/*.json';
 var fMd=        'content/**/*.md';
-var cssUtil=    'src/css-util/**/*'; 
+var cssUtil=    'src/css-util/**/*';
 
 var siteJson;
 
@@ -55,7 +55,7 @@ gulp.task('browserSync', function(done) {
     server: {
       baseDir: dst
     },
-    browser: ["google chrome"], //, "firefox"
+    browser: ["firefox"], //, "firefox"
   })
   done();
 })
