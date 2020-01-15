@@ -528,7 +528,11 @@
       "logo": "logo-golden-agents.svg",
       "isPage": true,
       "favi":"favi-ga.png",
-      "title": "Golden Agents | Lenticular Lenses II | data selection list"
+      "title": "Golden Agents | Lenticular Lenses II | data selection list",
+      "results": [
+        {"prName": "Marriages in 1600-1649", "prDataset":"Index op notarieel archief", "prProvider": "Stadsarchief Amsterdam"},
+        {"prName": "Marriages in the 17th Century", "prDataset":"Index op notarieel archief", "prProvider": "Stadsarchief Amsterdam"}
+      ]
     },
     {
       "name": "ga-ll-data-selection-detail",

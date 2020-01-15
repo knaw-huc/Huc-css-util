@@ -1,6 +1,6 @@
 {{> html-head}}
 
-<div class="hcGaHeader bgColorBrand1">
+<div class="hcGaHeader hcMarginBottom3 bgColorBrand1">
   <div class="hcGaHeaderLogo"><img src="images/logo-ga.png" alt="Golden Agents logo"></div>
   <div class="hcGaHeaderToolName">Lenticular Lenses II</div>
   <div class="hcGaHeaderProject">Getty Frick Expiriment 2</div>
@@ -9,11 +9,42 @@
 
 
 <div class="hcContentContainer hcMarginBottom5">
-  <div class="hcBasicSideMargin">
-    {{title}}
+  <div class="hcBasicSideMargin hcAlignRight hcGaTabsLoudness1">
+    <a href="" class="hcSelected">Data Selection</a>
+    <a href="">Alignment</a>
+  </div>
+</div>
+
+<div class="hcContentContainer hcMarginBottom5">
+  <div class="hcLayoutResults">
+    <div class="hcResultsHeader hcMarginBottom1">
+      <div></div>
+
+      <div><select class="" name="">
+        <option value="">Order by name</option>
+        <option value="">Order by date updated</option>
+        <option value="">Order by date create</option>
+      </select></div>
+    </div>
+
+
+
+    <div class="hcList hcMarginBottom2" onclick="javascript:location.href='{{linkResultPage}}.html'">
+
+        {{#each results}}
+          {{> list-items/list-ga-data-selections }}
+        {{/each}}
+
+
+
+    </div>
+    {{> comp-pagination}}
 
   </div>
 </div>
+
+
+
 
 
 
