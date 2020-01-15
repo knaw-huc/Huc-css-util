@@ -40,3 +40,18 @@ a {
 
 .hcPageHeaderSimple a {
   color: #000; }
+
+.hcGaHeader {
+  width: 100%;
+  display: flex; }
+  .hcGaHeader > * {
+    display: flex;
+    align-items: center;
+    justify-content: center; }
+
+.hcGaHeaderLogo img {
+  width: auto;
+  height: 75px; }
+
+.hcGaHeaderToolName {
+  font-weight: 700; }

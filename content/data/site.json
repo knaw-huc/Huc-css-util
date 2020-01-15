@@ -501,14 +501,64 @@
       "title": "Golden Agents | Multi-Agent search | Home"
     },
     {
-      "name": "ga-ll-home",
-      "template": "golden-agents/ga-ma-home",
+      "name": "ga-ll-home-overview",
+      "template": "golden-agents/ga-ll-home-overview",
       "project-name": "Golden Agents",
       "brand": "-ga",
       "logo": "logo-golden-agents.svg",
       "isPage": true,
       "favi":"favi-ga.png",
-      "title": "Golden Agents | Lenticular Lenses II | Home"
+      "title": "Golden Agents | Lenticular Lenses II | home overview"
+    },
+    {
+      "name": "ga-ll-project-detail",
+      "template": "golden-agents/ga-ll-project-detail",
+      "project-name": "Golden Agents",
+      "brand": "-ga",
+      "logo": "logo-golden-agents.svg",
+      "isPage": true,
+      "favi":"favi-ga.png",
+      "title": "Golden Agents | Lenticular Lenses II | project detail"
+    },
+    {
+      "name": "ga-ll-data-selection-list",
+      "template": "golden-agents/ga-ll-data-selection-list",
+      "project-name": "Golden Agents",
+      "brand": "-ga",
+      "logo": "logo-golden-agents.svg",
+      "isPage": true,
+      "favi":"favi-ga.png",
+      "title": "Golden Agents | Lenticular Lenses II | data selection list"
+    },
+    {
+      "name": "ga-ll-data-selection-detail",
+      "template": "golden-agents/ga-ll-data-selection-detail",
+      "project-name": "Golden Agents",
+      "brand": "-ga",
+      "logo": "logo-golden-agents.svg",
+      "isPage": true,
+      "favi":"favi-ga.png",
+      "title": "Golden Agents | Lenticular Lenses II | data selection detail"
+    },
+    {
+      "name": "ga-ll-alignment-list",
+      "template": "golden-agents/ga-ll-alignment-list",
+      "project-name": "Golden Agents",
+      "brand": "-ga",
+      "logo": "logo-golden-agents.svg",
+      "isPage": true,
+      "favi":"favi-ga.png",
+      "title": "Golden Agents | Lenticular Lenses II |  alignment list"
+    },
+    {
+      "name": "ga-ll-alignment-detail",
+      "template": "golden-agents/ga-ll-alignment-detail",
+      "project-name": "Golden Agents",
+      "brand": "-ga",
+      "logo": "logo-golden-agents.svg",
+      "isPage": true,
+      "favi":"favi-ga.png",
+      "title": "Golden Agents | Lenticular Lenses II | alignment detail"
     },
     {
       "name": "hi-home",
