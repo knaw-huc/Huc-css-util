@@ -17,6 +17,17 @@
   justify-content: space-between;
 }
 
+.hcList >*:nth-child(odd) {
+  background-color: $colorGreyLightBg;
+  margin: 0 -1rem;
+  padding: 1rem;
+}
+
+.hcList >*:hover{
+  background-color: $colorGreyLightElement;
+
+}
+
 
 .hcList >* >*{
   flex: 1;

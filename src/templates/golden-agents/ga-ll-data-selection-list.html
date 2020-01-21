@@ -16,8 +16,8 @@
 </div>
 
 <div class="hcContentContainer hcMarginBottom5">
-  <div class="hcLayoutResults">
-    <div class="hcResultsHeader hcMarginBottom1">
+
+    <div class="hcResultsHeader hcMarginBottom1 hcBasicSideMargin">
       <div></div>
 
       <div><select class="" name="">
@@ -29,18 +29,15 @@
 
 
 
-    <div class="hcList hcMarginBottom2" onclick="javascript:location.href='{{linkResultPage}}.html'">
+    <div class="hcList hcBasicSideMargin hcMarginBottom2" onclick="javascript:location.href='{{linkResultPage}}.html'">
 
         {{#each results}}
           {{> list-items/list-ga-data-selections }}
         {{/each}}
-
-
-
     </div>
     {{> comp-pagination}}
 
-  </div>
+
 </div>
 
 

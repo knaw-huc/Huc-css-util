@@ -9,7 +9,7 @@ a {
   background-color: #f6f6f6; }
 
 .colorBgGreyLight {
-  background-color: #fbfbfb; }
+  background-color: #fafafa; }
 
 .colorBgGreyPlus {
   background-color: #dddddd; }
@@ -86,7 +86,7 @@ a {
   padding: .3rem; }
 
 .hcEmplListHeader {
-  background-color: #fafafa;
+  background-color: whitesmoke;
   font-weight: 700; }
 
 .hcEmplCalBar {
@@ -118,7 +118,7 @@ a {
   margin-bottom: -1.5rem; }
 
 .hcEmplTabBar {
-  background-color: #fafafa;
+  background-color: whitesmoke;
   display: flex;
   flex-direction: row;
   justify-content: flex-start; }
@@ -131,7 +131,7 @@ a {
 
 .hcEmplEmbedBox {
   min-height: 300px;
-  border: 1px solid #fafafa; }
+  border: 1px solid whitesmoke; }
 
 .hcEmplacesHierarchyItem > * {
   text-align: center;
