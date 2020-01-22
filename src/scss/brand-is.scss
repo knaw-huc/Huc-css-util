@@ -1,17 +1,19 @@
 @import 'var';
 @import 'color';
 
-$colorGoldenAgentsYellow: #efc501;
+
 $colorGoldenAgentsYGreen: #075446;
+
+$isebelPink: #C43851;
 
 .bgColorBrand1 {
 	background-image: none !important;
-	background-color: $colorGoldenAgentsYellow;
+	background-color: $isebelPink;
 }
 
 .bgColorBrand2 {
 	background-image: none !important;
-	background-color: $colorGoldenAgentsYGreen;
+	background-color: $isebelPink;
 	color: #fff;
 }
 
@@ -19,9 +21,6 @@ $colorGoldenAgentsYGreen: #075446;
 	color: #fff;
 }
 
-a{
-	color: $colorGoldenAgentsYGreen;
-}
 
 .colorBgGrey{
 	background-color: rgba(#075446, 0.05) !important;
@@ -33,4 +32,27 @@ a{
 
 .hcPageHeaderSimple a {
 	color: #000;
+}
+
+
+.hcIsHeader{
+	display: flex;
+	flex-direction: row;
+}
+
+.hcIsHeaderLogo {
+	width: 40px;
+}
+
+.hcIsHeaderLogo img{
+	width: 100%;
+	height:auto;
+	margin-left: -2rem;
+}
+
+.hcIsHeaderToolName {
+	color: $isebelPink;
+	text-transform: uppercase;
+	font-weight: 700;
+	font-size: 2rem;
 }

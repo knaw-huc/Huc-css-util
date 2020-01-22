@@ -1,45 +1,65 @@
 {{> html-head}}
 
-<div class="hcGaHeader hcMarginBottom3 ">
-  <div class="hcGaHeaderLogo"></div>
-  <div class="hcGaHeaderToolName">Isebel</div>
-  <div class="hcGaHeaderProject">International Search Engine for Believe Legends</div>
-  <div class="hcGaHeaderHelp"></div>
-</div>
+{{>custom/is-header}}
 
-
-<div class="hcContentContainer hcMarginBottom5">
-
-    <div class="hcResultsHeader hcMarginBottom1 hcBasicSideMargin">
-      <div>{{resultsAmount}} Results</div>
-      <div class="hcMarginBottom2">
-        {{> comp-facet-selected}}
-      </div>
-
-      <div><select class="" name="">
-        <option value="">Order by Relevance</option>
-        <option value="">Order by date created</option>
-      </select></div>
-    </div>
-
-
-
-    <div class="hcList hcBasicSideMargin hcMarginBottom2" onclick="javascript:location.href='{{linkResultPage}}.html'">
-
-
-        {{#each results}}
-          {{> list-items/list-isebel-searchresults }}
+<div class="hcContentContainer">
+  <div class="hcLayoutFacet-Result hcBasicSideMargin hcMarginBottom15">
+    <div class="hcLayoutFacets">
+      <button type="button" name="button" id="showFacets" class="hcfixedSideButton"><img src="images/icons/icon-set-facets.svg" class="icon"></button>
+      <div class="hcLayoutFacetsToggel" id="hcLayoutFacetsToggel">
+        {{#each facets}}
+          {{#if facetTypelist}}
+            {{> comp-facet}}
+          {{/if}}
+          {{#if facetTypeSearch}}
+            {{> comp-facet-text}}
+          {{/if}}
+          {{#if facetTypeRange}}
+            {{> comp-facet-range}}
+          {{/if}}
         {{/each}}
-    </div>
-    {{> comp-pagination}}
-
-
-</div>
+      </div>
+    </div> <!-- / facets -->
 
 
 
 
 
+    <div class="hcLayoutResults">
+      <!--resultsheader -->
+        <div class="hcMarginBottom2"> {{> comp-facet-selected}} </div>
+
+        <div class="hcResultsHeader hcMarginBottom1 hcBasicSideMargin">
+          <div>{{resultsAmount}} Results</div>
+          <div>
+            <select class="" name="">
+              <option value="">Order by Relevance</option>
+              <option value="">Order by date created</option>
+            </select>
+          </div>
+        </div>
+        <!-- / resultsheader -->
 
 
-{{> html-footer}}
+        <!--results -->
+        <div class="hcList hcBasicSideMargin hcMarginBottom2" onclick="javascript:location.href='{{linkResultPage}}.html'">
+          {{#each results}}
+            {{> list-items/list-isebel-searchresults }}
+          {{/each}}
+        </div>
+        {{> comp-pagination}}
+        <!-- / results -->
+
+
+
+
+    </div> <!-- / facet results -->
+  </div> <!-- / facet layout -->
+</div> <!-- / container -->
+
+
+
+
+
+
+  {{> html-footer}}

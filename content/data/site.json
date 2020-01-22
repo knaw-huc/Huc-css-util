@@ -2491,10 +2491,84 @@
       "isPage": true,
       "favi":"favi-isebel.png",
       "title": "Isebel | Search",
+      "resultsAmount":"1232",
+      "facets": [
+        {
+          "facetName": "Text search",
+          "facetTypeSearch": true,
+          "facetValue": "suiker"
+        },
+        {
+          "facetName": "Ship",
+          "facetTypelist": true,
+          "facetItems": [
+            {"facetItemsName": "De Spiegel"},
+            {"facetItemsName": "Provincie van Utrecht"},
+            {"facetItemsName": "Het Geloof"},
+            {"facetItemsName": "Middelburg"},
+            {"facetItemsName": "Edam"}
+          ]
+        },
+        {
+          "facetName": "Shipmaster",
+          "facetTypelist": true,
+          "facetItems": [
+            {"facetItemsName": "Michiel de Ruyter"},
+            {"facetItemsName": "Gideon de Wildt"},
+            {"facetItemsName": "Willem van der Zaan"},
+            {"facetItemsName": "Isaack Sweers"},
+            {"facetItemsName": "Swart"}
+          ]
+        },
+        {
+          "facetName": "Capture date",
+          "facetTypeRange": true,
+          "startVal": 1600,
+          "endVal": 1799
+        },
+        {
+          "facetName": "Archive file",
+          "facetTypeRange": true,
+          "startVal": 1600,
+          "endVal": 1799
+        },
+        {
+          "facetName": "Language",
+          "facetTypelist": true,
+          "facetItems": [
+            {"facetItemsName": "nl"},
+            {"facetItemsName": "fr"},
+            {"facetItemsName": "en"},
+            {"facetItemsName": "la"},
+            {"facetItemsName": "it"}
+          ]
+        },
+        {
+          "facetName": "Persons",
+          "facetTypelist": true,
+          "facetItems": [
+            {"facetItemsName": "Candy"},
+            {"facetItemsName": "Chin"},
+            {"facetItemsName": "Hendrik"},
+            {"facetItemsName": "Long"},
+            {"facetItemsName": "Willem"}
+          ]
+        },
+        {
+          "facetName": "Locations",
+          "facetTypelist": true,
+          "facetItems": [
+            {"facetItemsName": "Wed"},
+            {"facetItemsName": "Keizersgraft"},
+            {"facetItemsName": "Comp"},
+            {"facetItemsName": "Heeregraft"},
+            {"facetItemsName": "Den"}
+          ]
+        }
+      ],
       "selectedFacets": [
       {"facetName": "Dutch keyword", "facetValue":"Heks"},
       {"facetName": "Dutch keyword", "facetValue":"Huis"}
-    
       ],
       "results": [
         {"txt": "De spotnaam van Troteter dagteekent eerst van 't jaar dertig. Op kermisavond, einde september, was de gansche bevolking er op de been, door de mare, dat een Hollandsch leger nabij was en alles zou plunderen. Iedereen vluchtte met wat te redden was. De koster was met zijne 17 teilen trot op den toren gevlucht; maar het volk, dat daar eene schuilplaats gezocht had, at al zijnen trot met de handen uit.", "id":"nl.verhalenbank.9885", "tags":[

@@ -19,18 +19,15 @@ a {
 
 .bgColorBrand1 {
   background-image: none !important;
-  background-color: #efc501; }
+  background-color: #C43851; }
 
 .bgColorBrand2 {
   background-image: none !important;
-  background-color: #075446;
+  background-color: #C43851;
   color: #fff; }
 
 .bgColorBrand2 a {
   color: #fff; }
-
-a {
-  color: #075446; }
 
 .colorBgGrey {
   background-color: rgba(7, 84, 70, 0.05) !important; }
@@ -40,3 +37,21 @@ a {
 
 .hcPageHeaderSimple a {
   color: #000; }
+
+.hcIsHeader {
+  display: flex;
+  flex-direction: row; }
+
+.hcIsHeaderLogo {
+  width: 40px; }
+
+.hcIsHeaderLogo img {
+  width: 100%;
+  height: auto;
+  margin-left: -2rem; }
+
+.hcIsHeaderToolName {
+  color: #C43851;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 2rem; }
