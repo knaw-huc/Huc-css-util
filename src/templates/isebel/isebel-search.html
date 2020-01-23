@@ -2,11 +2,19 @@
 
 {{>custom/is-header}}
 
+
+
 <div class="hcContentContainer">
-  <div class="hcLayoutFacet-Result hcBasicSideMargin hcMarginBottom15">
-    <div class="hcLayoutFacets">
+  <!-- BreadCrumb -->
+  <div class="hcBreadCrumb hcMarginBottom2 hcBasicSideMargin hcTxtColorGreyMid hcSmallTxt">
+    Isebel / Search
+  </div>
+  <!-- / BreadCrumb -->
+
+  <div class="hcLayoutFacet-Result  hcMarginBottom5">
+    <div class="hcLayoutFacets hcMarginBottom2 colorBgGreyLight hcBasicSideMargin">
       <button type="button" name="button" id="showFacets" class="hcfixedSideButton"><img src="images/icons/icon-set-facets.svg" class="icon"></button>
-      <div class="hcLayoutFacetsToggel" id="hcLayoutFacetsToggel">
+      <div class="hcLayoutFacetsToggel hcMarginTop2" id="hcLayoutFacetsToggel">
         {{#each facets}}
           {{#if facetTypelist}}
             {{> comp-facet}}
@@ -26,8 +34,11 @@
 
 
     <div class="hcLayoutResults">
+
+      {{>comp-map-placeholder}}
+
       <!--resultsheader -->
-        <div class="hcMarginBottom2"> {{> comp-facet-selected}} </div>
+        <div class="hcMarginBottom2 hcMarginTop2 hcItemsStart hcBasicSideMargin"> {{> comp-facet-selected}} </div>
 
         <div class="hcResultsHeader hcMarginBottom1 hcBasicSideMargin">
           <div>{{resultsAmount}} Results</div>
@@ -57,7 +68,14 @@
   </div> <!-- / facet layout -->
 </div> <!-- / container -->
 
-
+<!-- page footer -->
+<div class="hcContentContainer bgColorBrand2">
+  <div class="hc2columns hcMarginBottom3 hcMarginTop3">
+    <div class="">ISEBEL stands for International Search Engine for Believe Legends. At the moment, this search engine harvests folktales and metadata from three European regions: the Netherlands, Denmark and North-East Germany.</div>
+    <div>Logo's</div>
+  </div>
+</div> <!-- / container -->
+<!-- / page footer -->
 
 
 

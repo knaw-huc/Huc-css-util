@@ -46,3 +46,22 @@
 // .hcFullHeight {
 //   min-height: 100vh;
 // }
+
+
+.hcRowLeft {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.hcRowRight {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.hcRowJustify {
+  display: flex;
+  justify-content:space-between;
+  align-items: center;
+}
