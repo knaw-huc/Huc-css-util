@@ -2,12 +2,14 @@
   <div class="hcListItemLong">
     {{txt}}
   </div>
-
-  <div>
-    {{#each tags}}
-      {{tagName}}
-    {{/each}}
-    
-    {{id}}
+  <div class="hcItemsStretch hcSmallTxt">
+    <div class="hcColumnsEqual">
+      {{#each tags}}
+      <div class="hcIsTags"><img src="images/icons/icon-tag.png" class="hcTag">&nbsp;{{tagName}}</div>
+      {{/each}}
+    </div>
+    <div>
+        {{id}}
+    </div>
   </div>
 </div>
