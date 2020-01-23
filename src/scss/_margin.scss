@@ -51,3 +51,8 @@ $basicMargin: 2rem;
   padding-top: 4rem;
   padding-bottom: 4rem;
 }
+
+.hcNestedItemMargin1 >*{
+  margin-right: 1rem;
+  margin-bottom: 1rem;
+}

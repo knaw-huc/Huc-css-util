@@ -163,6 +163,10 @@ strong {
   padding-top: 4rem;
   padding-bottom: 4rem; }
 
+.hcNestedItemMargin1 > * {
+  margin-right: 1rem;
+  margin-bottom: 1rem; }
+
 .hcAlignHorizontal {
   display: flex;
   flex-direction: row; }
@@ -493,6 +497,14 @@ input, select, option, textarea {
   background-image: url("../images/map-placeholder.jpg");
   background-size: cover;
   background-position: center; }
+
+hr {
+  border: none;
+  height: 1px;
+  color: rgba(0, 0, 0, 0.15);
+  /* old IE */
+  background-color: rgba(0, 0, 0, 0.15);
+  /* Modern Browsers */ }
 
 .hcContentContainer {
   display: flex;

@@ -112,3 +112,11 @@
   background-size: cover;
   background-position: center;
 }
+
+
+hr {
+    border: none;
+    height: 1px;
+    color: rgba(#000000, 0.15); /* old IE */
+    background-color: rgba(#000000, 0.15); /* Modern Browsers */
+}
