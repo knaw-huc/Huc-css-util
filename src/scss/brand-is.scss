@@ -13,7 +13,7 @@ $isebelPinkLight: hsl(349, 35%, 70%);
 .bgColorBrand2 {
 	background-image: none !important;
 	background-color: $isebelPinkLight;
-	color: #fff;
+	color: $colorTxt;
 }
 
 .bgColorBrand2 a{
@@ -110,4 +110,17 @@ $iSasideWith: 450px;
 	border-bottom: 1px solid rgba(0, 0, 0, 0.1);
 	margin: .75rem 0 0 0;
 	padding:.75rem 0 0 0;
+}
+
+.hcIsHome {
+	height: 70vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.hcIsHome p {
+	max-width: 600px;
+	text-align: center;
 }
