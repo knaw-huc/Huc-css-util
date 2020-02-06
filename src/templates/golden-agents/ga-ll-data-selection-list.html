@@ -1,24 +1,27 @@
 {{> html-head}}
 
-<div class="hcGaHeader hcMarginBottom3 bgColorBrand1">
-  <div class="hcGaHeaderLogo"><img src="images/logo-ga.png" alt="Golden Agents logo"></div>
-  <div class="hcGaHeaderToolName">Lenticular Lenses II</div>
-  <div class="hcGaHeaderProject">Getty Frick Expiriment 2</div>
-  <div class="hcGaHeaderHelp"></div>
-</div>
+{{> custom/ga-header toolName="Lenticular Lenses II" projectName="Getty Frick Expiriment 2"}}
 
 
-<div class="hcContentContainer hcMarginBottom5">
+<div class="hcContentContainer hcMarginBottom4">
   <div class="hcBasicSideMargin hcAlignRight hcGaTabsLoudness1">
     <a href="" class="hcSelected">Data Selection</a>
     <a href="">Alignment</a>
   </div>
 </div>
 
-<div class="hcContentContainer hcMarginBottom5">
 
+<div class="hcContentContainer hcMarginBottom2">
+  <div class="hcBasicSideMargin">
+    The data selection contains the selections of datasets you will work with. <br>They can be entities with filters on them.
+
+  </div>
+</div>
+
+
+<div class="hcContentContainer hcMarginBottom5">
     <div class="hcResultsHeader hcMarginBottom1 hcBasicSideMargin">
-      <div></div>
+      <div><div class="hcLabel">Data selections</div></div>
 
       <div><select class="" name="">
         <option value="">Order by name</option>
@@ -29,7 +32,7 @@
 
 
 
-    <div class="hcList hcBasicSideMargin hcMarginBottom2" onclick="javascript:location.href='{{linkResultPage}}.html'">
+    <div class="hcList hcListDisctinctLines hcBasicSideMargin hcMarginBottom2" onclick="javascript:location.href='{{linkResultPage}}.html'">
 
         {{#each results}}
           {{> list-items/list-ga-data-selections }}

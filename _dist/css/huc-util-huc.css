@@ -141,6 +141,9 @@ strong {
 .hcMarginBottom3 {
   margin-bottom: 3rem; }
 
+.hcMarginBottom4 {
+  margin-bottom: 4rem; }
+
 .hcMarginBottom5 {
   margin-bottom: 5rem; }
 
@@ -155,6 +158,9 @@ strong {
 
 .hcMarginTop3 {
   margin-top: 3rem; }
+
+.hcMarginTop4 {
+  margin-top: 4rem; }
 
 .hcMarginTop5 {
   margin-top: 5rem; }
@@ -212,22 +218,27 @@ strong {
 
 .hcList {
   display: flex;
-  flex-direction: column; }
+  flex-direction: column;
+  border-bottom: 1px solid #d9d9d9; }
   .hcList li {
     margin: .5rem 0 .5rem 0; }
 
 .hcList > * {
   display: flex;
   flex-direction: column;
-  justify-content: space-between; }
-
-.hcList > *:nth-child(odd) {
-  background-color: whitesmoke;
+  justify-content: space-between;
   margin: 0 -1rem;
-  padding: 1rem; }
+  padding: 1rem;
+  border-top: 1px solid #d9d9d9; }
 
 .hcList > *:hover {
-  background-color: #e8e8e8; }
+  background-color: #d9d9d9; }
+
+.hcListDisctinctLines > *:nth-child(odd) {
+  background-color: #e6e6e6; }
+
+.hcListDisctinctLines > *:nth-child(even) {
+  background-color: none; }
 
 .hcList > * > * {
   flex: 1;

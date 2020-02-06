@@ -4,6 +4,7 @@
 .hcList{
   display: flex;
   flex-direction: column;
+  border-bottom: 1px solid #{$hcGrey15};
 
   li {
     margin: .5rem 0 .5rem 0;
@@ -15,18 +16,31 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-}
-
-.hcList >*:nth-child(odd) {
-  background-color: $colorGreyLightBg;
   margin: 0 -1rem;
   padding: 1rem;
+  border-top: 1px solid #{$hcGrey15};
 }
+
+
+// .hcList:nth-last-child() {
+//   text-align: right;
+// }
+
+
 
 .hcList >*:hover{
-  background-color: $colorGreyLightElement;
+  background-color: $hcGrey15;
 
 }
+// add distiction between add and even rows
+.hcListDisctinctLines >*:nth-child(odd) {
+  background-color: $hcGrey10;
+}
+
+.hcListDisctinctLines >*:nth-child(even) {
+  background-color: none;
+}
+
 
 
 .hcList >* >*{
