@@ -120,3 +120,13 @@ hr {
     color: rgba(#000000, 0.15); /* old IE */
     background-color: rgba(#000000, 0.15); /* Modern Browsers */
 }
+
+.hcStickOutBox {
+  margin: -1rem;
+  padding: 1rem;
+  background-color: $hcGrey05;
+}
+
+.hcRoundedCorners {
+  border-radius: $basicBorderRadius;
+}

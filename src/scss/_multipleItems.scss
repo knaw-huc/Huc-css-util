@@ -33,8 +33,16 @@
 
 }
 // add distiction between add and even rows
+.hcListDisctinctLines >* {
+  border-top: none;
+}
+
 .hcListDisctinctLines >*:nth-child(odd) {
-  background-color: $hcGrey10;
+  background-color: $hcGrey05;
+}
+
+.hcListDisctinctLines >*:nth-child(odd):hover {
+  background-color: $hcGrey15;
 }
 
 .hcListDisctinctLines >*:nth-child(even) {
@@ -65,8 +73,8 @@
 }
 
 .hcListBasicResult {
-  border-bottom: 1px solid rgba(0, 0, 0, 0.05);
-  padding: .7rem 0;
+  //border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+  //padding: .7rem 0;
   cursor: pointer;
 }
 

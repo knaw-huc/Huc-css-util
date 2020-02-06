@@ -49,7 +49,7 @@ body {
   font-size: 18px;
   line-height: 140%;
   font-style: normal;
-  color: #3e3e3e; }
+  color: #1a1a1a; }
 
 h1 {
   font-size: 1.5em;
@@ -234,8 +234,14 @@ strong {
 .hcList > *:hover {
   background-color: #d9d9d9; }
 
+.hcListDisctinctLines > * {
+  border-top: none; }
+
 .hcListDisctinctLines > *:nth-child(odd) {
-  background-color: #e6e6e6; }
+  background-color: #f2f2f2; }
+
+.hcListDisctinctLines > *:nth-child(odd):hover {
+  background-color: #d9d9d9; }
 
 .hcListDisctinctLines > *:nth-child(even) {
   background-color: none; }
@@ -256,8 +262,6 @@ strong {
   background: none; }
 
 .hcListBasicResult {
-  border-bottom: 1px solid rgba(0, 0, 0, 0.05);
-  padding: .7rem 0;
   cursor: pointer; }
 
 .hcRowCard {
@@ -516,6 +520,14 @@ hr {
   /* old IE */
   background-color: rgba(0, 0, 0, 0.15);
   /* Modern Browsers */ }
+
+.hcStickOutBox {
+  margin: -1rem;
+  padding: 1rem;
+  background-color: #f2f2f2; }
+
+.hcRoundedCorners {
+  border-radius: 4px; }
 
 .hcContentContainer {
   display: flex;
