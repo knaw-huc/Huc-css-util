@@ -546,6 +546,16 @@
       "title": "Golden Agents | Lenticular Lenses II | data selection detail"
     },
     {
+      "name": "ga-ll-modal-datasetBrowser",
+      "template": "golden-agents/ga-ll-modal-datasetBrowser",
+      "project-name": "Golden Agents",
+      "brand": "-ga",
+      "logo": "logo-golden-agents.svg",
+      "isPage": true,
+      "favi":"favi-ga.png",
+      "title": "Golden Agents | Lenticular Lenses II | Modal dataset Browser"
+    },
+    {
       "name": "ga-ll-alignment-list",
       "template": "golden-agents/ga-ll-alignment-list",
       "project-name": "Golden Agents",
