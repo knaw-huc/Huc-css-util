@@ -1075,6 +1075,14 @@ hr {
   padding: .5rem;
   width: 250px; }
 
+.hcTabBlocks {
+  background-color: #e0f1c4; }
+
+.hcTabBlocks > * {
+  display: flex;
+  flex-direction: column;
+  background-color: #f2c4c5; }
+
 .hcPagination {
   display: flex;
   flex-direction: row;
