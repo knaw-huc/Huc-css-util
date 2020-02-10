@@ -4,13 +4,14 @@
 
   .hcSelectedTab {
       font-weight: 700;
+      background-color: $hcGrey05;
   }
 }
 
 
 
 
-
+// vertical or horizontal tabs
 .hcTabsVert {
   flex-direction: column;
 
@@ -31,27 +32,33 @@
 }
 
 
+// label and content
 .hcTabLabels {
   width: 100%;
+  position: relative;
+  z-index: 100;
 }
 
 .hcTabAllContent{
     width: 100%;
+    position: relative;
+    z-index: 10;
+    background-image: linear-gradient(#{$hcGrey05} , #fff 50px);
 }
 
 
-
+// responsiveness
 @media (min-width: 500px) {
   .hcTabsVert {
     flex-direction: row;
-  }
 
-  .hcTabLabels {
-    width: 20%;
-  }
+    .hcTabLabels {
+      width: 20%;
+    }
 
-  .hcTabAllContent{
-      width: 80%;
+    .hcTabAllContent{
+        width: 80%;
+    }
   }
 }
 
@@ -68,10 +75,5 @@
 
 .hcTabLabel {
   cursor: pointer;
-  padding: .5rem
-}
-
-
-
-.hcTabContent {
+  padding: .5rem 1rem;
 }

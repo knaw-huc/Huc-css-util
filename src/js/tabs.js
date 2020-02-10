@@ -47,7 +47,7 @@ function firstTabVisable() {
   hideTabContent();
   // style the tab
   document.getElementById(firstTabId).classList.add('hcSelectedTab');
-  document.getElementById(firstTabId).classList.add('colorBgGrey');
+  //document.getElementById(firstTabId).classList.add('colorBgGrey');
 
   var firstTabCore = firstTabId.replace(preListVal, "");
   makeTabVisable(firstTabCore);
@@ -57,10 +57,10 @@ function firstTabVisable() {
 function seletedLabel(contentId) {
   for (i = 0; i < handleTabLabel.length; i++) {
     handleTabLabel[i].classList.remove('hcSelectedTab');
-    handleTabLabel[i].classList.remove('colorBgGrey');
+    //handleTabLabel[i].classList.remove('colorBgGrey');
   }
   document.getElementById(preListVal+contentId).classList.add('hcSelectedTab');
-  document.getElementById(preListVal+contentId).classList.add('colorBgGrey');
+  //document.getElementById(preListVal+contentId).classList.add('colorBgGrey');
 }
 
 

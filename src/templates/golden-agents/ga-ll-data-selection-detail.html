@@ -14,41 +14,70 @@
 <div class="hcContentContainer hcMarginBottom2 ">
   <div class="hcRowJustify">
     <div class="hcBasicSideMargin">
-      The data selection contains the selections of datasets you will work with. <br>They can be entities with filters on them.
+      <h3>Marriages in 1600-1649</h3>
     </div>
   </div>
-
 </div>
 
 
-<div class="hcContentContainer hcMarginBottom5 hcTabBlocks">
-    <div class="hcBasicSideMargin hcTabsLabels">
-      <div class="hcTab">Info</div>
-      <div class="hcTab">Dataset</div>
-      <div class="hcTab">Filter</div>
-      <div class="hcTab">Sample</div>
-      <div class="hcTab">Relation</div>
+<div class="hcContentContainer">
+  <div class="hcTabs hcTabsHoriz hcBasicSideMargin">
+    <div class="hcTabLabels">
+        <div class="hcTabLabel hcRoundedCornersTop" id="tab-list-info">Info</div>
+        <div class="hcTabLabel" id="tab-list-dataset">Dataset</div>
+        <div class="hcTabLabel" id="tab-list-filter">Filter</div>
+        <div class="hcTabLabel" id="tab-list-sample">Sample</div>
+        <div class="hcTabLabel" id="tab-list-relation">Relation</div>
     </div>
-    <div class="hcBasicSideMargin hcTabsContent">
-      <div class="hcTab">
-        <h3>Project name</h3>
-        Start a new project to reconcile one or more datasets.
+    <div class="hcTabAllContent hcStickOutBoxAside hcRoundedCornersTop">
+
+
+      <!-- info -->
+      <div class="hcTabContent hcMarginTop2" id="tab-content-info">
+        <h3>Name</h3>
         <input type="text" name="" value="" class="hcMarginBottom2">
-
-        <h3>Project description</h3>
-        Start a new project to reconcile one or more datasets.
+        <h3>Description</h3>
         <textarea name="name" rows="4" class="hcMarginBottom1"></textarea>
-
         <button type="button" name="button">Save project</button>
       </div>
-      <div class="hcTab">Dataset</div>
-      <div class="hcTab">Filter</div>
-      <div class="hcTab">Sample</div>
-      <div class="hcTab">Relation</div>
+
+
+
+      <!-- dataset -->
+      <div class="hcTabContent hcMarginTop2" id="tab-content-dataset">
+        <h3>Dataset and entity</h3>
+        <div class="hc2columns hcMarginBottom2">
+          <div>
+            <div class="hcLabel">dataset</div>
+            Enriched version of the Index op ondertrouwregisters
+            <div class="hcSmallTxt hcClrTxt_Grey">Enriched version of the Index op ondertrouwregisters. Enrichment by Golden Agents.</div>
+          </div>
+          <div>
+            <div class="hcLabel">entity</div>
+            saa_Person
+          </div>
+        </div>
+
+        <button type="button" name="button">Select data</button>
+      </div>
+
+
+      <div class="hcTabContent" id="tab-content-filter">33333</div>
+      <div class="hcTabContent" id="tab-content-sample">444444</div>
+      <div class="hcTabContent" id="tab-content-relation">5555555</div>
     </div>
+  </div>
 </div>
 
 
+
+
+
+
+
+<!-- build:js js/utilLL1.js -->
+<script src="../../js/tabs.js" charset="utf-8"></script>
+<!-- endbuild -->
 
 
 {{> html-footer}}

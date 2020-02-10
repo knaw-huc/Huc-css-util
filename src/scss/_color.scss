@@ -10,13 +10,24 @@ $hcGrey10: hsl(0, 0%, 90%);
 $hcGrey15: hsl(0, 0%, 85%);
 $hcGrey20: hsl(0, 0%, 80%);
 $hcGrey30: hsl(0, 0%, 70%);
+$hcGrey50: hsl(0, 0%, 50%);
 $hcGrey70: hsl(0, 0%, 30%);
 $hcGrey80: hsl(0, 0%, 20%);
 $hcGrey90: hsl(0, 0%, 10%);
-$hcGrey90: hsl(0, 0%, 10%);
 
 
-// text
-$hcTextDefault: $hcGrey90;
-$hcTextLight: $hcGrey70;
-$hcTextDark: #000;
+
+
+
+.hcClrBg_Grey05 { background-color: $hcGrey05 }
+.hcClrBg_Grey10 { background-color: $hcGrey10 }
+.hcClrBg_Grey15 { background-color: $hcGrey15 }
+.hcClrBg_Grey20 { background-color: $hcGrey20 }
+.hcClrBg_Grey30 { background-color: $hcGrey30 }
+.hcClrBg_Grey70 { background-color: $hcGrey70 }
+.hcClrBg_Grey80 { background-color: $hcGrey80 }
+.hcClrBg_Grey90 { background-color: $hcGrey90 }
+
+.hcClrTxt      { color: $hcGrey90 }
+.hcClrTxt_Grey { color: $hcGrey50 }
+.hcClrTxt_Dark { color: #000 }

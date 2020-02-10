@@ -127,6 +127,16 @@ hr {
   background-color: $hcGrey05;
 }
 
+.hcStickOutBoxAside {
+  margin: 0 -1rem;
+  padding: 0 1rem;
+  background-color: $hcGrey05;
+}
+
 .hcRoundedCorners {
   border-radius: $basicBorderRadius;
+}
+
+.hcRoundedCornersTop {
+  border-radius: $basicBorderRadius $basicBorderRadius 0 0;
 }

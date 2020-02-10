@@ -24,6 +24,39 @@ ul ul {
 ul ul ul {
   margin: 0 0 0 2em; }
 
+.hcClrBg_Grey05 {
+  background-color: #f2f2f2; }
+
+.hcClrBg_Grey10 {
+  background-color: #e6e6e6; }
+
+.hcClrBg_Grey15 {
+  background-color: #d9d9d9; }
+
+.hcClrBg_Grey20 {
+  background-color: #cccccc; }
+
+.hcClrBg_Grey30 {
+  background-color: #b3b3b3; }
+
+.hcClrBg_Grey70 {
+  background-color: #4d4d4d; }
+
+.hcClrBg_Grey80 {
+  background-color: #333333; }
+
+.hcClrBg_Grey90 {
+  background-color: #1a1a1a; }
+
+.hcClrTxt {
+  color: #1a1a1a; }
+
+.hcClrTxt_Grey {
+  color: gray; }
+
+.hcClrTxt_Dark {
+  color: #000; }
+
 body {
   background-color: #fff;
   color: #3e3e3e; }
@@ -526,8 +559,16 @@ hr {
   padding: 1rem;
   background-color: #f2f2f2; }
 
+.hcStickOutBoxAside {
+  margin: 0 -1rem;
+  padding: 0 1rem;
+  background-color: #f2f2f2; }
+
 .hcRoundedCorners {
   border-radius: 4px; }
+
+.hcRoundedCornersTop {
+  border-radius: 4px 4px 0 0; }
 
 .hcContentContainer {
   display: flex;
@@ -851,7 +892,8 @@ hr {
   display: flex;
   width: 100%; }
   .hcTabs .hcSelectedTab {
-    font-weight: 700; }
+    font-weight: 700;
+    background-color: #f2f2f2; }
 
 .hcTabsVert {
   flex-direction: column; }
@@ -866,25 +908,30 @@ hr {
     flex-direction: row; }
 
 .hcTabLabels {
-  width: 100%; }
+  width: 100%;
+  position: relative;
+  z-index: 100; }
 
 .hcTabAllContent {
-  width: 100%; }
+  width: 100%;
+  position: relative;
+  z-index: 10;
+  background-image: linear-gradient(#f2f2f2, #fff 50px); }
 
 @media (min-width: 500px) {
   .hcTabsVert {
     flex-direction: row; }
-  .hcTabLabels {
-    width: 20%; }
-  .hcTabAllContent {
-    width: 80%; } }
+    .hcTabsVert .hcTabLabels {
+      width: 20%; }
+    .hcTabsVert .hcTabAllContent {
+      width: 80%; } }
 
 .hcTabContent {
   width: 100%; }
 
 .hcTabLabel {
   cursor: pointer;
-  padding: .5rem; }
+  padding: .5rem 1rem; }
 
 .hcFormItem {
   display: flex;
@@ -1074,14 +1121,6 @@ hr {
   background-color: #25a39a;
   padding: .5rem;
   width: 250px; }
-
-.hcTabBlocks {
-  background-color: #e0f1c4; }
-
-.hcTabBlocks > * {
-  display: flex;
-  flex-direction: column;
-  background-color: #f2c4c5; }
 
 .hcPagination {
   display: flex;
