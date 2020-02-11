@@ -20,42 +20,35 @@
       <button type="button" name="button">New alignment</button>
     </div>
   </div>
-
 </div>
 
 
 <div class="hcContentContainer hcMarginBottom5">
-    <div class="hcResultsHeader hcMarginBottom1 hcBasicSideMargin">
-      <div class="hcAlignHorizontal">
-        <div class="hcLabel hcListItemLong">Name</div>
-        <div class="hcLabel">Source</div>
-        <div class="hcLabel">Targets</div>
-        <div class="hcLabel">Links</div>
-        <div class="hcLabel">Clusters</div>
-      </div>
 
-      <div><select class="" name="">
-        <option value="">Order by name</option>
-        <option value="">Order by date updated</option>
-        <option value="">Order by date create</option>
-      </select></div>
+    <div class="hcList hcMarginBottom1 hcBasicSideMargin">
+      <div class="hcListHeader">
+        <div class="hcLabel hcListItemLong">Name</div>
+        <div class="hcLabel hcTxtRight">Source</div>
+        <div class="hcLabel hcTxtRight">Targets</div>
+        <div class="hcLabel hcTxtRight">Links</div>
+        <div class="hcLabel hcTxtRight">Clusters</div>
+        <div class="hcLabel">Status</div>
+        <div><select class="" name="">
+          <option value="">Order by name</option>
+          <option value="">Order by date updated</option>
+          <option value="">Order by date create</option>
+        </select></div>
+      </div>
     </div>
 
 
-
-    <div class="hcList hcBasicSideMargin hcMarginBottom2" >
-
+    <div class="hcList hcListDisctinctLines hcBasicSideMargin hcMarginBottom2" >
         {{#each results}}
           {{> list-items/list-ga-aligments }}
         {{/each}}
     </div>
     {{> comp-pagination}}
-
-
 </div>
-
-
-
 
 
 

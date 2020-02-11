@@ -35,7 +35,7 @@
 <div class="hcContentContainer hcMarginBottom2 ">
   <div class="hcRowJustify">
     <div class="hcBasicSideMargin">
-      <h3><div class="hc-ga-icon hc-ga-icon-al"> </div>
+      <h3><div class="hc-ga-icon hc-ga-icon-al hcRoundedCorners"> </div>
  Getty & Frick vs NA:: soundex 0,85</h3>
     </div>
   </div>
@@ -46,16 +46,15 @@
   <div class="hcTabs hcTabsHoriz hcBasicSideMargin">
     <div class="hcTabLabels">
         <div class="hcTabLabel hcRoundedCornersTop" id="tab-list-info">Info</div>
-        <div class="hcTabLabel" id="tab-list-dataset">Dataset</div>
-        <div class="hcTabLabel" id="tab-list-filter">Filter</div>
-        <div class="hcTabLabel" id="tab-list-sample">Sample</div>
-        <div class="hcTabLabel" id="tab-list-relation">Relation</div>
+        <div class="hcTabLabel" id="tab-list-dataset">Matching settings</div>
+        <div class="hcTabLabel" id="tab-list-filter">Links</div>
+        <div class="hcTabLabel" id="tab-list-sample">Clusters</div>
     </div>
     <div class="hcTabAllContent hcStickOutBoxAside hcRoundedCornersTop">
 
 
       <!-- info -->
-      <div class="hcTabContent hcMarginTop2" id="tab-content-info">
+      <div class="hcTabContent hcMarginTop2 hcForm" id="tab-content-info">
         <h3>Name</h3>
         <input type="text" name="" value="" class="hcMarginBottom2">
         <h3>Description</h3>
@@ -65,33 +64,38 @@
 
 
 
-      <!-- dataset -->
+      <!-- Matching settings-->
       <div class="hcTabContent hcMarginTop2" id="tab-content-dataset">
-        <h3>Dataset and entity</h3>
-        <div class="hc2columns hcMarginBottom2">
-          <div>
-            <div class="hcLabel">dataset</div>
-            Enriched version of the Index op ondertrouwregisters
-            <div class="hcSmallTxt hcClrTxt_Grey">Enriched version of the Index op ondertrouwregisters. Enrichment by Golden Agents.</div>
-          </div>
-          <div>
-            <div class="hcLabel">entity</div>
-            saa_Person
-          </div>
+        <h3>Sources</h3>
+        <div class="hcList hcMarginBottom1">
+          <div class="hcRowJustify"> <div class=""><div class="hc-ga-icon hc-ga-icon-ds hcRoundedCorners"> </div>
+ Frick experiment [type: saa_Inventory]:: Notarial Acts ONLY</div><div class="hcTxtRight"><a href="">Delete</a></div></div>
+          <div class="hcRowJustify"> <div class=""><div class="hc-ga-icon hc-ga-icon-ds hcRoundedCorners"> </div>
+ GPI experiment [type: saa_Inventory]:: Notarial Acts ONLY</div><div class="hcTxtRight"><a href="">Delete</a></div> </div>
+        </div>
+        <button type="button" name="button">Add source</button>
+
+        <h3 class="hcMarginTop2">Targets</h3>
+        <div class="hcList hcMarginBottom1">
+          <div class="hcRowJustify"> <div class=""><div class="hc-ga-icon hc-ga-icon-ds hcRoundedCorners"> </div>
+ Stadsarchief Amsterdam: Index op notarieel archief [type: saa_HuwelijkseVoorwaarden]</div><div class="hcTxtRight"><a href="">Delete</a></div></div>
+          <div class="hcRowJustify"> <div class=""><div class="hc-ga-icon hc-ga-icon-ds hcRoundedCorners"> </div>
+ Stadsarchief Amsterdam: Index op notarieel archief [type: saa_Boedelscheiding]</div><div class="hcTxtRight"><a href="">Delete</a></div> </div>
+          <div class="hcRowJustify"> <div class=""><div class="hc-ga-icon hc-ga-icon-ds hcRoundedCorners"> </div>
+ Stadsarchief Amsterdam: Index op notarieel archief [type: saa_Boedelinventaris]</div><div class="hcTxtRight"><a href="">Delete</a></div></div>
+          <div class="hcRowJustify"> <div class=""><div class="hc-ga-icon hc-ga-icon-ds hcRoundedCorners"> </div>
+ Stadsarchief Amsterdam: Index op notarieel archief [type: saa_Testament]</div><div class="hcTxtRight"><a href="">Delete</a></div> </div>
         </div>
 
-        <button type="button" name="button">Select data</button>
+        <button type="button" name="button">Select target</button>
       </div>
 
 
       <div class="hcTabContent" id="tab-content-filter">33333</div>
       <div class="hcTabContent" id="tab-content-sample">444444</div>
-      <div class="hcTabContent" id="tab-content-relation">5555555</div>
     </div>
   </div>
 </div>
-
-
 
 
 
