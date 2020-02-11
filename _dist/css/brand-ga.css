@@ -66,3 +66,34 @@ a {
 .hcSelected {
   font-weight: 700;
   border-bottom: 3px solid #058f76 !important; }
+
+.hcSelectedListItem {
+  background-color: #058f76;
+  font-weight: 700;
+  color: #fff;
+  padding-left: 1rem;
+  margin-left: -1rem; }
+
+.hcleftMark {
+  border-left: 5px solid #058f76 !important; }
+
+.hcMaxhalf {
+  height: 40vh !important;
+  overflow-y: scroll; }
+
+@media (min-width: 800px) {
+  .hcMaxhalf {
+    height: 80vh !important; }
+  .hcSelectedExtend {
+    margin-right: -2rem; } }
+
+.hc-ga-icon {
+  width: 1rem;
+  height: 1rem;
+  display: inline-block; }
+
+.hc-ga-icon-ds {
+  background-color: #3793BB; }
+
+.hc-ga-icon-al {
+  background-color: #FFAC4B; }

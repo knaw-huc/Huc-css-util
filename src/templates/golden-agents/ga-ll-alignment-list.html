@@ -1,14 +1,61 @@
 {{> html-head}}
 
+{{> custom/ga-header toolName="Lenticular Lenses II" projectName="Getty Frick Expiriment 2"}}
 
+
+<div class="hcContentContainer hcMarginBottom4">
+  <div class="hcBasicSideMargin hcAlignRight hcGaTabsLoudness1">
+    <a href="">Data Selection</a>
+    <a href="" class="hcSelected">Alignment</a>
+  </div>
+</div>
+
+
+<div class="hcContentContainer hcMarginBottom2 ">
+  <div class="hcRowJustify">
+    <div class="hcBasicSideMargin">
+      The data selection contains the selections of datasets you will work with. <br>They can be entities with filters on them.
+    </div>
+    <div class="hcBasicSideMargin">
+      <button type="button" name="button">New alignment</button>
+    </div>
+  </div>
+
+</div>
 
 
 <div class="hcContentContainer hcMarginBottom5">
-  <div class="hcBasicSideMargin">
-    {{title}}
+    <div class="hcResultsHeader hcMarginBottom1 hcBasicSideMargin">
+      <div class="hcAlignHorizontal">
+        <div class="hcLabel hcListItemLong">Name</div>
+        <div class="hcLabel">Source</div>
+        <div class="hcLabel">Targets</div>
+        <div class="hcLabel">Links</div>
+        <div class="hcLabel">Clusters</div>
+      </div>
 
-  </div>
+      <div><select class="" name="">
+        <option value="">Order by name</option>
+        <option value="">Order by date updated</option>
+        <option value="">Order by date create</option>
+      </select></div>
+    </div>
+
+
+
+    <div class="hcList hcBasicSideMargin hcMarginBottom2" >
+
+        {{#each results}}
+          {{> list-items/list-ga-aligments }}
+        {{/each}}
+    </div>
+    {{> comp-pagination}}
+
+
 </div>
+
+
+
 
 
 

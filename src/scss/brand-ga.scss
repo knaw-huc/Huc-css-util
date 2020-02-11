@@ -71,9 +71,56 @@ $colorGoldenAgentsYGreen: #058f76;
 	margin-left: 1rem;
 
 }
-
+ // modal selection
 .hcSelected {
 	font-weight: 700;
 	border-bottom: 3px solid $colorGoldenAgentsYGreen !important;
 
+}
+
+.hcSelectedListItem {
+	background-color: $colorGoldenAgentsYGreen;
+	font-weight: 700;
+	color: #fff;
+	padding-left: 1rem;
+	margin-left: -1rem;
+
+}
+
+
+
+.hcleftMark{
+	border-left: 5px solid $colorGoldenAgentsYGreen !important;
+}
+
+.hcMaxhalf {
+	height: 40vh !important;
+	overflow-y: scroll;
+}
+
+@media (min-width: 800px) {
+	.hcMaxhalf {
+		height: 80vh !important;
+	}
+
+	.hcSelectedExtend {
+		margin-right: -2rem;
+	}
+}
+
+//icons
+$gaIconHeight: 1rem;
+
+.hc-ga-icon {
+	width: $gaIconHeight;
+	height: $gaIconHeight;
+	display: inline-block;
+}
+
+.hc-ga-icon-ds {
+	background-color: #3793BB;
+}
+
+.hc-ga-icon-al {
+	background-color: #FFAC4B;
 }

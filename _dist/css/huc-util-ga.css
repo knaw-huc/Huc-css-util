@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:300,300i,700");
 html,
 body {
   padding: 0;
@@ -256,8 +257,7 @@ strong {
 
 .hcList {
   display: flex;
-  flex-direction: column;
-  border-bottom: 1px solid #d9d9d9; }
+  flex-direction: column; }
   .hcList li {
     margin: .5rem 0 .5rem 0; }
 
@@ -265,18 +265,24 @@ strong {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  margin: 0 -1rem;
-  padding: 1rem;
-  border-top: 1px solid #d9d9d9; }
+  border-top: 1px solid #d9d9d9;
+  padding-top: .7rem;
+  padding-bottom: .7rem; }
 
 .hcList > *:hover {
-  background-color: #d9d9d9; }
+  background-color: #d9d9d9;
+  margin: 0 -1rem;
+  padding-left: 1rem;
+  padding-right: 1rem; }
 
 .hcListDisctinctLines > * {
   border-top: none; }
 
 .hcListDisctinctLines > *:nth-child(odd) {
-  background-color: #f2f2f2; }
+  background-color: #f2f2f2;
+  margin: 0 -1rem;
+  padding-left: 1rem;
+  padding-right: 1rem; }
 
 .hcListDisctinctLines > *:nth-child(odd):hover {
   background-color: #d9d9d9; }
@@ -1140,7 +1146,7 @@ hr {
   padding: .5rem; }
 
 .hcModal {
-  background-color: rgba(0, 0, 0, 0.75);
+  background-color: rgba(0, 0, 0, 0.85);
   position: fixed;
   top: 0;
   left: 0;
@@ -1151,8 +1157,12 @@ hr {
   justify-content: center;
   align-items: center; }
 
-.hcModal .hcContentContainer > * {
-  background-color: #ffffff; }
+.hcModelContentWrap {
+  background-color: #ffffff;
+  height: calc(100vh - 6rem);
+  width: calc(100vw - 4rem);
+  margin: 6rem 0;
+  overflow-y: scroll; }
 
 .brandName {
   font-weight: 700; }
@@ -1241,3 +1251,34 @@ a {
 .hcSelected {
   font-weight: 700;
   border-bottom: 3px solid #058f76 !important; }
+
+.hcSelectedListItem {
+  background-color: #058f76;
+  font-weight: 700;
+  color: #fff;
+  padding-left: 1rem;
+  margin-left: -1rem; }
+
+.hcleftMark {
+  border-left: 5px solid #058f76 !important; }
+
+.hcMaxhalf {
+  height: 40vh !important;
+  overflow-y: scroll; }
+
+@media (min-width: 800px) {
+  .hcMaxhalf {
+    height: 80vh !important; }
+  .hcSelectedExtend {
+    margin-right: -2rem; } }
+
+.hc-ga-icon {
+  width: 1rem;
+  height: 1rem;
+  display: inline-block; }
+
+.hc-ga-icon-ds {
+  background-color: #3793BB; }
+
+.hc-ga-icon-al {
+  background-color: #FFAC4B; }

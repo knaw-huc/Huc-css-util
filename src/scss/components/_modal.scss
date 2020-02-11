@@ -1,5 +1,5 @@
 .hcModal {
-  background-color: rgba(0, 0, 0, 0.75);
+  background-color: rgba(0, 0, 0, 0.85);
   position: fixed;
   top: 0;
   left: 0;
@@ -16,6 +16,10 @@
 
 
 
-.hcModal .hcContentContainer > * {
+.hcModelContentWrap {
   background-color: #ffffff;
+  height: calc(100vh - 6rem);
+  width: calc(100vw - 4rem);
+  margin: 6rem 0;
+  overflow-y: scroll;
 }
