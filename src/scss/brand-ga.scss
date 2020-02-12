@@ -129,7 +129,7 @@ $gaIconHeight: 1rem;
 
 
 // layout
-
+// 122
 .hcLayoutCols122 {
 	display: flex;
 	flex-direction: row;
@@ -143,6 +143,27 @@ $gaIconHeight: 1rem;
 .hcLayoutCols122 >*:first-child {
 	flex: 1;
 }
+
+
+//112
+.hcLayoutCols112 {
+	display: flex;
+	flex-direction: row;
+}
+
+.hcLayoutCols112 >* {
+	flex: 1;
+
+}
+
+.hcLayoutCols122 >*:last-child {
+	flex: 3;
+}
+
+
+
+
+
 
 .hcVerticalLineSeperator >* {
 	border-right: 1px solid #{$hcGrey15};
