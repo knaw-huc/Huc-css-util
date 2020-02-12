@@ -490,6 +490,12 @@ input, select, option, textarea {
   min-width: 40px;
   bottom: 0; }
 
+.hcStickyFooterLook {
+  background-color: #fff;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  border-top: 1px solid #d9d9d9; }
+
 .hcTextSnippit::before {
   content: " ..."; }
 
@@ -1216,6 +1222,39 @@ a {
 .hcTxtColorGreyMid {
   color: #999999; }
 
+.hcClrBg_Grey05 {
+  background-color: #f2f2f2; }
+
+.hcClrBg_Grey10 {
+  background-color: #e6e6e6; }
+
+.hcClrBg_Grey15 {
+  background-color: #d9d9d9; }
+
+.hcClrBg_Grey20 {
+  background-color: #cccccc; }
+
+.hcClrBg_Grey30 {
+  background-color: #b3b3b3; }
+
+.hcClrBg_Grey70 {
+  background-color: #4d4d4d; }
+
+.hcClrBg_Grey80 {
+  background-color: #333333; }
+
+.hcClrBg_Grey90 {
+  background-color: #1a1a1a; }
+
+.hcClrTxt {
+  color: #1a1a1a; }
+
+.hcClrTxt_Grey {
+  color: gray; }
+
+.hcClrTxt_Dark {
+  color: #000; }
+
 .bgColorBrand1 {
   background-image: none !important;
   background-color: #efc501; }
@@ -1296,3 +1335,19 @@ a {
 
 .hc-ga-icon-al {
   background-color: #FFAC4B; }
+
+.hcLayoutCols122 {
+  display: flex;
+  flex-direction: row; }
+
+.hcLayoutCols122 > * {
+  flex: 2; }
+
+.hcLayoutCols122 > *:first-child {
+  flex: 1; }
+
+.hcVerticalLineSeperator > * {
+  border-right: 1px solid #d9d9d9; }
+
+.hcVerticalLineSeperator > *:last-child {
+  border-right: none; }

@@ -1,5 +1,6 @@
 @import 'var';
 @import '_color-depricated';
+@import '_color';
 
 $colorGoldenAgentsYellow: #efc501;
 $colorGoldenAgentsYGreen: #058f76;
@@ -123,4 +124,29 @@ $gaIconHeight: 1rem;
 
 .hc-ga-icon-al {
 	background-color: #FFAC4B;
+}
+
+
+
+// layout
+
+.hcLayoutCols122 {
+	display: flex;
+	flex-direction: row;
+}
+
+.hcLayoutCols122 >* {
+	flex: 2;
+
+}
+
+.hcLayoutCols122 >*:first-child {
+	flex: 1;
+}
+
+.hcVerticalLineSeperator >* {
+	border-right: 1px solid #{$hcGrey15};
+}
+.hcVerticalLineSeperator >*:last-child{
+	border-right: none;
 }

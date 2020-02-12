@@ -3,8 +3,13 @@
   width: 100%;
   min-width: 40px;
   bottom: 0;
+}
 
-
+.hcStickyFooterLook {
+  background-color: #fff;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  border-top: 1px solid #{$hcGrey15};
 }
 
 // .hcStickyFooter >*{
