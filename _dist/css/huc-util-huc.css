@@ -255,6 +255,9 @@ strong {
 .hcTxtRight {
   text-align: right; }
 
+.hcTxtCenter {
+  text-align: center; }
+
 .hcList {
   display: flex;
   flex-direction: column; }
@@ -303,7 +306,12 @@ strong {
   flex: 2; }
 
 .hcListHeader {
-  background: none; }
+  background: none;
+  border: none; }
+
+.hcListHeader:hover {
+  background: none;
+  border: none; }
 
 .hcListBasicResult {
   cursor: pointer; }
@@ -580,6 +588,12 @@ hr {
 
 .hcRoundedCornersTop {
   border-radius: 4px 4px 0 0; }
+
+.hcTextTruncate {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 200px; }
 
 .hcContentContainer {
   display: flex;

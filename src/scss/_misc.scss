@@ -140,3 +140,13 @@ hr {
 .hcRoundedCornersTop {
   border-radius: $basicBorderRadius $basicBorderRadius 0 0;
 }
+
+
+
+//text truncation
+.hcTextTruncate {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 200px;
+}

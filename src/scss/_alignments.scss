@@ -60,6 +60,7 @@
   align-items: center;
 }
 
+
 .hcRowJustify {
   display: flex;
   justify-content:space-between;
@@ -72,4 +73,8 @@
 
 .hcTxtRight {
   text-align: right;
+}
+
+.hcTxtCenter {
+  text-align: center;
 }
