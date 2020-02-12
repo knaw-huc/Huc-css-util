@@ -594,6 +594,16 @@
       "title": "Golden Agents | Lenticular Lenses II | Link item interface"
     },
     {
+      "name": "ga-ll-cluster-items",
+      "template": "golden-agents/ga-ll-cluster-items",
+      "project-name": "Golden Agents",
+      "brand": "-ga",
+      "logo": "logo-golden-agents.svg",
+      "isPage": true,
+      "favi":"favi-ga.png",
+      "title": "Golden Agents | Lenticular Lenses II | Cluster and graph interface"
+    },
+    {
       "name": "hi-home",
       "project-name": "Data Huygens ING",
       "project-description": "Data related to Dutch history, literature, and the history of knowledge – ready for reference, scholarly analysis, and linkage.",
