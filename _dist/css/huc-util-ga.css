@@ -1361,3 +1361,7 @@ a {
 
 .hcVerticalLineSeperator > *:last-child {
   border-right: none; }
+
+.tempImg {
+  width: auto;
+  height: 65vh; }
