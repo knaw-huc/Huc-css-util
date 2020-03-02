@@ -239,15 +239,30 @@ strong {
   justify-content: flex-start;
   align-items: center; }
 
+.hcRowLeftTop {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start; }
+
 .hcRowRight {
   display: flex;
   justify-content: flex-end;
   align-items: center; }
 
+.hcRowRightTop {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-start; }
+
 .hcRowJustify {
   display: flex;
   justify-content: space-between;
   align-items: center; }
+
+.hcRowJustifyTop {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start; }
 
 .hcTxtLeft {
   text-align: left; }
