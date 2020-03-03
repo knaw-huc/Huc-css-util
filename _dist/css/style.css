@@ -24,6 +24,30 @@ ul ul {
 ul ul ul {
   margin: 0 0 0 2em; }
 
+.hcClrBg_Info {
+  background-color: #1f96ad; }
+
+.hcClrBg_InfoLight {
+  background-color: #ebf7fa; }
+
+.hcClrBg_Reward {
+  background-color: #9fcf3f; }
+
+.hcClrBg_RewardLight {
+  background-color: #d6ebad; }
+
+.hcClrBg_Error {
+  background-color: #d12300; }
+
+.hcClrBg_ErrorLight {
+  background-color: #ffaa99; }
+
+.hcClrBg_Caution {
+  background-color: #e2c765; }
+
+.hcClrBg_CautionLight {
+  background-color: #efe0a9; }
+
 .hcClrBg_Grey05 {
   background-color: #f2f2f2; }
 

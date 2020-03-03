@@ -4,6 +4,34 @@
 
 // system info colors
 
+
+$colorInfo:          hsl(190, 70%, 40%);
+$colorInfoLight:     hsl(190, 60%, 95%);
+
+$colorReward:        hsl(80, 60%, 53%);
+$colorRewardLight:   hsl(80, 60%, 80%);
+
+$colorError:         hsl(10, 100%, 41%);
+$colorErrorLight:    hsl(10, 100%, 80%);
+
+$colorCaution:       hsl(47, 68%, 64%);
+$colorCautionLight:  hsl(47, 68%, 80%);
+
+.hcClrBg_Info { background-color: $colorInfo }
+.hcClrBg_InfoLight { background-color: $colorInfoLight }
+.hcClrBg_Reward { background-color: $colorReward }
+.hcClrBg_RewardLight { background-color: $colorRewardLight }
+.hcClrBg_Error { background-color: $colorError }
+.hcClrBg_ErrorLight { background-color: $colorErrorLight }
+.hcClrBg_Caution { background-color: $colorCaution}
+.hcClrBg_CautionLight { background-color: $colorCautionLight }
+
+
+
+
+
+
+
 // system greys
 $hcGrey05: hsl(0, 0%, 95%);
 $hcGrey10: hsl(0, 0%, 90%);
