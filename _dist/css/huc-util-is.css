@@ -37,7 +37,7 @@ ul ul ul {
   background-color: #d6ebad; }
 
 .hcClrBg_Error {
-  background-color: #d12300; }
+  background-color: #de6e6e; }
 
 .hcClrBg_ErrorLight {
   background-color: #ffaa99; }
@@ -477,12 +477,12 @@ button {
   background-color: rgba(0, 0, 0, 0.07);
   border: 1px solid rgba(0, 0, 0, 0.09);
   cursor: pointer;
-  font-weight: 700; }
+  font-weight: 700;
+  margin: 0 .3rem; }
 
 .hc-loud {
   padding: .8rem;
-  font-size: 1rem;
-  background-color: #9ed041; }
+  font-size: 1rem; }
 
 .hc-small {
   padding: .5rem;
