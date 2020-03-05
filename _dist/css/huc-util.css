@@ -840,6 +840,19 @@ hr {
 .hcSidebar div {
   margin-bottom: 1.5rem; }
 
+.hcSpitscreen {
+  display: flex;
+  flex-direction: column; }
+
+.hcSpitscreen > * {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start; }
+
+@media (min-width: 1200px) {
+  .hcSpitscreen {
+    flex-direction: row; } }
+
 .navigation a {
   color: #3e3e3e;
   font-weight: 700;
@@ -1214,7 +1227,8 @@ hr {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center; }
+  align-items: center;
+  z-index: 10000; }
 
 .hcModelContentWrap {
   background-color: #ffffff;
@@ -1222,6 +1236,55 @@ hr {
   width: calc(100vw - 4rem);
   margin: 6rem 0;
   overflow-y: scroll; }
+
+.hcQueryBuilder {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  font-size: 1.1rem;
+  font-weight: 700; }
+
+.hcQBuildBlock {
+  padding: .2rem .3rem;
+  display: flex;
+  align-items: center;
+  margin-left: -1px;
+  height: 2.5rem; }
+  .hcQBuildBlock .hcIconFill {
+    fill: #b3b3b3 !important; }
+
+.hcQBuildBlockInt {
+  border: 1px solid #cccccc;
+  cursor: pointer; }
+
+.hcQBuildBlockChoice {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: -7.5rem; }
+
+.hcQBuildBlockChoice > * {
+  border-top: 1px solid #cccccc;
+  border-left: 1px solid #cccccc;
+  border-right: 1px solid #cccccc;
+  cursor: pointer;
+  padding: .2rem .3rem;
+  width: 8rem; }
+
+.hcQBuildBlockChoice > *:last-child {
+  border-bottom: 1px solid #cccccc;
+  border-radius: 0 0 4px 4px; }
+
+.hcQBuildBlockChoice > *:first-child {
+  border-radius: 4px 4px 0 0; }
+
+.hcQBuildBlockBrowse {
+  background-color: #e6e6e6;
+  height: 50vh;
+  margin-bottom: calc(2.5rem - 50vh);
+  z-index: 200;
+  padding: .2rem .3rem;
+  width: 20rem; }
 
 .brandName {
   font-weight: 700; }

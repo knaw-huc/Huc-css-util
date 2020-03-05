@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Golden Agents | Multi-Agent search | Search page</title>
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/huc-util-ga.css">
+      <link rel="icon" href="images/favi/favi-ga.png" sizes="any" type="image/png">
+    <meta property="og:url"           content=".html" />
+    <meta property="og:type"          content="article" />
+    <meta property="og:title"         content="" />
+    <meta property="og:description"   content="" />
+    <meta property="og:image"         content="" />
+  </head>
+  <body>
+
+<div class="hcGaHeader hcMarginBottom5 bgColorBrand1">
+  <div class="hcGaHeaderLogo"><img src="images/logo-ga.png" alt="Golden Agents logo"></div>
+  <div class="hcGaHeaderToolName">Search the Golden Agents</div>
+  <div class="hcGaHeaderProject"></div>
+  <div class="hcGaHeaderHelp"></div>
+</div>
+
+
+
+  <div class="hcBasicSideMargin hcRowJustify hcMarginBottom2">
+    <div>
+      <button type="button">Query builder</button>
+      <button type="button">Sparql code editor</button>
+    </div>
+    <div>
+      <button type="button">Save query</button>
+      <button type="button">Load query</button>
+    </div>
+  </div>
+
+
+<div class="hcSpitscreen hcSpitscreenGa">
+  <div class="hcContentContainer hcMarginBottom3 hcBasicSideMargin">
+  <div class="hcQueryBuilder hcQBHeight">
+     <div class="hcQBuildBlock">
+     
+       Give me
+     
+     </div>
+     <div class="hcQBuildBlock hcQBuildBlockInt hcRoundedCorners">
+     
+       every painter
+     
+       <div class="hcIcon hcIconSmall"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" height="32" width="32" viewbox="0 0 32 32" preserveAspectRatio="xMinYMin meet">
+     
+     
+       <polygon points="0,10 32,10 16,27" class="hcIconFill" />
+     </svg>
+     </div>
+     </div>
+     <div class="hcQBuildBlockChoice">
+       <div class="hcQBuildBlock">who ..</div>
+       <div class="hcQBuildBlock">and / or ..</div>
+       <div class="hcQBuildBlock">order by ..</div>
+       <div class="hcQBuildBlock">show ..</div>
+     
+     </div>
+     <div class="hcQBuildBlockBrowse hcRoundedCorners">
+       <div class="">who</div>
+       <div class=""><input type="text"></div>
+       <div class=""></div>
+     </div>
+  </div>
+  </div>
+
+
+  <div class="hcContentContainer hcMarginBottom3">
+    <div class="hcTabs hcTabsHoriz ">
+      <div class="hcTabLabels">
+          <div class="hcTabLabel hcRoundedCornersTop" id="tab-list-progress">Progress</div>
+          <div class="hcTabLabel" id="tab-list-results">Results</div>
+          <div class="hcTabLabel" id="tab-list-datasets">Datasets</div>
+          <div class="hcTabLabel" id="tab-list-visualisation">Visualisation</div>
+
+      </div>
+      <div class="hcTabAllContent hcStickOutBoxAside hcRoundedCornersTop hcClearBg hcClrBg_Grey05">
+
+        <!-- Progress-->
+        <div class="hcTabContent hcMarginTop2 hcBasicSideMargin" id="tab-content-progress"> <h3>progress</h3><div class="">User Agent processes query </div>
+<div class="">Broker Agent receives processed query from User Agent </div>
+<div class="">Broker Agent translates query </div>
+<div class="">Broker Agent sends translated sub-queries to DB Agents</div>
+<div class="">     Ecartic</div>
+<div class="">     Onstage</div>
+<div class="">Broker Agent collects 83128 statements from DB Agents</div>
+<div class="">     Collected 6212 from Ecartico</div>
+<div class="">     Collected 73200 from Onstage</div>
+<div class="">Broker Agent executes original query on the collected data </div>
+<div class="">Sending back results</div>
+<div class=""></div>
+</div>
+
+        <!-- results-->
+        <div class="hcTabContent hcMarginTop2 hcBasicSideMargin" id="tab-content-results"> <h3>results</h3>
+          <div class="hcList hcListDisctinctLines">
+              <div>Greflinger, Georg</div><div>http://bsbndb.bsb.lrz-muenchen.de/artikeINDBpnd118718622.html</div>
+              <div>Guillard, Nicolas-Francois</div><div>http://catalogue.bnf.fr/ark:/12148/cb12443000p</div>
+              <div>Quetant, Antoine-Francois</div><div>http://data.bnf.fr/11906331/nicolas-francoisguillard/</div>
+              <div>Framery, Nicolas Etienne</div><div>http://data.bntfr/12006128/francois-antoinequetant/</div>
+              <div>Masson, Michel</div><div>http://data.bnf.fr/12079224/nicolas-etienneframery/</div>
+              <div>Montfleury, Antoine Jacob</div><div>http://data.bnf.fr/12097080/montfleury/</div>
+              <div>Dubois, Jean-Baptiste</div><div>http://data.bnf.fr/12462190/jean-baptistedubois/</div>
+              <div>Devienne, Francois</div><div>http://data.bnf.fr/13893235/francoisdevienne/</div>
+              <div>Kohault, Josef</div><div>http://data.bnf.fr/14784753/josefkohaut/</div>
+              <div>Moreau,Eugene</div><div>http://isni.org/isni/0000000083925295</div>
+              <div>Artois, Armand d&#x27;</div><div>http://isni.org/isni/0000000115072347</div>
+          </div>
+        </div>
+
+        <!-- datasets-->
+        <div class="hcTabContent hcMarginTop2 hcBasicSideMargin" id="tab-content-datasets"> <h3>visualisation</h3> </div>
+
+        <!-- visualisation-->
+        <div class="hcTabContent hcMarginTop2 hcBasicSideMargin" id="tab-content-visualisation"> <h3>visualisation</h3> </div>
+      </div>
+  </div>
+
+</div>
+
+
+
+
+
+<script src="js/utilGA1.js"></script>
+
+  <!-- <script src="js/navigation.js" charset="utf-8"></script>
+  <script>(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){ (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o), m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m) })(window,document,'script','https://www.google-analytics.com/analytics.js','ga'); ga('create', 'UA-90872465-1', 'auto'); ga('send', 'pageview');</script>
+  </body> -->
+</html>

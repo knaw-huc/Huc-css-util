@@ -501,6 +501,29 @@
       "title": "Golden Agents | Multi-Agent search | Home"
     },
     {
+      "name": "ga-multi-agent-search",
+      "template": "golden-agents/ga-ma-search",
+      "project-name": "Golden Agents",
+      "brand": "-ga",
+      "logo": "logo-golden-agents.svg",
+      "isPage": true,
+      "favi":"favi-ga.png",
+      "title": "Golden Agents | Multi-Agent search | Search page",
+      "resultsList":[
+        {"f1": "Greflinger, Georg", "f2": "http://bsbndb.bsb.lrz-muenchen.de/artikeINDBpnd118718622.html"},
+        {"f1": "Guillard, Nicolas-Francois", "f2": "http://catalogue.bnf.fr/ark:/12148/cb12443000p"},
+        {"f1": "Quetant, Antoine-Francois", "f2": "http://data.bnf.fr/11906331/nicolas-francoisguillard/"},
+        {"f1": "Framery, Nicolas Etienne", "f2": "http://data.bntfr/12006128/francois-antoinequetant/"},
+        {"f1": "Masson, Michel", "f2": "http://data.bnf.fr/12079224/nicolas-etienneframery/"},
+        {"f1": "Montfleury, Antoine Jacob", "f2": "http://data.bnf.fr/12097080/montfleury/"},
+        {"f1": "Dubois, Jean-Baptiste", "f2": "http://data.bnf.fr/12462190/jean-baptistedubois/"},
+        {"f1": "Devienne, Francois", "f2": "http://data.bnf.fr/13893235/francoisdevienne/"},
+        {"f1": "Kohault, Josef", "f2": "http://data.bnf.fr/14784753/josefkohaut/"},
+        {"f1": "Moreau,Eugene", "f2": "http://isni.org/isni/0000000083925295"},
+        {"f1": "Artois, Armand d'", "f2": "http://isni.org/isni/0000000115072347"}
+      ]
+    },
+    {
       "name": "ga-ll-home-overview",
       "template": "golden-agents/ga-ll-home-overview",
       "project-name": "Golden Agents",

@@ -1,0 +1,26 @@
+.hcSpitscreen {
+  display: flex;
+  flex-direction: column;
+
+
+}
+
+.hcSpitscreen > *{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+
+}
+
+@media (min-width: 1200px) {
+  .hcSpitscreen {
+    flex-direction: row;
+  }
+
+  .hcSpitscreen > *{
+
+  }
+
+
+
+}

@@ -184,3 +184,9 @@ a {
 .tempImg {
   width: auto;
   height: 65vh; }
+
+.hcQBHeight {
+  min-height: 45vh; }
+
+.hcClearBg {
+  background-image: none; }

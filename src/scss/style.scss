@@ -16,8 +16,9 @@
 @import 'layout/layoutDefault';
 @import 'layout/layoutBasicMainAside';
 @import 'layout/layoutFacetResults';
-@import 'layout/_layoutTextImages';
+@import 'layout/layoutTextImages';
 @import 'layout/layoutSidebarRight';
+@import 'layout/_layoutSplitscreen';
 @import 'components/navigation';
 @import 'components/simpleTopHeader';
 @import 'components/tabs';
@@ -27,5 +28,6 @@
 @import 'components/facet';
 @import 'components/pagination';
 @import 'components/modal';
+@import 'components/queryBuilder';
 
 @import 'brand';

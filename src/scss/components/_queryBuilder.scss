@@ -1,0 +1,65 @@
+.hcQueryBuilder {
+  //background-color: hsl(25, 46%, 83%);
+
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+
+  font-size: 1.1rem;
+  font-weight: 700;
+}
+
+$blockheight: 2.5rem;
+.hcQBuildBlock{
+  //background-color: rgb(242, 246, 210);
+  padding: .2rem .3rem;
+  display: flex;
+  align-items: center;
+  margin-left: -1px;
+  height: $blockheight;
+
+  .hcIconFill {
+    fill: $hcGrey30 !important;
+  }
+}
+
+
+.hcQBuildBlockInt {
+  border: 1px solid #{$hcGrey20};
+  cursor: pointer;
+}
+
+.hcQBuildBlockChoice{
+  display: flex;
+  flex-direction: column;
+  margin-bottom: -7.5rem;
+}
+
+.hcQBuildBlockChoice > *{
+  border-top: 1px solid #{$hcGrey20};
+  border-left:  1px solid #{$hcGrey20};
+  border-right:  1px solid #{$hcGrey20};
+  cursor: pointer;
+  padding: .2rem .3rem;
+  width: 8rem;
+}
+
+.hcQBuildBlockChoice > *:last-child{
+  border-bottom: 1px solid #{$hcGrey20};
+  border-radius: 0 0 #{$basicBorderRadius} #{$basicBorderRadius};
+}
+
+.hcQBuildBlockChoice > *:first-child{
+  border-radius: #{$basicBorderRadius} #{$basicBorderRadius} 0 0;
+}
+
+$BrowseBlockHeight: 50vh;
+.hcQBuildBlockBrowse {
+  background-color: $hcGrey10;
+  height:$BrowseBlockHeight;
+  margin-bottom: calc(#{$blockheight} - #{$BrowseBlockHeight});
+  z-index: 200;
+  padding: .2rem .3rem;
+  width: 20rem;
+}
