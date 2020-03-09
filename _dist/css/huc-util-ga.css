@@ -1544,3 +1544,13 @@ a {
 .hcGaPadLeft {
   margin-left: 0rem;
   padding-left: 0rem; }
+
+.hcGaProces {
+  display: flex;
+  flex-direction: column; }
+  .hcGaProces > * {
+    display: flex;
+    flex-direction: row;
+    padding: .5rem 0;
+    border-bottom: 1px solid #d7d7d7;
+    align-items: baseline; }
