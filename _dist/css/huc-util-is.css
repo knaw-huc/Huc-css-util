@@ -1266,6 +1266,9 @@ hr {
   .hcQBuildBlock .hcIconFill {
     fill: #b3b3b3 !important; }
 
+.hcQBuildBlock:hover {
+  box-shadow: 2px 2px 2px #d9d9d9; }
+
 .hcQBuildBlockInt {
   border: 1px solid #cccccc;
   cursor: pointer; }
@@ -1296,7 +1299,23 @@ hr {
   margin-bottom: calc(2.5rem - 50vh);
   z-index: 200;
   padding: .2rem .3rem;
-  width: 20rem; }
+  width: 20rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  box-shadow: 2px 2px 2px #d9d9d9; }
+  .hcQBuildBlockBrowse input {
+    font-size: .85rem;
+    border: 1px solid #cccccc; }
+  .hcQBuildBlockBrowse .hcList {
+    font-weight: 300;
+    font-size: .85rem;
+    flex: 1;
+    overflow-y: auto;
+    width: 100%; }
+    .hcQBuildBlockBrowse .hcList > * {
+      margin: 0;
+      padding-left: 1rem; }
 
 .brandName {
   font-weight: 700; }

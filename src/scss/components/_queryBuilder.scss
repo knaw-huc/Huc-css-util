@@ -24,6 +24,10 @@ $blockheight: 2.5rem;
   }
 }
 
+.hcQBuildBlock:hover{
+  box-shadow: 2px 2px 2px hsl(0, 0%, 85%);
+}
+
 
 .hcQBuildBlockInt {
   border: 1px solid #{$hcGrey20};
@@ -62,4 +66,31 @@ $BrowseBlockHeight: 50vh;
   z-index: 200;
   padding: .2rem .3rem;
   width: 20rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  box-shadow: 2px 2px 2px hsl(0, 0%, 85%);
+
+  input{
+    font-size: .85rem;
+    border: 1px solid #{$hcGrey20};
+  }
+
+
+
+  .hcList{
+    font-weight: 300;
+    font-size: .85rem;
+    flex: 1;
+    overflow-y:auto;
+    width: 100%;
+
+    > * {
+      margin: 0;
+      padding-left: 1rem;
+      // width: 50%;
+      // background-color: rgb(12, 17, 242)
+    }
+
+  }
 }
