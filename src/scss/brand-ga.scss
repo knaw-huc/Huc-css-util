@@ -195,3 +195,28 @@ $gaIconHeight: 1rem;
 	background-image: none;
 
 }
+
+.hcBgWhite {
+	background-color: #ffffff;
+}
+
+
+.hcMinimanFullViewport {
+  min-width: 100vw;
+  min-height: 100vh;
+
+  //background-color: rgb(181, 200, 215);
+	display: flex;
+	flex-direction: column;
+}
+
+
+.hcFlex1 {
+	flex: 1;
+	//background-color: rgba(33, 196, 51, 0.31);
+}
+
+.hcGaPadLeft {
+	margin-left: 0rem;
+	padding-left: 0rem;
+}

@@ -190,3 +190,19 @@ a {
 
 .hcClearBg {
   background-image: none; }
+
+.hcBgWhite {
+  background-color: #ffffff; }
+
+.hcMinimanFullViewport {
+  min-width: 100vw;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column; }
+
+.hcFlex1 {
+  flex: 1; }
+
+.hcGaPadLeft {
+  margin-left: 0rem;
+  padding-left: 0rem; }

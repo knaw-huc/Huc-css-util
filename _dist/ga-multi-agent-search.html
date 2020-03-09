@@ -15,8 +15,8 @@
     <meta property="og:image"         content="" />
   </head>
   <body>
-
-<div class="hcGaHeader hcMarginBottom5 bgColorBrand1">
+<div class="hcMinimanFullViewport">
+<div class="hcGaHeader bgColorBrand1 hcMarginBottom2" >
   <div class="hcGaHeaderLogo"><img src="images/logo-ga.png" alt="Golden Agents logo"></div>
   <div class="hcGaHeaderToolName">Search the Golden Agents</div>
   <div class="hcGaHeaderProject"></div>
@@ -26,9 +26,8 @@
 
 
   <div class="hcBasicSideMargin hcRowJustify hcMarginBottom2">
-    <div>
-      <button type="button">Query builder</button>
-      <button type="button">Sparql code editor</button>
+    <div class="hcToggle">
+      <button type="button" class="bgColorBrand1">Query builder</button><button type="button">Sparql code editor</button>
     </div>
     <div>
       <button type="button">Save query</button>
@@ -37,8 +36,8 @@
   </div>
 
 
-<div class="hcSpitscreen hcSpitscreenGa">
-  <div class="hcContentContainer hcMarginBottom3 hcBasicSideMargin">
+<div class="hcSpitscreen hcSpitscreenGa hcFlex1">
+  <div class="hcContentContainer hcMarginBottom3 hcBasicSideMargin hcFlex1">
   <div class="hcQueryBuilder hcQBHeight">
      <div class="hcQBuildBlock">
      
@@ -72,19 +71,19 @@
   </div>
 
 
-  <div class="hcContentContainer hcMarginBottom3">
-    <div class="hcTabs hcTabsHoriz ">
+  <div class="hcContentContainer hcFlex1 hcClrBg_Grey05">
+    <div class="hcTabs hcTabsHoriz hcBgWhite">
       <div class="hcTabLabels">
           <div class="hcTabLabel hcRoundedCornersTop" id="tab-list-progress">Progress</div>
-          <div class="hcTabLabel" id="tab-list-results">Results</div>
-          <div class="hcTabLabel" id="tab-list-datasets">Datasets</div>
-          <div class="hcTabLabel" id="tab-list-visualisation">Visualisation</div>
+          <div class="hcTabLabel hcRoundedCornersTop" id="tab-list-results">Results</div>
+          <div class="hcTabLabel hcRoundedCornersTop" id="tab-list-datasets">Datasets</div>
+          <div class="hcTabLabel hcRoundedCornersTop" id="tab-list-visualisation">Visualisation</div>
 
       </div>
-      <div class="hcTabAllContent hcStickOutBoxAside hcRoundedCornersTop hcClearBg hcClrBg_Grey05">
+      <div class="hcTabAllContent hcStickOutBoxAside hcClearBg hcGaPadLeft">
 
         <!-- Progress-->
-        <div class="hcTabContent hcMarginTop2 hcBasicSideMargin" id="tab-content-progress"> <h3>progress</h3><div class="">User Agent processes query </div>
+        <div class="hcTabContent hcMarginTop2 hcBasicSideMargin" id="tab-content-progress"> <div class="">User Agent processes query </div>
 <div class="">Broker Agent receives processed query from User Agent </div>
 <div class="">Broker Agent translates query </div>
 <div class="">Broker Agent sends translated sub-queries to DB Agents</div>
@@ -99,19 +98,41 @@
 </div>
 
         <!-- results-->
-        <div class="hcTabContent hcMarginTop2 hcBasicSideMargin" id="tab-content-results"> <h3>results</h3>
+        <div class="hcTabContent hcMarginTop2 hcBasicSideMargin" id="tab-content-results">
           <div class="hcList hcListDisctinctLines">
+            <div>
               <div>Greflinger, Georg</div><div>http://bsbndb.bsb.lrz-muenchen.de/artikeINDBpnd118718622.html</div>
+            </div>
+            <div>
               <div>Guillard, Nicolas-Francois</div><div>http://catalogue.bnf.fr/ark:/12148/cb12443000p</div>
+            </div>
+            <div>
               <div>Quetant, Antoine-Francois</div><div>http://data.bnf.fr/11906331/nicolas-francoisguillard/</div>
+            </div>
+            <div>
               <div>Framery, Nicolas Etienne</div><div>http://data.bntfr/12006128/francois-antoinequetant/</div>
+            </div>
+            <div>
               <div>Masson, Michel</div><div>http://data.bnf.fr/12079224/nicolas-etienneframery/</div>
+            </div>
+            <div>
               <div>Montfleury, Antoine Jacob</div><div>http://data.bnf.fr/12097080/montfleury/</div>
+            </div>
+            <div>
               <div>Dubois, Jean-Baptiste</div><div>http://data.bnf.fr/12462190/jean-baptistedubois/</div>
+            </div>
+            <div>
               <div>Devienne, Francois</div><div>http://data.bnf.fr/13893235/francoisdevienne/</div>
+            </div>
+            <div>
               <div>Kohault, Josef</div><div>http://data.bnf.fr/14784753/josefkohaut/</div>
+            </div>
+            <div>
               <div>Moreau,Eugene</div><div>http://isni.org/isni/0000000083925295</div>
+            </div>
+            <div>
               <div>Artois, Armand d&#x27;</div><div>http://isni.org/isni/0000000115072347</div>
+            </div>
           </div>
         </div>
 
@@ -125,7 +146,7 @@
 
 </div>
 
-
+</div>
 
 
 

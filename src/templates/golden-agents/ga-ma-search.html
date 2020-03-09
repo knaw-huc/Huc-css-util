@@ -1,13 +1,12 @@
 {{> html-head}}
-
-{{> custom/ga-header toolName="Search the Golden Agents" projectName=""}}
+<div class="hcMinimanFullViewport">
+{{> custom/ga-header toolName="Search the Golden Agents" projectName="" marginBottom=2 }}
 
 
 
   <div class="hcBasicSideMargin hcRowJustify hcMarginBottom2">
-    <div>
-      <button type="button">Query builder</button>
-      <button type="button">Sparql code editor</button>
+    <div class="hcToggle">
+      <button type="button" class="bgColorBrand1">Query builder</button><button type="button">Sparql code editor</button>
     </div>
     <div>
       <button type="button">Save query</button>
@@ -16,31 +15,33 @@
   </div>
 
 
-<div class="hcSpitscreen hcSpitscreenGa">
-  <div class="hcContentContainer hcMarginBottom3 hcBasicSideMargin">
+<div class="hcSpitscreen hcSpitscreenGa hcFlex1">
+  <div class="hcContentContainer hcMarginBottom3 hcBasicSideMargin hcFlex1">
   {{> custom/ga-qBuilder}}
   </div>
 
 
-  <div class="hcContentContainer hcMarginBottom3">
-    <div class="hcTabs hcTabsHoriz ">
+  <div class="hcContentContainer hcFlex1 hcClrBg_Grey05">
+    <div class="hcTabs hcTabsHoriz hcBgWhite">
       <div class="hcTabLabels">
           <div class="hcTabLabel hcRoundedCornersTop" id="tab-list-progress">Progress</div>
-          <div class="hcTabLabel" id="tab-list-results">Results</div>
-          <div class="hcTabLabel" id="tab-list-datasets">Datasets</div>
-          <div class="hcTabLabel" id="tab-list-visualisation">Visualisation</div>
+          <div class="hcTabLabel hcRoundedCornersTop" id="tab-list-results">Results</div>
+          <div class="hcTabLabel hcRoundedCornersTop" id="tab-list-datasets">Datasets</div>
+          <div class="hcTabLabel hcRoundedCornersTop" id="tab-list-visualisation">Visualisation</div>
 
       </div>
-      <div class="hcTabAllContent hcStickOutBoxAside hcRoundedCornersTop hcClearBg hcClrBg_Grey05">
+      <div class="hcTabAllContent hcStickOutBoxAside hcClearBg hcGaPadLeft">
 
         <!-- Progress-->
-        <div class="hcTabContent hcMarginTop2 hcBasicSideMargin" id="tab-content-progress"> <h3>progress</h3>{{>custom/ga-MA-progress }}</div>
+        <div class="hcTabContent hcMarginTop2 hcBasicSideMargin" id="tab-content-progress"> {{>custom/ga-MA-progress }}</div>
 
         <!-- results-->
-        <div class="hcTabContent hcMarginTop2 hcBasicSideMargin" id="tab-content-results"> <h3>results</h3>
+        <div class="hcTabContent hcMarginTop2 hcBasicSideMargin" id="tab-content-results">
           <div class="hcList hcListDisctinctLines">
             {{#each resultsList}}
+            <div>
               <div>{{f1}}</div><div>{{f2}}</div>
+            </div>
             {{/each}}
           </div>
         </div>
@@ -55,7 +56,7 @@
 
 </div>
 
-
+</div>
 
 
 

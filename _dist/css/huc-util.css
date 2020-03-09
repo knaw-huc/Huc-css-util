@@ -499,6 +499,18 @@ button {
   padding: .2rem;
   border-radius: 0 4px 4px 0; }
 
+.hcToggle button {
+  margin: 0 0rem;
+  border-radius: 0px;
+  border-right: 0px; }
+
+.hcToggle > *:first-child {
+  border-radius: 4px 0 0 4px; }
+
+.hcToggle > *:last-child {
+  border-radius: 0 4px 4px 0;
+  border-right: 1px solid rgba(0, 0, 0, 0.09); }
+
 input, select, option, textarea {
   width: 100%;
   padding: .5rem;

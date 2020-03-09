@@ -34,3 +34,22 @@ button {
   padding: .2rem;
   border-radius: 0 $basicBorderRadius $basicBorderRadius 0;
 }
+
+
+.hcToggle {
+
+  button {
+    margin: 0 0rem;
+    border-radius: 0px;
+    border-right: 0px;
+  }
+
+  >*:first-child {
+    border-radius: #{$basicBorderRadius} 0 0 #{$basicBorderRadius};
+  }
+
+  >*:last-child {
+    border-radius: 0 #{$basicBorderRadius} #{$basicBorderRadius} 0;
+    border-right: 1px solid rgba(0, 0, 0, 0.09);
+  }
+}
