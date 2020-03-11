@@ -1,0 +1,30 @@
+//
+.hcCodeEditor {
+  display: flex;
+  flex-direction: row;
+  min-height: 50vh;
+
+  textarea {
+    border: none;
+    min-height: 50vh;
+    padding: 0
+    //max-width: 800px;
+
+  }
+}
+
+
+
+.hccodeTxt {
+  font-family: "Lucida Console", Monaco, monospace;
+  font-weight: 300;
+  font-size: .85rem;
+  line-height: 1.5rem;
+}
+
+.hcLineNumbers {
+  display: flex;
+  flex-direction: column;
+  text-align: right;
+  font-size: .7rem;
+}

@@ -1347,6 +1347,27 @@ hr {
       margin: 0;
       padding-left: 1rem; }
 
+.hcCodeEditor {
+  display: flex;
+  flex-direction: row;
+  min-height: 50vh; }
+  .hcCodeEditor textarea {
+    border: none;
+    min-height: 50vh;
+    padding: 0; }
+
+.hccodeTxt {
+  font-family: "Lucida Console", Monaco, monospace;
+  font-weight: 300;
+  font-size: .85rem;
+  line-height: 1.5rem; }
+
+.hcLineNumbers {
+  display: flex;
+  flex-direction: column;
+  text-align: right;
+  font-size: .7rem; }
+
 .brandName {
   font-weight: 700; }
 
