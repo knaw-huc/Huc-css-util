@@ -16,6 +16,7 @@ $colorErrorLight:    hsl(10, 100%, 80%);
 
 $colorCaution:       hsl(47, 68%, 64%);
 $colorCautionLight:  hsl(47, 68%, 80%);
+$colorCautionDark:   hsl(19, 84%, 42%);
 
 .hcClrBg_Info { background-color: $colorInfo }
 .hcClrBg_InfoLight { background-color: $colorInfoLight }
@@ -25,8 +26,7 @@ $colorCautionLight:  hsl(47, 68%, 80%);
 .hcClrBg_ErrorLight { background-color: $colorErrorLight }
 .hcClrBg_Caution { background-color: $colorCaution}
 .hcClrBg_CautionLight { background-color: $colorCautionLight }
-
-
+.hcTxt_Caution { color: $colorCautionDark}
 
 
 

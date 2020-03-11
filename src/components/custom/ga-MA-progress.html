@@ -1,18 +1,29 @@
 <div class="hcGaProces">
   <div>
-    <div class="hcIcon hcIconSmall">{{>icon-util-arrowDown}}</div>
-    <div>User Agent processes query </div>
+    <div class="hcIcon hcIconSmall hcMarginRight05">{{>icon-util-arrowDown}}</div>
+    <div>
+      <strong>User Agent processes query</strong>
+      <p class="hcTxt_Caution">The agents are having trouble understanding your query. You typed s' at line 4. </p>
+      <p>The agents expected one of the following expressions instead: </p>
+      <ul>
+        <li>values</li>
+        <li>graph</li>
+        <li>optional</li>
+        <li>minus</li>
+      </ul>
+
+    </div>
   </div>
   <div>
-    <div class="hcIcon hcIconSmall">{{>icon-util-arrowDown}}</div>
+    <div class="hcIcon hcIconSmall hcMarginRight05">{{>icon-util-arrowDown}}</div>
     <div>Broker Agent receives processed query from User Agent </div>
   </div>
   <div>
-    <div class="hcIcon hcIconSmall">{{>icon-util-arrowDown}}</div>
+    <div class="hcIcon hcIconSmall hcMarginRight05">{{>icon-util-arrowDown}}</div>
     <div>Broker Agent translates query </div>
   </div>
   <div>
-    <div class="hcIcon hcIconSmall">{{>icon-util-arrowDown}}</div>
+    <div class="hcIcon hcIconSmall hcMarginRight05">{{>icon-util-arrowDown}}</div>
     <div>Broker Agent sends translated sub-queries to DB Agents
       <ul>
         <li>Ecartic</li>
@@ -22,7 +33,7 @@
   </div>
 
   <div>
-    <div class="hcIcon hcIconSmall">{{>icon-util-arrowDown}}</div>
+    <div class="hcIcon hcIconSmall hcMarginRight05">{{>icon-util-arrowDown}}</div>
     <div>Broker Agent collects 83128 statements from DB Agents
       <ul>
         <li>Collected 6212 from Ecartico</li>
@@ -32,11 +43,11 @@
   </div>
 
   <div>
-    <div class="hcIcon hcIconSmall">{{>icon-util-arrowDown}}</div>
+    <div class="hcIcon hcIconSmall hcMarginRight05">{{>icon-util-arrowDown}}</div>
     <div>Broker Agent executes original query on the collected data </div>
   </div>
   <div>
-    <div class="hcIcon hcIconSmall">{{>icon-util-arrowDown}}</div>
+    <div class="hcIcon hcIconSmall hcMarginRight05">{{>icon-util-arrowDown}}</div>
     <div>Sending back results</div>
   </div>
 

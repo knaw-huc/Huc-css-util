@@ -233,3 +233,8 @@ $gaIconHeight: 1rem;
 	}
 
 }
+
+
+.hcTabContent .hcListDisctinctLines >*:nth-child(odd) {
+  background-color: $hcGrey10;
+}

@@ -41,6 +41,9 @@ a {
 .hcClrBg_CautionLight {
   background-color: #efe0a9; }
 
+.hcTxt_Caution {
+  color: #c54a11; }
+
 .hcClrBg_Grey05 {
   background-color: #f2f2f2; }
 
@@ -216,3 +219,6 @@ a {
     padding: .5rem 0;
     border-bottom: 1px solid #d7d7d7;
     align-items: baseline; }
+
+.hcTabContent .hcListDisctinctLines > *:nth-child(odd) {
+  background-color: #e6e6e6; }
