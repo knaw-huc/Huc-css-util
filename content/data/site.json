@@ -524,6 +524,26 @@
       ]
     },
     {
+      "name": "ga-multi-agent-modal-save",
+      "template": "golden-agents/ga-ma-modal-safeQuery",
+      "project-name": "Golden Agents",
+      "brand": "-ga",
+      "logo": "logo-golden-agents.svg",
+      "isPage": true,
+      "favi":"favi-ga.png",
+      "title": "Golden Agents | Multi-Agent search | Safe Query"
+    },
+    {
+      "name": "ga-multi-agent-modal-load",
+      "template": "golden-agents/ga-ma-modal-loadQuery",
+      "project-name": "Golden Agents",
+      "brand": "-ga",
+      "logo": "logo-golden-agents.svg",
+      "isPage": true,
+      "favi":"favi-ga.png",
+      "title": "Golden Agents | Multi-Agent search | Load Query"
+    },
+    {
       "name": "ga-ll-home-overview",
       "template": "golden-agents/ga-ll-home-overview",
       "project-name": "Golden Agents",
