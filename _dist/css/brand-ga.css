@@ -222,3 +222,7 @@ a {
 
 .hcTabContent .hcListDisctinctLines > *:nth-child(odd) {
   background-color: #e6e6e6; }
+
+.hcGaSce {
+  display: flex;
+  flex-direction: column; }

@@ -16,53 +16,177 @@
   </head>
   <body>
 <div class="hcMinimanFullViewport">
-<!-- query GA tool header -->
-<div class="hcGaHeader bgColorBrand1 hcMarginBottom2" >
-  <div class="hcGaHeaderLogo"><img src="images/logo-ga.png" alt="Golden Agents logo"></div>
-  <div class="hcGaHeaderToolName">Search the Golden Agents</div>
-  <div class="hcGaHeaderProject"></div>
-  <div class="hcGaHeaderHelp"></div>
-</div>
-<!-- // query GA tool header -->
+  <!-- query GA tool header -->
+  <div class="hcGaHeader bgColorBrand1 hcMarginBottom2" >
+    <div class="hcGaHeaderLogo"><img src="images/logo-ga.png" alt="Golden Agents logo"></div>
+    <div class="hcGaHeaderToolName">Search the Golden Agents</div>
+    <div class="hcGaHeaderProject"></div>
+    <div class="hcGaHeaderHelp"></div>
+  </div>
+  <!-- // query GA tool header -->
 
 
-<!-- GA button bar -->
+  <!-- GA button bar -->
   <div class="hcBasicSideMargin hcRowJustify hcMarginBottom2">
     <div class="hcToggle">
-      <button type="button" class="bgColorBrand1">Query builder</button><button type="button">Sparql code editor</button>
+      <button id="qb" class="hcGaTog1">Query builder</button><button id="sce" class="hcGaTog1">Sparql code editor</button>
     </div>
     <div>
       <button type="button">Save query</button>
       <button type="button">Load query</button>
     </div>
   </div>
-<!-- // GA button bar -->
+  <!-- // GA button bar -->
 
 
-<!-- GA responsive slpitscreen -->
-<div class="hcSpitscreen hcSpitscreenGa hcFlex1">
-  <div class="hcContentContainer hcMarginBottom3 hcBasicSideMargin hcFlex1">
-  <div class="hcCodeEditor">
-    <div class="hcLineNumbers hccodeTxt hcClrTxt_Grey">
-      <span>1</span><span>2</span><span>3</span><span>4</span><span>5</span><span>6</span><span>7</span><span>8</span><span>9</span><span>0</span>
+  <!-- responsive splitscreen -->
+  <div class="hcSpitscreen hcSpitscreenGa hcFlex1">
+    <!-- first panel: querybuilser / code editor -->
+    <div class="hcContentContainer hcMarginBottom3 hcBasicSideMargin hcFlex1">
+      <div id="hcCodeEditor" class="hcGaSce">
+        <!-- code editor -->
+        <div class="hcCodeEditor" >
+          <div class="hcLineNumbers hccodeTxt hcClrTxt_Grey">
+            <span>1</span><span>2</span><span>3</span><span>4</span><span>5</span><span>6</span><span>7</span><span>8</span><span>9</span><span>10</span>
+          </div>
+        <textarea class="hccodeTxt">PREFIX ga: <http://www.goldenagents.org/ontology>
+        SELECT * where
+        ?a ga:CreativeAgent
+        ?a ga:hasName
+        </textarea>
+        </div>
+        <!-- // code editor -->
+        <div><button type="button" class="hcClrBg_Reward">Run query</button></div>
+      </div>
+
+
+
+      <!-- GA query builder -->
+      <div class="hcQueryBuilder hcQBHeight" id="hcQueryBuilder">
+         <!-- query builder block -->
+         <div class="hcQBuildBlock">
+         
+           Give&nbsp;me
+         
+         </div>
+         <!-- // query builder block -->
+         <!-- query builder block -->
+         <div class="hcQBuildBlock hcQBuildBlockInt hcRoundedCorners">
+         
+           every&nbsp;painter
+         
+           <div class="hcIcon hcIconSmall"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" height="32" width="32" viewbox="0 0 32 32" preserveAspectRatio="xMinYMin meet">
+         
+         
+           <polygon points="0,10 32,10 16,27" class="hcIconFill" />
+         </svg>
+         </div>
+         </div>
+         <!-- // query builder block -->
+         <!-- query builder choice block -->
+         <div class="hcQBuildBlockChoice">
+           <div class="hcQBuildBlock">who ..</div>
+           <div class="hcQBuildBlock">and / or ..</div>
+           <div class="hcQBuildBlock">order by ..</div>
+           <div class="hcQBuildBlock">show ..</div>
+         </div>
+         <!-- // query builder choice block -->
+         <!-- query builder browse block -->
+         <div class="hcQBuildBlockBrowse hcRoundedCorners">
+           <div class="hcMarginBottom1">who</div>
+           <div class="hcMarginBottom1"><input type="text" placeholder="... type to filter"></div>
+           <div class="hcList">
+             <div>
+               <div>everything </div>
+               <div class="hcFacetCount hcTxtRight">312</div>
+             </div>
+             <div>
+               <div>every painter</div>
+               <div class="hcFacetCount hcTxtRight">312</div>
+             </div>
+             <div>
+               <div>every writer</div>
+               <div class="hcFacetCount hcTxtRight">312</div>
+             </div>
+             <div>
+               <div>every collector</div>
+               <div class="hcFacetCount hcTxtRight">312</div>
+             </div>
+             <div>
+               <div>every owner</div>
+               <div class="hcFacetCount hcTxtRight">312</div>
+             </div>
+             <div>
+               <div>every sculptor</div>
+               <div class="hcFacetCount hcTxtRight">312</div>
+             </div>
+             <div>
+               <div>every dealer</div>
+               <div class="hcFacetCount hcTxtRight">312</div>
+             </div>
+             <div>
+               <div>every actor</div>
+               <div class="hcFacetCount hcTxtRight">312</div>
+             </div>
+             <div>
+               <div>every painter</div>
+               <div class="hcFacetCount hcTxtRight">312</div>
+             </div>
+             <div>
+               <div>every writer</div>
+               <div class="hcFacetCount hcTxtRight">312</div>
+             </div>
+             <div>
+               <div>every collector</div>
+               <div class="hcFacetCount hcTxtRight">312</div>
+             </div>
+             <div>
+               <div>every owner</div>
+               <div class="hcFacetCount hcTxtRight">312</div>
+             </div>
+             <div>
+               <div>every sculptor</div>
+               <div class="hcFacetCount hcTxtRight">312</div>
+             </div>
+             <div>
+               <div>every dealer</div>
+               <div class="hcFacetCount hcTxtRight">312</div>
+             </div>
+             <div>
+               <div>every actor</div>
+               <div class="hcFacetCount hcTxtRight">312</div>
+             </div>
+             <div>
+               <div>every painter</div>
+               <div class="hcFacetCount hcTxtRight">312</div>
+             </div>
+             <div>
+               <div>every writer</div>
+               <div class="hcFacetCount hcTxtRight">312</div>
+             </div>
+             <div>
+               <div>every collector</div>
+               <div class="hcFacetCount hcTxtRight">312</div>
+             </div>
+         
+           </div>
+         </div>
+         <!-- // query builder browse block -->
+      </div>
+      <!-- // GA query builder -->
+
+
     </div>
-  <textarea class="hccodeTxt">PREFIX ga: <http://www.goldenagents.org/ontology>
-  SELECT * where
-  ?a ga:CreativeAgent
-  ?a ga:hasName
-  ertw ertwertw ertwertwertwertw ertwertwer twert wertwertwertwer wert wert wert wert rthth ehyehyethyethhyethyetyhethyethyethyethyethy etyethyeethyehyethyethy etyh etyh thyethyethyethyehy ety tyh ethyetyh ehyetyh ethtyh ethyehyehyeyh
-  </textarea>
-  </div>
-  <div><button type="button" class="hcClrBg_Reward">Run query</button></div>
+    <!-- // first panel -->
 
-
-  </div>
-
-
-  <div class="hcContentContainer hcFlex1 hcClrBg_Grey05">
-    <div class="hcTabs hcTabsHoriz hcBgWhite">
-      <div class="hcTabLabels">
-          <div class="hcTabLabel hcRoundedCornersTop" id="tab-list-progress"> Progress <div class="hcIcon hcIconSmall hcMarginLeft05"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" height="27" width="32"  viewbox="0 0 32 27" preserveAspectRatio="xMinYMin meet">
+    <!-- second panel: process / results -->
+    <div class="hcContentContainer hcFlex1 hcClrBg_Grey05">
+      <div class="hcTabs hcTabsHoriz hcBgWhite">
+        <!-- tabs header -->
+        <div class="hcTabLabels">
+          <div class="hcTabLabel hcRoundedCornersTop" id="tab-list-progress">Progress
+            <!-- if problems during process -->
+            <div class="hcIcon hcIconSmall hcMarginLeft05"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" height="27" width="32"  viewbox="0 0 32 27" preserveAspectRatio="xMinYMin meet">
   <defs>
     <rect id="rect-0" opacity="1" x="11.789473684210861" y="12.664409274662034" width="8.421052631578947" height="2.820117620889734"/>
     <ellipse id="ellipse-1" opacity="1" rx="1.6842105263157903" ry="1.7234042553191493" cx="15.999999999999783" cy="21.829787234043277"/>
@@ -84,16 +208,21 @@
     </g>
   </g>
 </svg>
-</div></div>
+
+            <!-- // if problems during process -->
+            </div>
+          </div>
           <div class="hcTabLabel hcRoundedCornersTop" id="tab-list-results">Results</div>
           <div class="hcTabLabel hcRoundedCornersTop" id="tab-list-datasets">Datasets</div>
           <div class="hcTabLabel hcRoundedCornersTop" id="tab-list-visualisation">Visualisation</div>
+        </div>
+        <!-- //tabs header -->
 
-      </div>
-      <div class="hcTabAllContent hcStickOutBoxAside hcClearBg hcGaPadLeft">
 
-        <!-- Progress-->
-        <div class="hcTabContent hcMarginTop2 hcBasicSideMargin" id="tab-content-progress"> <div class="hcGaProces">
+        <!-- tabs content -->
+        <div class="hcTabAllContent hcStickOutBoxAside hcClearBg hcGaPadLeft">
+          <!-- Tab Progress-->
+          <div class="hcTabContent hcMarginTop2 hcBasicSideMargin" id="tab-content-progress"> <div class="hcGaProces">
   <div>
     <div class="hcIcon hcIconSmall hcMarginRight05"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" height="32" width="32" viewbox="0 0 32 32" preserveAspectRatio="xMinYMin meet">
 
@@ -184,54 +313,65 @@
 </div>
 </div>
 
-        <!-- results-->
-        <div class="hcTabContent hcMarginTop2 hcBasicSideMargin" id="tab-content-results">
+          <!--  Tab results-->
+          <div class="hcTabContent hcMarginTop2 hcBasicSideMargin" id="tab-content-results">
 
-          <div class="hcList">
-            <div class="hcListHeader">
-              <div class="hcLabel">Name</div>
-              <div class="hcLabel">uri</div>
+            <div class="hcList">
+              <div class="hcListHeader">
+                <div class="hcLabel">Name</div>
+                <div class="hcLabel">uri</div>
+              </div>
             </div>
-          </div>
 
 
-          <div class="hcList hcListDisctinctLines">
-            <div>
-              <strong>Greflinger, Georg</strong><div class="hcSmallTxt">http://bsbndb.bsb.lrz-muenchen.de/artikeINDBpnd118718622.html</div>
+            <div class="hcList hcListDisctinctLines">
+                <div>
+                  <strong>Greflinger, Georg</strong>
+                  <div class="hcSmallTxt">http://bsbndb.bsb.lrz-muenchen.de/artikeINDBpnd118718622.html</div>
+                </div>
+                <div>
+                  <strong>Guillard, Nicolas-Francois</strong>
+                  <div class="hcSmallTxt">http://catalogue.bnf.fr/ark:/12148/cb12443000p</div>
+                </div>
+                <div>
+                  <strong>Quetant, Antoine-Francois</strong>
+                  <div class="hcSmallTxt">http://data.bnf.fr/11906331/nicolas-francoisguillard/</div>
+                </div>
+                <div>
+                  <strong>Framery, Nicolas Etienne</strong>
+                  <div class="hcSmallTxt">http://data.bntfr/12006128/francois-antoinequetant/</div>
+                </div>
+                <div>
+                  <strong>Masson, Michel</strong>
+                  <div class="hcSmallTxt">http://data.bnf.fr/12079224/nicolas-etienneframery/</div>
+                </div>
+                <div>
+                  <strong>Montfleury, Antoine Jacob</strong>
+                  <div class="hcSmallTxt">http://data.bnf.fr/12097080/montfleury/</div>
+                </div>
+                <div>
+                  <strong>Dubois, Jean-Baptiste</strong>
+                  <div class="hcSmallTxt">http://data.bnf.fr/12462190/jean-baptistedubois/</div>
+                </div>
+                <div>
+                  <strong>Devienne, Francois</strong>
+                  <div class="hcSmallTxt">http://data.bnf.fr/13893235/francoisdevienne/</div>
+                </div>
+                <div>
+                  <strong>Kohault, Josef</strong>
+                  <div class="hcSmallTxt">http://data.bnf.fr/14784753/josefkohaut/</div>
+                </div>
+                <div>
+                  <strong>Moreau,Eugene</strong>
+                  <div class="hcSmallTxt">http://isni.org/isni/0000000083925295</div>
+                </div>
+                <div>
+                  <strong>Artois, Armand d&#x27;</strong>
+                  <div class="hcSmallTxt">http://isni.org/isni/0000000115072347</div>
+                </div>
             </div>
-            <div>
-              <strong>Guillard, Nicolas-Francois</strong><div class="hcSmallTxt">http://catalogue.bnf.fr/ark:/12148/cb12443000p</div>
-            </div>
-            <div>
-              <strong>Quetant, Antoine-Francois</strong><div class="hcSmallTxt">http://data.bnf.fr/11906331/nicolas-francoisguillard/</div>
-            </div>
-            <div>
-              <strong>Framery, Nicolas Etienne</strong><div class="hcSmallTxt">http://data.bntfr/12006128/francois-antoinequetant/</div>
-            </div>
-            <div>
-              <strong>Masson, Michel</strong><div class="hcSmallTxt">http://data.bnf.fr/12079224/nicolas-etienneframery/</div>
-            </div>
-            <div>
-              <strong>Montfleury, Antoine Jacob</strong><div class="hcSmallTxt">http://data.bnf.fr/12097080/montfleury/</div>
-            </div>
-            <div>
-              <strong>Dubois, Jean-Baptiste</strong><div class="hcSmallTxt">http://data.bnf.fr/12462190/jean-baptistedubois/</div>
-            </div>
-            <div>
-              <strong>Devienne, Francois</strong><div class="hcSmallTxt">http://data.bnf.fr/13893235/francoisdevienne/</div>
-            </div>
-            <div>
-              <strong>Kohault, Josef</strong><div class="hcSmallTxt">http://data.bnf.fr/14784753/josefkohaut/</div>
-            </div>
-            <div>
-              <strong>Moreau,Eugene</strong><div class="hcSmallTxt">http://isni.org/isni/0000000083925295</div>
-            </div>
-            <div>
-              <strong>Artois, Armand d&#x27;</strong><div class="hcSmallTxt">http://isni.org/isni/0000000115072347</div>
-            </div>
-          </div>
-          <div class="hc2columns hcMarginTop2 hcMarginBottom5">
-            <div><div class="hcPagination">
+            <div class="hc2columns hcMarginTop2 hcMarginBottom5">
+              <div><div class="hcPagination">
 <div><a href="#">&#8592; Previous</a></div>
 <div><a href="#">1</a></div>
 <div class="bgColorBrand2"><a href="#">2</a></div>
@@ -244,27 +384,32 @@
 <div><a href="#">Next &#8594;</a></div>
 </div>
 </div>
-            <div class="hcAlignRight"><button type="button">Export</button></div>
+              <div class="hcAlignRight"><button type="button">Export</button></div>
+            </div>
           </div>
-        </div>
 
-        <!-- datasets-->
-        <div class="hcTabContent hcMarginTop2 hcBasicSideMargin" id="tab-content-datasets"> <h3>Dataset</h3> </div>
+          <!-- tab datasets-->
+          <div class="hcTabContent hcMarginTop2 hcBasicSideMargin" id="tab-content-datasets">
+            <h3>Dataset</h3>
+          </div>
 
-        <!-- visualisation-->
-        <div class="hcTabContent hcMarginTop2 hcBasicSideMargin" id="tab-content-visualisation"> <h3>visualisation</h3> </div>
+          <!-- tab visualisation-->
+          <div class="hcTabContent hcMarginTop2 hcBasicSideMargin" id="tab-content-visualisation">
+            <h3>visualisation</h3>
+          </div>
+        </div><!-- // tabs content -->
       </div>
-  </div>
-
-</div>
-
-</div>
 
 
+    </div><!-- // second panel -->
 
-<script src="js/utilGA1.js"></script>
+  </div><!-- // responsive splitscreen -->
 
-  <!-- <script src="js/navigation.js" charset="utf-8"></script>
-  <script>(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){ (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o), m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m) })(window,document,'script','https://www.google-analytics.com/analytics.js','ga'); ga('create', 'UA-90872465-1', 'auto'); ga('send', 'pageview');</script>
-  </body> -->
-</html>
+
+
+  <script src="js/utilGA1.js"></script>
+
+    <!-- <script src="js/navigation.js" charset="utf-8"></script>
+    <script>(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){ (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o), m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m) })(window,document,'script','https://www.google-analytics.com/analytics.js','ga'); ga('create', 'UA-90872465-1', 'auto'); ga('send', 'pageview');</script>
+    </body> -->
+  </html>

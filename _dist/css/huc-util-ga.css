@@ -1349,12 +1349,11 @@ hr {
 
 .hcCodeEditor {
   display: flex;
-  flex-direction: row;
-  min-height: 50vh; }
+  flex-direction: row; }
   .hcCodeEditor textarea {
     border: none;
-    min-height: 50vh;
-    padding: 0; }
+    padding: 0;
+    min-height: 40vh; }
 
 .hccodeTxt {
   font-family: "Lucida Console", Monaco, monospace;
@@ -1367,6 +1366,9 @@ hr {
   flex-direction: column;
   text-align: right;
   font-size: .7rem; }
+  .hcLineNumbers > * {
+    text-align: right;
+    display: block; }
 
 .brandName {
   font-weight: 700; }
@@ -1611,3 +1613,7 @@ a {
 
 .hcTabContent .hcListDisctinctLines > *:nth-child(odd) {
   background-color: #e6e6e6; }
+
+.hcGaSce {
+  display: flex;
+  flex-direction: column; }

@@ -1,88 +1,108 @@
 {{> html-head}}
 <div class="hcMinimanFullViewport">
-{{> custom/ga-header toolName="Search the Golden Agents" projectName="" marginBottom=2 }}
+  {{> custom/ga-header toolName="Search the Golden Agents" projectName="" marginBottom=2 }}
 
 
-<!-- GA button bar -->
+  <!-- GA button bar -->
   <div class="hcBasicSideMargin hcRowJustify hcMarginBottom2">
     <div class="hcToggle">
-      <button type="button" class="bgColorBrand1">Query builder</button><button type="button">Sparql code editor</button>
+      <button id="qb" class="hcGaTog1">Query builder</button><button id="sce" class="hcGaTog1">Sparql code editor</button>
     </div>
     <div>
       <button type="button">Save query</button>
       <button type="button">Load query</button>
     </div>
   </div>
-<!-- // GA button bar -->
+  <!-- // GA button bar -->
 
 
-<!-- GA responsive slpitscreen -->
-<div class="hcSpitscreen hcSpitscreenGa hcFlex1">
-  <div class="hcContentContainer hcMarginBottom3 hcBasicSideMargin hcFlex1">
-  {{> comp-code-editor}}
-  <div><button type="button" class="hcClrBg_Reward">Run query</button></div>
-
-  {{!--
-    {{> custom/ga-qBuilder}}
-    --}}
-
-  </div>
+  <!-- responsive splitscreen -->
+  <div class="hcSpitscreen hcSpitscreenGa hcFlex1">
+    <!-- first panel: querybuilser / code editor -->
+    <div class="hcContentContainer hcMarginBottom3 hcBasicSideMargin hcFlex1">
+      <div id="hcCodeEditor" class="hcGaSce">
+        {{> comp-code-editor}}
+        <div><button type="button" class="hcClrBg_Reward">Run query</button></div>
+      </div>
 
 
-  <div class="hcContentContainer hcFlex1 hcClrBg_Grey05">
-    <div class="hcTabs hcTabsHoriz hcBgWhite">
-      <div class="hcTabLabels">
-          <div class="hcTabLabel hcRoundedCornersTop" id="tab-list-progress"> Progress <div class="hcIcon hcIconSmall hcMarginLeft05">{{>icon-util-caution}}</div></div>
+
+      {{> custom/ga-qBuilder}}
+
+
+    </div>
+    <!-- // first panel -->
+
+    <!-- second panel: process / results -->
+    <div class="hcContentContainer hcFlex1 hcClrBg_Grey05">
+      <div class="hcTabs hcTabsHoriz hcBgWhite">
+        <!-- tabs header -->
+        <div class="hcTabLabels">
+          <div class="hcTabLabel hcRoundedCornersTop" id="tab-list-progress">Progress
+            <!-- if problems during process -->
+            <div class="hcIcon hcIconSmall hcMarginLeft05">{{>icon-util-caution}}
+            <!-- // if problems during process -->
+            </div>
+          </div>
           <div class="hcTabLabel hcRoundedCornersTop" id="tab-list-results">Results</div>
           <div class="hcTabLabel hcRoundedCornersTop" id="tab-list-datasets">Datasets</div>
           <div class="hcTabLabel hcRoundedCornersTop" id="tab-list-visualisation">Visualisation</div>
-
-      </div>
-      <div class="hcTabAllContent hcStickOutBoxAside hcClearBg hcGaPadLeft">
-
-        <!-- Progress-->
-        <div class="hcTabContent hcMarginTop2 hcBasicSideMargin" id="tab-content-progress"> {{>custom/ga-MA-progress }}</div>
-
-        <!-- results-->
-        <div class="hcTabContent hcMarginTop2 hcBasicSideMargin" id="tab-content-results">
-
-          <div class="hcList">
-            <div class="hcListHeader">
-              <div class="hcLabel">Name</div>
-              <div class="hcLabel">uri</div>
-            </div>
-          </div>
-
-
-          <div class="hcList hcListDisctinctLines">
-            {{#each resultsList}}
-            <div>
-              <strong>{{f1}}</strong><div class="hcSmallTxt">{{f2}}</div>
-            </div>
-            {{/each}}
-          </div>
-          <div class="hc2columns hcMarginTop2 hcMarginBottom5">
-            <div>{{> comp-pagination}}</div>
-            <div class="hcAlignRight"><button type="button">Export</button></div>
-          </div>
         </div>
+        <!-- //tabs header -->
 
-        <!-- datasets-->
-        <div class="hcTabContent hcMarginTop2 hcBasicSideMargin" id="tab-content-datasets"> <h3>Dataset</h3> </div>
 
-        <!-- visualisation-->
-        <div class="hcTabContent hcMarginTop2 hcBasicSideMargin" id="tab-content-visualisation"> <h3>visualisation</h3> </div>
+        <!-- tabs content -->
+        <div class="hcTabAllContent hcStickOutBoxAside hcClearBg hcGaPadLeft">
+          <!-- Tab Progress-->
+          <div class="hcTabContent hcMarginTop2 hcBasicSideMargin" id="tab-content-progress"> {{>custom/ga-MA-progress }}</div>
+
+          <!--  Tab results-->
+          <div class="hcTabContent hcMarginTop2 hcBasicSideMargin" id="tab-content-results">
+
+            <div class="hcList">
+              <div class="hcListHeader">
+                <div class="hcLabel">Name</div>
+                <div class="hcLabel">uri</div>
+              </div>
+            </div>
+
+
+            <div class="hcList hcListDisctinctLines">
+              {{#each resultsList}}
+                <div>
+                  <strong>{{f1}}</strong>
+                  <div class="hcSmallTxt">{{f2}}</div>
+                </div>
+              {{/each}}
+            </div>
+            <div class="hc2columns hcMarginTop2 hcMarginBottom5">
+              <div>{{> comp-pagination}}</div>
+              <div class="hcAlignRight"><button type="button">Export</button></div>
+            </div>
+          </div>
+
+          <!-- tab datasets-->
+          <div class="hcTabContent hcMarginTop2 hcBasicSideMargin" id="tab-content-datasets">
+            <h3>Dataset</h3>
+          </div>
+
+          <!-- tab visualisation-->
+          <div class="hcTabContent hcMarginTop2 hcBasicSideMargin" id="tab-content-visualisation">
+            <h3>visualisation</h3>
+          </div>
+        </div><!-- // tabs content -->
       </div>
-  </div>
-
-</div>
-
-</div>
 
 
+    </div><!-- // second panel -->
 
-<!-- build:js js/utilGA1.js -->
-<script src="../../js/tabs.js" charset="utf-8"></script>
-<!-- endbuild -->
+  </div><!-- // responsive splitscreen -->
 
-{{> html-footer}}
+
+
+  <!-- build:js js/utilGA1.js -->
+  <script src="../../js/tabs.js" charset="utf-8"></script>
+  <script src="../../js/custom/ga/gaMa.js" charset="utf-8"></script>
+  <!-- endbuild -->
+
+  {{> html-footer}}
