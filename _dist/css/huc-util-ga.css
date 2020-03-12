@@ -1617,3 +1617,6 @@ a {
 .hcGaSce {
   display: flex;
   flex-direction: column; }
+
+.hcQBuildBlockBrowse .hc2columns {
+  flex-basis: auto; }
