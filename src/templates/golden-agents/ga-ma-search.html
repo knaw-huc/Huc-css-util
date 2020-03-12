@@ -3,7 +3,7 @@
 {{> custom/ga-header toolName="Search the Golden Agents" projectName="" marginBottom=2 }}
 
 
-
+<!-- GA button bar -->
   <div class="hcBasicSideMargin hcRowJustify hcMarginBottom2">
     <div class="hcToggle">
       <button type="button" class="bgColorBrand1">Query builder</button><button type="button">Sparql code editor</button>
@@ -13,11 +13,15 @@
       <button type="button">Load query</button>
     </div>
   </div>
+<!-- // GA button bar -->
 
 
+<!-- GA responsive slpitscreen -->
 <div class="hcSpitscreen hcSpitscreenGa hcFlex1">
   <div class="hcContentContainer hcMarginBottom3 hcBasicSideMargin hcFlex1">
   {{> comp-code-editor}}
+  <div><button type="button" class="hcClrBg_Reward">Run query</button></div>
+
   {{!--
     {{> custom/ga-qBuilder}}
     --}}
@@ -56,6 +60,10 @@
               <strong>{{f1}}</strong><div class="hcSmallTxt">{{f2}}</div>
             </div>
             {{/each}}
+          </div>
+          <div class="hc2columns hcMarginTop2 hcMarginBottom5">
+            <div>{{> comp-pagination}}</div>
+            <div class="hcAlignRight"><button type="button">Export</button></div>
           </div>
         </div>
 
