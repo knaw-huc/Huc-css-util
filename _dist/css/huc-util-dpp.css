@@ -1185,7 +1185,19 @@ hr {
 .hcFacetItem {
   display: flex;
   flex-direction: row;
-  justify-content: space-between; }
+  justify-content: space-between;
+  align-items: center; }
+  .hcFacetItem .hcFacetItemSpan {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 15px; }
+    .hcFacetItem .hcFacetItemSpan input[type='checkbox'] {
+      width: 15px;
+      background-color: #eee090; }
+
+.hcFacetItemSelected {
+  font-weight: 700; }
 
 .hcFacetTitle {
   text-transform: uppercase;
