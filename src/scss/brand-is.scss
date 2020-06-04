@@ -61,6 +61,11 @@ $isebelPinkLight: hsl(349, 35%, 70%);
 	column-gap: 1rem;
 }
 
+.hcColumnsEqual4 {
+	column-count: 2;
+	column-gap: 1rem;
+}
+
 
 .hcTag{
 	width: 15px!important;
@@ -103,6 +108,10 @@ $iSasideWith: 450px;
     width: calc(100vw - #{$iSasideWith});
     min-width: calc(800px - #{$iSasideWith});
   }
+
+	.hcColumnsEqual4 {
+		column-count: 4;
+	}
 }
 
 
@@ -123,4 +132,20 @@ $iSasideWith: 450px;
 .hcIsHome p {
 	max-width: 600px;
 	text-align: center;
+}
+
+.hcProviderLogo {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	min-height: 250px;
+	img{
+		width: 50%;
+		height: auto;
+	}
+}
+
+.hcMinHeight70 {
+	min-height: 70vh;
 }

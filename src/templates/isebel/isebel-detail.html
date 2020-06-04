@@ -18,25 +18,60 @@
   <!-- main tekst block -->
     <div class="hcLayoutMain hcBasicSideMargin">
       <h2>{{title}}</h2>
+      <div class="hcMarginBottom1"><em>Source:</em> <a href="http://www.verhalenbank.nl/items/show/9885">http://www.verhalenbank.nl/items/show/9885</a></div>
       {{content}}
-      <div class="hcMarginTop3">
-        <hr>
-        <div class="hcRowLeft hcNestedItemMargin1">
+      <div>
+
+        <!-- / tags -->
+        <hr class="hcMarginTop2 hcMarginBottom2">
+        <div class="hcLabel">Tags</div>
+        <div class="hcColumnsEqual4">
+          {{#each tags}}
+          <div class="hcIsTags"><img src="images/icons/icon-tag.png" class="hcTag">&nbsp;{{tagName}}</div>
+          {{/each}}
+        </div>
+
+
+        <!-- / Narrator -->
+        <hr class="hcMarginTop2 hcMarginBottom2">
+        <div class="hc2columns">
           <div>
-            <div class="hcLabel">Created</div>
-            <div>15 jan 2020</div>
+            <div class="hcLabel">Narrator</div>
+            <div>Haan, Jelle de  (male)</div>
           </div>
 
-
           <div>
-            <div class="hcLabel">Last updated</div>
-            <div>15 jan 2020</div>
+            <div class="hcLabel">Date</div>
+            <div>1888-01-01</div>
+          </div>
+        </div>
+
+        <!-- / Narrator -->
+        <hr class="hcMarginTop2 hcMarginBottom2">
+        <div class="hc2columns">
+          <div>
+            <div class="hcLabel">Tale type</div>
+            <div>SINSAG 1226: <br>"Dort wohnt er und hier ist er." Pflug aufgehoben, um die Richtung anzudeuten.</div>
+          </div>
+
+          <div class="hcMarginBottom2">
+            <div class="hcLabel">Location</div>
+            <div>Wambeek</div>
           </div>
 
 
         </div>
-      </div>
 
+
+
+
+
+
+
+
+
+
+      </div>
     </div>
     <!-- / main tekst block -->
 
@@ -44,16 +79,35 @@
 
 
     <!-- metdata aside -->
-    <div class="hcLayoutAside hcBasicSideMargin colorBgGreyLight hcContentDivider hcSmallTxt">
-        <div>
-          <img src="images/logos/logo_Meertens.png" >
-          <a href="http://www.verhalenbank.nl/items/show/9885">http://www.verhalenbank.nl/items/show/9885</a>
+    <div class="hcLayoutAside hcBasicSideMargin colorBgGreyLight hcContentDivider hcSmallTxt hcMinHeight70">
+        <div class="hcProviderLogo">
+          <img src="images/logos/logo_Meertens.png">
         </div>
         <div>
           <strong>Sage </strong>
         </div>
 
-        <div class="hcColumnsEqual">
+        <div>
+          <div class="hcLabel">Created</div>
+          <div>15 jan 2020</div>
+        </div>
+
+        <div>
+          <div class="hcLabel">Last updated</div>
+          <div>15 jan 2020</div>
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+        <!-- <div class="hcColumnsEqual">
           {{#each tags}}
           <div class="hcIsTags"><img src="images/icons/icon-tag.png" class="hcTag">&nbsp;{{tagName}}</div>
           {{/each}}
@@ -77,7 +131,7 @@
         <div class="hcMarginBottom2">
           <div class="hcLabel">Location</div>
           <div>Wambeek</div>
-        </div>
+        </div> -->
 
 
 
