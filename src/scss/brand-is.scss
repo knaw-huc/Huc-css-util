@@ -149,3 +149,26 @@ $iSasideWith: 450px;
 .hcMinHeight70 {
 	min-height: 70vh;
 }
+
+.hcIsFooterList {
+	display: flex;
+	flex-direction: column;
+
+	div {
+		display: flex;
+		flex-direction: row;
+		margin-left: 1rem;
+		margin-bottom: .5rem;
+		align-items: center;
+	}
+}
+
+.hcIsFooterListLogo {
+	background-color: #fff;
+	padding: .5rem;
+
+	img {
+		width: 75px;
+		height:auto;
+	}
+}
