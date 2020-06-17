@@ -25,7 +25,17 @@
         <!-- / tags -->
         <hr class="hcMarginTop2 hcMarginBottom2">
         <h3>Keywords</h3>
+        <button type="button" name="button">All Keywords</button>
+        <button type="button" name="button">By type</button>
+        <button type="button" name="button">By provenance</button>
         <div class="hcLabel">Type: controlled vocabulary</div>
+        <div class="hcColumnsEqual4">
+          {{#each tags}}
+          <div class="hcIsTags"><img src="images/icons/icon-tag.png" class="hcTag">&nbsp;{{tagName}}</div>
+          {{/each}}
+        </div>
+
+        <div class="hcLabel hcMarginTop1">Type: Other type</div>
         <div class="hcColumnsEqual4">
           {{#each tags}}
           <div class="hcIsTags"><img src="images/icons/icon-tag.png" class="hcTag">&nbsp;{{tagName}}</div>
