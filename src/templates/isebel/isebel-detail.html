@@ -22,25 +22,90 @@
       {{content}}
       <div>
 
+
+
+
+
+
+
+
         <!-- / tags -->
         <hr class="hcMarginTop2 hcMarginBottom2">
-        <h3>Keywords</h3>
-        <button type="button" name="button">All Keywords</button>
-        <button type="button" name="button">By type</button>
-        <button type="button" name="button">By provenance</button>
-        <div class="hcLabel">Type: controlled vocabulary</div>
-        <div class="hcColumnsEqual4">
-          {{#each tags}}
-          <div class="hcIsTags"><img src="images/icons/icon-tag.png" class="hcTag">&nbsp;{{tagName}}</div>
-          {{/each}}
+        <h3>Keywords</h3>        <div class="hcTabs hcTabsHoriz">
+          <!-- tabs header -->
+          <div class="hcTabLabels">
+            <div class="hcTabLabel hcRoundedCornersTop" id="tab-list-11">All keywords</div>
+            <div class="hcTabLabel hcRoundedCornersTop" id="tab-list-22">By type</div>
+            <div class="hcTabLabel hcRoundedCornersTop" id="tab-list-33">By provenance</div>
+          </div>
+          <!-- //tabs header -->
+
+
+          <!-- tabs content -->
+          <div class="hcTabAllContent hcStickOutBoxAside hcClearBg ">
+            <!-- Tab All keywords-->
+            <div class="hcTabContent hcMarginTop2 hcBasicSideMargin" id="tab-content-11">
+
+              <!-- Use this for no Tab tags -->
+              <div class="hcColumnsEqual4">
+                {{#each tags}}
+                <div class="hcIsTags"><img src="images/icons/icon-tag.png" class="hcTag">&nbsp;{{tagName}}</div>
+                {{/each}}
+              </div>
+              <!-- // -->
+            </div>
+
+            <!-- Tab Type-->
+            <div class="hcTabContent hcMarginTop2 hcBasicSideMargin" id="tab-content-22">
+
+              <div class="hcLabel">Type: controlled vocabulary</div>
+              <div class="hcColumnsEqual4">
+                {{#each tags}}
+                <div class="hcIsTags"><img src="images/icons/icon-tag.png" class="hcTag">&nbsp;{{tagName}}</div>
+                {{/each}}
+              </div>
+
+              <div class="hcLabel hcMarginTop2">Type: Other type</div>
+              <div class="hcColumnsEqual4">
+                {{#each tags}}
+                <div class="hcIsTags"><img src="images/icons/icon-tag.png" class="hcTag">&nbsp;{{tagName}}</div>
+                {{/each}}
+              </div>
+
+            </div>
+
+            <!-- Tab Provenance-->
+            <div class="hcTabContent hcMarginTop2 hcBasicSideMargin" id="tab-content-33">
+
+              <div class="hcLabel">Provenance: controlled vocabulary</div>
+              <div class="hcColumnsEqual4">
+                {{#each tags}}
+                <div class="hcIsTags"><img src="images/icons/icon-tag.png" class="hcTag">&nbsp;{{tagName}}</div>
+                {{/each}}
+              </div>
+
+              <div class="hcLabel hcMarginTop2">Provenance: Other type</div>
+              <div class="hcColumnsEqual4">
+                {{#each tags}}
+                <div class="hcIsTags"><img src="images/icons/icon-tag.png" class="hcTag">&nbsp;{{tagName}}</div>
+                {{/each}}
+              </div>
+
+
+
+
+            </div>
+          </div>
         </div>
 
-        <div class="hcLabel hcMarginTop1">Type: Other type</div>
-        <div class="hcColumnsEqual4">
-          {{#each tags}}
-          <div class="hcIsTags"><img src="images/icons/icon-tag.png" class="hcTag">&nbsp;{{tagName}}</div>
-          {{/each}}
-        </div>
+
+
+
+
+
+
+
+
 
 
         <!-- / Narrator -->
@@ -191,5 +256,9 @@
 {{> custom/is-footer}}
 
 
+
+<!-- build:js js/utilGA1.js -->
+<script src="../../js/tabs.js" charset="utf-8"></script>
+<!-- endbuild -->
 
 {{> html-footer}}
