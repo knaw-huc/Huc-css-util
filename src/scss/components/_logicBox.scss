@@ -41,16 +41,3 @@
   margin-left: -.5rem;
   color: $hcGrey50;
 }
-
-.hcLogicBox-addRow{
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-end;
-
-  >* {
-    padding: .2rem;
-    margin-top: -.5rem;
-    margin-right: 3rem;
-    width: 100px;
-  }
-}
