@@ -1412,6 +1412,16 @@ hr {
   margin-left: -.5rem;
   color: gray; }
 
+.hcLogicBox-addRow {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end; }
+  .hcLogicBox-addRow > * {
+    padding: .2rem;
+    margin-top: -.5rem;
+    margin-right: 3rem;
+    width: 100px; }
+
 .brandName {
   font-weight: 700; }
 
