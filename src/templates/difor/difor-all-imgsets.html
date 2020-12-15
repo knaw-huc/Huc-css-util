@@ -1,0 +1,43 @@
+{{> html-head}}
+{{> custom/difor-header}}
+
+<div class="hcContentContainer hcMarginBottom3">
+  <div class="hcBasicSideMargin hc2columns ">
+    <h1>All imagesets</h1>
+    <div class="hcAlignRight"><button type="button" name="button">New imageset</button></div>
+  </div>
+</div>
+
+
+<div class="hcContentContainer hcMarginBottom5">
+  <div class="hcBasicSideMargin">
+
+    <div class="hcList">
+      <div class="hcListHeader">
+        <div class="hcSmallTxt hcTxtColorGreyMid ">Name <br> <input type="text" name="" value=""></div>
+        <div class="hcSmallTxt hcTxtColorGreyMid hcListItemLong">UUID <br> <input type="text" name="" value=""></div>
+        <div class="hcSmallTxt hcTxtColorGreyMid hcAlignRight"><button type="button" name="button">Filter settings</button></div>
+      </div>
+    </div>
+
+    <ul class="hcList">
+      {{> list-items/list-difor-imageset f1="Image set 1"  f2="836fc584-7407-429c-a383-0872285e39f5" b1=true}}
+      {{> list-items/list-difor-imageset f1="Image set 2"  f2="0872285e39f5836fc584-7407-429c-a383" b1=true}}
+      {{> list-items/list-difor-imageset f1="Image set 3"  f2="836fc584-7407-429c-a383-0872285e39f5" b1=true}}
+      {{> list-items/list-difor-imageset f1="Image set 4"  f2="0872285e39f5836fc584-7407-429c-a383" b1=true}}
+      {{> list-items/list-difor-imageset f1="Image set 5"  f2="429c-a383-836fc584-7407-0872285e39f5" b1=true}}
+      {{> list-items/list-difor-imageset f1="Image set 6"  f2="836fc584-7407-429c-a383-0872285e39f5" b1=true}}
+      {{> list-items/list-difor-imageset f1="Image set 7"  f2="429c-a383-836fc584-7407-0872285e39f5" b1=true}}
+      {{> list-items/list-difor-imageset f1="Image set 8"  f2="836fc584-7407-429c-a383-0872285e39f5" b1=true}}
+      {{> list-items/list-difor-imageset f1="Image set 9"  f2="7407-429c-836fc584-0872285e39f5-a383" b1=true}}
+    </ul>
+
+  </div>
+
+</div>
+
+
+
+
+
+{{> html-footer}}
