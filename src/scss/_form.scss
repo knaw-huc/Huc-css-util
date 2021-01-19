@@ -19,6 +19,13 @@ input, select, option, textarea{
     background-color: $colorFormElements;
   }
 
+  input[type="checkbox"]{
+    background-color: $colorFormElements;
+    max-width: 30px;
+    background-color: $colorFormElements;
+  }
+
+
   textarea {
     height: auto;
     min-height: 150px;

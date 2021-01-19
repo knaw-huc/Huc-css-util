@@ -2676,6 +2676,36 @@
       "isPage": true,
       "favi":"favi-hi.png",
       "title": "Difor | All IIIF sets"
+    },
+    {
+      "name": "difor-imageset-detail",
+      "project-name": "Pergamon Images",
+      "template": "difor/difor-imageset-detail",
+      "brand": "-huygens",
+      "logo": "logo-data-huygensIng.png",
+      "isPage": true,
+      "favi":"favi-hi.png",
+      "title": "Difor | imageset detail page"
+    },
+    {
+      "name": "difor-imageset-modal-upload",
+      "project-name": "Pergamon Images",
+      "template": "difor/difor-modal-upload",
+      "brand": "-huygens",
+      "logo": "logo-data-huygensIng.png",
+      "isPage": true,
+      "favi":"favi-hi.png",
+      "title": "Difor | imageset modal upload"
+    },
+    {
+      "name": "difor-imageset-modal-settings",
+      "project-name": "Pergamon Images",
+      "template": "difor/difor-modal-settings",
+      "brand": "-huygens",
+      "logo": "logo-data-huygensIng.png",
+      "isPage": true,
+      "favi":"favi-hi.png",
+      "title": "Difor | imageset modal settings"
     }
   ]
 }

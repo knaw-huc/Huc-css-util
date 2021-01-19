@@ -1,0 +1,45 @@
+.hcTree {
+  margin: 0;
+  padding: 0;
+  li {
+    list-style: none;
+    margin-top: 0;
+    margin-left: 0;
+    margin-right: 0;
+    padding: 0;
+
+    display: flex;
+    flex-direction: column;
+
+    ul {
+      margin: 0;
+      li {
+        margin-top: 0;
+        margin-right: 0;
+        margin-left: 2rem;
+      }
+    }
+  }
+
+  li:hover {
+    font-weight: 700;
+
+    ul {
+      font-weight: 300;
+    }
+  }
+
+
+}
+
+
+.hcTreeIcon {
+  width: 25px;
+  height: auto;
+}
+
+
+.hcTreeListGroup {
+  display: flex;
+  flex-direction: row;
+}

@@ -25,6 +25,11 @@
   align-items: flex-end;
 }
 
+.hcAlignLeftRight {
+  display: flex;
+  justify-content:space-between;
+}
+
 
 .hcAlignCenter {
   display: flex;

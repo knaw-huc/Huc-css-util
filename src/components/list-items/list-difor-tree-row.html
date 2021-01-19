@@ -1,0 +1,47 @@
+{{#if typeSet}}
+  <div class="hcTreeListGroup hcAlignLeftRight">
+
+    <div class="hcAlignHorizontal">
+      <div class="hcTreeIcon hcMarginRight05"><img src="images/custom/difor/icon-imageset.png" alt=""></div>
+      <div>{{ name}}</div>
+    </div>
+
+
+    <div>
+      <button type="button" class="hc-small">Sort</button>
+      <button type="button" class="hc-small hcMarginRight3" onclick="javascript:location.href='difor-imageset-modal-upload.html'">Add items</button>
+      <button type="button" name="button" class="hc-small">Remove</button>
+    </div>
+
+  </div>
+{{/if}}
+
+
+
+
+{{#if typeImage}}
+<div class="hcTreeListGroup hcAlignLeftRight">
+
+  <div class="hcAlignHorizontal">
+    <div class="hcTreeIcon hcMarginRight05"><img src="images/custom/difor/icon-image.png" alt=""></div>
+    <div>{{ name}}</div>
+  </div>
+
+  <div>
+    <button type="button" name="button" class="hc-small">Remove</button>
+  </div>
+
+</div>
+
+{{/if}}
+
+
+
+
+
+{{#if typeSetIiif}}
+  <div class="hcTreeListGroup">
+    <div class="hcTreeIcon hcMarginRight05"><img src="images/custom/difor/icon-imageset-IIIF.png" alt=""></div>
+    <div>{{ name}}</div>
+  </div>
+{{/if}}

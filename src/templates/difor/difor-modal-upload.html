@@ -1,0 +1,63 @@
+{{> html-head}}
+{{> custom/difor-header}}
+
+
+<div class="hcModal">
+  <div class="hcContentContainer">
+    <div class="hcModelContentWrap">
+      <div class="hcBasicSideMargin hc2columns hcMarginBottom2 hcMarginTop2">
+        <h1>Add images and sets</h1>
+        <div class="hcAlignRight"><span class="hcIcon" onclick="javascript:location.href='difor-imageset-detail.html'">{{>icon-util-close}}</span></div>
+      </div>
+
+      <div class="hcContentContainer hcBasicSideMargin hcForm">
+
+
+        <div class=" hcMarginBottom2 hcFormDiv hcAlignVertical">
+          <h2>Upload images</h2>
+          <div class="hcFormItem">
+            <label for="image">Select files</label>
+            <input multiple="" accept="application/pdf, text/xml, image/*" id="image" type="file" class="form-control-file">
+          </div>
+        </div>
+
+
+
+        <div class=" hcMarginBottom2 hcFormDiv hcAlignVertical">
+          <h2>Add an imageset</h2>
+          <div class="hcFormItem">
+            <label for="i1">Select an images set</label>
+            <input type="text" id="i1" placeholder="Start typing to find the set">
+          </div>
+        </div>
+
+
+
+
+
+        <div class=" hcMarginBottom2 hcFormDiv hcAlignVertical">
+          <h2>Images from another imageset</h2>
+          <div class="hcFormItem hcMarginBottom1">
+            <label for="image">Select the imageset</label>
+            <input type="text" id="i1" placeholder="Start typing to find the set">
+          </div>
+          <div class="hcFormItem">
+            <label for="image">Select the images </label>
+            <input type="text" id="i1" placeholder="Start typing to find the images">
+          </div>
+        </div>
+
+
+      </div>
+
+
+
+    </div>
+  </div>
+</div>
+
+
+
+
+
+{{> html-footer}}

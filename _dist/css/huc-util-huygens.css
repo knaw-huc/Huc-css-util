@@ -158,6 +158,9 @@ strong {
 .hcMonospace {
   font-family: monospace; }
 
+.hcNotBold {
+  font-weight: 300; }
+
 .icon {
   width: 1.3rem !important;
   height: auto !important; }
@@ -192,6 +195,9 @@ strong {
 .hcBasicPading {
   padding: 1rem; }
 
+.hcMarginBottom05 {
+  margin-bottom: .5rem; }
+
 .hcMarginBottom1 {
   margin-bottom: 1rem; }
 
@@ -209,6 +215,9 @@ strong {
 
 .hcMarginBottom15 {
   margin-bottom: 15rem; }
+
+.hcMarginTop05 {
+  margin-top: .5rem; }
 
 .hcMarginTop1 {
   margin-top: 1rem; }
@@ -276,6 +285,10 @@ strong {
 .hcAlignVertical.alignRight {
   display: flex;
   align-items: flex-end; }
+
+.hcAlignLeftRight {
+  display: flex;
+  justify-content: space-between; }
 
 .hcAlignCenter {
   display: flex;
@@ -512,8 +525,8 @@ button {
   font-size: 1rem; }
 
 .hc-small {
-  padding: .5rem;
-  font-size: .8rem; }
+  padding: .3rem;
+  font-size: .6rem; }
 
 .hc-subtle {
   background: none;
@@ -538,6 +551,13 @@ button {
   border-radius: 0 4px 4px 0;
   border-right: 1px solid rgba(0, 0, 0, 0.09); }
 
+.buttonRemove:before {
+  content: '';
+  background: url("Icons/icon-util-close.html");
+  width: 20px;
+  height: 20px;
+  display: block; }
+
 input, select, option, textarea {
   width: 100%;
   padding: .5rem;
@@ -551,6 +571,11 @@ input, select, option, textarea {
 .hcForm input, .hcForm select, .hcForm option, .hcForm textarea {
   background-color: #f0f5f9;
   max-width: 480px;
+  background-color: #f0f5f9; }
+
+.hcForm input[type="checkbox"] {
+  background-color: #f0f5f9;
+  max-width: 30px;
   background-color: #f0f5f9; }
 
 .hcForm textarea {
@@ -1412,6 +1437,36 @@ hr {
   margin-left: -.5rem;
   color: gray; }
 
+.hcTree {
+  margin: 0;
+  padding: 0; }
+  .hcTree li {
+    list-style: none;
+    margin-top: 0;
+    margin-left: 0;
+    margin-right: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column; }
+    .hcTree li ul {
+      margin: 0; }
+      .hcTree li ul li {
+        margin-top: 0;
+        margin-right: 0;
+        margin-left: 2rem; }
+  .hcTree li:hover {
+    font-weight: 700; }
+    .hcTree li:hover ul {
+      font-weight: 300; }
+
+.hcTreeIcon {
+  width: 25px;
+  height: auto; }
+
+.hcTreeListGroup {
+  display: flex;
+  flex-direction: row; }
+
 .brandName {
   font-weight: 700; }
 
@@ -1465,3 +1520,7 @@ a {
 
 .hcFeedbackSucces {
   border-bottom: 3px solid #64a264 !important; }
+
+.hcFormDiv {
+  border: 2px solid #efefef;
+  padding: 2rem 1rem; }

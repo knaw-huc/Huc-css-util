@@ -17,8 +17,8 @@ button {
 }
 
 .hc-small {
-	padding: .5rem;
-	font-size: .8rem;
+	padding: .3rem;
+	font-size: .6rem;
 }
 
 
@@ -52,4 +52,13 @@ button {
     border-radius: 0 #{$basicBorderRadius} #{$basicBorderRadius} 0;
     border-right: 1px solid rgba(0, 0, 0, 0.09);
   }
+}
+
+
+.buttonRemove:before{
+  content: '';
+  background:url('Icons/icon-util-close.html');
+  width: 20px;
+  height: 20px;
+  display: block;
 }

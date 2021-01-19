@@ -1,6 +1,10 @@
-<div class="hcListBasicResult">
+<div class="hcListBasicResult" onclick="javascript:location.href='difor-imageset-detail.html'">
 
-  <div class="hcMarginBottom1">
+
+
+  <div class="hcMarginBottom1 hcAlignHorizontal">
+    {{#if b1}}<div class="hcTreeIcon hcMarginRight05"><img src="images/custom/difor/icon-imageset.png" alt=""></div>{{/if}}
+    {{#if b2}}<div class="hcTreeIcon hcMarginRight05"><img src="images/custom/difor/icon-imageset-IIIF.png" alt=""></div>{{/if}}
     <strong>{{f1}}</strong>
   </div>
 
@@ -12,12 +16,12 @@
 
   <div class="hcAlignRight">
     {{#if b1}}
-    <button type="button" name="button">Actions</button>
-    <button type="button" name="button">Downloads</button>
+    <button type="button" name="button" class="hc-small">Actions</button>
+    <button type="button" name="button" class="hc-small">Download</button>
     {{/if}}
 
     {{#if b2}}
-    <button type="button" name="button">Analyse images</button>
+    <button type="button" name="button" class="hc-small">Analyse images</button>
     {{/if}}
 
   </div>

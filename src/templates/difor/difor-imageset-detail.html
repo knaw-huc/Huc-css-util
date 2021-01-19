@@ -1,0 +1,103 @@
+{{> html-head}}
+{{> custom/difor-header}}
+
+
+
+<div class="hcContentContainer hcMarginBottom3">
+  <div class="hcBasicSideMargin ">
+    <h1 class="hcAlignHorizontal"><span class="hcNotBold">Imageset: </span>Manuscript 111</h1>
+  </div>
+</div>
+
+
+<div class="hcContentContainer hcMarginBottom2">
+  <div class="hcBasicSideMargin hcAlignLeftRight">
+    <div>
+      <button type="button" class="">Sort</button>
+      <button type="button" class="hcMarginRight3"  onclick="javascript:location.href='difor-imageset-modal-upload.html'">Add items</button>
+    </div>
+    <div>
+
+
+      <button type="button" class="" onclick="javascript:location.href='difor-imageset-modal-settings.html'">Imageset settings</button>
+
+    </div>
+  </div>
+</div>
+
+
+
+
+<div class="hcContentContainer hcMarginBottom5">
+  <div class="hcBasicSideMargin">
+
+
+    <ul class="hcTree" role="tree">
+      <li class="hcMarginBottom1">
+        {{> list-items/list-difor-tree-row typeSet=true name="Bas-set"}}
+
+
+        <ul role="group">
+          <li class="leaf hcMarginBottom05" role="treeitem">
+            {{> list-items/list-difor-tree-row typeImage=true name="/179/4/63639085.png"}}
+          </li>
+
+          <li class="leaf hcMarginBottom05" role="treeitem">
+            {{> list-items/list-difor-tree-row typeImage=true name="/207/170/63639084.png"}}
+          </li>
+
+          <li class="leaf hcMarginBottom05" role="treeitem">
+            {{> list-items/list-difor-tree-row typeImage=true name="/2/2/63639083.png"}}
+          </li>
+        </ul>
+
+      </li>
+
+      <li class="hcMarginBottom1">
+        {{> list-items/list-difor-tree-row typeSet=true name="HannahIstSuper"}}
+
+
+        <ul role="group">
+          <li class="leaf hcMarginBottom05" role="treeitem">
+            {{> list-items/list-difor-tree-row typeImage=true name="/179/4/63639085.png"}}
+          </li>
+
+          <li class="leaf hcMarginBottom05" role="treeitem">
+            {{> list-items/list-difor-tree-row typeImage=true name="/207/170/63639084.png"}}
+          </li>
+
+          <li class="leaf hcMarginBottom05" role="treeitem">
+            {{> list-items/list-difor-tree-row typeImage=true name="/2/2/63639083.png"}}
+          </li>
+        </ul>
+
+      </li>
+
+
+      <li class="hcMarginBottom1">
+        {{> list-items/list-difor-tree-row typeSetIiif=true name="IIIF: Vatican"}}
+
+
+        <ul role="group">
+          <li class="leaf hcMarginBottom05" role="treeitem">
+            {{> list-items/list-difor-tree-row typeImage=true name="/179/4/63639085.png"}}
+          </li>
+
+        </ul>
+
+      </li>
+    </ul>
+
+
+
+
+
+  </div>
+
+</div>
+
+
+
+
+
+{{> html-footer}}

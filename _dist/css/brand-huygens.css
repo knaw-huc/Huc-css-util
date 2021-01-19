@@ -32,3 +32,7 @@ a {
 
 .hcFeedbackSucces {
   border-bottom: 3px solid #64a264 !important; }
+
+.hcFormDiv {
+  border: 2px solid #efefef;
+  padding: 2rem 1rem; }
