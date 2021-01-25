@@ -14,8 +14,8 @@
 
     <div class="hcList">
       <div class="hcListHeader">
-        <div class="hcSmallTxt hcTxtColorGreyMid ">Name <br> <input type="text" name="" value=""></div>
-        <div class="hcSmallTxt hcTxtColorGreyMid hcListItemLong">UUID <br> <input type="text" name="" value=""></div>
+        <div class="hcSmallTxt hcTxtColorGreyMid ">Name <br> <input type="text" name="" value="" placeholder="filter on name"></div>
+        <div class="hcSmallTxt hcTxtColorGreyMid hcListItemLong">UUID <br> <input type="text" name="" value="" placeholder="filter on UUID"></div>
         <div class="hcSmallTxt hcTxtColorGreyMid hcAlignRight"><button type="button" name="button">Filter settings</button></div>
       </div>
     </div>
@@ -34,6 +34,15 @@
 
   </div>
 
+</div>
+
+<div class="hcStickyFooter hcClrBg_Grey05 hcContentContainer">
+  <div class="hc2columns ">
+    <div class=" hcMarginBottom1 hcMarginTop1">
+      {{>comp-pagination}}
+    </div>
+    <div></div>
+  </div>
 </div>
 
 

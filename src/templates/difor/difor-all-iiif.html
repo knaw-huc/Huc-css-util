@@ -14,8 +14,8 @@
 
     <div class="hcList">
       <div class="hcListHeader">
-        <div class="hcSmallTxt hcTxtColorGreyMid ">Label <br> <input type="text" name="" value=""></div>
-        <div class="hcSmallTxt hcTxtColorGreyMid hcListItemLong">UUID <br> <input type="text" name="" value=""></div>
+        <div class="hcSmallTxt hcTxtColorGreyMid ">Name <br> <input type="text" name="" value="" placeholder="filter on name"></div>
+        <div class="hcSmallTxt hcTxtColorGreyMid hcListItemLong">Manifest <br> <input type="text" name="" value="" placeholder="filter on manifest"></div>
         <div class="hcSmallTxt hcTxtColorGreyMid hcAlignRight"><button type="button" name="button">Filter settings</button></div>
       </div>
     </div>
@@ -31,13 +31,18 @@
       {{> list-items/list-difor-imageset f1="Zentralbibliothek, Ms. C 125"  f2="https://www.e-codices.unifr.ch/metadata/iiif/zbz-C0125/manifest.json" b2=true}}
       {{> list-items/list-difor-imageset f1="Zentralbibliothek, Ms. C 125"  f2="https://www.e-codices.unifr.ch/metadata/iiif/zbz-C0125/manifest.json" b2=true}}
     </ul>
-
   </div>
-
 </div>
 
 
-
+<div class="hcStickyFooter hcClrBg_Grey05 hcContentContainer">
+  <div class="hc2columns ">
+    <div class=" hcMarginBottom1 hcMarginTop1">
+      {{>comp-pagination}}
+    </div>
+    <div></div>
+  </div>
+</div>
 
 
 {{> html-footer}}

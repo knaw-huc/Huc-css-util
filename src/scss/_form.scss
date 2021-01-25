@@ -30,6 +30,13 @@ input, select, option, textarea{
     height: auto;
     min-height: 150px;
   }
+
+}
+
+input::placeholder {
+  color: $hcGrey50;
+  font-style: italic;
+  font-size: .85rem;
 }
 
 .hcLabel {

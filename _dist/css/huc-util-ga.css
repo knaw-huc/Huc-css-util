@@ -518,7 +518,8 @@ button {
   border: 1px solid rgba(0, 0, 0, 0.09);
   cursor: pointer;
   font-weight: 700;
-  margin: 0 .3rem; }
+  margin: 0 .3rem;
+  max-height: 40px; }
 
 .hc-loud {
   padding: .8rem;
@@ -581,6 +582,11 @@ input, select, option, textarea {
 .hcForm textarea {
   height: auto;
   min-height: 150px; }
+
+input::placeholder {
+  color: gray;
+  font-style: italic;
+  font-size: .85rem; }
 
 .hcLabel {
   color: #999999;
