@@ -923,6 +923,24 @@ hr {
   .hcSpitscreen {
     flex-direction: row; } }
 
+.hcLayoutWideCols {
+  display: flex;
+  flex-direction: column;
+  width: 100%; }
+  .hcLayoutWideCols > * {
+    width: 100%;
+    max-width: 50vw; }
+
+@media (min-width: 800px) {
+  .hcLayoutWideCols {
+    flex-direction: row; }
+  .hcWideColsFixedWidth {
+    width: 100%;
+    max-width: 25vw; } }
+
+.hcLayoutWideColsInner {
+  width: 100%; }
+
 .navigation a {
   color: #3e3e3e;
   font-weight: 700;
@@ -1472,6 +1490,13 @@ hr {
 .hcTreeListGroup {
   display: flex;
   flex-direction: row; }
+
+.hcMirador {
+  width: 100%;
+  height: 100%; }
+  .hcMirador img {
+    width: 100%;
+    height: auto; }
 
 .brandName {
   font-weight: 700; }

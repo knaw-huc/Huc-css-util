@@ -18,7 +18,8 @@
 @import 'layout/layoutFacetResults';
 @import 'layout/layoutTextImages';
 @import 'layout/layoutSidebarRight';
-@import 'layout/_layoutSplitscreen';
+@import 'layout/layoutSplitscreen';
+@import 'layout/layoutWideCols';
 @import 'components/navigation';
 @import 'components/simpleTopHeader';
 @import 'components/tabs';
@@ -32,5 +33,6 @@
 @import 'components/code-editor';
 @import 'components/logicBox';
 @import 'components/tree';
+@import 'components/mirador';
 
 @import 'brand';

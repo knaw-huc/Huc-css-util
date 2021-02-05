@@ -1,0 +1,70 @@
+{{> html-head}}
+{{> custom/difor-header}}
+
+<div class="hcContentContainer hcMarginBottom3">
+  <div class="hcBasicSideMargin ">
+    <h1>All IIIF sets</h1>
+
+  </div>
+</div>
+
+
+<div class="">
+
+  <div class="hcLayoutWideCols">
+    <div class="hcBasicSideMargin">
+      {{>custom/mirador-viewer}}
+    </div>
+    <div class="hcBasicSideMargin hcWideColsFixedWidth hcForm">
+
+      <select class="hcMarginBottom2" name=""> <option value="">Select imageset</option> </select>
+
+      <div class="hc2columns ">
+        <div class=" hcMarginBottom1 hcMarginTop1">
+          <strong>Labels</strong>
+        </div>
+        <div>
+          <select class="" name=""> <option value="">Change fieldset</option> </select>
+        </div>
+      </div>
+
+
+      {{> custom/diform-formElement label="Collection"  id="f1" isInput=true}}
+      {{> custom/diform-formElement label="Signature"  id="f2" isInput=true}}
+      {{> custom/diform-formElement label="include"  id="f3"  isCheck=true}}
+      {{> custom/diform-formElement label="newlabel"  id="f4" isInput=true}}
+    </div>
+    <div class="hcBasicSideMargin hcWideColsFixedWidth">
+      <em>Metadata from IIIF</em><br>
+      <strong>Location:</strong> Zürich<br>
+      <strong>Collection Name:</strong> Zentralbibliothek<br>
+      <strong>Shelfmark:</strong> Ms. C 125<br>
+      <strong>Document Type:</strong> Manuscript<br>
+      <strong>DOI:</strong> 10.5076/e-codices-zbz-C0125<br>
+      <strong>Title (English):</strong> Petrus Alfonsi, Dialogus<br>
+    </div>
+
+  </div>
+</div>
+
+
+<div class="hcStickyFooter hcClrBg_Grey05 ">
+  <div class="hc3columns ">
+    <div class=" hcMarginBottom1 hcMarginTop1">
+      <button type="button" name="button">Prevous</button><button type="button" name="button">Next</button>
+    </div>
+    <div class=" hcMarginBottom1 hcMarginTop1 hcTxtRight">
+      <button type="button" name="button">Save</button>
+    </div>
+    <div class=" hcMarginBottom1 hcMarginTop1 hcTxtRight">
+      <button type="button" name="button">Export</button>
+      <button type="button" name="button">Show metadata from IIIF manufest</button>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+{{> html-footer}}
