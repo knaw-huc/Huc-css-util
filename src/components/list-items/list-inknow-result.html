@@ -1,0 +1,49 @@
+<li class="hcMarginBottom2" onclick="javascript:location.href='innovating-knowledge-detail.html'">
+
+
+
+  <div class="hcIKresultCard">
+
+    <div class="hcAlignLeftRight hcMarginBottom1">
+      <strong class="">{{Shellf}}</strong>
+      <div class="">
+        {{#each state}}
+          {{> custom/inknow-state}}
+        {{/each}}
+
+        </div>
+
+    </div>
+
+
+
+
+
+
+    <div class="hcIKresultCardInfo">
+      <div class="hcIKkImageBlockResult">
+        <img src="images/custom/innKnow/{{thumb}}" alt="thumbnail of {{Shellf}} manuscript">
+      </div>
+
+      <div class="hcAlignVertical">
+        <div class="hc2columns">
+          <div class="hcBasicSideMargin">
+            <div class="hcMarginBottom05"> <div class="hcDataLabel">Date</div>{{date}}</div>
+            <div class="hcMarginBottom05"> <div class="hcDataLabel">Location</div>{{location}}</div>
+            <div class="hcMarginBottom05"> <div class="hcDataLabel">Folios</div>{{folios}}</div>
+            <div class="hcMarginBottom05"> <div class="hcDataLabel">Measurements</div>{{measuremenst}}mm</div>
+          </div>
+
+
+          <div class="hcBasicSideMargin">
+            <div class="hcMarginBottom05"> <div class="hcDataLabel">Type</div>{{type}}</div>
+            <div class="hcMarginBottom1"> <div class="hcDataLabel">Content</div>
+            <span class="hcSmallTxt">{{content}}</span></div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+</li>

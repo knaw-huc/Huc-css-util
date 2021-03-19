@@ -201,6 +201,9 @@ strong {
 .hcMarginBottom1 {
   margin-bottom: 1rem; }
 
+.hcMarginBottom1_5 {
+  margin-bottom: 1.5rem; }
+
 .hcMarginBottom2 {
   margin-bottom: 2rem; }
 
@@ -593,6 +596,20 @@ input::placeholder {
   text-transform: uppercase;
   font-size: .85rem; }
 
+.hcList2 {
+  margin-left: 0;
+  margin-right: 0;
+  padding-left: 0;
+  padding-right: 0; }
+  .hcList2 li {
+    margin-left: 0;
+    margin-right: 0;
+    padding-left: 0;
+    padding-right: 0; }
+
+.hcList2NoIcon {
+  list-style: none; }
+
 .hcStickyFooter {
   position: fixed;
   width: 100%;
@@ -720,9 +737,6 @@ hr {
 .hcContentContainer > * {
   width: 100%;
   max-width: 1200px; }
-  .hcContentContainer > * img {
-    width: 100%;
-    height: auto; }
 
 .hcBlockText {
   width: 100%; }
@@ -1555,3 +1569,93 @@ a {
 .hcFormDiv {
   border: 2px solid #efefef;
   padding: 2rem 1rem; }
+
+.bgColorBrandIK {
+  background-color: #d3d7e2; }
+  .bgColorBrandIK a {
+    color: #2f404a; }
+
+.hcSmallTxt {
+  font-size: .9rem; }
+
+.hcDataLabel {
+  font-size: .9rem;
+  font-weight: 700;
+  margin-bottom: -.3rem; }
+
+.hcIKkImageBlock {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #efefef;
+  padding: 1rem; }
+  .hcIKkImageBlock img {
+    max-width: 500px; }
+
+.hcIKheaderSplit {
+  display: flex;
+  flex-direction: column; }
+
+@media (min-width: 500px) {
+  .hcIKheaderSplit {
+    flex-direction: row; } }
+
+.hcIKresultCard {
+  display: flex;
+  flex-direction: column;
+  background-color: #efefef;
+  margin: -1rem;
+  padding: 1rem; }
+
+.hcIKresultCardInfo {
+  display: flex;
+  flex-direction: column; }
+
+@media (min-width: 500px) {
+  .hcIKresultCardInfo {
+    flex-direction: row; } }
+
+.hcIKkImageBlockResult {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  background-color: #efefef;
+  padding: .5rem; }
+  .hcIKkImageBlockResult img {
+    width: 100px;
+    height: auto; }
+
+.hcIKstate {
+  display: flex;
+  width: 100%;
+  justify-content: flex-end;
+  align-items: center; }
+
+.hcIKstateLabelBlock {
+  padding-right: .5rem;
+  text-align: right; }
+
+.hcIKstateIconBlock {
+  width: 15px;
+  height: 15px;
+  border: 1px solid #fff; }
+
+.hcIKselectedFacet {
+  display: flex;
+  flex-direction: row;
+  overflow-y: hidden; }
+
+.hcIKselectedFacetItem {
+  display: flex;
+  flex-direction: row;
+  font-size: .9rem;
+  align-items: center;
+  margin-left: 2rem; }
+
+.hcIKselectedFacetVal {
+  padding: 0rem .3rem;
+  background-color: #e4e4e4;
+  border-radius: 3px;
+  margin-left: .5rem; }

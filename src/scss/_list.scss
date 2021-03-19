@@ -1,78 +1,22 @@
-.hcList {
-  width: 100%;
-}
-
-.hcListItem {
-  display: flex;
-  flex-direction: column;
-  padding: 0 #{$basicMargin};
-  width: 100%;
-}
-
-
-
-
-.hcListItem >* {
-  flex: 1;
-}
-
-@media (min-width: 600px) {
-  .hcListItem {
-    flex-direction: row;
+.hcList2 {
+  margin-left: 0;
+  margin-right: 0;
+  padding-left: 0;
+  padding-right: 0;
+  
+  li{
+    margin-left: 0;
+    margin-right: 0;
+    padding-left: 0;
+    padding-right: 0;
   }
 }
 
 
-
-.hcListItemBlock {
-  padding: 0;
-  transition: background-color .3s;
-  margin-bottom: 1.5rem;
+.hcList2NoIcon {
+  list-style: none;
 }
 
+.hcResultCard {
 
-
-.hcListItemBlock > *{
-  padding: 1rem 2rem;
-}
-
-
-
-
-
-
-.hcListItemThumb {
-  overflow-y: scroll;
-  display: flex;
-  align-items: flex-start;
-  justify-content: center;
-  background-color: #3b3b3b;
-  padding-top: .5rem;
-}
-
-.hcListItemThumb div{
-  height:170px;
-}
-
-.hcListItemThumb img {
-  width: 200px !important;
-
-  height: auto !important;
-}
-
-.hcListItemDPPBlock  {
-  flex: 2;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-}
-
-
-.hcKwic {
-  border-bottom: 3px dotted rgb(231, 218, 103);
-}
-
-.hcResultsHeader {
-  display: flex;
-  justify-content: space-between;
 }

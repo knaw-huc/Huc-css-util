@@ -201,6 +201,9 @@ strong {
 .hcMarginBottom1 {
   margin-bottom: 1rem; }
 
+.hcMarginBottom1_5 {
+  margin-bottom: 1.5rem; }
+
 .hcMarginBottom2 {
   margin-bottom: 2rem; }
 
@@ -593,6 +596,20 @@ input::placeholder {
   text-transform: uppercase;
   font-size: .85rem; }
 
+.hcList2 {
+  margin-left: 0;
+  margin-right: 0;
+  padding-left: 0;
+  padding-right: 0; }
+  .hcList2 li {
+    margin-left: 0;
+    margin-right: 0;
+    padding-left: 0;
+    padding-right: 0; }
+
+.hcList2NoIcon {
+  list-style: none; }
+
 .hcStickyFooter {
   position: fixed;
   width: 100%;
@@ -720,9 +737,6 @@ hr {
 .hcContentContainer > * {
   width: 100%;
   max-width: 1200px; }
-  .hcContentContainer > * img {
-    width: 100%;
-    height: auto; }
 
 .hcBlockText {
   width: 100%; }

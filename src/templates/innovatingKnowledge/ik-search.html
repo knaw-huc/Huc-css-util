@@ -1,0 +1,74 @@
+{{> html-head}}
+{{> custom/inknow-header}}
+
+
+
+<div class="hcContentContainer hcMarginTop3">
+
+
+  <div class="hcLayoutFacet-Result hcBasicSideMargin hcMarginBottom15">
+
+    <div class="hcLayoutFacets">
+      <button type="button" name="button" id="showFacets" class="hcfixedSideButton"><img src="images/icons/icon-set-facets.svg" class="icon"></button>
+      <div class="hcLayoutFacetsToggel" id="hcLayoutFacetsToggel">
+        <img src="images/custom/innKnow/facets.png" alt="" width="250px;">
+      </div>
+    </div>
+
+
+
+
+    <div class="hcLayoutResults">
+      <div class="hcMarginBottom2">
+        <div class="hcIKselectedFacet">
+          <div class="">Selected facets:</div>
+          {{> custom/inknow-selectedFaced fName="Provenance" fVal="Fleury"}}
+          {{> custom/inknow-selectedFaced fName="Date scaled" fVal="8th century"}}
+          {{> custom/inknow-selectedFaced fName="Page dimensions" fVal="Page dimensions"}}
+
+        </div>
+
+
+      </div>
+
+      <div class="hcResultsHeader hcMarginBottom2">
+        <div>Manuscripts found: <strong>458</strong></div>
+        <div>
+
+        </div>
+      </div>
+
+
+
+      <ul class="hcList2 hcList2NoIcon hcMarginBottom2">
+        {{#each results}}
+          {{>list-items/list-inknow-result}}
+        {{/each}}
+
+      </ul>
+
+
+      <div class="hcAlignLeftRight">
+        <div>{{> comp-pagination}}</div>
+        <div><select class="" name="">
+          <option value="">25 manuscripts per page</option>
+          <option value="">100 manuscripts per page</option>
+          <option value="">Show all manuscripts</option>
+        </select></div>
+      </div>
+
+
+    </div>
+
+
+
+
+  </div>
+</div>
+
+
+
+
+
+
+{{> html-footer}}
