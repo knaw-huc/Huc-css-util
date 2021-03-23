@@ -112,17 +112,37 @@ a {
 .hcIKselectedFacet {
   display: flex;
   flex-direction: row;
-  overflow-y: hidden; }
+  align-items: center;
+  overflow-y: hidden;
+  width: 100%;
+  white-space: nowrap;
+  height: 50px;
+  border-bottom: 1px solid #e6e6e6;
+  font-size: .9rem; }
+
+.hcIKselectedFacetBuffer {
+  width: 200%;
+  display: flex;
+  flex-direction: row; }
 
 .hcIKselectedFacetItem {
   display: flex;
   flex-direction: row;
-  font-size: .9rem;
   align-items: center;
-  margin-left: 2rem; }
+  margin-left: 1rem; }
 
 .hcIKselectedFacetVal {
   padding: 0rem .3rem;
   background-color: #e4e4e4;
   border-radius: 3px;
-  margin-left: .5rem; }
+  margin-left: .5rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center; }
+  .hcIKselectedFacetVal .hcIcon {
+    padding: 0 0 0 .3rem;
+    opacity: .7; }
+
+.hcIKidBlock {
+  width: 50px;
+  text-align: right; }
