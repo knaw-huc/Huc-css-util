@@ -38,9 +38,9 @@ a {
   padding: 2rem 1rem; }
 
 .bgColorBrandIK {
-  background-color: #d3d7e2; }
+  background-color: #0A3D73; }
   .bgColorBrandIK a {
-    color: #2f404a; }
+    color: #fff; }
 
 .hcSmallTxt {
   font-size: .9rem; }
@@ -146,3 +146,8 @@ a {
 .hcIKidBlock {
   width: 50px;
   text-align: right; }
+
+.hcBrandLogo img {
+  width: 300px;
+  height: auto;
+  margin-top: 1.2rem; }
