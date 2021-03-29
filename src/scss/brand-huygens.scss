@@ -35,14 +35,27 @@
 
 
 // innovating knowledge
+$bgIK: hsl(27, 35%, 96%);
+$ikBrandcolor: #0A3D73;
+$ikBrandcolorLight: hsl(210, 30%, 90%);
+
+hr {
+	color: $ikBrandcolorLight;
+	background-color: $ikBrandcolorLight;
+}
+
+
 .bgColorBrandIK {
-	background-color: #0A3D73;
+	background-color: $ikBrandcolor;
 
 	a{
 		color: #fff;
 	}
 }
 
+.hcIKBgLight {
+	background-color: $bgIK;
+}
 
 .hcSmallTxt {
 	font-size: .9rem
@@ -60,7 +73,7 @@
 	flex-direction: column;
 	align-items: center;
 	justify-content: center;
-	background-color: $colorHuygensGreyLight;
+	background-color: $bgIK;
 	padding: 1rem;
 
 	img {
@@ -83,7 +96,7 @@
 .hcIKresultCard {
 	display: flex;
 	flex-direction: column;
-	background-color: $colorHuygensGreyLight;
+	//background-color: $colorHuygensGreyLight;
 	margin: -1rem;
 	padding: 1rem;
 }
@@ -105,7 +118,7 @@
 	flex-direction: column;
 	align-items: center;
 	justify-content: flex-start;
-	background-color: $colorHuygensGreyLight;
+	background-color: $bgIK;
 	padding: .5rem;
 
 	img {
@@ -186,7 +199,7 @@
 
 
 .hcIKidBlock {
-	width: 50px;
+	width: 60px;
 	text-align: right;
 }
 
