@@ -143,9 +143,15 @@ hr {
 }
 
 .hcIKstateIconBlock {
-	width: 15px;
-	height: 15px;
-	border: 1px solid #fff;
+	// width: 15px;
+	// height: 15px;
+	//border: 1px solid #fff;
+	padding: .1rem .2rem 0rem .2rem;
+
+	img {
+		height: 20px;
+		width: auto;
+	}
 }
 
 

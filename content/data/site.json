@@ -458,7 +458,7 @@
         "name": "lenticular_lenses_linkset"
       }
     ]
-
+    
     },
     {
       "name": "ga-one-dataset",
@@ -799,13 +799,13 @@
           {
             "collectionName": "Persons",
             "collectionAmount": 82862
-
+    
           }
         ],
         "logos":["logo-huygensIng.png"]
       }
     ]
-
+    
     },
     {
       "name": "hi-one-dataset",
@@ -1155,7 +1155,7 @@
       "person-death-date": "1968-10-11",
       "person-death-place": "Waalre"
     }
-
+    
       ],
       "resultListComp":"list-items/list-tim-simple-person",
       "resultsAmount": 143,
@@ -1296,7 +1296,7 @@
           {
             "collectionName": "Persons",
             "collectionAmount": 82862
-
+    
           }
         ],
         "logos":["logo-huygensIng.png"]
@@ -1424,7 +1424,7 @@
       ],
       "logos":["logo-huygensIng.png"]
     }
-
+    
     },
     {
       "name": "hi-collection-detail",
@@ -1590,7 +1590,7 @@
           {
             "collectionName": "Persons",
             "collectionAmount": 82862
-
+    
           }
         ],
         "logos":["logo-huygensIng.png"]
@@ -1718,7 +1718,7 @@
       ],
       "logos":["logo-huygensIng.png"]
     }
-
+    
     },
     {
       "name": "emlo-one-datset",
@@ -1943,7 +1943,7 @@
       "person-death-date": "1968-10-11",
       "person-death-place": "Waalre"
     }
-
+    
       ],
       "resultListComp":"list-items/list-tim-simple-person",
       "resultsAmount": 143,
@@ -2084,7 +2084,7 @@
           {
             "collectionName": "Persons",
             "collectionAmount": 82862
-
+    
           }
         ],
         "logos":["logo-huygensIng.png"]
@@ -2212,7 +2212,7 @@
       ],
       "logos":["logo-huygensIng.png"]
     }
-
+    
     },
     {
       "name": "emlo-collection-detail",
@@ -2361,7 +2361,7 @@
         "name": "lenticular_lenses_linkset"
       }
     ]
-
+    
     },
     {
       "name": "clariah-one-dataset",
@@ -2531,7 +2531,7 @@
         "name": "lenticular_lenses_linkset"
       }
     ]
-
+    
     },
     {
       "name": "clariah-one-dataset",
@@ -2737,7 +2737,8 @@
                   "content":"Rudolph of Bourges, Instructio pastoralis; Collectio Albigensis",
                   "state":[{
                     "name":"non-canonical Etymologiae",
-                    "color":"rgb(231, 133, 200)"
+                    "color":"rgb(231, 133, 200)",
+                    "icon":"icon-non.png"
                   }],
                   "thumb":"M0002.jpg"
                 },
@@ -2751,7 +2752,8 @@
                   "content":"Synonyma Ciceronis; Eucherius, Formulae spiritalis intelligentiae; Augustine, Homiliae; Isidore, Chronicon; De proprietate sermonum; Isidore, Quaestiones Veteri et Novi testamenti; Gennadius, De ecclesiasticis dogmatibus; Decretum Gelasianum; Jerome, Expositio super Daniel",
                   "state":[{
                     "name":"non-canonical Etymologiae",
-                    "color":"rgb(231, 133, 200)"
+                    "color":"rgb(231, 133, 200)",
+                    "icon":"icon-non.png"
                   }],
                   "thumb":"M0001.jpg"
                 },
@@ -2765,7 +2767,8 @@
                   "content":"Collectio vetus Gallica; Decretum Gelasianum; ps-Bede, De remediis peccatorum; Augustine, De vera religione; Bede, De temporum ratione; computistica",
                   "state":[{
                     "name":"non-canonical Etymologiae",
-                    "color":"rgb(231, 133, 200)"
+                    "color":"rgb(231, 133, 200)",
+                    "icon":"icon-non.png"
                   }],
                   "thumb":"M0003.jpg"
                 },
@@ -2779,11 +2782,13 @@
                   "content":"",
                   "state":[{
                     "name":"canonical Etymologiae",
-                    "color":"rgb(231, 133, 200)"
+                    "color":"rgb(231, 133, 200)",
+                    "icon":"icon-non.png"
                   },
                   {
                     "name":"1 volume cropped",
-                    "color":"rgb(133, 190, 231)"
+                    "color":"rgb(133, 190, 231)",
+                    "icon":"icon-non.png"
                   }],
                   "thumb":"M0021.jpg"
                 },
@@ -2797,7 +2802,8 @@
                   "content":"Victor of Aquitaine, Calculus; De mensuris et ponderibus",
                   "state": [{
                     "name":"excerpts",
-                    "color":"rgb(133, 231, 195)"
+                    "color":"rgb(133, 231, 195)",
+                    "icon":"icon-extract.png"
                   }],
                   "thumb":"noThumb.png"
                 }
