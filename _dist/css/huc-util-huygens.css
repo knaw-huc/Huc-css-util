@@ -1654,25 +1654,26 @@ hr {
 
 .hcIKselectedFacet {
   display: flex;
+  flex-wrap: wrap;
   flex-direction: row;
   align-items: center;
-  overflow-y: hidden;
   width: 100%;
   white-space: nowrap;
-  height: 50px;
   border-bottom: 1px solid #e6e6e6;
   font-size: .9rem; }
 
 .hcIKselectedFacetBuffer {
-  width: 200%;
+  width: 100%;
   display: flex;
-  flex-direction: row; }
+  flex-direction: row;
+  flex-wrap: wrap; }
 
 .hcIKselectedFacetItem {
   display: flex;
   flex-direction: row;
   align-items: center;
-  margin-left: 1rem; }
+  margin-left: 1rem;
+  margin-bottom: .3rem; }
 
 .hcIKselectedFacetVal {
   padding: 0rem .3rem;
