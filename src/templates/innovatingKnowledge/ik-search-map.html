@@ -1,0 +1,72 @@
+{{> html-head}}
+{{> custom/inknow-header}}
+
+
+
+<div class="hcContentContainer hcMarginTop3">
+
+
+  <div class="hcLayoutFacet-Result hcBasicSideMargin hcMarginBottom15">
+
+    <div class="hcLayoutFacets">
+      <button type="button" name="button" id="showFacets" class="hcfixedSideButton"><img src="images/icons/icon-set-facets.svg" class="icon"></button>
+      <div class="hcLayoutFacetsToggel" id="hcLayoutFacetsToggel">
+        <img src="images/custom/innKnow/facets.png" alt="" width="250px;">
+      </div>
+    </div>
+
+
+
+
+    <div class="hcLayoutResults">
+      <div class="hcMarginBottom3">
+        <div class="hcIKselectedFacet">
+          <div class=""><em>Selected facets:</em></div>
+          <div class="hcIKselectedFacetBuffer">
+            {{> custom/inknow-selectedFaced fName="Provenance" fVal="Fleury"}}
+            {{> custom/inknow-selectedFaced fName="Date scaled" fVal="8th century"}}
+            {{> custom/inknow-selectedFaced fName="Page dimensions" fVal="Page dimensions"}}
+            {{> custom/inknow-selectedFaced fName="Provenance" fVal="Fleury"}}
+            {{> custom/inknow-selectedFaced fName="Date scaled" fVal="8th century"}}
+            {{> custom/inknow-selectedFaced fName="Page dimensions" fVal="Page dimensions"}}
+          </div>
+
+        </div>
+
+
+      </div>
+
+      <div class="hcResultsHeader hcMarginBottom2">
+        <div>Manuscripts found: <strong>458</strong></div>
+        <div>
+          <a href="">Download results</a>
+        </div>
+
+        <div class="hcAlignHorizontal">
+          <button  onclick="javascript:location.href='innovating-knowledge-search.html'">Results in list</button>
+          <button  onclick="javascript:location.href='innovating-knowledge-search-map.html'">Results on map</button>
+        </div>
+      </div>
+
+
+  <div class="removeThisClass-Rob">
+    <!-- map code here -->
+    <img src="images/custom/innKnow/map-europe.png" alt="">
+  </div>
+
+
+
+    </div>
+
+
+
+
+  </div>
+</div>
+
+
+
+
+
+
+{{> html-footer}}

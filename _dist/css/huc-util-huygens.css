@@ -1695,3 +1695,9 @@ hr {
   width: 300px;
   height: auto;
   margin-top: 1.2rem; }
+
+.removeThisClass-Rob {
+  width: 100%; }
+  .removeThisClass-Rob img {
+    width: 100%;
+    height: auto; }
