@@ -233,3 +233,12 @@ hr {
 		height: auto;
 	}
 }
+
+.hcEqual {
+	width: 100%;
+}
+
+.hcIKresultCardInfo .hc2columns > * {
+	flex:1;
+	max-width: 50%;
+}
