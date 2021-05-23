@@ -1,3 +1,5 @@
+let splitInterfaceVal = true;
+
 document.getElementById('hcCodeEditor').style.display= 'none';
 document.getElementById('qb').classList.add("bgColorBrand1");
 
@@ -24,3 +26,40 @@ function toggIn() {
     document.getElementById('qb').classList.remove("bgColorBrand1");
   }
 }
+
+
+function splitToggle() {
+  if (splitInterfaceVal) {
+    splitInterfaceVal = false;
+  } else {
+    splitInterfaceVal = true;
+  }
+console.log('v=',splitInterfaceVal);
+
+  splitInterface(splitInterfaceVal);
+}
+
+
+
+
+function splitInterface(splitInterfaceVal) {
+  if (splitInterfaceVal) {
+    document.getElementById('splitGa').classList.add("gaSplitCol");
+  } else {
+    document.getElementById('splitGa').classList.remove("gaSplitCol");
+  }
+}
+
+
+
+function myFunction(x) {
+  // if (x.matches) { // If media query matches
+  //   document.body.style.backgroundColor = "yellow";
+  // } else {
+  //   document.body.style.backgroundColor = "pink";
+  // }
+}
+
+var x = window.matchMedia("(max-width: 1000px)")
+myFunction(x) // Call listener function at run time
+//x.addListener(myFunction) // Attach listener function on state changes

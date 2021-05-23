@@ -1,0 +1,47 @@
+.hcLayoutStaticAside {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.hcLayoutStaticAsideM {
+  width: 100%;
+  background-color: rgb(136, 208, 219);
+  max-height: 50vh;
+}
+
+
+.hcLayoutStaticAsideL {
+  width: 50%;
+  background-color: rgb(236, 208, 219);
+
+}
+
+
+.hcLayoutStaticAsideR {
+  width: 50%;
+  background-color: rgb(36, 208, 219);
+}
+
+
+@media (min-width: 1100px) {
+  .hcLayoutStaticAsideM {
+    width: 50%;
+    max-height: none;
+    order: 2;
+  }
+
+
+  .hcLayoutStaticAsideL {
+    width: 25%;
+    order: 1;
+
+  }
+
+
+  .hcLayoutStaticAsideR {
+    width: 25%;
+    order: 3;
+  }
+
+}

@@ -32,6 +32,7 @@
       <button id="qb" class="hcGaTog1">Query builder</button><button id="sce" class="hcGaTog1">Sparql code editor</button>
     </div>
     <div>
+      <button type="button" onclick="splitToggle()">Interface</button>
       <button type="button">Save query</button>
       <button type="button">Load query</button>
     </div>
@@ -40,9 +41,9 @@
 
 
   <!-- responsive splitscreen -->
-  <div class="hcSpitscreen hcSpitscreenGa hcFlex1">
+  <div class="hcSpitscreen hcSpitscreenGa hcFlex1" id="splitGa">
     <!-- first panel: querybuilser / code editor -->
-    <div class="hcContentContainer hcMarginBottom3 hcBasicSideMargin hcFlex1">
+    <div class=" hcMarginBottom3 hcBasicSideMargin hcFlex1">
       <div id="hcCodeEditor" class="hcGaSce">
         <!-- code editor -->
         <div class="hcCodeEditor" >
@@ -201,7 +202,7 @@
     <!-- // first panel -->
 
     <!-- second panel: process / results -->
-    <div class="hcContentContainer hcFlex1 hcClrBg_Grey05">
+    <div class="hcFlex1 hcClrBg_Grey05">
       <div class="hcTabs hcTabsHoriz hcBgWhite">
         <!-- tabs header -->
         <div class="hcTabLabels">

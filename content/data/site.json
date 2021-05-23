@@ -30,6 +30,22 @@
       "title": "Pages"
     },
     {
+      "name": "new-util-home",
+      "template": "new-util/home",
+      "logo": "logo-knaw-humanities-cluster.png",
+      "productBar":"<a href=\"index.html\"><img src=\"images/icons/prdct-br-styles.svg\" alt=\"CSS styles\" class=\"icon\">Css Styles</a> <a href=\"util-components.html\"><img src=\"images/icons/prdct-br-components.svg\" alt=\"Components\" class=\"icon\">Components</a><a href=\"util-pages.html\"><img src=\"images/icons/prdct-br-pages.svg\" alt=\"Pages\" class=\"icon\">Pages</a>",
+      "brand": "-self",
+      "title": "Pages"
+    },
+    {
+      "name": "new-util-pages",
+      "template": "new-util/pages",
+      "logo": "logo-knaw-humanities-cluster.png",
+      "productBar":"<a href=\"index.html\"><img src=\"images/icons/prdct-br-styles.svg\" alt=\"CSS styles\" class=\"icon\">Css Styles</a> <a href=\"util-components.html\"><img src=\"images/icons/prdct-br-components.svg\" alt=\"Components\" class=\"icon\">Components</a><a href=\"util-pages.html\"><img src=\"images/icons/prdct-br-pages.svg\" alt=\"Pages\" class=\"icon\">Pages</a>",
+      "brand": "-self",
+      "title": "Pages"
+    },
+    {
       "name": "all-elements-on-page",
       "template": "all-elements",
       "brand": "-huygens",
@@ -655,6 +671,16 @@
       "isPage": true,
       "favi":"favi-ga.png",
       "title": "Golden Agents | Lenticular Lenses II | Logic box"
+    },
+    {
+      "name": "ga-ll-cluster-items2",
+      "template": "golden-agents/ga-ll-cluster-items2",
+      "project-name": "Golden Agents",
+      "brand": "-ga",
+      "logo": "logo-golden-agents.svg",
+      "isPage": true,
+      "favi":"favi-ga.png",
+      "title": "Golden Agents | Lenticular Lenses II | C2"
     },
     {
       "name": "hi-home",

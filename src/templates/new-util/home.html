@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Clariah UI / UX</title>
+      <meta charset="utf-8">
+    	<meta name="viewport" content="width=device-width, initial-scale=1">
+      <link rel="stylesheet" href="/css/util-2.css">
+  </head>
+  <body>
+
+    <a href="#main">skip to main content</a>
+    <nav>
+      <a href="">Toolkit</a>
+      <a href="">Interfaces</a>
+    </nav>
+
+    <div class="">
+      <input type="text" id="myInput" onkeyup="findInList()">
+    </div>
+
+
+
+
+    <main id="main">
+      <ul id="contentList">
+        <li>
+          <div>content A</div>
+          <div>
+            <span class="tag">tag1</span>
+            <span class="tag">tag2</span>
+          </div>
+        </li>
+
+        <li>
+          <div>content B</div>
+          <div>
+            <span class="tag">tag2</span>
+            <span class="tag">tag3</span>
+          </div>
+        </li>
+
+        </ul>
+    </main>
+
+
+    {{> cssUtil-block            file="introduction"}}
+    {{> cssUtil-block            file="basicUtilities"}}
+    {{> cssUtil-block            file="text"}}
+    {{> cssUtil-block            file="forms"}}
+    {{> cssUtil-block            file="multipleItems"}}
+    {{> cssUtil-block            file="interaction"}}
+    {{> cssUtil-block            file="functionalElements"}}
+    {{> cssUtil-block            file="layouts"}}
+
+
+
+
+    <!-- build:js js/utilSearchList.js -->
+      <script type="text/javascript" src="../../js/listSearch.js"></script>
+    <!-- endbuild -->
+
+  </body>
+</html>
