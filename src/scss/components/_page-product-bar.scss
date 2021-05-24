@@ -50,16 +50,16 @@
     }
 
   }
-  .hcProductBar:hover {
-    width: 300px;
-    transition: width .4s;
-  }
-
-  .hcProductBar:hover .logo{
-    width: 4rem;
-    margin-left: 0rem;
-    transition: all .4s;
-  }
+  // .hcProductBar:hover {
+  //   width: 300px;
+  //   transition: width .4s;
+  // }
+  //
+  // .hcProductBar:hover .logo{
+  //   width: 4rem;
+  //   margin-left: 0rem;
+  //   transition: all .4s;
+  // }
 
 
   .hcProductBar + .hcContentContainer{

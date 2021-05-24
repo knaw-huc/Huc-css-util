@@ -735,8 +735,7 @@ hr {
   width: 100%; }
 
 .hcContentContainer > * {
-  width: 100%;
-  max-width: 1200px; }
+  width: 100%; }
 
 .hcBlockText {
   width: 100%; }
@@ -745,10 +744,6 @@ hr {
 
 .hcBlockText > * {
   width: 100%; }
-
-@media (min-width: 800px) {
-  .hcBlockText > * {
-    max-width: 70%; } }
 
 .hcHeadSpace {
   height: 25vh;
@@ -1251,13 +1246,6 @@ hr {
       margin-bottom: 2rem;
       width: 200px;
       color: #3e3e3e; }
-  .hcProductBar:hover {
-    width: 300px;
-    transition: width .4s; }
-  .hcProductBar:hover .logo {
-    width: 4rem;
-    margin-left: 0rem;
-    transition: all .4s; }
   .hcProductBar + .hcContentContainer {
     margin-left: 4rem;
     width: calc(100% - 4rem); } }

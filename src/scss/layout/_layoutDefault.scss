@@ -8,7 +8,7 @@
 
 .hcContentContainer >* {
   width: 100%;
-  max-width: $siteMax;
+  //max-width: $siteMax;
 
   // img {
   //   width: 100%;
@@ -32,7 +32,7 @@
 
 @media (min-width: #{$siteBreak}) {
   .hcBlockText > * {
-    max-width: 70%;
+    //max-width: 70%;
   }
 }
 
