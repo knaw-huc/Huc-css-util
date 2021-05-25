@@ -735,7 +735,8 @@ hr {
   width: 100%; }
 
 .hcContentContainer > * {
-  width: 100%; }
+  width: 100%;
+  max-width: 1200px; }
 
 .hcBlockText {
   width: 100%; }
