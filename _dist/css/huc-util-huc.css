@@ -188,6 +188,9 @@ strong {
 .hcIconSmall svg {
   width: 1rem; }
 
+.hcPointer {
+  cursor: pointer; }
+
 .hcBasicSideMargin {
   padding-left: 2rem;
   padding-right: 2rem; }
@@ -339,6 +342,31 @@ strong {
 
 .hcTxtCenter {
   text-align: center; }
+
+.hcLists > * {
+  list-style: none;
+  margin-top: 0;
+  margin-left: 0;
+  margin-right: 0;
+  margin-bottom: 1.2rem;
+  padding-top: 0;
+  padding-left: 0;
+  padding-right: 0;
+  padding-bottom: 1.2rem;
+  border-bottom: 1px solid #d9d9d9; }
+
+.hcListsItemRow {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1rem; }
+  .hcListsItemRow > * {
+    margin-bottom: 1rem; }
+
+@media (min-width: 800px) {
+  .hcListsItemRow {
+    flex-direction: row; }
+    .hcListsItemRow > * {
+      margin-bottom: 0; } }
 
 .hcList {
   display: flex;
@@ -513,6 +541,31 @@ strong {
   .hc6columns > * {
     flex-basis: 15%; } }
 
+.hcColumnsAuto {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  width: 100%; }
+  .hcColumnsAuto > * {
+    flex: 1; }
+
+@media (min-width: 800px) {
+  .hcColumnsAuto {
+    flex-direction: row;
+    gap: 2rem; } }
+
+.hcCell--x2 {
+  flex: 2; }
+
+.hcCell--x3 {
+  flex: 3; }
+
+.hcCell--x4 {
+  flex: 4; }
+
+.hcCell--x5 {
+  flex: 5; }
+
 button {
   font-size: .7rem;
   padding: .5rem;
@@ -523,6 +576,13 @@ button {
   font-weight: 700;
   margin: 0 .3rem;
   max-height: 40px; }
+
+.hcImageButttons {
+  max-height: 35px;
+  max-width: 35px;
+  background-color: rgba(0, 0, 0, 0.07);
+  border: 1px solid rgba(0, 0, 0, 0.09);
+  padding: .25rem; }
 
 .hc-loud {
   padding: .8rem;
@@ -726,6 +786,20 @@ hr {
   overflow: hidden;
   text-overflow: ellipsis;
   max-width: 200px; }
+
+.hcMsg--info {
+  background-color: #e6f6ff;
+  border: 1px solid #b3d4e6;
+  color: #265873;
+  border-radius: 4px;
+  position: absolute;
+  width: 100%;
+  max-width: 720px;
+  padding: 1rem;
+  box-shadow: 2px 2px 2px #d9d9d9; }
+
+.hcPointer {
+  cursor: pointer; }
 
 .hcContentContainer {
   display: flex;
@@ -1375,9 +1449,9 @@ hr {
 
 .hcQueryBuilder {
   display: flex;
-  flex-direction: row;
-  justify-content: flex-start;
-  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
   font-size: 1.1rem;
   font-weight: 700; }
 
@@ -1392,6 +1466,13 @@ hr {
 
 .hcQBuildBlock:hover {
   box-shadow: 2px 2px 2px #d9d9d9; }
+
+.hcQueryBuilderRow {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  margin-bottom: 1rem; }
 
 .hcQBuildBlockInt {
   border: 1px solid #cccccc;

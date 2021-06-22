@@ -8,19 +8,36 @@
     <div class="hcToggle">
       <button id="qb" class="hcGaTog1">Query builder</button><button id="sce" class="hcGaTog1">Sparql code editor</button>
     </div>
+    <input type="image" name="" src="images/custom/ga-agent/b_toggle_Col.png" alt="Toggle interface" onclick="splitToggle()" class="hcImageButttons" id="b_splitToggle">
     <div>
-      <button type="button" onclick="splitToggle()">Interface</button>
-      <button type="button">Save query</button>
-      <button type="button">Load query</button>
+
+      <button type="button" onclick="javascript:location.href='ga-multi-agent-modal-save.html'">Save query</button>
+      <button type="button" onclick="javascript:location.href='ga-multi-agent-modal-load.html'">Load query</button>
     </div>
   </div>
   <!-- // GA button bar -->
 
 
   <!-- responsive splitscreen -->
-  <div class="hcSpitscreen hcSpitscreenGa hcFlex1" id="splitGa">
+  <main class="hcSpitscreen hcSpitscreenGa hcFlex1" id="splitGa">
     <!-- first panel: querybuilser / code editor -->
     <div class=" hcMarginBottom3 hcBasicSideMargin hcFlex1">
+
+      <div class="hcMsg--info" id="msg01">
+        <div class="hc2columns hcMarginBottom05">
+          <div class="hcSmallTxt">Info</div>
+          <div class="hcAlignRight"><span class="hcIcon hcIconSmall hcPointer" onclick="closeMsg()">{{>icon-util-close}}</span></div>
+        </div>
+        Use the blocks to build up your search query. The results will appear in the right panel.
+
+        <div class="hc2columns hcMarginBottom05">
+          <div class="hcSmallTxt"></div>
+          <div class="hcSmallTxt hcTxtRight"><a href=""  onclick="closeMsg(); return:false">Skip</a></div>
+        </div>
+
+      </div>
+
+
       <div id="hcCodeEditor" class="hcGaSce">
         {{> comp-code-editor}}
         <div><button type="button" class="hcClrBg_Reward">Run query</button></div>
@@ -28,7 +45,7 @@
 
 
 
-      {{> custom/ga-qBuilder}}
+      {{> custom/ga-qBuilder2}}
 
 
     </div>
@@ -36,7 +53,7 @@
 
     <!-- second panel: process / results -->
     <div class="hcFlex1 hcClrBg_Grey05">
-      <div class="hcTabs hcTabsHoriz hcBgWhite">
+      <div class="hcTabs hcTabsHoriz hcBgWhite" id="hcGaPanelRight">
         <!-- tabs header -->
         <div class="hcTabLabels">
           <div class="hcTabLabel hcRoundedCornersTop" id="tab-list-progress">Progress
@@ -60,26 +77,7 @@
           <!--  Tab results-->
           <div class="hcTabContent hcMarginTop2 hcBasicSideMargin" id="tab-content-results">
 
-            <div class="hcList">
-              <div class="hcListHeader">
-                <div class="hcLabel">Name</div>
-                <div class="hcLabel">uri</div>
-              </div>
-            </div>
-
-
-            <div class="hcList hcListDisctinctLines">
-              {{#each resultsList}}
-                <div>
-                  <strong>{{f1}}</strong>
-                  <div class="hcSmallTxt">{{f2}}</div>
-                </div>
-              {{/each}}
-            </div>
-            <div class="hc2columns hcMarginTop2 hcMarginBottom5">
-              <div>{{> comp-pagination}}</div>
-              <div class="hcAlignRight"><button type="button">Export</button></div>
-            </div>
+            {{> custom/ga-agent-datatable}}
           </div>
 
           <!-- tab datasets-->
@@ -97,7 +95,7 @@
 
     </div><!-- // second panel -->
 
-  </div><!-- // responsive splitscreen -->
+  </main><!-- // responsive splitscreen -->
 
 
 

@@ -31,19 +31,50 @@
     <div class="hcToggle">
       <button id="qb" class="hcGaTog1">Query builder</button><button id="sce" class="hcGaTog1">Sparql code editor</button>
     </div>
+    <input type="image" name="" src="images/custom/ga-agent/b_toggle_Col.png" alt="Toggle interface" onclick="splitToggle()" class="hcImageButttons" id="b_splitToggle">
     <div>
-      <button type="button" onclick="splitToggle()">Interface</button>
-      <button type="button">Save query</button>
-      <button type="button">Load query</button>
+
+      <button type="button" onclick="javascript:location.href='ga-multi-agent-modal-save.html'">Save query</button>
+      <button type="button" onclick="javascript:location.href='ga-multi-agent-modal-load.html'">Load query</button>
     </div>
   </div>
   <!-- // GA button bar -->
 
 
   <!-- responsive splitscreen -->
-  <div class="hcSpitscreen hcSpitscreenGa hcFlex1" id="splitGa">
+  <main class="hcSpitscreen hcSpitscreenGa hcFlex1" id="splitGa">
     <!-- first panel: querybuilser / code editor -->
     <div class=" hcMarginBottom3 hcBasicSideMargin hcFlex1">
+
+      <div class="hcMsg--info" id="msg01">
+        <div class="hc2columns hcMarginBottom05">
+          <div class="hcSmallTxt">Info</div>
+          <div class="hcAlignRight"><span class="hcIcon hcIconSmall hcPointer" onclick="closeMsg()"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" height="32" width="32" viewbox="0 0 32 32" preserveAspectRatio="xMinYMin meet">
+  <defs>
+    <path id="path-0" opacity="1" fill-rule="evenodd" d="M14.42726390280393,-3.0546604337730514 L17.572772939300993,-3.0546604337730514 C18.67660298828899,-3.0546604337730514 19.572772939300993,-2.158490482761051 19.572772939300993,-1.0546604337730514 L19.572772939300993,33.054697275877515 C19.572772939300993,34.15852732486552 18.67660298828899,35.054697275877515 17.572772939300993,35.054697275877515 L14.42726390280393,35.054697275877515 C13.32343385381593,35.054697275877515 12.42726390280393,34.15852732486552 12.42726390280393,33.054697275877515 L12.42726390280393,-1.0546604337730514 C12.42726390280393,-2.158490482761051 13.32343385381593,-3.0546604337730514 14.42726390280393,-3.0546604337730514Z"/>
+    <path id="path-1" opacity="1" fill-rule="evenodd" d="M-1.0546723429395115,12.427266135772811 L33.05470918504483,12.427266135772811 C34.15853923403283,12.427266135772811 35.05470918504483,13.323436086784811 35.05470918504483,14.427266135772811 L35.05470918504483,17.572770706332292 C35.05470918504483,18.67660075532029 34.15853923403283,19.572770706332292 33.05470918504483,19.572770706332292 L-1.0546723429395115,19.572770706332292 C-2.1585023919275113,19.572770706332292 -3.0546723429395115,18.676600755320294 -3.0546723429395115,17.572770706332292 L-3.0546723429395115,14.427266135772811 C-3.0546723429395115,13.323436086784811 -2.158502391927512,12.427266135772811 -1.0546723429395115,12.427266135772811Z"/>
+  </defs>
+  <g opacity="1">
+    <g transform="translate(16.00001842105246, 16.000018421052232) rotate(315.0001126327126) translate(-16.00001842105246, -16.000018421052232)" opacity="1">
+      <use xlink:href="#path-0"  class="hcIconFill"/>
+    </g>
+    <g transform="translate(16.00001842105266, 16.000018421052552) rotate(315.0001126327126) translate(-16.00001842105266, -16.000018421052552)" opacity="1">
+      <use xlink:href="#path-1"  class="hcIconFill"/>
+    </g>
+  </g>
+</svg>
+</span></div>
+        </div>
+        Use the blocks to build up your search query. The results will appear in the right panel.
+
+        <div class="hc2columns hcMarginBottom05">
+          <div class="hcSmallTxt"></div>
+          <div class="hcSmallTxt hcTxtRight"><a href=""  onclick="closeMsg(); return:false">Skip</a></div>
+        </div>
+
+      </div>
+
+
       <div id="hcCodeEditor" class="hcGaSce">
         <!-- code editor -->
         <div class="hcCodeEditor" >
@@ -64,136 +95,99 @@
 
       <!-- GA query builder -->
       <div class="hcQueryBuilder hcQBHeight" id="hcQueryBuilder">
-         <!-- query builder block -->
-         <div class="hcQBuildBlock">
-         
-           Give&nbsp;me
-         
-         </div>
-         <!-- // query builder block -->
-         <!-- query builder block -->
-         <div class="hcQBuildBlock hcQBuildBlockInt hcRoundedCorners">
-         
-           every&nbsp;painter
-         
-           <div class="hcIcon hcIconSmall"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" height="32" width="32" viewbox="0 0 32 32" preserveAspectRatio="xMinYMin meet">
-         
-         
-           <polygon points="0,10 32,10 16,27" class="hcIconFill" />
-         </svg>
-         </div>
-         </div>
-         <!-- // query builder block -->
-         <!-- query builder choice block -->
-         <div class="hcQBuildBlockChoice">
-           <div class="hcQBuildBlock">who ..</div>
-           <div class="hcQBuildBlock">and / or ..</div>
-           <div class="hcQBuildBlock">order by ..</div>
-           <div class="hcQBuildBlock">show ..</div>
-         </div>
-         <!-- // query builder choice block -->
-         <!-- query builder browse block -->
-         <div class="hcQBuildBlockBrowse hcRoundedCorners">
-         
-           <div class="hc2columns hcMarginBottom1">
-             <div>who</div>
-             <div class="hcAlignRight"><span class="hcIcon hcIconSmall "><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" height="32" width="32" viewbox="0 0 32 32" preserveAspectRatio="xMinYMin meet">
-           <defs>
-             <path id="path-0" opacity="1" fill-rule="evenodd" d="M14.42726390280393,-3.0546604337730514 L17.572772939300993,-3.0546604337730514 C18.67660298828899,-3.0546604337730514 19.572772939300993,-2.158490482761051 19.572772939300993,-1.0546604337730514 L19.572772939300993,33.054697275877515 C19.572772939300993,34.15852732486552 18.67660298828899,35.054697275877515 17.572772939300993,35.054697275877515 L14.42726390280393,35.054697275877515 C13.32343385381593,35.054697275877515 12.42726390280393,34.15852732486552 12.42726390280393,33.054697275877515 L12.42726390280393,-1.0546604337730514 C12.42726390280393,-2.158490482761051 13.32343385381593,-3.0546604337730514 14.42726390280393,-3.0546604337730514Z"/>
-             <path id="path-1" opacity="1" fill-rule="evenodd" d="M-1.0546723429395115,12.427266135772811 L33.05470918504483,12.427266135772811 C34.15853923403283,12.427266135772811 35.05470918504483,13.323436086784811 35.05470918504483,14.427266135772811 L35.05470918504483,17.572770706332292 C35.05470918504483,18.67660075532029 34.15853923403283,19.572770706332292 33.05470918504483,19.572770706332292 L-1.0546723429395115,19.572770706332292 C-2.1585023919275113,19.572770706332292 -3.0546723429395115,18.676600755320294 -3.0546723429395115,17.572770706332292 L-3.0546723429395115,14.427266135772811 C-3.0546723429395115,13.323436086784811 -2.158502391927512,12.427266135772811 -1.0546723429395115,12.427266135772811Z"/>
-           </defs>
-           <g opacity="1">
-             <g transform="translate(16.00001842105246, 16.000018421052232) rotate(315.0001126327126) translate(-16.00001842105246, -16.000018421052232)" opacity="1">
-               <use xlink:href="#path-0"  class="hcIconFill"/>
-             </g>
-             <g transform="translate(16.00001842105266, 16.000018421052552) rotate(315.0001126327126) translate(-16.00001842105266, -16.000018421052552)" opacity="1">
-               <use xlink:href="#path-1"  class="hcIconFill"/>
-             </g>
-           </g>
-         </svg>
-         </span></div>
-           </div>
-         
-         
-         
-           <div class="hcMarginBottom1"><input type="text" placeholder="... type to filter"></div>
-           <div class="hcList">
-             <div>
-               <div>everything </div>
-               <div class="hcFacetCount hcTxtRight">312</div>
-             </div>
-             <div>
-               <div>every painter</div>
-               <div class="hcFacetCount hcTxtRight">312</div>
-             </div>
-             <div>
-               <div>every writer</div>
-               <div class="hcFacetCount hcTxtRight">312</div>
-             </div>
-             <div>
-               <div>every collector</div>
-               <div class="hcFacetCount hcTxtRight">312</div>
-             </div>
-             <div>
-               <div>every owner</div>
-               <div class="hcFacetCount hcTxtRight">312</div>
-             </div>
-             <div>
-               <div>every sculptor</div>
-               <div class="hcFacetCount hcTxtRight">312</div>
-             </div>
-             <div>
-               <div>every dealer</div>
-               <div class="hcFacetCount hcTxtRight">312</div>
-             </div>
-             <div>
-               <div>every actor</div>
-               <div class="hcFacetCount hcTxtRight">312</div>
-             </div>
-             <div>
-               <div>every painter</div>
-               <div class="hcFacetCount hcTxtRight">312</div>
-             </div>
-             <div>
-               <div>every writer</div>
-               <div class="hcFacetCount hcTxtRight">312</div>
-             </div>
-             <div>
-               <div>every collector</div>
-               <div class="hcFacetCount hcTxtRight">312</div>
-             </div>
-             <div>
-               <div>every owner</div>
-               <div class="hcFacetCount hcTxtRight">312</div>
-             </div>
-             <div>
-               <div>every sculptor</div>
-               <div class="hcFacetCount hcTxtRight">312</div>
-             </div>
-             <div>
-               <div>every dealer</div>
-               <div class="hcFacetCount hcTxtRight">312</div>
-             </div>
-             <div>
-               <div>every actor</div>
-               <div class="hcFacetCount hcTxtRight">312</div>
-             </div>
-             <div>
-               <div>every painter</div>
-               <div class="hcFacetCount hcTxtRight">312</div>
-             </div>
-             <div>
-               <div>every writer</div>
-               <div class="hcFacetCount hcTxtRight">312</div>
-             </div>
-             <div>
-               <div>every collector</div>
-               <div class="hcFacetCount hcTxtRight">312</div>
-             </div>
-         
-           </div>
-         </div>
-         <!-- // query builder browse block -->
+      <div class="hcQueryBuilderRow">
+        <!-- query builder block -->
+        <div class="hcQBuildBlock">
+        
+          Give&nbsp;me
+        
+        </div>
+        <!-- // query builder block -->
+        <!-- query builder block -->
+        <div class="hcQBuildBlock hcQBuildBlockInt hcRoundedCorners">
+        
+          every&nbsp;painter
+        
+          <div class="hcIcon hcIconSmall hcMarginLeft05"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" height="32" width="32" viewbox="0 0 32 32" preserveAspectRatio="xMinYMin meet">
+        
+        
+          <polygon points="0,10 32,10 16,27" class="hcIconFill" />
+        </svg>
+        </div>
+        </div>
+        <!-- // query builder block -->
+        <!-- query builder block -->
+        <div class="hcQBuildBlock hcQBuildBlockInt hcRoundedCorners">
+        
+          who&nbsp;has&nbsp;sold&nbsp;to
+        
+          <div class="hcIcon hcIconSmall hcMarginLeft05"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" height="32" width="32" viewbox="0 0 32 32" preserveAspectRatio="xMinYMin meet">
+        
+        
+          <polygon points="0,10 32,10 16,27" class="hcIconFill" />
+        </svg>
+        </div>
+        </div>
+        <!-- // query builder block -->
+        <!-- query builder block -->
+        <div class="hcQBuildBlock hcQBuildBlockInt hcRoundedCorners">
+        
+          Jan&nbsp;Six (1618-700)
+        
+          <div class="hcIcon hcIconSmall hcMarginLeft05"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" height="32" width="32" viewbox="0 0 32 32" preserveAspectRatio="xMinYMin meet">
+        
+        
+          <polygon points="0,10 32,10 16,27" class="hcIconFill" />
+        </svg>
+        </div>
+        </div>
+        <!-- // query builder block -->
+      </div>
+      
+      <div class="hcQueryBuilderRow">
+        <!-- query builder block -->
+        <div class="hcQBuildBlock">
+        
+          and
+        
+        </div>
+        <!-- // query builder block -->
+        <!-- query builder block -->
+        <div class="hcQBuildBlock hcQBuildBlockInt hcRoundedCorners">
+        
+          worked&nbsp;in
+        
+          <div class="hcIcon hcIconSmall hcMarginLeft05"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" height="32" width="32" viewbox="0 0 32 32" preserveAspectRatio="xMinYMin meet">
+        
+        
+          <polygon points="0,10 32,10 16,27" class="hcIconFill" />
+        </svg>
+        </div>
+        </div>
+        <!-- // query builder block -->
+        <!-- query builder block -->
+        <div class="hcQBuildBlock hcQBuildBlockInt hcRoundedCorners">
+        
+          Amsterdam
+        
+          <div class="hcIcon hcIconSmall hcMarginLeft05"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" height="32" width="32" viewbox="0 0 32 32" preserveAspectRatio="xMinYMin meet">
+        
+        
+          <polygon points="0,10 32,10 16,27" class="hcIconFill" />
+        </svg>
+        </div>
+        </div>
+        <!-- // query builder block -->
+        <!-- query builder choice block -->
+        <div class="hcQBuildBlockChoice">
+          <div class="hcQBuildBlock">who ..</div>
+          <div class="hcQBuildBlock">and / or ..</div>
+          <div class="hcQBuildBlock">order by ..</div>
+          <div class="hcQBuildBlock">show ..</div>
+        </div>
+        <!-- // query builder choice block -->
+      </div>
+      
       </div>
       <!-- // GA query builder -->
 
@@ -203,7 +197,7 @@
 
     <!-- second panel: process / results -->
     <div class="hcFlex1 hcClrBg_Grey05">
-      <div class="hcTabs hcTabsHoriz hcBgWhite">
+      <div class="hcTabs hcTabsHoriz hcBgWhite" id="hcGaPanelRight">
         <!-- tabs header -->
         <div class="hcTabLabels">
           <div class="hcTabLabel hcRoundedCornersTop" id="tab-list-progress">Progress
@@ -338,74 +332,143 @@
           <!--  Tab results-->
           <div class="hcTabContent hcMarginTop2 hcBasicSideMargin" id="tab-content-results">
 
-            <div class="hcList">
-              <div class="hcListHeader">
-                <div class="hcLabel">Name</div>
-                <div class="hcLabel">uri</div>
-              </div>
-            </div>
-
-
-            <div class="hcList hcListDisctinctLines">
-                <div>
-                  <strong>Greflinger, Georg</strong>
-                  <div class="hcSmallTxt">http://bsbndb.bsb.lrz-muenchen.de/artikeINDBpnd118718622.html</div>
-                </div>
-                <div>
-                  <strong>Guillard, Nicolas-Francois</strong>
-                  <div class="hcSmallTxt">http://catalogue.bnf.fr/ark:/12148/cb12443000p</div>
-                </div>
-                <div>
-                  <strong>Quetant, Antoine-Francois</strong>
-                  <div class="hcSmallTxt">http://data.bnf.fr/11906331/nicolas-francoisguillard/</div>
-                </div>
-                <div>
-                  <strong>Framery, Nicolas Etienne</strong>
-                  <div class="hcSmallTxt">http://data.bntfr/12006128/francois-antoinequetant/</div>
-                </div>
-                <div>
-                  <strong>Masson, Michel</strong>
-                  <div class="hcSmallTxt">http://data.bnf.fr/12079224/nicolas-etienneframery/</div>
-                </div>
-                <div>
-                  <strong>Montfleury, Antoine Jacob</strong>
-                  <div class="hcSmallTxt">http://data.bnf.fr/12097080/montfleury/</div>
-                </div>
-                <div>
-                  <strong>Dubois, Jean-Baptiste</strong>
-                  <div class="hcSmallTxt">http://data.bnf.fr/12462190/jean-baptistedubois/</div>
-                </div>
-                <div>
-                  <strong>Devienne, Francois</strong>
-                  <div class="hcSmallTxt">http://data.bnf.fr/13893235/francoisdevienne/</div>
-                </div>
-                <div>
-                  <strong>Kohault, Josef</strong>
-                  <div class="hcSmallTxt">http://data.bnf.fr/14784753/josefkohaut/</div>
-                </div>
-                <div>
-                  <strong>Moreau,Eugene</strong>
-                  <div class="hcSmallTxt">http://isni.org/isni/0000000083925295</div>
-                </div>
-                <div>
-                  <strong>Artois, Armand d&#x27;</strong>
-                  <div class="hcSmallTxt">http://isni.org/isni/0000000115072347</div>
-                </div>
-            </div>
-            <div class="hc2columns hcMarginTop2 hcMarginBottom5">
-              <div><div class="hcPagination">
-<div><a href="#">&#8592; Previous</a></div>
-<div><a href="#">1</a></div>
-<div class="bgColorBrand2"><a href="#">2</a></div>
-<div><a href="#">3</a></div>
-<div><a href="#">4</a></div>
-<div><a href="#">5</a></div>
-
-<div><a href="#">Next &#8594;</a></div>
-</div>
-</div>
-              <div class="hcAlignRight"><button type="button">Export</button></div>
-            </div>
+            
+            
+            <app-query-result _ngcontent-dhm-c191="" _nghost-dhm-c194="" ng-reflect-agent="[object Object]" ng-reflect-active-result="[object Object]" class="ng-star-inserted" style="">
+               <div _ngcontent-dhm-c194="" id="table-div">
+                  <div id="result-table_wrapper" class="dataTables_wrapper no-footer">
+            
+                     <div class="row">
+                        <div class="col-sm-12 col-md-6">
+                           <div class="dt-buttons"> <button class="dt-button buttons-csv buttons-html5 btn btn-secondary" tabindex="0" aria-controls="result-table" type="button"><span>CSV</span></button> <button class="dt-button btn btn-secondary" tabindex="0" aria-controls="result-table" type="button"><span>XML</span></button> </div>
+                        </div>
+                        <div class="col-sm-12 col-md-6">
+                           <div id="result-table_filter" class="dataTables_filter"><label>Search:<input type="search" class="" placeholder="" aria-controls="result-table"></label></div>
+                        </div>
+                     </div>
+            
+                     <div class="row">
+                        <div class="col sm-12 col-md-3">
+                           <div class="dataTables_length" id="result-table_length">
+                              <label>
+                                 Show
+                                 <select name="result-table_length" aria-controls="result-table" class="">
+                                    <option value="10">10</option>
+                                    <option value="25">25</option>
+                                    <option value="50">50</option>
+                                    <option value="100">100</option>
+                                 </select>
+                                 entries
+                              </label>
+                           </div>
+                        </div>
+            
+                        <div class="col-sm-12 col-md-3">
+                           <div class="dataTables_info" id="result-table_info" role="status" aria-live="polite">Showing 1 to 10 of 3,108 entries</div>
+                        </div>
+            
+                        <div class="col sm-12 col-md-6">
+                           <div class="dataTables_paginate paging_simple_numbers" id="result-table_paginate"><a class="paginate_button previous disabled" aria-controls="result-table" data-dt-idx="0" tabindex="-1" id="result-table_previous">← Previous</a><span><a class="paginate_button current" aria-controls="result-table" data-dt-idx="1" tabindex="0">1</a><a class="paginate_button " aria-controls="result-table" data-dt-idx="2" tabindex="0">2</a><a class="paginate_button " aria-controls="result-table" data-dt-idx="3" tabindex="0">3</a><a class="paginate_button " aria-controls="result-table" data-dt-idx="4" tabindex="0">4</a><a class="paginate_button " aria-controls="result-table" data-dt-idx="5" tabindex="0">5</a><span class="ellipsis">…</span><a class="paginate_button " aria-controls="result-table" data-dt-idx="6" tabindex="0">311</a></span><a class="paginate_button next" aria-controls="result-table" data-dt-idx="7" tabindex="0" id="result-table_next">Next →</a></div>
+                        </div>
+                     </div>
+            
+            
+                     <div class="row">
+                        <div class="col-sm-12">
+                           <table _ngcontent-dhm-c194="" id="result-table" class="table table-striped table-hover dataTable no-footer" aria-describedby="result-table_info" role="grid" >
+                              <thead _ngcontent-dhm-c194="">
+                                 <th _ngcontent-dhm-c194="" class="ng-star-inserted"> creativeAgent </th>
+                                 <th _ngcontent-dhm-c194="" class="ng-star-inserted"> nameOfTheAgent </th>
+                                 <th _ngcontent-dhm-c194="" class="ng-star-inserted"> book </th>
+                                 <th _ngcontent-dhm-c194="" class="ng-star-inserted"> title </th>
+                                 <!--bindings={
+                                    "ng-reflect-ng-for-of": "[object Object],[object Object"
+                                    }-->
+            
+                              </thead>
+                              <tbody _ngcontent-dhm-c194="">
+                                 <tr class="odd">
+                                    <td class="sorting_1"><a href="http://www.vondel.humanities.uva.nl/ecartico/persons/1034" target="_blank">http://www.vondel.humanities.uva.nl/ecartico/persons/1034</a></td>
+                                    <td>Bloemaert, Hendrik</td>
+                                    <td><a href="http://www.vondel.humanities.uva.nl/onstage/plays/196" target="_blank">http://www.vondel.humanities.uva.nl/onstage/plays/196</a></td>
+                                    <td>De getrouwen herder</td>
+                                 </tr>
+                                 <tr class="even">
+                                    <td class="sorting_1"><a href="http://www.vondel.humanities.uva.nl/ecartico/persons/1034" target="_blank">http://www.vondel.humanities.uva.nl/ecartico/persons/1034</a></td>
+                                    <td>Hendrick Bloemaert</td>
+                                    <td><a href="http://www.vondel.humanities.uva.nl/onstage/plays/196" target="_blank">http://www.vondel.humanities.uva.nl/onstage/plays/196</a></td>
+                                    <td>De getrouwen herder</td>
+                                 </tr>
+                                 <tr class="odd">
+                                    <td class="sorting_1"><a href="http://www.vondel.humanities.uva.nl/ecartico/persons/10482" target="_blank">http://www.vondel.humanities.uva.nl/ecartico/persons/10482</a></td>
+                                    <td>Mostart, Daniel</td>
+                                    <td><a href="http://www.vondel.humanities.uva.nl/onstage/plays/286" target="_blank">http://www.vondel.humanities.uva.nl/onstage/plays/286</a></td>
+                                    <td>Mariamne</td>
+                                 </tr>
+                                 <tr class="even">
+                                    <td class="sorting_1"><a href="http://www.vondel.humanities.uva.nl/ecartico/persons/10482" target="_blank">http://www.vondel.humanities.uva.nl/ecartico/persons/10482</a></td>
+                                    <td>Mostart, Daniel</td>
+                                    <td><a href="http://www.vondel.humanities.uva.nl/onstage/plays/284" target="_blank">http://www.vondel.humanities.uva.nl/onstage/plays/284</a></td>
+                                    <td>De getrouwen herder</td>
+                                 </tr>
+                                 <tr class="odd">
+                                    <td class="sorting_1"><a href="http://www.vondel.humanities.uva.nl/ecartico/persons/10482" target="_blank">http://www.vondel.humanities.uva.nl/ecartico/persons/10482</a></td>
+                                    <td>Mostart, Daniel</td>
+                                    <td><a href="http://www.vondel.humanities.uva.nl/onstage/plays/285" target="_blank">http://www.vondel.humanities.uva.nl/onstage/plays/285</a></td>
+                                    <td>De moord der onnozelen</td>
+                                 </tr>
+                                 <tr class="even">
+                                    <td class="sorting_1"><a href="http://www.vondel.humanities.uva.nl/ecartico/persons/10482" target="_blank">http://www.vondel.humanities.uva.nl/ecartico/persons/10482</a></td>
+                                    <td>Daniel Mostaert</td>
+                                    <td><a href="http://www.vondel.humanities.uva.nl/onstage/plays/286" target="_blank">http://www.vondel.humanities.uva.nl/onstage/plays/286</a></td>
+                                    <td>Mariamne</td>
+                                 </tr>
+                                 <tr class="odd">
+                                    <td class="sorting_1"><a href="http://www.vondel.humanities.uva.nl/ecartico/persons/10482" target="_blank">http://www.vondel.humanities.uva.nl/ecartico/persons/10482</a></td>
+                                    <td>Daniel Mostaert</td>
+                                    <td><a href="http://www.vondel.humanities.uva.nl/onstage/plays/284" target="_blank">http://www.vondel.humanities.uva.nl/onstage/plays/284</a></td>
+                                    <td>De getrouwen herder</td>
+                                 </tr>
+                                 <tr class="even">
+                                    <td class="sorting_1"><a href="http://www.vondel.humanities.uva.nl/ecartico/persons/10482" target="_blank">http://www.vondel.humanities.uva.nl/ecartico/persons/10482</a></td>
+                                    <td>Daniel Mostaert</td>
+                                    <td><a href="http://www.vondel.humanities.uva.nl/onstage/plays/285" target="_blank">http://www.vondel.humanities.uva.nl/onstage/plays/285</a></td>
+                                    <td>De moord der onnozelen</td>
+                                 </tr>
+                                 <tr class="odd">
+                                    <td class="sorting_1"><a href="http://www.vondel.humanities.uva.nl/ecartico/persons/10769" target="_blank">http://www.vondel.humanities.uva.nl/ecartico/persons/10769</a></td>
+                                    <td>Geest, Wibrandus de</td>
+                                    <td><a href="http://www.vondel.humanities.uva.nl/onstage/plays/1606" target="_blank">http://www.vondel.humanities.uva.nl/onstage/plays/1606</a></td>
+                                    <td>De gewaande toverij, zangspel</td>
+                                 </tr>
+                                 <tr class="even">
+                                    <td class="sorting_1"><a href="http://www.vondel.humanities.uva.nl/ecartico/persons/10769" target="_blank">http://www.vondel.humanities.uva.nl/ecartico/persons/10769</a></td>
+                                    <td>Wybrandus de Geest</td>
+                                    <td><a href="http://www.vondel.humanities.uva.nl/onstage/plays/1606" target="_blank">http://www.vondel.humanities.uva.nl/onstage/plays/1606</a></td>
+                                    <td>De gewaande toverij, zangspel</td>
+                                 </tr>
+                                 <tr class="odd">
+                                    <td class="sorting_1"><a href="http://www.vondel.humanities.uva.nl/ecartico/persons/11712" target="_blank">http://www.vondel.humanities.uva.nl/ecartico/persons/11712</a></td>
+                                    <td>Enden, Fanciscus van den</td>
+                                    <td><a href="http://www.vondel.humanities.uva.nl/onstage/plays/236" target="_blank">http://www.vondel.humanities.uva.nl/onstage/plays/236</a></td>
+                                    <td>Philedonius</td>
+                                 </tr>
+                              </tbody>
+                           </table>
+                           <div id="result-table_processing" class="dataTables_processing" style="display: none;">Processing...</div>
+                        </div>
+                     </div>
+                     <div class="row">
+                        <div class="col-sm-12 col-md-5">
+                           <div class="dataTables_info">Showing 1 to 10 of 3,108 entries</div>
+                        </div>
+                        <div class="col-sm-12 col-md-7">
+                           <div class="dataTables_paginate paging_simple_numbers"><a class="paginate_button previous disabled" aria-controls="result-table" data-dt-idx="0" tabindex="-1">← Previous</a><span><a class="paginate_button current" aria-controls="result-table" data-dt-idx="1" tabindex="0">1</a><a class="paginate_button " aria-controls="result-table" data-dt-idx="2" tabindex="0">2</a><a class="paginate_button " aria-controls="result-table" data-dt-idx="3" tabindex="0">3</a><a class="paginate_button " aria-controls="result-table" data-dt-idx="4" tabindex="0">4</a><a class="paginate_button " aria-controls="result-table" data-dt-idx="5" tabindex="0">5</a><span class="ellipsis">…</span><a class="paginate_button " aria-controls="result-table" data-dt-idx="6" tabindex="0">311</a></span><a class="paginate_button next" aria-controls="result-table" data-dt-idx="7" tabindex="0">Next →</a></div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </app-query-result>
           </div>
 
           <!-- tab datasets-->
@@ -423,7 +486,7 @@
 
     </div><!-- // second panel -->
 
-  </div><!-- // responsive splitscreen -->
+  </main><!-- // responsive splitscreen -->
 
 
 

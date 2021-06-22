@@ -5,15 +5,15 @@
 
 
 
-  <div class="hcList hcMarginTop2">
-    <div class="hcListHeader">
-      <div class="hcLabel hcListItemLong">Property</div>
-      <div class="hcLabel hcListItemLong">URI</div>
+  <div class="hcMarginTop2 hcColumnsAuto">
+
+      <div class="hcLabel hcCell--x2">Property</div>
+      <div class="hcLabel hcCell--x2">URI</div>
       <div class="hcLabel">Density</div>
-    </div>
+
   </div>
 
-  <ul class="hcList">
+  <ul class="hcLists">
     {{#each collectionProperties}}
       {{> comp-dataset-property-overview}}
     {{/each}}

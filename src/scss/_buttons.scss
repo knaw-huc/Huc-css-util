@@ -9,6 +9,15 @@ button {
   font-weight: 700;
   margin: 0 .3rem;
   max-height: 40px;
+
+}
+
+.hcImageButttons {
+  max-height: 35px;
+  max-width: 35px;
+  background-color:rgba(0, 0, 0, 0.07);
+  border: 1px solid rgba(0, 0, 0, 0.09);
+  padding: .25rem;
 }
 
 .hc-loud {

@@ -1,0 +1,20 @@
+<div class="hcList">
+  <div class="hcListHeader">
+    <div class="hcLabel">Name</div>
+    <div class="hcLabel">uri</div>
+  </div>
+</div>
+
+
+<div class="hcList hcListDisctinctLines">
+  {{#each resultsList}}
+    <div>
+      <strong>{{f1}}</strong>
+      <div class="hcSmallTxt">{{f2}}</div>
+    </div>
+  {{/each}}
+</div>
+<div class="hc2columns hcMarginTop2 hcMarginBottom5">
+  <div>{{> comp-pagination}}</div>
+  <div class="hcAlignRight"><button type="button">Export</button></div>
+</div>

@@ -90,7 +90,7 @@ a {
   color: #fff; }
 
 .colorBgGrey {
-  background-color: rgba(7, 84, 70, 0.05) !important; }
+  background-color: whitesmoke !important; }
 
 .hcBrandLogo img {
   height: 50px; }
@@ -206,6 +206,10 @@ a {
 .hcFlex1 {
   flex: 1; }
 
+@media (min-width: 1300px) {
+  #hcGaPanelRight {
+    max-width: 50vw; } }
+
 .hcGaPadLeft {
   margin-left: 0rem;
   padding-left: 0rem; }
@@ -232,3 +236,78 @@ a {
 
 .gaSplitCol {
   flex-direction: column; }
+
+.dataTables_wrapper > * {
+  width: 100%;
+  font-size: 15px; }
+
+.dataTables_wrapper table {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  width: 100%;
+  border-collapse: collapse; }
+  .dataTables_wrapper table th {
+    text-align: left; }
+  .dataTables_wrapper table td {
+    white-space: nowrap;
+    padding: .4rem; }
+  .dataTables_wrapper table .odd {
+    background-color: rgba(0, 0, 0, 0.05); }
+
+.dataTables_wrapper .row:first-child {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row-reverse;
+  margin-bottom: 1rem; }
+
+.dataTables_wrapper .dataTables_filter label {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: baseline; }
+
+.dataTables_wrapper .row:nth-child(2) {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  flex-wrap: wrap;
+  margin-bottom: 1rem; }
+  .dataTables_wrapper .row:nth-child(2) > *:nth-child(1) {
+    order: 2;
+    width: 50%;
+    text-align: right; }
+    .dataTables_wrapper .row:nth-child(2) > *:nth-child(1) select {
+      width: 70px; }
+  .dataTables_wrapper .row:nth-child(2) > *:nth-child(2) {
+    order: 1;
+    width: 50%; }
+  .dataTables_wrapper .row:nth-child(2) > *:nth-child(3) {
+    order: 3;
+    width: 100%; }
+  .dataTables_wrapper .row:nth-child(2) .dataTables_length label {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: baseline;
+    order: 3; }
+  .dataTables_wrapper .row:nth-child(2) .dataTables_info {
+    order: 1;
+    width: 100%; }
+
+.dataTables_wrapper .row:nth-child(3) {
+  overflow-y: auto; }
+
+.dataTables_wrapper .dataTables_paginate {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: baseline;
+  order: 2; }
+  .dataTables_wrapper .dataTables_paginate a {
+    margin-right: .5rem;
+    cursor: pointer;
+    padding: .1rem .5rem; }
+  .dataTables_wrapper .dataTables_paginate .current {
+    background-color: #efc501;
+    color: #000;
+    border-radius: 2px; }

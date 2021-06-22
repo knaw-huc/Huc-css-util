@@ -2,9 +2,9 @@
   //background-color: hsl(25, 46%, 83%);
 
   display: flex;
-  flex-direction: row;
-  justify-content: flex-start;
-  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
 
   font-size: 1.1rem;
   font-weight: 700;
@@ -26,6 +26,14 @@ $blockheight: 2.5rem;
 
 .hcQBuildBlock:hover{
   box-shadow: 2px 2px 2px hsl(0, 0%, 85%);
+}
+
+.hcQueryBuilderRow{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  margin-bottom: 1rem;
 }
 
 

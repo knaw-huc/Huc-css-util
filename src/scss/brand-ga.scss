@@ -23,7 +23,7 @@ $colorGoldenAgentsYGreen: #058f76;
 
 
 .colorBgGrey{
-	background-color: rgba(#075446, 0.05) !important;
+	background-color: hsl(0, 0%, 96%) !important;
 }
 
 .hcBrandLogo img {
@@ -212,6 +212,13 @@ $gaIconHeight: 1rem;
 
 .hcFlex1 {
 	flex: 1;
+
+}
+
+@media (min-width: 1300px) {
+	#hcGaPanelRight {
+		max-width: 50vw;
+	}
 }
 
 .hcGaPadLeft {
@@ -251,4 +258,127 @@ $gaIconHeight: 1rem;
 
 .gaSplitCol {
 	flex-direction: column;
+}
+
+
+.dataTables_wrapper {
+
+		>* {
+			width: 100%;
+			font-size: 15px;
+
+		}
+
+	table {
+		margin-top: 1rem;
+		margin-bottom: 1rem;
+		width: 100%;
+		border-collapse: collapse;
+
+		th {
+			text-align: left;
+		}
+
+
+		td {
+			white-space: nowrap;
+			padding: .4rem;
+			//border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+		}
+
+		.odd {
+			background-color: rgba(0, 0, 0, 0.05);
+		}
+	}
+
+		// search + download
+	 .row:first-child{
+		 display: flex;
+		 justify-content: space-between;
+		 flex-direction: row-reverse;
+		 margin-bottom: 1rem;
+	 }
+
+	 .dataTables_filter label{
+		 display: flex;
+		 flex-direction: row;
+		 justify-content: flex-start;
+		 align-items: baseline;
+	 }
+
+		// amount + show # + pagination
+	 .row:nth-child(2){
+		 display: flex;
+		 justify-content: space-between;
+		 align-items: baseline;
+		 flex-wrap: wrap;
+		 margin-bottom: 1rem;
+
+
+		 >*:nth-child(1) {// amount
+			 order: 2;
+			 width: 50%;
+			 text-align: right;
+
+			 select {
+				 width: 70px;
+			 }
+		 }
+
+		 >*:nth-child(2) {// info
+			 order: 1;
+			 width: 50%;
+		}
+
+		>*:nth-child(3) {// paging
+			order: 3;
+			width: 100%;
+		}
+
+
+		 .dataTables_length label{
+			 display: flex;
+			 flex-direction: row;
+			 justify-content: flex-end;
+			 align-items: baseline;
+			 order: 3;
+		 }
+
+		 .dataTables_info {
+			 order: 1;
+			 width: 100%;
+
+		 }
+
+
+
+
+
+
+	 }
+
+	 .row:nth-child(3){
+		 overflow-y: auto;
+	 }
+
+	 .dataTables_paginate {
+		 display: flex;
+		 flex-direction: row;
+		 justify-content: flex-start;
+		 align-items: baseline;
+		 order: 2;
+
+		 a {
+			 margin-right: .5rem;
+			 cursor: pointer;
+			 padding: .1rem .5rem;
+		 }
+
+		 .current {
+			 background-color: $colorGoldenAgentsYellow;
+				color: #000;
+				border-radius: 2px;
+		 }
+	 }
+
 }

@@ -33,3 +33,42 @@
     flex-basis: 15%;
   }
 }
+
+
+
+.hcColumnsAuto {
+  display: flex;
+  flex-direction: column;
+  gap: $basicMargin/2;
+  width: 100%;
+
+  >*{
+    flex: 1;
+  }
+}
+
+@media (min-width: 800px) {
+  .hcColumnsAuto {
+    flex-direction: row;
+    gap: $basicMargin;
+
+  }
+}
+
+
+
+.hcCell--x2 {
+  flex: 2;
+}
+
+.hcCell--x3 {
+  flex: 3;
+}
+
+.hcCell--x4 {
+  flex: 4;
+}
+
+.hcCell--x5 {
+  flex: 5;
+}

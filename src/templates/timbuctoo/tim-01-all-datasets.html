@@ -15,15 +15,15 @@
   <div class="hcBasicSideMargin hcMarginTop2  hcMarginBottom5">
     <h2>The datasets of {{project-name}}</h2>
 
-    <div class="hcList">
-      <div class="hcListHeader">
-        <div class="hcSmallTxt hcTxtColorGreyMid hcListItemLong">Name / description</div>
+
+      <div class="hcColumnsAuto  hcMarginBottom1">
+        <div class="hcSmallTxt hcTxtColorGreyMid hcCell--x2">Name / description</div>
         <div class="hcSmallTxt hcTxtColorGreyMid">Collections</div>
         <div class="hcSmallTxt hcTxtColorGreyMid">Created by</div>
       </div>
-    </div>
 
-    <ul class="hcList">
+
+    <ul class="hcLists">
       {{#each datasets}}
         {{> list-items/list-tim-dataset-basic}}
       {{/each}}
