@@ -1,24 +1,32 @@
 body {
   background-color: #fff;
-  color: #3e3e3e; }
+  color: #3e3e3e;
+}
 
 a {
-  color: #0087d4; }
+  color: #0087d4;
+}
 
 .colorBgGrey {
-  background-color: #f6f6f6; }
+  background-color: #f6f6f6;
+}
 
 .colorBgGreyLight {
-  background-color: #fafafa; }
+  background-color: #fafafa;
+}
 
 .colorBgGreyPlus {
-  background-color: #dddddd; }
+  background-color: #dddddd;
+}
 
 .hcTxtColorGreyMid {
-  color: #999999; }
+  color: #999999;
+}
 
 .bgColorBrand1 {
-  background-image: -webkit-linear-gradient(25deg, #03dbe8 40%, #ddf279 100%) !important; }
+  background-image: -webkit-linear-gradient(25deg, #03dbe8 40%, #ddf279 100%) !important;
+}
 
 .colorBgGrey {
-  background-color: #f2f2f2 !important; }
+  background-color: #f2f2f2 !important;
+}

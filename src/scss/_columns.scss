@@ -1,3 +1,7 @@
+@use "sass:math";
+$basicMarginHalf: math.div($basicMargin, 2);
+
+
 .hc2columns, .hc3columns, .hc4columns, .hc5columns, .hc6columns  {
   display: flex;
   flex-direction: column;
@@ -39,7 +43,7 @@
 .hcColumnsAuto {
   display: flex;
   flex-direction: column;
-  gap: $basicMargin/2;
+  gap: $basicMarginHalf;
   width: 100%;
 
   >*{

@@ -1,113 +1,140 @@
 body {
   background-color: #fff;
-  color: #3e3e3e; }
+  color: #3e3e3e;
+}
 
 a {
-  color: #0087d4; }
+  color: #0087d4;
+}
 
 .colorBgGrey {
-  background-color: #f6f6f6; }
+  background-color: #f6f6f6;
+}
 
 .colorBgGreyLight {
-  background-color: #fafafa; }
+  background-color: #fafafa;
+}
 
 .colorBgGreyPlus {
-  background-color: #dddddd; }
+  background-color: #dddddd;
+}
 
 .hcTxtColorGreyMid {
-  color: #999999; }
+  color: #999999;
+}
 
 .bgColorBrand1 {
   background-color: #efc319;
-  color: #172854; }
+  color: #172854;
+}
 
 .bgColorBrand1 a {
-  color: #172854; }
+  color: #172854;
+}
 
 .colorBgGrey {
-  background-color: #efefef !important; }
+  background-color: #efefef !important;
+}
 
 .hcFeedbackError {
-  border-bottom: 3px solid #d06f5d !important; }
+  border-bottom: 3px solid #d06f5d !important;
+}
 
 .hcFeedbackSucces {
-  border-bottom: 3px solid #64a264 !important; }
+  border-bottom: 3px solid #64a264 !important;
+}
 
 .hcEmpl2Col {
   width: 100%;
   display: flex;
   flex-direction: row;
-  justify-content: space-between; }
+  justify-content: space-between;
+}
 
 .hcEmpl2Col > * {
   flex: 1;
-  padding: 0 4rem 0 2rem; }
+  padding: 0 4rem 0 2rem;
+}
 
 .hcEmplDataBlock {
-  width: 100%; }
+  width: 100%;
+}
 
 .hcEmplacesItemHeader {
   width: 100%;
   display: flex;
   flex-direction: row;
-  justify-content: space-between; }
-  .hcEmplacesItemHeader h2 {
-    font-size: 1.1rem; }
+  justify-content: space-between;
+}
+.hcEmplacesItemHeader h2 {
+  font-size: 1.1rem;
+}
 
 .hcEmplacesTitle {
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
-  align-items: baseline; }
+  align-items: baseline;
+}
 
 .hcEmplacesTitle > * {
-  margin-right: .5rem; }
+  margin-right: 0.5rem;
+}
 
 .hcEmplHierarchy ul, .hcEmplHierarchy ul ul, .hcEmplHierarchy ul ul ul, .hcEmplHierarchy ul ul ul ul, .hcEmplHierarchy ul ul ul ul ul, .hcEmplHierarchy ul ul ul ul ul ul {
   margin-left: 0;
-  list-style: none; }
-
+  list-style: none;
+}
 .hcEmplHierarchy li:before {
   content: "+";
   padding-right: 8px;
-  color: #999999; }
+  color: #999999;
+}
 
 .hcEmplList {
   display: flex;
-  flex-direction: column; }
+  flex-direction: column;
+}
 
 .hcEmplListHeader, .hcEmplListRow {
   display: flex;
   flex-direction: row;
-  justify-content: space-between; }
+  justify-content: space-between;
+}
 
 .hcEmplListHeader > *, .hcEmplListRow > * {
   flex: 1;
-  padding: .3rem; }
+  padding: 0.3rem;
+}
 
 .hcEmplListHeader {
   background-color: whitesmoke;
-  font-weight: 700; }
+  font-weight: 700;
+}
 
 .hcEmplCalBar {
   width: 100%;
   border: 1px solid rgba(0, 0, 0, 0.3);
   display: flex;
   flex-direction: row;
-  justify-content: space-between; }
+  justify-content: space-between;
+}
 
 .hcEmplCalBar > * {
-  padding: 0 .2rem;
-  color: rgba(0, 0, 0, 0.3); }
+  padding: 0 0.2rem;
+  color: rgba(0, 0, 0, 0.3);
+}
 
 .hcEmplCalBarLegend {
   display: flex;
   flex-direction: row;
-  justify-content: space-between; }
+  justify-content: space-between;
+}
 
 .hcEmplCalBarFill {
   overflow: hidden;
-  line-height: 110%; }
+  line-height: 110%;
+}
 
 .hcEmplCalMarker {
   display: flex;
@@ -115,50 +142,63 @@ a {
   justify-content: flex-start;
   width: auto;
   align-items: baseline;
-  margin-bottom: -1.5rem; }
+  margin-bottom: -1.5rem;
+}
 
 .hcEmplTabBar {
   background-color: whitesmoke;
   display: flex;
   flex-direction: row;
-  justify-content: flex-start; }
-  .hcEmplTabBar .hcSelected {
-    border-bottom: 3px solid #efc319; }
+  justify-content: flex-start;
+}
+.hcEmplTabBar .hcSelected {
+  border-bottom: 3px solid #efc319;
+}
 
 .hcEmplTabBar > * {
   margin-right: 1.5rem;
-  cursor: pointer; }
+  cursor: pointer;
+}
 
 .hcEmplEmbedBox {
   min-height: 300px;
-  border: 1px solid whitesmoke; }
+  border: 1px solid whitesmoke;
+}
 
 .hcEmplacesHierarchyItem > * {
   text-align: center;
-  width: 100%; }
+  width: 100%;
+}
 
 .hcEmplacesHierarchyItem {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  margin-bottom: 1rem; }
-  .hcEmplacesHierarchyItem svg {
-    height: 10px; }
+  margin-bottom: 1rem;
+}
+.hcEmplacesHierarchyItem svg {
+  height: 10px;
+}
 
 .hcEmplEmbedBoxaSide {
   display: flex;
   flex-direction: row;
-  justify-content: flex-start; }
+  justify-content: flex-start;
+}
 
 .hcEmplEmbedBoxNav {
-  width: 150px; }
+  width: 150px;
+}
 
 .hcEmplEmbedBoxContent {
-  width: calc(100% - 150px); }
+  width: calc(100% - 150px);
+}
 
 .hcEmplacesHierarchyItemLine {
   stroke: #000;
-  stroke-width: 1; }
+  stroke-width: 1;
+}
 
 .hcEmplacesHierarchyItemDot {
-  fill: "#000"; }
+  fill: "#000";
+}

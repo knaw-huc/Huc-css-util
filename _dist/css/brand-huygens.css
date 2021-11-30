@@ -1,61 +1,79 @@
 body {
   background-color: #fff;
-  color: #3e3e3e; }
+  color: #3e3e3e;
+}
 
 a {
-  color: #0087d4; }
+  color: #0087d4;
+}
 
 .colorBgGrey {
-  background-color: #f6f6f6; }
+  background-color: #f6f6f6;
+}
 
 .colorBgGreyLight {
-  background-color: #fafafa; }
+  background-color: #fafafa;
+}
 
 .colorBgGreyPlus {
-  background-color: #dddddd; }
+  background-color: #dddddd;
+}
 
 .hcTxtColorGreyMid {
-  color: #999999; }
+  color: #999999;
+}
 
 .bgColorBrand1 {
   background-color: #082045;
-  color: #fff; }
+  color: #fff;
+}
 
 .bgColorBrand1 a {
-  color: #fff; }
+  color: #fff;
+}
 
 .colorBgGrey {
-  background-color: #efefef !important; }
+  background-color: #efefef !important;
+}
 
 .hcFeedbackError {
-  border-bottom: 3px solid #d06f5d !important; }
+  border-bottom: 3px solid #d06f5d !important;
+}
 
 .hcFeedbackSucces {
-  border-bottom: 3px solid #64a264 !important; }
+  border-bottom: 3px solid #64a264 !important;
+}
 
 .hcFormDiv {
   border: 2px solid #efefef;
-  padding: 2rem 1rem; }
+  padding: 2rem 1rem;
+}
 
 hr {
   color: #dee6ed;
-  background-color: #dee6ed; }
+  background-color: #dee6ed;
+}
 
 .bgColorBrandIK {
-  background-color: #0A3D73; }
-  .bgColorBrandIK a {
-    color: #fff; }
+  background-color: #0A3D73;
+}
+.bgColorBrandIK a {
+  color: #fff;
+}
 
 .hcIKBgLight {
-  background-color: #f8f4f1; }
+  background-color: #f8f4f1;
+}
 
 .hcSmallTxt {
-  font-size: .9rem; }
+  font-size: 0.9rem;
+}
 
 .hcDataLabel {
-  font-size: .9rem;
+  font-size: 0.9rem;
   font-weight: 700;
-  margin-bottom: -.3rem; }
+  margin-bottom: -0.3rem;
+}
 
 .hcIKkImageBlock {
   display: flex;
@@ -63,61 +81,74 @@ hr {
   align-items: center;
   justify-content: center;
   background-color: #f8f4f1;
-  padding: 1rem; }
-  .hcIKkImageBlock img {
-    max-width: 500px; }
+  padding: 1rem;
+}
+.hcIKkImageBlock img {
+  max-width: 500px;
+}
 
 .hcIKheaderSplit {
   display: flex;
-  flex-direction: column; }
+  flex-direction: column;
+}
 
 @media (min-width: 500px) {
   .hcIKheaderSplit {
-    flex-direction: row; } }
-
+    flex-direction: row;
+  }
+}
 .hcIKresultCard {
   display: flex;
   flex-direction: column;
   margin: -1rem;
-  padding: 1rem; }
+  padding: 1rem;
+}
 
 .hcIKresultCardInfo {
   display: flex;
-  flex-direction: column; }
+  flex-direction: column;
+}
 
 @media (min-width: 500px) {
   .hcIKresultCardInfo {
-    flex-direction: row; } }
-
+    flex-direction: row;
+  }
+}
 .hcIKkImageBlockResult {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: flex-start;
   background-color: #f8f4f1;
-  padding: .5rem; }
-  .hcIKkImageBlockResult img {
-    width: 100px;
-    height: auto; }
+  padding: 0.5rem;
+}
+.hcIKkImageBlockResult img {
+  width: 100px;
+  height: auto;
+}
 
 .hcIKstate {
   display: flex;
   width: 100%;
   justify-content: flex-end;
-  align-items: center; }
+  align-items: center;
+}
 
 .hcIKstateLabelBlock {
-  padding-right: .5rem;
-  text-align: right; }
+  padding-right: 0.5rem;
+  text-align: right;
+}
 
 .hcIKstateIconBlock {
-  padding: .2rem .2rem .2rem .2rem;
+  padding: 0.2rem 0.2rem 0.2rem 0.2rem;
   display: flex;
   align-items: center;
-  justify-content: center; }
-  .hcIKstateIconBlock img {
-    height: 20px;
-    width: auto; }
+  justify-content: center;
+}
+.hcIKstateIconBlock img {
+  height: 20px;
+  width: auto;
+}
 
 .hcIKselectedFacet {
   display: flex;
@@ -127,51 +158,62 @@ hr {
   width: 100%;
   white-space: nowrap;
   border-bottom: 1px solid #e6e6e6;
-  font-size: .9rem; }
+  font-size: 0.9rem;
+}
 
 .hcIKselectedFacetBuffer {
   width: 100%;
   display: flex;
   flex-direction: row;
-  flex-wrap: wrap; }
+  flex-wrap: wrap;
+}
 
 .hcIKselectedFacetItem {
   display: flex;
   flex-direction: row;
   align-items: center;
   margin-right: 1rem;
-  margin-bottom: .3rem; }
+  margin-bottom: 0.3rem;
+}
 
 .hcIKselectedFacetVal {
-  padding: 0rem .3rem;
+  padding: 0rem 0.3rem;
   background-color: #e4e4e4;
   border-radius: 3px;
-  margin-left: .5rem;
+  margin-left: 0.5rem;
   display: flex;
   flex-direction: row;
-  align-items: center; }
-  .hcIKselectedFacetVal .hcIcon {
-    padding: 0 0 0 .3rem;
-    opacity: .7; }
+  align-items: center;
+}
+.hcIKselectedFacetVal .hcIcon {
+  padding: 0 0 0 0.3rem;
+  opacity: 0.7;
+}
 
 .hcIKidBlock {
   width: 60px;
-  text-align: right; }
+  text-align: right;
+}
 
 .hcBrandLogo img {
   width: 300px;
   height: auto;
-  margin-top: 1.2rem; }
+  margin-top: 1.2rem;
+}
 
 .removeThisClass-Rob {
-  width: 100%; }
-  .removeThisClass-Rob img {
-    width: 100%;
-    height: auto; }
+  width: 100%;
+}
+.removeThisClass-Rob img {
+  width: 100%;
+  height: auto;
+}
 
 .hcEqual {
-  width: 100%; }
+  width: 100%;
+}
 
 .hcIKresultCardInfo .hc2columns > * {
   flex: 1;
-  max-width: 50%; }
+  max-width: 50%;
+}

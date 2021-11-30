@@ -1,64 +1,82 @@
 body {
   background-color: #fff;
-  color: #3e3e3e; }
+  color: #3e3e3e;
+}
 
 a {
-  color: #0087d4; }
+  color: #0087d4;
+}
 
 .colorBgGrey {
-  background-color: #f6f6f6; }
+  background-color: #f6f6f6;
+}
 
 .colorBgGreyLight {
-  background-color: #fafafa; }
+  background-color: #fafafa;
+}
 
 .colorBgGreyPlus {
-  background-color: #dddddd; }
+  background-color: #dddddd;
+}
 
 .hcTxtColorGreyMid {
-  color: #999999; }
+  color: #999999;
+}
 
 .bgColorBrand1 {
   background-image: none !important;
-  background-color: #83ffcc; }
+  background-color: #83ffcc;
+}
 
 .bgColorBrand2 {
   background-image: none !important;
   background-color: #035591;
-  color: #fff; }
+  color: #fff;
+}
 
 .bgColorBrand2 a {
-  color: #fff; }
+  color: #fff;
+}
 
 a, h1, h2 {
-  color: #035591; }
+  color: #035591;
+}
 
 .colorBgGrey {
-  background-color: rgba(223, 233, 241, 0.6) !important; }
+  background-color: rgba(223, 233, 241, 0.6) !important;
+}
 
 .hcBrandLogo img {
-  height: 40px; }
+  height: 40px;
+}
 
 .hcKwic {
-  border-bottom: 2px dotted #035591; }
+  border-bottom: 2px dotted #035591;
+}
 
 .hcPageHeaderSimple {
-  color: #035591; }
-  .hcPageHeaderSimple nav a:hover {
-    background-color: #035591;
-    color: #fff; }
+  color: #035591;
+}
+.hcPageHeaderSimple nav a:hover {
+  background-color: #035591;
+  color: #fff;
+}
 
 .hcThumbnailBgColor {
-  background-color: #3b3b3b; }
+  background-color: #3b3b3b;
+}
 
 .hcDPPHeroBg {
   background-image: url(../images/dpp/dpp-bg.png) !important;
   background-size: contain;
-  background-position: center bottom; }
+  background-position: center bottom;
+}
 
 @media screen and (orientation: portrait) {
   .hcDPPHeroBg {
-    background-size: cover; } }
-
+    background-size: cover;
+  }
+}
 .hcDppHeroSearch {
   min-height: 200px;
   max-height: 300px;
@@ -66,18 +84,22 @@ a, h1, h2 {
   background-color: #035591;
   color: #fff;
   padding: 4rem 2rem;
-  border-radius: 5px; }
-  .hcDppHeroSearch button {
-    width: 100%;
-    background-color: #fff;
-    color: #035591;
-    padding: 1rem;
-    font-size: 1.2rem;
-    margin-top: 1rem; }
+  border-radius: 5px;
+}
+.hcDppHeroSearch button {
+  width: 100%;
+  background-color: #fff;
+  color: #035591;
+  padding: 1rem;
+  font-size: 1.2rem;
+  margin-top: 1rem;
+}
 
 .hcDPPHeroBg .heroLogo {
-  max-width: 300px; }
+  max-width: 300px;
+}
 
 .hcIntroText img {
   width: 95%;
-  height: auto; }
+  height: auto;
+}

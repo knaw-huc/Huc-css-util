@@ -1,144 +1,183 @@
 body {
   background-color: #fff;
-  color: #3e3e3e; }
+  color: #3e3e3e;
+}
 
 a {
-  color: #0087d4; }
+  color: #0087d4;
+}
 
 .colorBgGrey {
-  background-color: #f6f6f6; }
+  background-color: #f6f6f6;
+}
 
 .colorBgGreyLight {
-  background-color: #fafafa; }
+  background-color: #fafafa;
+}
 
 .colorBgGreyPlus {
-  background-color: #dddddd; }
+  background-color: #dddddd;
+}
 
 .hcTxtColorGreyMid {
-  color: #999999; }
+  color: #999999;
+}
 
 .bgColorBrand1 {
   background-image: none !important;
-  background-color: #C43851; }
+  background-color: #C43851;
+}
 
 .bgColorBrand2 {
   background-image: none !important;
   background-color: #cd98a2;
-  color: #3e3e3e; }
+  color: #3e3e3e;
+}
 
 .bgColorBrand2 a {
-  color: #fff; }
+  color: #fff;
+}
 
 .colorBgGrey {
-  background-color: rgba(7, 84, 70, 0.05) !important; }
+  background-color: rgba(7, 84, 70, 0.05) !important;
+}
 
 .hcBrandLogo img {
-  height: 50px; }
+  height: 50px;
+}
 
 .hcPageHeaderSimple a {
-  color: #000; }
+  color: #000;
+}
 
 .hcIsHeader {
   display: flex;
-  flex-direction: row; }
+  flex-direction: row;
+}
 
 .hcIsHeaderLogo {
-  width: 40px; }
+  width: 40px;
+}
 
 .hcIsHeaderLogo img {
   width: 100%;
   height: auto;
-  margin-right: 1rem; }
+  margin-right: 1rem;
+}
 
 .hcIsHeaderToolName {
   color: #C43851;
   text-transform: uppercase;
   font-weight: 700;
-  font-size: 2rem; }
+  font-size: 2rem;
+}
 
 .hcColumnsEqual {
   column-count: 2;
-  column-gap: 1rem; }
+  column-gap: 1rem;
+}
 
 .hcColumnsEqual4 {
   column-count: 2;
-  column-gap: 1rem; }
+  column-gap: 1rem;
+}
 
 .hcTag {
   width: 15px !important;
-  height: auto; }
+  height: auto;
+}
 
 .hcItemsStretch {
   display: flex;
   flex-direction: column;
-  justify-content: space-between; }
+  justify-content: space-between;
+}
 
 .hcItemsStart {
   display: flex;
   flex-direction: row;
-  justify-content: flex-start; }
+  justify-content: flex-start;
+}
 
 .hcIsNav {
   background-color: #C43851;
   color: #fff;
-  padding: .3rem .5rem;
+  padding: 0.3rem 0.5rem;
   border-radius: 3px;
   margin-left: 1rem;
-  font-size: .85rem; }
+  font-size: 0.85rem;
+}
 
 @media (min-width: 800px) {
   .hcLayoutBasicMainAside {
-    flex-direction: row; }
+    flex-direction: row;
+  }
+
   .hcLayoutAside {
-    width: 450px; }
+    width: 450px;
+  }
+
   .hcLayoutMain {
     width: calc(100vw - 450px);
-    min-width: calc(800px - 450px); }
-  .hcColumnsEqual4 {
-    column-count: 4; } }
+    min-width: calc(800px - 450px);
+  }
 
+  .hcColumnsEqual4 {
+    column-count: 4;
+  }
+}
 .hcContentDivider > * {
   border-bottom: 1px solid rgba(0, 0, 0, 0.1);
-  margin: .75rem 0 0 0;
-  padding: .75rem 0 0 0; }
+  margin: 0.75rem 0 0 0;
+  padding: 0.75rem 0 0 0;
+}
 
 .hcIsHome {
   height: 70vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center; }
+  align-items: center;
+}
 
 .hcIsHome p {
   max-width: 600px;
-  text-align: center; }
+  text-align: center;
+}
 
 .hcProviderLogo {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  min-height: 250px; }
-  .hcProviderLogo img {
-    width: 50%;
-    height: auto; }
+  min-height: 250px;
+}
+.hcProviderLogo img {
+  width: 50%;
+  height: auto;
+}
 
 .hcMinHeight70 {
-  min-height: 70vh; }
+  min-height: 70vh;
+}
 
 .hcIsFooterList {
   display: flex;
-  flex-direction: column; }
-  .hcIsFooterList div {
-    display: flex;
-    flex-direction: row;
-    margin-left: 1rem;
-    margin-bottom: .5rem;
-    align-items: center; }
+  flex-direction: column;
+}
+.hcIsFooterList div {
+  display: flex;
+  flex-direction: row;
+  margin-left: 1rem;
+  margin-bottom: 0.5rem;
+  align-items: center;
+}
 
 .hcIsFooterListLogo {
   background-color: #fff;
-  padding: .5rem; }
-  .hcIsFooterListLogo img {
-    width: 75px;
-    height: auto; }
+  padding: 0.5rem;
+}
+.hcIsFooterListLogo img {
+  width: 75px;
+  height: auto;
+}
