@@ -8,11 +8,11 @@ a {
 }
 
 .colorBgGrey {
-  background-color: #f6f6f6;
+  background-color: rgb(246, 246, 246);
 }
 
 .colorBgGreyLight {
-  background-color: #fafafa;
+  background-color: hsl(0deg, 0%, 98%);
 }
 
 .colorBgGreyPlus {
@@ -24,79 +24,79 @@ a {
 }
 
 .hcClrBg_Info {
-  background-color: #1f96ad;
+  background-color: hsl(190deg, 70%, 40%);
 }
 
 .hcClrBg_InfoLight {
-  background-color: #ebf7fa;
+  background-color: hsl(190deg, 60%, 95%);
 }
 
 .hcClrBg_Reward {
-  background-color: #9fcf3f;
+  background-color: hsl(80deg, 60%, 53%);
 }
 
 .hcClrBg_RewardLight {
-  background-color: #d6ebad;
+  background-color: hsl(80deg, 60%, 80%);
 }
 
 .hcClrBg_Error {
-  background-color: #de6e6e;
+  background-color: hsl(0deg, 63%, 65%);
 }
 
 .hcClrBg_ErrorLight {
-  background-color: #ffaa99;
+  background-color: hsl(10deg, 100%, 80%);
 }
 
 .hcClrBg_Caution {
-  background-color: #e2c765;
+  background-color: hsl(47deg, 68%, 64%);
 }
 
 .hcClrBg_CautionLight {
-  background-color: #efe0a9;
+  background-color: hsl(47deg, 68%, 80%);
 }
 
 .hcTxt_Caution {
-  color: #c54a11;
+  color: hsl(19deg, 84%, 42%);
 }
 
 .hcClrBg_Grey05 {
-  background-color: #f2f2f2;
+  background-color: hsl(0deg, 0%, 95%);
 }
 
 .hcClrBg_Grey10 {
-  background-color: #e6e6e6;
+  background-color: hsl(0deg, 0%, 90%);
 }
 
 .hcClrBg_Grey15 {
-  background-color: #d9d9d9;
+  background-color: hsl(0deg, 0%, 85%);
 }
 
 .hcClrBg_Grey20 {
-  background-color: #cccccc;
+  background-color: hsl(0deg, 0%, 80%);
 }
 
 .hcClrBg_Grey30 {
-  background-color: #b3b3b3;
+  background-color: hsl(0deg, 0%, 70%);
 }
 
 .hcClrBg_Grey70 {
-  background-color: #4d4d4d;
+  background-color: hsl(0deg, 0%, 30%);
 }
 
 .hcClrBg_Grey80 {
-  background-color: #333333;
+  background-color: hsl(0deg, 0%, 20%);
 }
 
 .hcClrBg_Grey90 {
-  background-color: #1a1a1a;
+  background-color: hsl(0deg, 0%, 10%);
 }
 
 .hcClrTxt {
-  color: #1a1a1a;
+  color: hsl(0deg, 0%, 10%);
 }
 
 .hcClrTxt_Grey {
-  color: gray;
+  color: hsl(0deg, 0%, 50%);
 }
 
 .hcClrTxt_Dark {
@@ -119,7 +119,7 @@ a {
 }
 
 .colorBgGrey {
-  background-color: whitesmoke !important;
+  background-color: hsl(0deg, 0%, 96%) !important;
 }
 
 .hcBrandLogo img {
@@ -187,7 +187,6 @@ a {
   .hcMaxhalf {
     height: 80vh !important;
   }
-
   .hcSelectedExtend {
     margin-right: -2rem;
   }
@@ -233,7 +232,7 @@ a {
 }
 
 .hcVerticalLineSeperator > * {
-  border-right: 1px solid #d9d9d9;
+  border-right: 1px solid hsl(0deg, 0%, 85%);
 }
 
 .hcVerticalLineSeperator > *:last-child {
@@ -291,7 +290,7 @@ a {
 }
 
 .hcTabContent .hcListDisctinctLines > *:nth-child(odd) {
-  background-color: #e6e6e6;
+  background-color: hsl(0deg, 0%, 90%);
 }
 
 .hcGaSce {

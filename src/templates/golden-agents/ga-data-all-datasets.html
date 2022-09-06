@@ -1,0 +1,32 @@
+{{> html-head}}
+{{> custom/ga-header-general toolName="Data Browser"}}
+
+<div class="hcContentContainer hcMarginBottom5">
+  <div class="hcBasicSideMargin">
+    <h1>Datasets of Golden Agents</h1>
+    <p>{{{project-description}}}</p>
+    <p>These datasets are powered by <a href="#">Timbuctoo</a>.</p>
+  </div>
+</div>
+
+<div class="hcContentContainer colorBgGrey" onclick="javascript:location.href='{{linkResultPage}}.html'">
+  <div class="hcBasicSideMargin hcMarginTop2  hcMarginBottom5">
+    <h2>The datasets of {{project-name}}</h2>
+
+
+      <div class="hcColumnsAuto  hcMarginBottom1">
+        <div class="hcSmallTxt hcTxtColorGreyMid hcCell--x2">Name / description</div>
+        <div class="hcSmallTxt hcTxtColorGreyMid">Collections</div>
+        <div class="hcSmallTxt hcTxtColorGreyMid">Created by</div>
+      </div>
+
+  </div>
+</div>
+
+
+  <!-- build:js js/utilGA1.js -->
+  <script src="../../js/tabs.js" charset="utf-8"></script>
+  <script src="../../js/custom/ga/gaMa.js" charset="utf-8"></script>
+  <!-- endbuild -->
+
+  {{> html-footer}}

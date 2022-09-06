@@ -8,11 +8,11 @@ a {
 }
 
 .colorBgGrey {
-  background-color: #f6f6f6;
+  background-color: rgb(246, 246, 246);
 }
 
 .colorBgGreyLight {
-  background-color: #fafafa;
+  background-color: hsl(0deg, 0%, 98%);
 }
 
 .colorBgGreyPlus {
@@ -30,7 +30,7 @@ a {
 
 .bgColorBrand2 {
   background-image: none !important;
-  background-color: #cd98a2;
+  background-color: hsl(349deg, 35%, 70%);
   color: #3e3e3e;
 }
 
@@ -112,16 +112,13 @@ a {
   .hcLayoutBasicMainAside {
     flex-direction: row;
   }
-
   .hcLayoutAside {
     width: 450px;
   }
-
   .hcLayoutMain {
     width: calc(100vw - 450px);
     min-width: calc(800px - 450px);
   }
-
   .hcColumnsEqual4 {
     column-count: 4;
   }
