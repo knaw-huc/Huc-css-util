@@ -2,12 +2,12 @@
 $colorPrimairy: #03dbe8;
 $colorSecundairy:#ddf279;     //#fff568;
 $colorTertiary: #56504b;
-$colorLink: #0087d4;
+$colorLink: hsl(201, 96%, 29%);
 
 $colorGreyVeryLight: hsl(0, 0%, 98%);
 $colorGreyLightBg: hsl(0, 0%, 96%);
 $colorGreyLightElement: darken( $colorGreyLightBg, 5% );
-$colorGreyMid: #999999;
+$colorGreyMid: hsl(0, 0%, 40%);
 $colorGreyDark: #3e3e3e;
 $colorTxt: #3e3e3e;
 $colorWhite: #fff;

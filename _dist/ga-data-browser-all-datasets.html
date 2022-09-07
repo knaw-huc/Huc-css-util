@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
     <meta charset="utf-8">
     <title>Golden Agents | Data browser | All datasets</title>
@@ -15,58 +15,242 @@
     <meta property="og:image"         content="" />
   </head>
   <body>
-<!-- query GA tool header -->
-<div class="hcGaHeaderGen bgColorBrand1 hcMarginBottom5" >
+<!-- general GA tool header -->
+<header class="hcGaHeaderGen bgColorBrand1" >
   <div class="hcGaHeaderGen__Logo"><img src="images/logo-ga.png" alt="Golden Agents logo"></div>
   <div class="hcGaHeaderGen__ToolName">Dataset Browser</div>
   <nav class="hcGaHeaderGen__Nav">
-    <a href="">About</a>
-    <!-- <a href="">More tools</a> -->
-
-
 
     <div class="hcDropList hcGaHeader__dropdown">
-      <button type="button" name="button" class="">More tools <img src="images/icons/icon_arrow-down.png" alt=""></button>
+      <button type="button" name="button" aria-label="open menu item" class="">About <img src="images/icons/icon_arrow-down.png" alt=""></button>
       <div class="hcDropList__list">
-        <a href="">Dataset Browser</a>
-        <a href="">Golden Agent Search</a>
-        <a href="">Lenticular Lens</a>
+        <a href="https://ga.sd.di.huc.knaw.nl/" target="_blank">About this tool</a>
+        <a href="https://ga-wp3.sd.di.huc.knaw.nl/" target="_blank">About the Golden Agents Project</a>
+        <a href="https://www.goldenagents.org/" target="_blank">Goldenagents.org</a>
       </div>
     </div>
 
 
-    <a href="">Goldenagents.org</a>
+
+    <div class="hcDropList hcGaHeader__dropdown">
+      <button type="button" name="button"  aria-label="open menu item" class="">More tools <img src="images/icons/icon_arrow-down.png" alt=""></button>
+      <div class="hcDropList__list">
+        <a href="https://ga.sd.di.huc.knaw.nl/" target="_blank">Dataset Browser<br>
+          <small>Explore the Golden Agents datasets.</small></a>
+        <a href="https://ga-wp3.sd.di.huc.knaw.nl/" target="_blank">Golden Agent Search<br>
+          <small>Use SparQL or a querybuilder to anwser your research question. Our agents search overmultiple datasets.</small></a>
+        <a href="https://lenticularlens.org/" target="_blank">Lenticular Lens<br>
+          <small>A dataset alignment tool. It offers context-dependent user-guided entity matching across multiple datasets.</small></a>
+      </div>
+    </div>
+
+
+    <div class="hcDropList hcGaHeader__dropdown">
+      <button type="button" name="button"  aria-label="open menu item" class="">Help<img src="images/icons/icon_arrow-down.png" alt=""></button>
+      <div class="hcDropList__list">
+        <a href="" target="_blank">Watch instruction videos</a>
+        <a href="" target="_blank">Find a dataset</a>
+        <a href="" target="_blank">Documentation</a>
+
+      </div>
+    </div>
+
   </nav>
 
   <div class="hcGaHeader__Login">
     <img src="images/icons/icon_user.svg" alt="" class="user_icon">
     BasD
-    <button type="button" name="button">Logout</button>
+    <button type="button" name="button"  aria-label="Log out" >Logout</button>
   </div>
-</div>
-<!-- // query GA tool header -->
+</header>
+<!-- // general GA tool header -->
 
-<div class="hcContentContainer hcMarginBottom5">
-  <div class="hcBasicSideMargin">
+<main class="hcContentContainer hcMarginBottom5 hcMarginTop5">
+  <div class="hcBasicSideMargin ">
     <h1>Datasets of Golden Agents</h1>
-    <p></p>
-    <p>These datasets are powered by <a href="#">Timbuctoo</a>.</p>
-  </div>
-</div>
+    <p>Access to distributed, heterogeneous resources (both existing and new) on creative industries in the Dutch Golden Age.</p>
 
-<div class="hcContentContainer colorBgGrey" onclick="javascript:location.href='.html'">
+  </div>
+</main>
+
+<section class="hcContentContainer colorBgGrey">
   <div class="hcBasicSideMargin hcMarginTop2  hcMarginBottom5">
-    <h2>The datasets of Golden Agents</h2>
-
-
-      <div class="hcColumnsAuto  hcMarginBottom1">
-        <div class="hcSmallTxt hcTxtColorGreyMid hcCell--x2">Name / description</div>
-        <div class="hcSmallTxt hcTxtColorGreyMid">Collections</div>
-        <div class="hcSmallTxt hcTxtColorGreyMid">Created by</div>
-      </div>
+    <ul class="hcCards hcNoList"  aria-label="List of datasets of Golden Agents">
+      <li class="hcCardGaDataset" aria-label="Dataset card"  onclick="javascript:location.href='ga-data-browser-dataset-detail.html'">
+        <a href=""><h2>Repertorium van ambtsdragers</h2></a>
+        <p class="hcSmallTxt">De hoogste ambtenaren van de belangrijkste instellingen van vertegenwoordigende, bestuurlijke en rechtsprekende aard op het huidige Nederlandse grondgebied.</p>
+        <hr class="hcMarginBottom1_5 hcMarginTop1_5">
+      
+        <dl  aria-label="Information about the dataset">
+          <dt>Statements</dt>
+          <dd>2131</dd>
+      
+          <dt>License</dt>
+          <dd>CC-BY-SA</dd>
+      
+          <dt>Organisation</dt>
+          <dd>Huygens Institute</dd>
+      
+        </dl>
+      
+      
+      </li>
+      <li class="hcCardGaDataset" aria-label="Dataset card"  onclick="javascript:location.href='ga-data-browser-dataset-detail.html'">
+        <a href=""><h2>Repertorium van ambtsdragers</h2></a>
+        <p class="hcSmallTxt">De hoogste ambtenaren van de belangrijkste instellingen van vertegenwoordigende, bestuurlijke en rechtsprekende aard op het huidige Nederlandse grondgebied.</p>
+        <hr class="hcMarginBottom1_5 hcMarginTop1_5">
+      
+        <dl  aria-label="Information about the dataset">
+          <dt>Statements</dt>
+          <dd>2131</dd>
+      
+          <dt>License</dt>
+          <dd>CC-BY-SA</dd>
+      
+          <dt>Organisation</dt>
+          <dd>Huygens Institute</dd>
+      
+        </dl>
+      
+      
+      </li>
+      <li class="hcCardGaDataset" aria-label="Dataset card"  onclick="javascript:location.href='ga-data-browser-dataset-detail.html'">
+        <a href=""><h2>Repertorium van ambtsdragers</h2></a>
+        <p class="hcSmallTxt">De hoogste ambtenaren van de belangrijkste instellingen van vertegenwoordigende, bestuurlijke en rechtsprekende aard op het huidige Nederlandse grondgebied.</p>
+        <hr class="hcMarginBottom1_5 hcMarginTop1_5">
+      
+        <dl  aria-label="Information about the dataset">
+          <dt>Statements</dt>
+          <dd>2131</dd>
+      
+          <dt>License</dt>
+          <dd>CC-BY-SA</dd>
+      
+          <dt>Organisation</dt>
+          <dd>Huygens Institute</dd>
+      
+        </dl>
+      
+      
+      </li>
+      <li class="hcCardGaDataset" aria-label="Dataset card"  onclick="javascript:location.href='ga-data-browser-dataset-detail.html'">
+        <a href=""><h2>Repertorium van ambtsdragers</h2></a>
+        <p class="hcSmallTxt">De hoogste ambtenaren van de belangrijkste instellingen van vertegenwoordigende, bestuurlijke en rechtsprekende aard op het huidige Nederlandse grondgebied.</p>
+        <hr class="hcMarginBottom1_5 hcMarginTop1_5">
+      
+        <dl  aria-label="Information about the dataset">
+          <dt>Statements</dt>
+          <dd>2131</dd>
+      
+          <dt>License</dt>
+          <dd>CC-BY-SA</dd>
+      
+          <dt>Organisation</dt>
+          <dd>Huygens Institute</dd>
+      
+        </dl>
+      
+      
+      </li>
+      <li class="hcCardGaDataset" aria-label="Dataset card"  onclick="javascript:location.href='ga-data-browser-dataset-detail.html'">
+        <a href=""><h2>Repertorium van ambtsdragers</h2></a>
+        <p class="hcSmallTxt">De hoogste ambtenaren van de belangrijkste instellingen van vertegenwoordigende, bestuurlijke en rechtsprekende aard op het huidige Nederlandse grondgebied.</p>
+        <hr class="hcMarginBottom1_5 hcMarginTop1_5">
+      
+        <dl  aria-label="Information about the dataset">
+          <dt>Statements</dt>
+          <dd>2131</dd>
+      
+          <dt>License</dt>
+          <dd>CC-BY-SA</dd>
+      
+          <dt>Organisation</dt>
+          <dd>Huygens Institute</dd>
+      
+        </dl>
+      
+      
+      </li>
+      <li class="hcCardGaDataset" aria-label="Dataset card"  onclick="javascript:location.href='ga-data-browser-dataset-detail.html'">
+        <a href=""><h2>Repertorium van ambtsdragers</h2></a>
+        <p class="hcSmallTxt">De hoogste ambtenaren van de belangrijkste instellingen van vertegenwoordigende, bestuurlijke en rechtsprekende aard op het huidige Nederlandse grondgebied.</p>
+        <hr class="hcMarginBottom1_5 hcMarginTop1_5">
+      
+        <dl  aria-label="Information about the dataset">
+          <dt>Statements</dt>
+          <dd>2131</dd>
+      
+          <dt>License</dt>
+          <dd>CC-BY-SA</dd>
+      
+          <dt>Organisation</dt>
+          <dd>Huygens Institute</dd>
+      
+        </dl>
+      
+      
+      </li>
+      <li class="hcCardGaDataset" aria-label="Dataset card"  onclick="javascript:location.href='ga-data-browser-dataset-detail.html'">
+        <a href=""><h2>Repertorium van ambtsdragers</h2></a>
+        <p class="hcSmallTxt">De hoogste ambtenaren van de belangrijkste instellingen van vertegenwoordigende, bestuurlijke en rechtsprekende aard op het huidige Nederlandse grondgebied.</p>
+        <hr class="hcMarginBottom1_5 hcMarginTop1_5">
+      
+        <dl  aria-label="Information about the dataset">
+          <dt>Statements</dt>
+          <dd>2131</dd>
+      
+          <dt>License</dt>
+          <dd>CC-BY-SA</dd>
+      
+          <dt>Organisation</dt>
+          <dd>Huygens Institute</dd>
+      
+        </dl>
+      
+      
+      </li>
+      <li class="hcCardGaDataset" aria-label="Dataset card"  onclick="javascript:location.href='ga-data-browser-dataset-detail.html'">
+        <a href=""><h2>Repertorium van ambtsdragers</h2></a>
+        <p class="hcSmallTxt">De hoogste ambtenaren van de belangrijkste instellingen van vertegenwoordigende, bestuurlijke en rechtsprekende aard op het huidige Nederlandse grondgebied.</p>
+        <hr class="hcMarginBottom1_5 hcMarginTop1_5">
+      
+        <dl  aria-label="Information about the dataset">
+          <dt>Statements</dt>
+          <dd>2131</dd>
+      
+          <dt>License</dt>
+          <dd>CC-BY-SA</dd>
+      
+          <dt>Organisation</dt>
+          <dd>Huygens Institute</dd>
+      
+        </dl>
+      
+      
+      </li>
+      <li class="hcCardGaDataset" aria-label="Dataset card"  onclick="javascript:location.href='ga-data-browser-dataset-detail.html'">
+        <a href=""><h2>Repertorium van ambtsdragers</h2></a>
+        <p class="hcSmallTxt">De hoogste ambtenaren van de belangrijkste instellingen van vertegenwoordigende, bestuurlijke en rechtsprekende aard op het huidige Nederlandse grondgebied.</p>
+        <hr class="hcMarginBottom1_5 hcMarginTop1_5">
+      
+        <dl  aria-label="Information about the dataset">
+          <dt>Statements</dt>
+          <dd>2131</dd>
+      
+          <dt>License</dt>
+          <dd>CC-BY-SA</dd>
+      
+          <dt>Organisation</dt>
+          <dd>Huygens Institute</dd>
+      
+        </dl>
+      
+      
+      </li>
+    </ul>
 
   </div>
-</div>
+</section>
 
   <script src="js/utilGA1.js"></script>
 

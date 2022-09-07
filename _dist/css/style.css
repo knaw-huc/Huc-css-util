@@ -117,7 +117,7 @@ body {
 }
 
 a {
-  color: #0087d4;
+  color: hsl(201deg, 96%, 29%);
 }
 
 .colorBgGrey {
@@ -133,7 +133,7 @@ a {
 }
 
 .hcTxtColorGreyMid {
-  color: #999999;
+  color: hsl(0deg, 0%, 40%);
 }
 
 body {
@@ -293,6 +293,10 @@ strong {
 
 .hcMarginTop1 {
   margin-top: 1rem;
+}
+
+.hcMarginTop1_5 {
+  margin-top: 1.5rem;
 }
 
 .hcMarginTop2 {
@@ -471,6 +475,11 @@ strong {
     margin-bottom: 0;
   }
 }
+.hcNoList li {
+  list-style: none;
+  margin-left: 0;
+}
+
 .hcList {
   display: flex;
   flex-direction: column;
@@ -598,6 +607,21 @@ strong {
 .hcResultsHeader {
   display: flex;
   justify-content: space-between;
+}
+
+.hcCards {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+  grid-gap: 2rem;
+}
+
+dl dt {
+  text-transform: uppercase;
+  font-size: 0.85rem;
+}
+dl dd {
+  margin: 0;
+  margin-bottom: 1rem;
 }
 
 .hcMessageBar {
@@ -756,7 +780,7 @@ button {
   background: none;
   border: none;
   box-shadow: none;
-  color: #0087d4;
+  color: hsl(201deg, 96%, 29%);
 }
 
 .hcfixedSideButton {
@@ -833,7 +857,7 @@ input::placeholder {
 }
 
 .hcLabel {
-  color: #999999;
+  color: hsl(0deg, 0%, 40%);
   text-transform: uppercase;
   font-size: 0.85rem;
 }
@@ -1709,7 +1733,7 @@ hr {
 }
 
 .hcFacetCount {
-  color: #999999;
+  color: hsl(0deg, 0%, 40%);
 }
 
 .hcFacetSearch {

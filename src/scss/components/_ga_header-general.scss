@@ -74,36 +74,59 @@ $gaYellowDark: hsl(49, 99%, 44%);
 
 .hcGaHeader__dropdown {
   button {
-    border: none;
+
     background: none;
     font-size: 18px;
     font-weight:300;
     max-height: 300px;
+    height: 100%;
     color: #000;
+    border-top: none;
+    border-left: none;
+    border-bottom: none;
 
     img {
-      width: 10px;
+      width: 8px;
       height: auto;
-      transform: translateY(-7px);
+      transform: translateY(-5px);
 
     }
   }
 
-  .hcDropList__list{
-    //margin-top: 3px;
+  .hcDropList__list {
+    border-top: 1px solid $gaYellowDark;
+    box-shadow: 7px 7px 10px rgba(#000000, 0.2);
+    a{
+      flex-direction: column;
+      display: flex;
+      align-items: flex-start;
+      border-bottom: 1px solid $gaYellowDark;
+      max-width:300px;
+      padding: .7rem .5rem;
+
+    }
+
   }
 
 }
 
 
 
-@media (max-width: 700px) {
+@media (max-width: 574px) {
   .hcGaHeaderGen__Nav,  {
     border-top: 1px solid $gaYellowDark;
   }
+
+  .hcGaHeader__dropdown {
+    button{
+      img {
+        display: none;
+      }
+    }
+  }
 }
 
-@media (max-width: 914px) {
+@media (max-width: 841px) {
   .hcGaHeader__Login {
     border-top: 1px solid $gaYellowDark;
     flex-grow: 1;

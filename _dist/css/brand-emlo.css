@@ -4,7 +4,7 @@ body {
 }
 
 a {
-  color: #0087d4;
+  color: hsl(201deg, 96%, 29%);
 }
 
 .colorBgGrey {
@@ -20,7 +20,7 @@ a {
 }
 
 .hcTxtColorGreyMid {
-  color: #999999;
+  color: hsl(0deg, 0%, 40%);
 }
 
 .bgColorBrand1 {
@@ -88,7 +88,7 @@ a {
 .hcEmplHierarchy li:before {
   content: "+";
   padding-right: 8px;
-  color: #999999;
+  color: hsl(0deg, 0%, 40%);
 }
 
 .hcEmplList {

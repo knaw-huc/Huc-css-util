@@ -1,5 +1,16 @@
 // Multiple Items
 
+// li no List
+
+.hcNoList {
+
+    li {
+      list-style: none;
+      margin-left: 0;
+    }
+}
+
+
 // Lists
 .hcList{
   display: flex;
@@ -153,4 +164,21 @@
 .hcResultsHeader {
   display: flex;
   justify-content: space-between;
+}
+
+.hcCards {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+  grid-gap: 2rem;
+}
+
+dl {
+  dt {
+    text-transform: uppercase;
+    font-size: .85rem;
+  }
+  dd {
+    margin: 0;
+    margin-bottom: 1rem;
+  }
 }

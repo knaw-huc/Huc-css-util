@@ -384,3 +384,17 @@ $gaIconHeight: 1rem;
 	 }
 
 }
+
+
+.hcCardGaDataset {
+	padding: 1.5rem;
+	background-color: #fff;
+	min-height: 150px;
+	border-radius: $basicBorderRadius;
+	box-shadow: 5px 5px 7px rgba(#000000, 0.2);
+
+	h2 {
+		font-size: 1.2rem;
+	}
+
+}

@@ -4,7 +4,7 @@ body {
 }
 
 a {
-  color: #0087d4;
+  color: hsl(201deg, 96%, 29%);
 }
 
 .colorBgGrey {
@@ -20,7 +20,7 @@ a {
 }
 
 .hcTxtColorGreyMid {
-  color: #999999;
+  color: hsl(0deg, 0%, 40%);
 }
 
 .hcClrBg_Info {
@@ -169,24 +169,43 @@ a {
 }
 
 .hcGaHeader__dropdown button {
-  border: none;
   background: none;
   font-size: 18px;
   font-weight: 300;
   max-height: 300px;
+  height: 100%;
   color: #000;
+  border-top: none;
+  border-left: none;
+  border-bottom: none;
 }
 .hcGaHeader__dropdown button img {
-  width: 10px;
+  width: 8px;
   height: auto;
-  transform: translateY(-7px);
+  transform: translateY(-5px);
 }
-@media (max-width: 700px) {
+.hcGaHeader__dropdown .hcDropList__list {
+  border-top: 1px solid hsl(49deg, 99%, 44%);
+  box-shadow: 7px 7px 10px rgba(0, 0, 0, 0.2);
+}
+.hcGaHeader__dropdown .hcDropList__list a {
+  flex-direction: column;
+  display: flex;
+  align-items: flex-start;
+  border-bottom: 1px solid hsl(49deg, 99%, 44%);
+  max-width: 300px;
+  padding: 0.7rem 0.5rem;
+}
+
+@media (max-width: 574px) {
   .hcGaHeaderGen__Nav {
     border-top: 1px solid hsl(49deg, 99%, 44%);
   }
+  .hcGaHeader__dropdown button img {
+    display: none;
+  }
 }
-@media (max-width: 914px) {
+@media (max-width: 841px) {
   .hcGaHeader__Login {
     border-top: 1px solid hsl(49deg, 99%, 44%);
     flex-grow: 1;
@@ -481,4 +500,15 @@ a {
   background-color: #efc501;
   color: #000;
   border-radius: 2px;
+}
+
+.hcCardGaDataset {
+  padding: 1.5rem;
+  background-color: #fff;
+  min-height: 150px;
+  border-radius: 4px;
+  box-shadow: 5px 5px 7px rgba(0, 0, 0, 0.2);
+}
+.hcCardGaDataset h2 {
+  font-size: 1.2rem;
 }
