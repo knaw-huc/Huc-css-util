@@ -47,6 +47,13 @@ $gaYellowDark: hsl(49, 99%, 44%);
   a:hover{
     background-color: $gaYellowDark;
   }
+
+  button {
+    border-right: 1px solid $gaYellowDark;
+    background-color: #efc501;
+    height: 100%;
+    transition: background-color .4s;
+  }
 }
 
 .hcGaHeader__Login {
@@ -58,6 +65,43 @@ $gaYellowDark: hsl(49, 99%, 44%);
       width: auto;
       margin-right: .5rem;
       opacity: .4;
+  }
 
+  button {
+    margin-left: 2rem;
+  }
+}
+
+.hcGaHeader__dropdown {
+  button {
+    border: none;
+    background: none;
+    font-size: 18px;
+    font-weight:300;
+    max-height: 300px;
+  }
+
+  .hcDropList__list{
+    //margin-top: 3px;
+  }
+
+}
+
+.hcGaHeader__dropdown button::after {
+  content: " +";
+}
+
+
+@media (max-width: 700px) {
+  .hcGaHeaderGen__Nav,  {
+    border-top: 1px solid $gaYellowDark;
+  }
+}
+
+@media (max-width: 914px) {
+  .hcGaHeader__Login {
+    border-top: 1px solid $gaYellowDark;
+    flex-grow: 1;
+    padding: .4rem;
   }
 }

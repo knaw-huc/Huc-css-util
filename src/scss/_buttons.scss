@@ -65,10 +65,35 @@ button {
 }
 
 
+
 .buttonRemove:before{
   content: '';
   background:url('Icons/icon-util-close.html');
   width: 20px;
   height: 20px;
   display: block;
+}
+
+
+
+
+
+
+.hcDropList {
+  button {}
+
+  .hcDropList__list{
+    display: none;
+    flex-direction: column;
+    position: absolute;
+
+    a {
+      padding: .5rem ;
+    }
+  }
+}
+
+.hcDropList:hover  .hcDropList__list{
+  display:flex;
+  z-index: 150;
 }
