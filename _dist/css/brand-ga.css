@@ -174,11 +174,13 @@ a {
   font-size: 18px;
   font-weight: 300;
   max-height: 300px;
+  color: #000;
 }
-.hcGaHeader__dropdown button::after {
-  content: " +";
+.hcGaHeader__dropdown button img {
+  width: 10px;
+  height: auto;
+  transform: translateY(-7px);
 }
-
 @media (max-width: 700px) {
   .hcGaHeaderGen__Nav {
     border-top: 1px solid hsl(49deg, 99%, 44%);
