@@ -32,79 +32,79 @@ ul ul ul {
 }
 
 .hcClrBg_Info {
-  background-color: hsl(190deg, 70%, 40%);
+  background-color: #1f96ad;
 }
 
 .hcClrBg_InfoLight {
-  background-color: hsl(190deg, 60%, 95%);
+  background-color: #ebf7fa;
 }
 
 .hcClrBg_Reward {
-  background-color: hsl(80deg, 60%, 53%);
+  background-color: #9fcf3f;
 }
 
 .hcClrBg_RewardLight {
-  background-color: hsl(80deg, 60%, 80%);
+  background-color: #d6ebad;
 }
 
 .hcClrBg_Error {
-  background-color: hsl(0deg, 63%, 65%);
+  background-color: #de6e6e;
 }
 
 .hcClrBg_ErrorLight {
-  background-color: hsl(10deg, 100%, 80%);
+  background-color: #ffaa99;
 }
 
 .hcClrBg_Caution {
-  background-color: hsl(47deg, 68%, 64%);
+  background-color: #e2c765;
 }
 
 .hcClrBg_CautionLight {
-  background-color: hsl(47deg, 68%, 80%);
+  background-color: #efe0a9;
 }
 
 .hcTxt_Caution {
-  color: hsl(19deg, 84%, 42%);
+  color: #c54a11;
 }
 
 .hcClrBg_Grey05 {
-  background-color: hsl(0deg, 0%, 95%);
+  background-color: #f2f2f2;
 }
 
 .hcClrBg_Grey10 {
-  background-color: hsl(0deg, 0%, 90%);
+  background-color: #e6e6e6;
 }
 
 .hcClrBg_Grey15 {
-  background-color: hsl(0deg, 0%, 85%);
+  background-color: #d9d9d9;
 }
 
 .hcClrBg_Grey20 {
-  background-color: hsl(0deg, 0%, 80%);
+  background-color: #cccccc;
 }
 
 .hcClrBg_Grey30 {
-  background-color: hsl(0deg, 0%, 70%);
+  background-color: #b3b3b3;
 }
 
 .hcClrBg_Grey70 {
-  background-color: hsl(0deg, 0%, 30%);
+  background-color: #4d4d4d;
 }
 
 .hcClrBg_Grey80 {
-  background-color: hsl(0deg, 0%, 20%);
+  background-color: #333333;
 }
 
 .hcClrBg_Grey90 {
-  background-color: hsl(0deg, 0%, 10%);
+  background-color: #1a1a1a;
 }
 
 .hcClrTxt {
-  color: hsl(0deg, 0%, 10%);
+  color: #1a1a1a;
 }
 
 .hcClrTxt_Grey {
-  color: hsl(0deg, 0%, 50%);
+  color: gray;
 }
 
 .hcClrTxt_Dark {
@@ -121,11 +121,11 @@ a {
 }
 
 .colorBgGrey {
-  background-color: rgb(246, 246, 246);
+  background-color: #f6f6f6;
 }
 
 .colorBgGreyLight {
-  background-color: hsl(0deg, 0%, 98%);
+  background-color: #fafafa;
 }
 
 .colorBgGreyPlus {
@@ -142,7 +142,7 @@ body {
   font-size: 18px;
   line-height: 140%;
   font-style: normal;
-  color: hsl(0deg, 0%, 10%);
+  color: #1a1a1a;
 }
 
 h1 {
@@ -175,9 +175,11 @@ h4 {
     font-size: 18px;
     line-height: 150%;
   }
+
   h1 {
     font-size: 2em;
   }
+
   h1, h2, h3, h4 {
     line-height: 150%;
   }
@@ -451,7 +453,7 @@ strong {
   padding-left: 0;
   padding-right: 0;
   padding-bottom: 1.2rem;
-  border-bottom: 1px solid hsl(0deg, 0%, 85%);
+  border-bottom: 1px solid #d9d9d9;
 }
 
 .hcListsItemRow {
@@ -483,13 +485,13 @@ strong {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  border-top: 1px solid hsl(0deg, 0%, 85%);
+  border-top: 1px solid #d9d9d9;
   padding-top: 0.7rem;
   padding-bottom: 0.7rem;
 }
 
 .hcList > *:hover {
-  background-color: hsl(0deg, 0%, 85%);
+  background-color: #d9d9d9;
   margin: 0 -1rem;
   padding-left: 1rem;
   padding-right: 1rem;
@@ -500,14 +502,14 @@ strong {
 }
 
 .hcListDisctinctLines > *:nth-child(odd) {
-  background-color: hsl(0deg, 0%, 95%);
+  background-color: #f2f2f2;
   margin: 0 -1rem;
   padding-left: 1rem;
   padding-right: 1rem;
 }
 
 .hcListDisctinctLines > *:nth-child(odd):hover {
-  background-color: hsl(0deg, 0%, 85%);
+  background-color: #d9d9d9;
 }
 
 .hcListDisctinctLines > *:nth-child(even) {
@@ -574,7 +576,7 @@ strong {
 }
 
 .hcKwic {
-  border-bottom: 3px dotted rgb(231, 218, 103);
+  border-bottom: 3px dotted #e7da67;
 }
 
 .hcListItemThumb {
@@ -609,7 +611,7 @@ strong {
   font-size: 0.85rem;
   line-height: 140%;
   font-style: italic;
-  background-color: hsl(0deg, 0%, 96%);
+  background-color: whitesmoke;
   border-radius: 4px;
 }
 
@@ -674,18 +676,23 @@ strong {
   .hc2columns, .hc3columns, .hc4columns, .hc5columns, .hc6columns {
     flex-direction: row;
   }
+
   .hc2columns > * {
     flex-basis: 50%;
   }
+
   .hc3columns > * {
     flex-basis: 33%;
   }
+
   .hc4columns > * {
     flex-basis: 25%;
   }
+
   .hc5columns > * {
     flex-basis: 20%;
   }
+
   .hc6columns > * {
     flex-basis: 15%;
   }
@@ -813,7 +820,7 @@ input, select, option, textarea {
 }
 
 input::placeholder {
-  color: hsl(0deg, 0%, 50%);
+  color: gray;
   font-style: italic;
   font-size: 0.85rem;
 }
@@ -852,7 +859,7 @@ input::placeholder {
   background-color: #fff;
   padding-top: 1rem;
   padding-bottom: 1rem;
-  border-top: 1px solid hsl(0deg, 0%, 85%);
+  border-top: 1px solid #d9d9d9;
 }
 
 .hcTextSnippit::before {
@@ -892,11 +899,11 @@ input::placeholder {
 .hcDensity {
   width: 100%;
   min-width: 100px;
-  background-color: rgb(227, 227, 227);
+  background-color: #e3e3e3;
 }
 
 .hcDensityBar {
-  background-color: rgb(58, 165, 176);
+  background-color: #3aa5b0;
   font-size: 0.5rem;
   color: #fff;
   padding: 0 0 0 0.5rem;
@@ -923,12 +930,14 @@ input::placeholder {
   .hcBarDataset {
     flex-direction: row;
   }
+
   span {
     display: flex;
     flex-direction: row;
     align-items: baseline;
     padding-right: 1rem;
   }
+
   select {
     background-color: none;
   }
@@ -948,20 +957,22 @@ input::placeholder {
 hr {
   border: none;
   height: 1px;
-  color: rgba(0, 0, 0, 0.15); /* old IE */
-  background-color: rgba(0, 0, 0, 0.15); /* Modern Browsers */
+  color: rgba(0, 0, 0, 0.15);
+  /* old IE */
+  background-color: rgba(0, 0, 0, 0.15);
+  /* Modern Browsers */
 }
 
 .hcStickOutBox {
   margin: -1rem;
   padding: 1rem;
-  background-color: hsl(0deg, 0%, 95%);
+  background-color: #f2f2f2;
 }
 
 .hcStickOutBoxAside {
   margin: 0 -1rem;
   padding: 0 1rem;
-  background-color: hsl(0deg, 0%, 95%);
+  background-color: #f2f2f2;
 }
 
 .hcRoundedCorners {
@@ -980,15 +991,15 @@ hr {
 }
 
 .hcMsg--info {
-  background-color: hsl(201deg, 100%, 95%);
-  border: 1px solid hsl(201deg, 50%, 80%);
-  color: hsl(201deg, 50%, 30%);
+  background-color: #e6f6ff;
+  border: 1px solid #b3d4e6;
+  color: #265873;
   border-radius: 4px;
   position: absolute;
   width: 100%;
   max-width: 720px;
   padding: 1rem;
-  box-shadow: 2px 2px 2px hsl(0deg, 0%, 85%);
+  box-shadow: 2px 2px 2px #d9d9d9;
 }
 
 .hcPointer {
@@ -1063,9 +1074,11 @@ hr {
   .hcLayoutBasicMainAside {
     flex-direction: row;
   }
+
   .hcLayoutAside {
     width: 300px;
   }
+
   .hcLayoutMain {
     width: calc(100vw - 300px);
     min-width: calc(800px - 300px);
@@ -1136,7 +1149,7 @@ hr {
   height: 230px;
   flex-direction: row;
   overflow-x: auto;
-  background-color: hsl(0deg, 0%, 98%);
+  background-color: #fafafa;
 }
 .hcLayoutFacetsToggel div {
   width: 250px;
@@ -1153,12 +1166,15 @@ hr {
   .hcLayoutFacet-Result {
     flex-direction: row;
   }
+
   .hcLayoutFacets {
     width: 350px;
   }
+
   .hcLayoutResults {
     width: calc(100% - 350px);
   }
+
   .hcLayoutFacetsToggel {
     display: block;
     overflow-x: none;
@@ -1170,6 +1186,7 @@ hr {
     width: 100%;
     margin-right: auto;
   }
+
   #showFacets {
     display: none;
     position: fixed;
@@ -1229,9 +1246,11 @@ hr {
   .hcLayout-right-sidebar {
     flex-direction: row;
   }
+
   .hcLayout-right-sidebar-main {
     width: calc(100% - 250px - 2rem);
   }
+
   .hcLayout-right-sidebar-aside {
     width: 250px;
   }
@@ -1270,6 +1289,7 @@ hr {
   .hcLayoutWideCols {
     flex-direction: row;
   }
+
   .hcWideColsFixedWidth {
     width: 100%;
     max-width: 25vw;
@@ -1287,18 +1307,18 @@ hr {
 
 .hcLayoutStaticAsideM {
   width: 100%;
-  background-color: rgb(136, 208, 219);
+  background-color: #88d0db;
   max-height: 50vh;
 }
 
 .hcLayoutStaticAsideL {
   width: 50%;
-  background-color: rgb(236, 208, 219);
+  background-color: #ecd0db;
 }
 
 .hcLayoutStaticAsideR {
   width: 50%;
-  background-color: rgb(36, 208, 219);
+  background-color: #24d0db;
 }
 
 @media (min-width: 1100px) {
@@ -1307,10 +1327,12 @@ hr {
     max-height: none;
     order: 2;
   }
+
   .hcLayoutStaticAsideL {
     width: 25%;
     order: 1;
   }
+
   .hcLayoutStaticAsideR {
     width: 25%;
     order: 3;
@@ -1389,9 +1411,11 @@ hr {
   .hcPageHeaderSimple {
     flex-direction: row;
   }
+
   .hcSecundairNav {
     display: flex;
   }
+
   .hcMenuButton {
     display: none;
   }
@@ -1465,7 +1489,7 @@ hr {
 }
 .hcTabs .hcSelectedTab {
   font-weight: 700;
-  background-color: hsl(0deg, 0%, 95%);
+  background-color: #f2f2f2;
 }
 
 .hcTabsVert {
@@ -1494,7 +1518,7 @@ hr {
   width: 100%;
   position: relative;
   z-index: 10;
-  background-image: linear-gradient(hsl(0deg, 0%, 95%), #fff 50px);
+  background-image: linear-gradient(#f2f2f2, #fff 50px);
 }
 
 @media (min-width: 500px) {
@@ -1552,6 +1576,7 @@ hr {
   .hcFormItemRow {
     flex-direction: row;
   }
+
   .hcFormItemExtra {
     width: 60%;
     display: flex;
@@ -1592,9 +1617,11 @@ hr {
   .hcFormStack {
     flex-direction: row;
   }
+
   .hcStackInfo {
     width: calc(30% - 2rem);
   }
+
   .hcStackFormItems {
     width: 70%;
     padding-top: 1.5rem;
@@ -1605,7 +1632,7 @@ hr {
   padding: 0 1.5rem;
   display: flex;
   justify-content: flex-start;
-  background-color: rgb(73, 73, 73);
+  background-color: #494949;
   color: #3e3e3e;
 }
 .hcProductBar .icon {
@@ -1643,6 +1670,7 @@ hr {
     width: 200px;
     color: #3e3e3e;
   }
+
   .hcProductBar + .hcContentContainer {
     margin-left: 4rem;
     width: calc(100% - 4rem);
@@ -1678,7 +1706,7 @@ hr {
 }
 .hcFacetItem .hcFacetItemSpan input[type=checkbox] {
   width: 15px;
-  background-color: rgb(238, 224, 144);
+  background-color: #eee090;
 }
 
 .hcFacetItemSelected {
@@ -1713,7 +1741,7 @@ hr {
 .hcSelectedFacet {
   font-size: 0.85rem;
   padding: 0.2rem 0.5rem;
-  background-color: rgb(246, 246, 246);
+  background-color: #f6f6f6;
   border-radius: 3px;
   margin: 0 0.5rem 0.5rem 0;
   cursor: pointer;
@@ -1752,7 +1780,7 @@ hr {
 .hcFacetHelp {
   display: none;
   position: absolute;
-  background-color: rgb(37, 163, 154);
+  background-color: #25a39a;
   padding: 0.5rem;
   width: 250px;
 }
@@ -1811,11 +1839,11 @@ hr {
   height: 2.5rem;
 }
 .hcQBuildBlock .hcIconFill {
-  fill: hsl(0deg, 0%, 70%) !important;
+  fill: #b3b3b3 !important;
 }
 
 .hcQBuildBlock:hover {
-  box-shadow: 2px 2px 2px hsl(0deg, 0%, 85%);
+  box-shadow: 2px 2px 2px #d9d9d9;
 }
 
 .hcQueryBuilderRow {
@@ -1827,7 +1855,7 @@ hr {
 }
 
 .hcQBuildBlockInt {
-  border: 1px solid hsl(0deg, 0%, 80%);
+  border: 1px solid #cccccc;
   cursor: pointer;
 }
 
@@ -1838,16 +1866,16 @@ hr {
 }
 
 .hcQBuildBlockChoice > * {
-  border-top: 1px solid hsl(0deg, 0%, 80%);
-  border-left: 1px solid hsl(0deg, 0%, 80%);
-  border-right: 1px solid hsl(0deg, 0%, 80%);
+  border-top: 1px solid #cccccc;
+  border-left: 1px solid #cccccc;
+  border-right: 1px solid #cccccc;
   cursor: pointer;
   padding: 0.2rem 0.3rem;
   width: 8rem;
 }
 
 .hcQBuildBlockChoice > *:last-child {
-  border-bottom: 1px solid hsl(0deg, 0%, 80%);
+  border-bottom: 1px solid #cccccc;
   border-radius: 0 0 4px 4px;
 }
 
@@ -1856,7 +1884,7 @@ hr {
 }
 
 .hcQBuildBlockBrowse {
-  background-color: hsl(0deg, 0%, 90%);
+  background-color: #e6e6e6;
   height: 50vh;
   margin-bottom: calc(2.5rem - 50vh);
   z-index: 200;
@@ -1865,11 +1893,11 @@ hr {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
-  box-shadow: 2px 2px 2px hsl(0deg, 0%, 85%);
+  box-shadow: 2px 2px 2px #d9d9d9;
 }
 .hcQBuildBlockBrowse input {
   font-size: 0.85rem;
-  border: 1px solid hsl(0deg, 0%, 80%);
+  border: 1px solid #cccccc;
 }
 .hcQBuildBlockBrowse .hcList {
   font-weight: 300;
@@ -1936,7 +1964,7 @@ hr {
 
 .hcLogicBox-group {
   margin-bottom: 1rem;
-  border-left: 5px solid hsl(0deg, 0%, 50%);
+  border-left: 5px solid gray;
   padding-left: 2rem;
 }
 
@@ -1944,7 +1972,7 @@ hr {
   font-weight: 700;
   margin-bottom: 1rem;
   margin-left: -0.5rem;
-  color: hsl(0deg, 0%, 50%);
+  color: gray;
 }
 
 .hcTree {
@@ -2026,11 +2054,11 @@ a {
 }
 
 .colorBgGrey {
-  background-color: rgb(246, 246, 246);
+  background-color: #f6f6f6;
 }
 
 .colorBgGreyLight {
-  background-color: hsl(0deg, 0%, 98%);
+  background-color: #fafafa;
 }
 
 .colorBgGreyPlus {
@@ -2068,8 +2096,8 @@ a {
 }
 
 hr {
-  color: hsl(210deg, 30%, 90%);
-  background-color: hsl(210deg, 30%, 90%);
+  color: #dee6ed;
+  background-color: #dee6ed;
 }
 
 .bgColorBrandIK {
@@ -2080,7 +2108,7 @@ hr {
 }
 
 .hcIKBgLight {
-  background-color: hsl(27deg, 35%, 96%);
+  background-color: #f8f4f1;
 }
 
 .hcSmallTxt {
@@ -2098,7 +2126,7 @@ hr {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  background-color: hsl(27deg, 35%, 96%);
+  background-color: #f8f4f1;
   padding: 1rem;
 }
 .hcIKkImageBlock img {
@@ -2137,7 +2165,7 @@ hr {
   flex-direction: column;
   align-items: center;
   justify-content: flex-start;
-  background-color: hsl(27deg, 35%, 96%);
+  background-color: #f8f4f1;
   padding: 0.5rem;
 }
 .hcIKkImageBlockResult img {
@@ -2175,7 +2203,7 @@ hr {
   align-items: center;
   width: 100%;
   white-space: nowrap;
-  border-bottom: 1px solid hsl(0deg, 0%, 90%);
+  border-bottom: 1px solid #e6e6e6;
   font-size: 0.9rem;
 }
 
@@ -2196,7 +2224,7 @@ hr {
 
 .hcIKselectedFacetVal {
   padding: 0rem 0.3rem;
-  background-color: rgb(228, 228, 228);
+  background-color: #e4e4e4;
   border-radius: 3px;
   margin-left: 0.5rem;
   display: flex;

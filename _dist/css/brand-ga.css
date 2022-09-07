@@ -8,11 +8,11 @@ a {
 }
 
 .colorBgGrey {
-  background-color: rgb(246, 246, 246);
+  background-color: #f6f6f6;
 }
 
 .colorBgGreyLight {
-  background-color: hsl(0deg, 0%, 98%);
+  background-color: #fafafa;
 }
 
 .colorBgGreyPlus {
@@ -24,83 +24,139 @@ a {
 }
 
 .hcClrBg_Info {
-  background-color: hsl(190deg, 70%, 40%);
+  background-color: #1f96ad;
 }
 
 .hcClrBg_InfoLight {
-  background-color: hsl(190deg, 60%, 95%);
+  background-color: #ebf7fa;
 }
 
 .hcClrBg_Reward {
-  background-color: hsl(80deg, 60%, 53%);
+  background-color: #9fcf3f;
 }
 
 .hcClrBg_RewardLight {
-  background-color: hsl(80deg, 60%, 80%);
+  background-color: #d6ebad;
 }
 
 .hcClrBg_Error {
-  background-color: hsl(0deg, 63%, 65%);
+  background-color: #de6e6e;
 }
 
 .hcClrBg_ErrorLight {
-  background-color: hsl(10deg, 100%, 80%);
+  background-color: #ffaa99;
 }
 
 .hcClrBg_Caution {
-  background-color: hsl(47deg, 68%, 64%);
+  background-color: #e2c765;
 }
 
 .hcClrBg_CautionLight {
-  background-color: hsl(47deg, 68%, 80%);
+  background-color: #efe0a9;
 }
 
 .hcTxt_Caution {
-  color: hsl(19deg, 84%, 42%);
+  color: #c54a11;
 }
 
 .hcClrBg_Grey05 {
-  background-color: hsl(0deg, 0%, 95%);
+  background-color: #f2f2f2;
 }
 
 .hcClrBg_Grey10 {
-  background-color: hsl(0deg, 0%, 90%);
+  background-color: #e6e6e6;
 }
 
 .hcClrBg_Grey15 {
-  background-color: hsl(0deg, 0%, 85%);
+  background-color: #d9d9d9;
 }
 
 .hcClrBg_Grey20 {
-  background-color: hsl(0deg, 0%, 80%);
+  background-color: #cccccc;
 }
 
 .hcClrBg_Grey30 {
-  background-color: hsl(0deg, 0%, 70%);
+  background-color: #b3b3b3;
 }
 
 .hcClrBg_Grey70 {
-  background-color: hsl(0deg, 0%, 30%);
+  background-color: #4d4d4d;
 }
 
 .hcClrBg_Grey80 {
-  background-color: hsl(0deg, 0%, 20%);
+  background-color: #333333;
 }
 
 .hcClrBg_Grey90 {
-  background-color: hsl(0deg, 0%, 10%);
+  background-color: #1a1a1a;
 }
 
 .hcClrTxt {
-  color: hsl(0deg, 0%, 10%);
+  color: #1a1a1a;
 }
 
 .hcClrTxt_Grey {
-  color: hsl(0deg, 0%, 50%);
+  color: gray;
 }
 
 .hcClrTxt_Dark {
   color: #000;
+}
+
+.hcGaHeaderGen {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  gap: 0 2rem;
+}
+.hcGaHeaderGen > * {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.hcGaHeaderGen__Logo {
+  padding-top: 0rem;
+  padding-bottom: 0rem;
+}
+.hcGaHeaderGen__Logo img {
+  height: 60px;
+  width: auto;
+}
+
+.hcGaHeaderGen__ToolName {
+  font-weight: 700;
+  padding-right: 1rem;
+  flex-grow: 1;
+}
+
+.hcGaHeaderGen__Nav {
+  border-left: 1px solid #dfb701;
+}
+.hcGaHeaderGen__Nav a {
+  color: #000;
+  border-right: 1px solid #dfb701;
+  background-color: #efc501;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  padding: 0 1rem;
+  transition: background-color 0.4s;
+}
+.hcGaHeaderGen__Nav a:hover {
+  background-color: #dfb701;
+}
+
+.hcGaHeader__Login {
+  justify-content: flex-end;
+  padding-right: 1.5rem;
+}
+.hcGaHeader__Login .user_icon {
+  height: 1rem;
+  width: auto;
+  margin-right: 0.5rem;
+  opacity: 0.4;
 }
 
 .bgColorBrand1 {
@@ -119,7 +175,7 @@ a {
 }
 
 .colorBgGrey {
-  background-color: hsl(0deg, 0%, 96%) !important;
+  background-color: whitesmoke !important;
 }
 
 .hcBrandLogo img {
@@ -187,6 +243,7 @@ a {
   .hcMaxhalf {
     height: 80vh !important;
   }
+
   .hcSelectedExtend {
     margin-right: -2rem;
   }
@@ -232,7 +289,7 @@ a {
 }
 
 .hcVerticalLineSeperator > * {
-  border-right: 1px solid hsl(0deg, 0%, 85%);
+  border-right: 1px solid #d9d9d9;
 }
 
 .hcVerticalLineSeperator > *:last-child {
@@ -290,7 +347,7 @@ a {
 }
 
 .hcTabContent .hcListDisctinctLines > *:nth-child(odd) {
-  background-color: hsl(0deg, 0%, 90%);
+  background-color: #e6e6e6;
 }
 
 .hcGaSce {

@@ -8,11 +8,11 @@ a {
 }
 
 .colorBgGrey {
-  background-color: rgb(246, 246, 246);
+  background-color: #f6f6f6;
 }
 
 .colorBgGreyLight {
-  background-color: hsl(0deg, 0%, 98%);
+  background-color: #fafafa;
 }
 
 .colorBgGreyPlus {
@@ -108,7 +108,7 @@ a {
 }
 
 .hcEmplListHeader {
-  background-color: hsl(0deg, 0%, 96%);
+  background-color: whitesmoke;
   font-weight: 700;
 }
 
@@ -146,7 +146,7 @@ a {
 }
 
 .hcEmplTabBar {
-  background-color: hsl(0deg, 0%, 96%);
+  background-color: whitesmoke;
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
@@ -162,7 +162,7 @@ a {
 
 .hcEmplEmbedBox {
   min-height: 300px;
-  border: 1px solid hsl(0deg, 0%, 96%);
+  border: 1px solid whitesmoke;
 }
 
 .hcEmplacesHierarchyItem > * {

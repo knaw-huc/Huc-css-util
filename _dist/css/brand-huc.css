@@ -8,11 +8,11 @@ a {
 }
 
 .colorBgGrey {
-  background-color: rgb(246, 246, 246);
+  background-color: #f6f6f6;
 }
 
 .colorBgGreyLight {
-  background-color: hsl(0deg, 0%, 98%);
+  background-color: #fafafa;
 }
 
 .colorBgGreyPlus {

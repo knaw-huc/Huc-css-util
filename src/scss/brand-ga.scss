@@ -2,8 +2,10 @@
 @import '_color-depricated';
 @import '_color';
 
+
 $colorGoldenAgentsYellow: #efc501;
 $colorGoldenAgentsYGreen: #058f76;
+@import 'components/ga_header-general';
 
 .bgColorBrand1 {
 	background-image: none !important;
