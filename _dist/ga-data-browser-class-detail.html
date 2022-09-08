@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Golden Agents | Data browser | Class item detail</title>
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/huc-util-ga.css">
+      <link rel="icon" href="images/favi/favi-ga.png" sizes="any" type="image/png">
+    <meta property="og:url"           content=".html" />
+    <meta property="og:type"          content="article" />
+    <meta property="og:title"         content="" />
+    <meta property="og:description"   content="" />
+    <meta property="og:image"         content="" />
+  </head>
+  <body>
+<!-- general GA tool header -->
+<header class="hcGaHeaderGen bgColorBrand1" >
+  <div class="hcGaHeaderGen__Logo"><img src="images/logo-ga.png" alt="Golden Agents logo"></div>
+  <div class="hcGaHeaderGen__ToolName">Dataset Browser</div>
+  <nav class="hcGaHeaderGen__Nav">
+
+    <div class="hcDropList hcGaHeader__dropdown">
+      <button type="button" name="button" aria-label="open menu item" class="">About <img src="images/icons/icon_arrow-down.png" alt=""></button>
+      <div class="hcDropList__list">
+        <a href="https://ga.sd.di.huc.knaw.nl/" target="_blank">About this tool</a>
+        <a href="https://ga-wp3.sd.di.huc.knaw.nl/" target="_blank">About the Golden Agents Project</a>
+        <a href="https://www.goldenagents.org/" target="_blank">Goldenagents.org</a>
+      </div>
+    </div>
+
+
+
+    <div class="hcDropList hcGaHeader__dropdown">
+      <button type="button" name="button"  aria-label="open menu item" class="">More tools <img src="images/icons/icon_arrow-down.png" alt=""></button>
+      <div class="hcDropList__list">
+        <a href="https://ga.sd.di.huc.knaw.nl/" target="_blank">Dataset Browser<br>
+          <small>Explore the Golden Agents datasets.</small></a>
+        <a href="https://ga-wp3.sd.di.huc.knaw.nl/" target="_blank">Golden Agent Search<br>
+          <small>Use SparQL or a querybuilder to anwser your research question. Our agents search overmultiple datasets.</small></a>
+        <a href="https://lenticularlens.org/" target="_blank">Lenticular Lens<br>
+          <small>A dataset alignment tool. It offers context-dependent user-guided entity matching across multiple datasets.</small></a>
+      </div>
+    </div>
+
+
+    <div class="hcDropList hcGaHeader__dropdown">
+      <button type="button" name="button"  aria-label="open menu item" class="">Help<img src="images/icons/icon_arrow-down.png" alt=""></button>
+      <div class="hcDropList__list">
+        <a href="" target="_blank">Watch instruction videos</a>
+        <a href="" target="_blank">Find a dataset</a>
+        <a href="" target="_blank">Documentation</a>
+
+        <a><small><em>Legend</em><br>
+
+            <img src="images/icons/icon_ga-dataset.png" alt="Dataset icon" class="hcGaIcon">Dataset<br>
+            <img src="images/icons/icon_ga-class.png" alt="Class icon" class="hcGaIcon">Class<br>
+            <img src="images/icons/icon_ga-property.png" alt="Property icon" class="hcGaIcon">Property<br>
+          </small>
+        </a>
+
+
+      </div>
+    </div>
+
+  </nav>
+
+  <div class="hcGaHeader__Login">
+    <img src="images/icons/icon_user.svg" alt="" class="user_icon">
+    BasD
+    <button type="button" name="button"  aria-label="Log out" >Logout</button>
+  </div>
+</header>
+<!-- // general GA tool header -->
+
+<div class="hcContentContainer  hcBorderBottom hcMarginTop1">
+  <div class="hcBarDataset hcBasicSideMargin"><span><span class="hcSmallTxt hcTxtColorGreyMid">Dataset</span><select class="" name="">
+        <option selected=""><img src="images/icons/icon_ga-dataset.png" alt="dataset" class="hcGaIcon">CREATE: Ecartico</option>
+        <option><img src="images/icons/icon_ga-dataset.png" alt="dataset" class="hcGaIcon">Rijksmuseum Library (STCN part)</option>
+        <option><img src="images/icons/icon_ga-dataset.png" alt="dataset" class="hcGaIcon">Koninklijke Bibliotheek: STCN</option>
+      </select></span><span><span class="hcSmallTxt hcTxtColorGreyMid">Classes</span><select>
+        <option selected=""><img src="images/icons/icon_ga-property.png" alt="dataset" class="hcGaIcon">Persons</option>
+        <option><img src="images/icons/icon_ga-property.png" alt="dataset" class="hcGaIcon">Places</option>
+        <option><img src="images/icons/icon_ga-property.png" alt="dataset" class="hcGaIcon">Organisations</option>
+      </select></span></div>
+</div>
+
+
+
+<div class="hcContentContainer hcMarginBottom3 hcMarginTop3">
+  <div class="hcBasicSideMargin hcRowJustify">
+    <a href="ga-data-browser-dataset-detail.html"><svg xmlns="http://www.w3.org/2000/svg" width="17" height="18.5" viewBox="0 0 17 18.5" class="hcIconLinkColor hcIconSvg ">
+  <path fill-rule="evenodd" d="M17 0L0 9l17 9.5V0z"/>
+</svg>
+Back to results</a>
+    <div>
+      <button type="button" name="button">RDF view</button>
+      <button type="button" name="button">Show empty properties</button>
+    </div>
+  </div>
+</div>
+
+<main class="hcContentContainer hcMarginBottom5 hcMarginTop2">
+
+
+
+
+
+  <div class="hcContentContainer">
+
+    <div class="hcBasicSideMargin">
+      <h2>Janus Grotius (ca1666-)</h2>
+      <a href="http://data.bibliotheken.nl/doc/thes/p126674493">View source on data.bibliotheken.nl</a>
+      <div class="hcStackFormItems">
+        <div>
+          <div>
+            <div class="hcLabelBold"><img src="images/icons/icon_ga-property.png" alt="Class" class="hcGaIcon">type</div>
+          </div>
+          <div class="hcMarginBottom1">
+            <div>Person</div>
+          </div>
+        </div>
+        <div>
+          <div>
+            <div class="hcLabelBold"><img src="images/icons/icon_ga-property.png" alt="Class" class="hcGaIcon">isPrimaryTopicOf</div>
+          </div>
+          <div class="hcMarginBottom1">
+            <div class="hcClickableBlock">
+              <a href="https://data.goldenagents.org/datasets/ufab7d657a250e3461361c982ce9b38f3816e0c4b/stcn_20200226/.well-known/genid/ead3ecde194c56aad95f85842a1a0b4a_node1g3qmsuscx36028045">https://data.goldenagents.org/datasets/ufab7d657a250e3461361c982ce9b38f3816e0c4b/stcn_20200226/.well-known/genid/ead3ecde194c56aad95f85842a1a0b4a_node1g3qmsuscx36028045</a></div>
+          </div>
+        </div>
+        <div>
+          <div>
+            <div class="hcLabelBold"><img src="images/icons/icon_ga-property.png" alt="Class" class="hcGaIcon">birthDate</div>
+          </div>
+          <div class="hcMarginBottom1">
+            <div>ca1666</div>
+          </div>
+        </div>
+        <div>
+          <div>
+            <div class="hcLabelBold"><img src="images/icons/icon_ga-property.png" alt="Class" class="hcGaIcon">label</div>
+          </div>
+          <div class="hcMarginBottom1">
+            <div>Janus Grotius (ca1666-)</div>
+          </div>
+        </div>
+        <div>
+          <div>
+            <div class="hcLabelBold"><img src="images/icons/icon_ga-property.png" alt="Class" class="hcGaIcon">familyName</div>
+          </div>
+          <div class="hcMarginBottom1">
+            <div>Grotius</div>
+          </div>
+        </div>
+        <div>
+          <div>
+            <div class="hcLabelBold"><img src="images/icons/icon_ga-property.png" alt="Class" class="hcGaIcon">alternateName</div>
+          </div>
+          <div class="hcMarginBottom1">
+            <div>Johannes de Groot</div>
+          </div>
+        </div>
+        <div>
+          <div>
+            <div class="hcLabelBold"><img src="images/icons/icon_ga-property.png" alt="Class" class="hcGaIcon">name</div>
+          </div>
+          <div class="hcMarginBottom1">
+            <div>Janus Grotius</div>
+          </div>
+        </div>
+        <div>
+          <div>
+            <div class="hcLabelBold"><img src="images/icons/icon_ga-property.png" alt="Class" class="hcGaIcon">givenName</div>
+          </div>
+          <div class="hcMarginBottom1">
+            <div>Janus</div>
+          </div>
+        </div>
+      </div>
+      <div class="hcStackFormItems">
+        <div>
+          <div class="hcLabelBold"><img src="images/icons/icon_ga-property.png" alt="Class" class="hcGaIcon">Janus Grotius (ca1666-) appears in:</div>
+          <ul class="appearsInClass">
+            <li>primaryTopic: <a href="https://data.goldenagents.org/datasets/ufab7d657a250e3461361c982ce9b38f3816e0c4b/stcn_20200226/.well-known/genid/ead3ecde194c56aad95f85842a1a0b4a_node1g3qmsuscx36028045">https://data.goldenagents.org/datasets/ufab7d657a250e3461361c982ce9b38f3816e0c4b/stcn_20200226/.well-known/genid/ead3ecde194c56aad95f85842a1a0b4a_node1g3qmsuscx36028045</a></li>
+            <li>author: <span class="hcClickableSpan">P.F.H.N. Janus Grotius</span></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+</main>
+
+
+
+
+
+
+
+<script src="js/utilGA1.js"></script>
+
+  <!-- <script src="js/navigation.js" charset="utf-8"></script>
+  <script>(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){ (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o), m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m) })(window,document,'script','https://www.google-analytics.com/analytics.js','ga'); ga('create', 'UA-90872465-1', 'auto'); ga('send', 'pageview');</script>
+  </body> -->
+</html>

@@ -636,6 +636,16 @@
       ]
     },
     {
+      "name": "ga-data-browser-class-detail",
+      "template": "golden-agents/ga-data-class-detail",
+      "project-name": "Golden Agents",
+      "brand": "-ga",
+      "logo": "logo-golden-agents.svg",
+      "isPage": true,
+      "favi":"favi-ga.png",
+      "title": "Golden Agents | Data browser | Class item detail"
+    },
+    {
       "name": "ga-multi-agent-home",
       "template": "golden-agents/ga-ma-home",
       "project-name": "Golden Agents",
