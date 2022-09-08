@@ -2032,6 +2032,51 @@ hr {
   height: auto;
 }
 
+html {
+  font-size: 100%;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+@media print {
+  body > *:not(main) {
+    display: none;
+  }
+}
+[href="#main-content"] {
+  position: absolute;
+  top: 0;
+  right: 100%; /* moves off screen */
+}
+
+[href="#main-content"]:focus {
+  right: auto;
+}
+
+.incCard {
+  position: relative;
+}
+
+.incCard a {
+  text-decoration: none;
+}
+
+.incCard a::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.incCard a:focus {
+  text-decoration: underline;
+}
+
 .brandName {
   font-weight: 700;
 }
@@ -2559,7 +2604,7 @@ a {
 }
 
 .hcCardGaDataset {
-  padding: 1.5rem;
+  padding: 2.5rem 1.5rem 1.5rem 1.5rem;
   background-color: #fff;
   min-height: 150px;
   border-radius: 4px;
@@ -2567,4 +2612,14 @@ a {
 }
 .hcCardGaDataset h2 {
   font-size: 1.2rem;
+  color: hsl(0deg, 0%, 10%);
+}
+
+.hcCardGaDataset--float {
+  transition: box-shadow 0.2s ease-in-out, transform 0.2s ease-in-out;
+}
+
+.hcCardGaDataset--float:hover {
+  box-shadow: 5px 13px 10px rgba(0, 0, 0, 0.2);
+  transform: translate(0, -8px);
 }

@@ -387,7 +387,7 @@ $gaIconHeight: 1rem;
 
 
 .hcCardGaDataset {
-	padding: 1.5rem;
+	padding: 2.5rem 1.5rem 1.5rem 1.5rem;
 	background-color: #fff;
 	min-height: 150px;
 	border-radius: $basicBorderRadius;
@@ -395,6 +395,14 @@ $gaIconHeight: 1rem;
 
 	h2 {
 		font-size: 1.2rem;
+		color: $hcGrey90;
 	}
+}
+.hcCardGaDataset--float {
+		transition: box-shadow .2s ease-in-out, transform .2s ease-in-out;
+}
 
+.hcCardGaDataset--float:hover {
+		box-shadow: 5px 13px 10px rgba(#000000, 0.2);
+		transform: translate(0, -8px);
 }
