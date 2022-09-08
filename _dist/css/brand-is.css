@@ -4,15 +4,15 @@ body {
 }
 
 a {
-  color: hsl(201deg, 96%, 29%);
+  color: #035f91;
 }
 
 .colorBgGrey {
-  background-color: rgb(246, 246, 246);
+  background-color: #f6f6f6;
 }
 
 .colorBgGreyLight {
-  background-color: hsl(0deg, 0%, 98%);
+  background-color: #fafafa;
 }
 
 .colorBgGreyPlus {
@@ -20,7 +20,7 @@ a {
 }
 
 .hcTxtColorGreyMid {
-  color: hsl(0deg, 0%, 40%);
+  color: #666666;
 }
 
 .bgColorBrand1 {
@@ -30,7 +30,7 @@ a {
 
 .bgColorBrand2 {
   background-image: none !important;
-  background-color: hsl(349deg, 35%, 70%);
+  background-color: #cd98a2;
   color: #3e3e3e;
 }
 
@@ -112,13 +112,16 @@ a {
   .hcLayoutBasicMainAside {
     flex-direction: row;
   }
+
   .hcLayoutAside {
     width: 450px;
   }
+
   .hcLayoutMain {
     width: calc(100vw - 450px);
     min-width: calc(800px - 450px);
   }
+
   .hcColumnsEqual4 {
     column-count: 4;
   }

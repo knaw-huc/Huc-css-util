@@ -8,18 +8,87 @@
 </div>
 
 <main class="hcContentContainer hcMarginBottom5 hcMarginTop2">
-  <div class="hcBasicSideMargin ">
-    <h1>Datasets of Golden Agents</h1>
-    <p>Access to distributed, heterogeneous resources (both existing and new) on creative industries in the Dutch Golden Age.</p>
+
+
+  <div class="hcBasicSideMargin hcGaLayoutSplit">
+    <div>
+      Golden agents dataset
+      <h1>Datasetname</h1>
+      <p>Deze registers beslaan ruim 230 jaar (1581-1811) en bieden zeer veel details over de aanstaande bruid en bruidegom: hun leeftijd, hun beroep, waar ze vandaan kwamen, of hun ouders nog leefden, et cetera.</p>
+
+      <div>
+        <a href="">Browse dataset</a>
+        <a href="">SPARQL / Query builder</a>
+      </div>
+    </div>
+    <div class="hcGaLayoutSplit">
+      <div>
+        <dl aria-label="Information about the dataset">
+          <dt>Statements</dt>
+          <dd>2131</dd>
+
+          <dt>License</dt>
+          <dd>CC-BY-SA</dd>
+
+          <dt>Organisation</dt>
+          <dd>Huygens Institute</dd>
+
+        </dl>
+
+      </div>
+      <div>
+        <dl aria-label="Information about the dataset">
+          <dt>Statements111</dt>
+          <dd>2131</dd>
+
+          <dt>License</dt>
+          <dd>CC-BY-SA</dd>
+
+          <dt>Organisation</dt>
+          <dd>Huygens Institute</dd>
+
+        </dl>
+      </div>
+    </div>
 
   </div>
+
+
+
+<div class="hcBasicSideMargin hcMarginTop5"><h2>Collections</h2></div>
+
+  <div class="hcTabs hcTabsVert ">
+
+    <div class="hcTabLabels">
+
+      {{#each collections}}
+        <div class="hcTabLabel" id="tab-list-{{collectionUri}}">{{collectionName}}</div>
+      {{/each}}
+    </div>
+    <div class="hcTabAllContent">
+      {{#each collections}}
+        {{> comp-dataset-collection-overview}}
+      {{/each}}
+    </div>
+  </div>
+
+
+
+
+
+
+
 </main>
 
 
 
-  <!-- build:js js/utilGA1.js -->
-  <script src="../../js/tabs.js" charset="utf-8"></script>
-  <script src="../../js/custom/ga/gaMa.js" charset="utf-8"></script>
-  <!-- endbuild -->
 
-  {{> html-footer}}
+
+
+
+<!-- build:js js/utilGA1.js -->
+<script src="../../js/tabs.js" charset="utf-8"></script>
+<script src="../../js/custom/ga/gaMa.js" charset="utf-8"></script>
+<!-- endbuild -->
+
+{{> html-footer}}

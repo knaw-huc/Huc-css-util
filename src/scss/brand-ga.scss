@@ -406,3 +406,33 @@ $gaIconHeight: 1rem;
 		box-shadow: 5px 13px 10px rgba(#000000, 0.2);
 		transform: translate(0, -8px);
 }
+
+
+.hcGaLayoutSplit {
+	display: flex;
+	flex-direction: column;
+}
+
+
+.hcGaLayoutSplit:before {
+    content: "";
+    border: 1px solid hsl(0, 0%, 91%);
+    align-self: stretch;
+}
+
+.hcGaLayoutSplit {
+	>*:first-child {
+		order: -1;
+	}
+}
+
+
+@media (min-width: 1000px) {
+	.hcGaLayoutSplit {
+		flex-direction: row;
+		gap: 2rem;
+		>* {
+			flex: 1;
+		}
+	}
+}

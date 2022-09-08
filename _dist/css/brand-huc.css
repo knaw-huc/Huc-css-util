@@ -4,15 +4,15 @@ body {
 }
 
 a {
-  color: hsl(201deg, 96%, 29%);
+  color: #035f91;
 }
 
 .colorBgGrey {
-  background-color: rgb(246, 246, 246);
+  background-color: #f6f6f6;
 }
 
 .colorBgGreyLight {
-  background-color: hsl(0deg, 0%, 98%);
+  background-color: #fafafa;
 }
 
 .colorBgGreyPlus {
@@ -20,7 +20,7 @@ a {
 }
 
 .hcTxtColorGreyMid {
-  color: hsl(0deg, 0%, 40%);
+  color: #666666;
 }
 
 .bgColorBrand1 {

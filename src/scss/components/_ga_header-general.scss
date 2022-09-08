@@ -115,15 +115,17 @@ $gaYellowDark: hsl(49, 99%, 44%);
 @media (max-width: 574px) {
   .hcGaHeaderGen__Nav,  {
     border-top: 1px solid $gaYellowDark;
+    flex-grow: 1;
+    width: 100%;
   }
 
-  .hcGaHeader__dropdown {
-    button{
-      img {
-        display: none;
-      }
-    }
-  }
+  // .hcGaHeader__dropdown {
+  //   button{
+  //     img {
+  //       display: none;
+  //     }
+  //   }
+  // }
 }
 
 @media (max-width: 841px) {
