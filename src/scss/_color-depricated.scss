@@ -2,7 +2,9 @@
 $colorPrimairy: #03dbe8;
 $colorSecundairy:#ddf279;     //#fff568;
 $colorTertiary: #56504b;
-$colorLink: hsl(201, 96%, 29%);
+$colorLink: hsl(200, 90%, 30%);
+
+
 
 $colorGreyVeryLight: hsl(0, 0%, 98%);
 $colorGreyLightBg: hsl(0, 0%, 96%);
@@ -41,6 +43,10 @@ body {
 
 a {
 	color: $colorLink;
+}
+
+a .hcIconLinkColor {
+	fill: $colorLink;
 }
 
 $colorFormElements: #f0f5f9;

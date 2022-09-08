@@ -4,7 +4,11 @@ body {
 }
 
 a {
-  color: #035f91;
+  color: #086391;
+}
+
+a .hcIconLinkColor {
+  fill: #086391;
 }
 
 .colorBgGrey {

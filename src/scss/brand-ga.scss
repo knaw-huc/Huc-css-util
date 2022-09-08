@@ -387,7 +387,7 @@ $gaIconHeight: 1rem;
 
 
 .hcCardGaDataset {
-	padding: 2.5rem 1.5rem 1.5rem 1.5rem;
+	padding: 1.5rem;
 	background-color: #fff;
 	min-height: 150px;
 	border-radius: $basicBorderRadius;
@@ -435,4 +435,15 @@ $gaIconHeight: 1rem;
 			flex: 1;
 		}
 	}
+}
+
+
+.hcGaIcon {
+	height: .8rem;
+	width: auto;
+	margin-right: .4rem;
+}
+
+.hcGaIcon--big{
+	height: 1.3rem;
 }

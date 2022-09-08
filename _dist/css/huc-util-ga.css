@@ -117,7 +117,11 @@ body {
 }
 
 a {
-  color: #035f91;
+  color: #086391;
+}
+
+a .hcIconLinkColor {
+  fill: #086391;
 }
 
 .colorBgGrey {
@@ -246,6 +250,11 @@ strong {
 
 .hcPointer {
   cursor: pointer;
+}
+
+.hcIconSvg {
+  height: 0.7rem;
+  width: auto;
 }
 
 .hcBasicSideMargin {
@@ -787,7 +796,7 @@ button {
   background: none;
   border: none;
   box-shadow: none;
-  color: #035f91;
+  color: #086391;
 }
 
 .hcfixedSideButton {
@@ -864,7 +873,7 @@ input::placeholder {
 }
 
 .hcLabel {
-  color: #666666;
+  color: #4d4d4d;
   text-transform: uppercase;
   font-size: 0.85rem;
 }
@@ -2134,7 +2143,11 @@ body {
 }
 
 a {
-  color: #035f91;
+  color: #086391;
+}
+
+a .hcIconLinkColor {
+  fill: #086391;
 }
 
 .colorBgGrey {
@@ -2633,7 +2646,7 @@ a {
 }
 
 .hcCardGaDataset {
-  padding: 2.5rem 1.5rem 1.5rem 1.5rem;
+  padding: 1.5rem;
   background-color: #fff;
   min-height: 150px;
   border-radius: 4px;
@@ -2676,4 +2689,13 @@ a {
   .hcGaLayoutSplit > * {
     flex: 1;
   }
+}
+.hcGaIcon {
+  height: 0.8rem;
+  width: auto;
+  margin-right: 0.4rem;
+}
+
+.hcGaIcon--big {
+  height: 1.3rem;
 }

@@ -3,7 +3,7 @@
 
 <div class="hcContentContainer hcMarginBottom2 hcMarginTop2">
   <div class="hcBasicSideMargin ">
-    <a href="ga-data-browser-all-datasets.html">Back to all datasets</a>
+    <a href="ga-data-browser-all-datasets.html">{{> icons/icon_arrow_left}}Back to all datasets</a>
   </div>
 </div>
 
@@ -12,11 +12,11 @@
 
   <div class="hcBasicSideMargin hcGaLayoutSplit">
     <div>
-      Golden agents dataset
-      <h1>Datasetname</h1>
+      <div class="hcLabel"><img src="images/icons/icon_ga-dataset.png" alt="" class="hcGaIcon hcGaIcon--big"> Golden agents dataset</div>
+      <h1>Ja, ik wil</h1>
       <p>Deze registers beslaan ruim 230 jaar (1581-1811) en bieden zeer veel details over de aanstaande bruid en bruidegom: hun leeftijd, hun beroep, waar ze vandaan kwamen, of hun ouders nog leefden, et cetera.</p>
 
-      <div>
+      <div class="hcGaLayoutSplit">
         <a href="">Browse dataset</a>
         <a href="">SPARQL / Query builder</a>
       </div>
@@ -38,7 +38,7 @@
       </div>
       <div>
         <dl aria-label="Information about the dataset">
-          <dt>Statements111</dt>
+          <dt>Statements</dt>
           <dd>2131</dd>
 
           <dt>License</dt>
@@ -55,14 +55,14 @@
 
 
 
-<div class="hcBasicSideMargin hcMarginTop5"><h2>Collections</h2></div>
+<div class="hcBasicSideMargin hcMarginTop5"><h2>Classes</h2></div>
 
   <div class="hcTabs hcTabsVert ">
 
     <div class="hcTabLabels">
 
       {{#each collections}}
-        <div class="hcTabLabel" id="tab-list-{{collectionUri}}">{{collectionName}}</div>
+        <div class="hcTabLabel" id="tab-list-{{collectionUri}}"><img src="images/icons/icon_ga-class.png" alt="" class="hcGaIcon">{{collectionName}}</div>
       {{/each}}
     </div>
     <div class="hcTabAllContent">
