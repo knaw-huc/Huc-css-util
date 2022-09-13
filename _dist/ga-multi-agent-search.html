@@ -16,14 +16,67 @@
   </head>
   <body>
 <div class="hcMinimanFullViewport">
-  <!-- query GA tool header -->
-  <div class="hcGaHeader bgColorBrand1 hcMarginBottom2" >
-    <div class="hcGaHeaderLogo"><img src="images/logo-ga.png" alt="Golden Agents logo"></div>
-    <div class="hcGaHeaderToolName">Search the Golden Agents</div>
-    <div class="hcGaHeaderProject"></div>
-    <div class="hcGaHeaderHelp"></div>
-  </div>
-  <!-- // query GA tool header -->
+  <!-- general GA tool header -->
+  <header class="hcGaHeaderGen bgColorBrand1" >
+    <div class="hcGaHeaderGen__Logo"><img src="images/logo-ga.png" alt="Golden Agents logo"></div>
+    <div class="hcGaHeaderGen__ToolName">Search the Golden Agents</div>
+    <nav class="hcGaHeaderGen__Nav">
+  
+      <div class="hcDropList hcGaHeader__dropdown">
+        <button type="button" name="button" aria-label="open menu item" class="">About <img src="images/icons/icon_arrow-down.png" alt=""></button>
+        <div class="hcDropList__list">
+          <a href="https://ga.sd.di.huc.knaw.nl/" target="_blank">About this tool</a>
+          <a href="https://ga-wp3.sd.di.huc.knaw.nl/" target="_blank">About the Golden Agents Project</a>
+          <a href="https://www.goldenagents.org/" target="_blank">Goldenagents.org</a>
+        </div>
+      </div>
+  
+  
+  
+      <div class="hcDropList hcGaHeader__dropdown">
+        <button type="button" name="button"  aria-label="open menu item" class="">More tools <img src="images/icons/icon_arrow-down.png" alt=""></button>
+        <div class="hcDropList__list">
+          <a href="https://ga.sd.di.huc.knaw.nl/" target="_blank">Dataset Browser<br>
+            <small>Explore the Golden Agents datasets.</small></a>
+          <a href="https://ga-wp3.sd.di.huc.knaw.nl/" target="_blank">Golden Agent Search<br>
+            <small>Use SparQL or a querybuilder to anwser your research question. Our agents search overmultiple datasets.</small></a>
+          <a href="https://lenticularlens.org/" target="_blank">Lenticular Lens<br>
+            <small>A dataset alignment tool. It offers context-dependent user-guided entity matching across multiple datasets.</small></a>
+          <a href="https://lenticularlens.org/" target="_blank">Analiticcl<br>
+            <small>Analiticcl is an approximate string matching or fuzzy-matching system that can be used for spelling correction or text normalisation
+  </small></a>
+        </div>
+      </div>
+  
+  
+      <div class="hcDropList hcGaHeader__dropdown">
+        <button type="button" name="button"  aria-label="open menu item" class="">Help<img src="images/icons/icon_arrow-down.png" alt=""></button>
+        <div class="hcDropList__list">
+          <a href="" target="_blank">Watch instruction videos</a>
+          <a href="" target="_blank">Find a dataset</a>
+          <a href="" target="_blank">Documentation</a>
+  
+          <a><small><em>Legend</em><br>
+  
+              <img src="images/icons/icon_ga-dataset.png" alt="Dataset icon" class="hcGaIcon">Dataset<br>
+              <img src="images/icons/icon_ga-class.png" alt="Class icon" class="hcGaIcon">Class<br>
+              <img src="images/icons/icon_ga-property.png" alt="Property icon" class="hcGaIcon">Property<br>
+            </small>
+          </a>
+  
+  
+        </div>
+      </div>
+  
+    </nav>
+  
+    <div class="hcGaHeader__Login">
+      <img src="images/icons/icon_user.svg" alt="" class="user_icon">
+      BasD
+      <button type="button" name="button"  aria-label="Log out" >Logout</button>
+    </div>
+  </header>
+  <!-- // general GA tool header -->
 
 
   <!-- GA button bar -->
@@ -449,7 +502,19 @@
 
           <!-- tab datasets-->
           <div class="hcTabContent hcMarginTop2 hcBasicSideMargin" id="tab-content-datasets">
-            <h3>Dataset</h3>
+            
+            <h3>Datasets</h3>
+            
+            
+            
+            <div class="hcAlignLeft"><input type="checkbox" name="" value=""><img src="images/icons/icon_ga-dataset.png" alt="dataset" class="hcGaIcon">Burial</div>
+            <div class="hcAlignLeft"><input type="checkbox" name="" value=""><img src="images/icons/icon_ga-dataset.png" alt="dataset" class="hcGaIcon">Collection 5001</div>
+            <div class="hcAlignLeft"><input type="checkbox" name="" value=""><img src="images/icons/icon_ga-dataset.png" alt="dataset" class="hcGaIcon">OnStage</div>
+            <div class="hcAlignLeft"><input type="checkbox" name="" value=""><img src="images/icons/icon_ga-dataset.png" alt="dataset" class="hcGaIcon">Ja, ik wil!</div>
+            <div class="hcAlignLeft"><input type="checkbox" name="" value=""><img src="images/icons/icon_ga-dataset.png" alt="dataset" class="hcGaIcon">Ondertrouw</div>
+            <div class="hcAlignLeft"><input type="checkbox" name="" value=""><img src="images/icons/icon_ga-dataset.png" alt="dataset" class="hcGaIcon">Gelegenheidsgedichten (GGD)</div>
+            <div class="hcAlignLeft"><input type="checkbox" name="" value=""><img src="images/icons/icon_ga-dataset.png" alt="dataset" class="hcGaIcon">STCN</div>
+            <div class="hcAlignLeft"><input type="checkbox" name="" value=""><img src="images/icons/icon_ga-dataset.png" alt="dataset" class="hcGaIcon">Ecartico</div>
           </div>
 
           <!-- tab visualisation-->

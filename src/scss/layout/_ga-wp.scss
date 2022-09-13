@@ -1,0 +1,181 @@
+html {
+  scroll-behavior: smooth;
+}
+
+$lightGray: hsl(0, 0%, 94%);
+
+.gaLayout_home {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+
+}
+
+.ga_about {
+  background-color: $colorGoldenAgentsYellow;
+  margin-top: 60px;
+
+  flex: 1;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+
+  .ga_about__content {
+
+
+    padding-top: 5rem;
+    padding-bottom: 1rem;
+  }
+
+
+
+
+  h1 {
+    font-size: 1.3rem;
+  }
+}
+
+
+@media (min-width: 600px) {
+  .ga_about {
+
+    >* {
+      max-width: 600px;
+    }
+
+    h1 {
+      font-size: 1.6rem;
+    }
+  }
+}
+
+
+.ga_cards {
+  background-color: $lightGray;
+  flex: 1;
+  background-image: url(../images/ga_bg3.png);
+  padding-bottom: 7rem;
+
+  h2 {
+    margin-top: 6rem;
+  }
+
+}
+
+.ga-org-homeCard {
+  background-color: #ffffff;
+  padding: 2rem;
+  border-radius: 6px;
+
+  a {
+    font-size: .85rem;
+    margin-right: 1rem;
+  }
+
+
+  .ga-org-homeCard-r {
+    margin-right: -2rem;
+    text-align: right;
+
+    img {
+      width: 200px;
+    }
+
+  }
+}
+@media (min-width: 1000px) {
+  .gaCardSplit {
+    flex-direction: row;
+    display: flex;
+  }
+
+}
+
+
+@media (min-width: 1000px) {
+
+  .gaLayout_home {
+    flex-direction: row;
+  }
+
+  .ga_about {
+    margin-top: 0;
+
+
+
+    flex: 1;
+
+    .ga_about__content {
+      position: sticky;
+      top: 0;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      height: 100vh;
+      padding-top: 8rem;
+
+
+    }
+
+  }
+
+  .ga_cards {
+    margin-top: 40px;
+    .hcCards {
+      grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+    }
+  }
+
+}
+
+
+@media (min-width: 1500px) {
+  .ga_cards {
+    flex: 2;
+  }
+
+
+}
+
+.hcGaHeaderGenStick {
+  position: fixed;
+  width: 100vw;
+  top: 0;
+  z-index: 200;
+  border-bottom: 1px solid $lightGray;
+  //opacity: .3;
+}
+
+@media (min-width: 1000px) {
+  .ga-homePartners {
+    margin-top: 1rem;
+    background-color: $colorGoldenAgentsYellow;
+    background-image: url(../images/ga_partners.jpg);
+    background-blend-mode: darken;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 300px;
+    height: 150px;
+    opacity: .5;
+    //background-color: rgba(78, 244, 231, 0.18);
+  }
+}
+
+
+.gaLineButton {
+  border-radius: 10px;
+  border: 1px solid $colorTxt;
+  background: none;
+  color: $colorTxt;
+  padding: .1rem .4rem;
+  font-size: .85rem;
+  margin-right: .4rem;
+  margin-bottom: .4rem;
+  display: inline-block;
+
+  a {
+    color: $colorTxt;
+  }
+}

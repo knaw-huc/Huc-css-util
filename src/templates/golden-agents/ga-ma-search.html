@@ -1,6 +1,6 @@
 {{> html-head}}
 <div class="hcMinimanFullViewport">
-  {{> custom/ga-header toolName="Search the Golden Agents" projectName="" marginBottom=2 }}
+  {{> custom/ga-header-general toolName="Search the Golden Agents"}}
 
 
   <!-- GA button bar -->
@@ -82,7 +82,8 @@
 
           <!-- tab datasets-->
           <div class="hcTabContent hcMarginTop2 hcBasicSideMargin" id="tab-content-datasets">
-            <h3>Dataset</h3>
+            
+            {{> custom/ga-agent-tab-datasets}}
           </div>
 
           <!-- tab visualisation-->

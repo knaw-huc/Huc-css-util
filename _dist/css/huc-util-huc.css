@@ -851,6 +851,11 @@ input, select, option, textarea {
   height: 40px;
 }
 
+input[type=checkbox] {
+  width: 20px;
+  height: 20px;
+}
+
 .hcForm input, .hcForm select, .hcForm option, .hcForm textarea {
   background-color: #f0f5f9;
   max-width: 480px;

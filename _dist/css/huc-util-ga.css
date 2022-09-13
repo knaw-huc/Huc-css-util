@@ -851,6 +851,11 @@ input, select, option, textarea {
   height: 40px;
 }
 
+input[type=checkbox] {
+  width: 20px;
+  height: 20px;
+}
+
 .hcForm input, .hcForm select, .hcForm option, .hcForm textarea {
   background-color: #f0f5f9;
   max-width: 480px;
@@ -2361,6 +2366,141 @@ a .hcIconLinkColor {
     padding: 0.4rem;
   }
 }
+html {
+  scroll-behavior: smooth;
+}
+
+.gaLayout_home {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.ga_about {
+  background-color: #efc501;
+  margin-top: 60px;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+.ga_about .ga_about__content {
+  padding-top: 5rem;
+  padding-bottom: 1rem;
+}
+.ga_about h1 {
+  font-size: 1.3rem;
+}
+
+@media (min-width: 600px) {
+  .ga_about > * {
+    max-width: 600px;
+  }
+  .ga_about h1 {
+    font-size: 1.6rem;
+  }
+}
+.ga_cards {
+  background-color: #f0f0f0;
+  flex: 1;
+  background-image: url(../images/ga_bg3.png);
+  padding-bottom: 7rem;
+}
+.ga_cards h2 {
+  margin-top: 6rem;
+}
+
+.ga-org-homeCard {
+  background-color: #ffffff;
+  padding: 2rem;
+  border-radius: 6px;
+}
+.ga-org-homeCard a {
+  font-size: 0.85rem;
+  margin-right: 1rem;
+}
+.ga-org-homeCard .ga-org-homeCard-r {
+  margin-right: -2rem;
+  text-align: right;
+}
+.ga-org-homeCard .ga-org-homeCard-r img {
+  width: 200px;
+}
+
+@media (min-width: 1000px) {
+  .gaCardSplit {
+    flex-direction: row;
+    display: flex;
+  }
+}
+@media (min-width: 1000px) {
+  .gaLayout_home {
+    flex-direction: row;
+  }
+
+  .ga_about {
+    margin-top: 0;
+    flex: 1;
+  }
+  .ga_about .ga_about__content {
+    position: sticky;
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100vh;
+    padding-top: 8rem;
+  }
+
+  .ga_cards {
+    margin-top: 40px;
+  }
+  .ga_cards .hcCards {
+    grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+  }
+}
+@media (min-width: 1500px) {
+  .ga_cards {
+    flex: 2;
+  }
+}
+.hcGaHeaderGenStick {
+  position: fixed;
+  width: 100vw;
+  top: 0;
+  z-index: 200;
+  border-bottom: 1px solid #f0f0f0;
+}
+
+@media (min-width: 1000px) {
+  .ga-homePartners {
+    margin-top: 1rem;
+    background-color: #efc501;
+    background-image: url(../images/ga_partners.jpg);
+    background-blend-mode: darken;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 300px;
+    height: 150px;
+    opacity: 0.5;
+  }
+}
+.gaLineButton {
+  border-radius: 10px;
+  border: 1px solid #3e3e3e;
+  background: none;
+  color: #3e3e3e;
+  padding: 0.1rem 0.4rem;
+  font-size: 0.85rem;
+  margin-right: 0.4rem;
+  margin-bottom: 0.4rem;
+  display: inline-block;
+}
+.gaLineButton a {
+  color: #3e3e3e;
+}
+
 .bgColorBrand1 {
   background-image: none !important;
   background-color: #efc501;
