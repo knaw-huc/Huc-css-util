@@ -6,6 +6,8 @@
 $colorGoldenAgentsYellow: #efc501;
 $colorGoldenAgentsYGreen: #058f76;
 @import 'components/ga_header-general';
+@import 'components/navSubList--vertical';
+@import 'layout/_layout_3col-vertNav';
 @import 'layout/_ga-wp';
 .bgColorBrand1 {
 	background-image: none !important;

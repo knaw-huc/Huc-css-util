@@ -1,19 +1,39 @@
 {{> html-head}}
 {{> custom/ga-header-general toolName="Dataset Browser"}}
 
-<main class="hcContentContainer hcMarginBottom5 hcMarginTop5">
-  <div class="hcBasicSideMargin ">
-    <h1>Datasets of Golden Agents</h1>
-    <p>Access to distributed, heterogeneous resources (both existing and new) on creative industries in the Dutch Golden Age.</p>
+
+
+<main class="layout_3col_vertNav  hcMarginBottom5 hcMarginTop5 hcContentContainer">
+  <div id="colNav" class="hcBasicSideMargin">{{> custom/ga-wp-nav}}</div>
+  <div id="colContentWide" class="hcBasicSideMargin">
+    <h1>Agents technology</h1>
+    <p>Agents are employed to automate the process of querying the various data sets provided by the Cultural Heritage institutions in an integrated manner. In the most general sense, an agent is a piece of software that acts on its environment to
+      achieve a certain goal[1]. A multiagent system is a collection of interacting agents working in the same environment.</p>
+
+    <p>In the Golden Agents project, we employ a multiagent system where the environment is a collection of cultural heritage data sets regarding the Dutch Golden Age. The multiagent system aims at answering users’ queries by consulting and combining
+      data from these various sources. To this end, three types of agents are being developed for this system: Data Source agents, Broker agents, and User agents. </p>
 
   </div>
 </main>
 
 
 
-  <!-- build:js js/utilGA1.js -->
-  <script src="../../js/tabs.js" charset="utf-8"></script>
-  <script src="../../js/custom/ga/gaMa.js" charset="utf-8"></script>
-  <!-- endbuild -->
 
-  {{> html-footer}}
+
+
+
+<main class="hcContentContainer hcMarginBottom5 hcMarginTop5">
+  <div class="hcBasicSideMargin ">
+
+
+  </div>
+</main>
+
+
+
+<!-- build:js js/utilGA1.js -->
+<script src="../../js/tabs.js" charset="utf-8"></script>
+<script src="../../js/custom/ga/gaMa.js" charset="utf-8"></script>
+<!-- endbuild -->
+
+{{> html-footer}}
