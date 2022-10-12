@@ -23,7 +23,7 @@
     "gulp-using": "^0.1.1",
     "load-json-file": "^5.2.0",
     "sass": "^1.54.8",
-    "simple-get": "^3.0.3"
+    "simple-get": "^3.1.1"
   },
   "devDependencies": {
     "gulp-clean": "^0.4.0"
