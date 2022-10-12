@@ -1,13 +1,40 @@
-{{> html-head}}
+ {{> html-head}}
 
 {{> custom/ga-header-general toolName="Search the Golden Agents"}}
 
 <main class="hcContentContainer hcMarginBottom5 hcMarginTop5">
-  <div class="hcBasicSideMargin ">
+  <div class="hcBasicSideMargin  hcMarginBottom3">
     <h1>Search all Golden Agents datasets</h1>
     <p>Access to distributed, heterogeneous resources (both existing and new) on creative industries in the Dutch Golden Age.</p>
+  </div>
+
+
+  <div class="hcContentContainer hcMarginBottom5 ">
+    <div class="ga3col">
+      <div class="hcBasicSideMargin hcClrBg_Grey05">
+        <strong>Use the QueryBuilder to create query the datasets</strong>
+      </div>
+      <div class="hcBasicSideMargin hcClrBg_Grey05">
+        <strong>Use SPARQL query the datasets</strong>
+      </div>
+      <div class="hcBasicSideMargin hcClrBg_Grey05">
+        <strong>See the video</strong>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="hcContentContainer hcMarginBottom5 ">
+    <div class="hcBasicSideMargin ">
+      <h2>Example queries</h2>
+      {{> custom/ga-listItemLong itemTitle="Example query 1" description="Access to distributed, heterogeneous resources (both existing and new) on creative industries in the Dutch Golden Age." image="dam01.png"}}
+      {{> custom/ga-listItemLong itemTitle="Example query 2" description="Access to distributed, heterogeneous resources (both existing and new) on creative industries in the Dutch Golden Age." image="dam01.png"}}
+      {{> custom/ga-listItemLong itemTitle="Example query 3" description="Access to distributed, heterogeneous resources (both existing and new) on creative industries in the Dutch Golden Age." image="dam01.png"}}
+    </div>
 
   </div>
+
+
 </main>
 
 {{> html-footer}}

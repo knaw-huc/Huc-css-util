@@ -4,19 +4,19 @@ body {
 }
 
 a {
-  color: #086391;
+  color: hsl(200deg, 90%, 30%);
 }
 
 a .hcIconLinkColor {
-  fill: #086391;
+  fill: hsl(200deg, 90%, 30%);
 }
 
 .colorBgGrey {
-  background-color: #f6f6f6;
+  background-color: rgb(246, 246, 246);
 }
 
 .colorBgGreyLight {
-  background-color: #fafafa;
+  background-color: hsl(0deg, 0%, 98%);
 }
 
 .colorBgGreyPlus {
@@ -24,83 +24,83 @@ a .hcIconLinkColor {
 }
 
 .hcTxtColorGreyMid {
-  color: #666666;
+  color: hsl(0deg, 0%, 40%);
 }
 
 .hcClrBg_Info {
-  background-color: #1f96ad;
+  background-color: hsl(190deg, 70%, 40%);
 }
 
 .hcClrBg_InfoLight {
-  background-color: #ebf7fa;
+  background-color: hsl(190deg, 60%, 95%);
 }
 
 .hcClrBg_Reward {
-  background-color: #9fcf3f;
+  background-color: hsl(80deg, 60%, 53%);
 }
 
 .hcClrBg_RewardLight {
-  background-color: #d6ebad;
+  background-color: hsl(80deg, 60%, 80%);
 }
 
 .hcClrBg_Error {
-  background-color: #de6e6e;
+  background-color: hsl(0deg, 63%, 65%);
 }
 
 .hcClrBg_ErrorLight {
-  background-color: #ffaa99;
+  background-color: hsl(10deg, 100%, 80%);
 }
 
 .hcClrBg_Caution {
-  background-color: #e2c765;
+  background-color: hsl(47deg, 68%, 64%);
 }
 
 .hcClrBg_CautionLight {
-  background-color: #efe0a9;
+  background-color: hsl(47deg, 68%, 80%);
 }
 
 .hcTxt_Caution {
-  color: #c54a11;
+  color: hsl(19deg, 84%, 42%);
 }
 
 .hcClrBg_Grey05 {
-  background-color: #f2f2f2;
+  background-color: hsl(0deg, 0%, 95%);
 }
 
 .hcClrBg_Grey10 {
-  background-color: #e6e6e6;
+  background-color: hsl(0deg, 0%, 90%);
 }
 
 .hcClrBg_Grey15 {
-  background-color: #d9d9d9;
+  background-color: hsl(0deg, 0%, 85%);
 }
 
 .hcClrBg_Grey20 {
-  background-color: #cccccc;
+  background-color: hsl(0deg, 0%, 80%);
 }
 
 .hcClrBg_Grey30 {
-  background-color: #b3b3b3;
+  background-color: hsl(0deg, 0%, 70%);
 }
 
 .hcClrBg_Grey70 {
-  background-color: #4d4d4d;
+  background-color: hsl(0deg, 0%, 30%);
 }
 
 .hcClrBg_Grey80 {
-  background-color: #333333;
+  background-color: hsl(0deg, 0%, 20%);
 }
 
 .hcClrBg_Grey90 {
-  background-color: #1a1a1a;
+  background-color: hsl(0deg, 0%, 10%);
 }
 
 .hcClrTxt {
-  color: #1a1a1a;
+  color: hsl(0deg, 0%, 10%);
 }
 
 .hcClrTxt_Grey {
-  color: gray;
+  color: hsl(0deg, 0%, 50%);
 }
 
 .hcClrTxt_Dark {
@@ -136,11 +136,11 @@ a .hcIconLinkColor {
 }
 
 .hcGaHeaderGen__Nav {
-  border-left: 1px solid #dfb701;
+  border-left: 1px solid hsl(49deg, 99%, 44%);
 }
 .hcGaHeaderGen__Nav a {
   color: #000;
-  border-right: 1px solid #dfb701;
+  border-right: 1px solid hsl(49deg, 99%, 44%);
   background-color: #efc501;
   height: 100%;
   display: flex;
@@ -149,10 +149,10 @@ a .hcIconLinkColor {
   transition: background-color 0.4s;
 }
 .hcGaHeaderGen__Nav a:hover {
-  background-color: #dfb701;
+  background-color: hsl(49deg, 99%, 44%);
 }
 .hcGaHeaderGen__Nav button {
-  border-right: 1px solid #dfb701;
+  border-right: 1px solid hsl(49deg, 99%, 44%);
   background-color: #efc501;
   height: 100%;
   transition: background-color 0.4s;
@@ -189,28 +189,28 @@ a .hcIconLinkColor {
   transform: translateY(-5px);
 }
 .hcGaHeader__dropdown .hcDropList__list {
-  border-top: 1px solid #dfb701;
+  border-top: 1px solid hsl(49deg, 99%, 44%);
   box-shadow: 7px 7px 10px rgba(0, 0, 0, 0.2);
 }
 .hcGaHeader__dropdown .hcDropList__list a {
   flex-direction: column;
   display: flex;
   align-items: flex-start;
-  border-bottom: 1px solid #dfb701;
+  border-bottom: 1px solid hsl(49deg, 99%, 44%);
   max-width: 300px;
   padding: 0.7rem 0.5rem;
 }
 
 @media (max-width: 574px) {
   .hcGaHeaderGen__Nav {
-    border-top: 1px solid #dfb701;
+    border-top: 1px solid hsl(49deg, 99%, 44%);
     flex-grow: 1;
     width: 100%;
   }
 }
 @media (max-width: 841px) {
   .hcGaHeader__Login {
-    border-top: 1px solid #dfb701;
+    border-top: 1px solid hsl(49deg, 99%, 44%);
     flex-grow: 1;
     padding: 0.4rem;
   }
@@ -241,22 +241,18 @@ a .hcIconLinkColor {
     grid-template-columns: [leftt] 300px [col2] auto [rightt];
     grid-template-rows: [topp] auto [row2] auto [bott];
   }
-
   #colNav {
     grid-column: leftt/col2;
     grid-row: topp/bott;
   }
-
   #colContent {
     grid-column: col2/rightt;
     grid-row: topp/row2;
   }
-
   #colContentWide {
     grid-column: col2/rightt;
     grid-row: topp/bott;
   }
-
   #colAside {
     grid-column: col2/rightt;
     grid-row: row2/bott;
@@ -267,22 +263,18 @@ a .hcIconLinkColor {
     grid-template-columns: [leftt] 300px [col2] auto [colEnd] 300px [rightt];
     grid-template-rows: [topp] auto [bott];
   }
-
   #colNav {
     grid-column: leftt/col2;
     grid-row: topp/bott;
   }
-
   #colContent {
     grid-column: col2/colEnd;
     grid-row: topp/bott;
   }
-
   #colContentWide {
     grid-column: col2/rightt;
     grid-row: topp/bott;
   }
-
   #colAside {
     grid-column: colEnd/rightt;
     grid-row: topp/bott;
@@ -324,7 +316,7 @@ html {
   }
 }
 .ga_cards {
-  background-color: #f0f0f0;
+  background-color: hsl(0deg, 0%, 94%);
   flex: 1;
   background-image: url(../images/ga_bg3.png);
   padding-bottom: 7rem;
@@ -360,7 +352,6 @@ html {
   .gaLayout_home {
     flex-direction: row;
   }
-
   .ga_about {
     margin-top: 0;
     flex: 1;
@@ -374,7 +365,6 @@ html {
     height: 100vh;
     padding-top: 8rem;
   }
-
   .ga_cards {
     margin-top: 40px;
   }
@@ -392,7 +382,7 @@ html {
   width: 100vw;
   top: 0;
   z-index: 200;
-  border-bottom: 1px solid #f0f0f0;
+  border-bottom: 1px solid hsl(0deg, 0%, 94%);
 }
 
 @media (min-width: 1000px) {
@@ -439,7 +429,7 @@ html {
 }
 
 .colorBgGrey {
-  background-color: whitesmoke !important;
+  background-color: hsl(0deg, 0%, 96%) !important;
 }
 
 .hcBrandLogo img {
@@ -507,7 +497,6 @@ html {
   .hcMaxhalf {
     height: 80vh !important;
   }
-
   .hcSelectedExtend {
     margin-right: -2rem;
   }
@@ -553,7 +542,7 @@ html {
 }
 
 .hcVerticalLineSeperator > * {
-  border-right: 1px solid #d9d9d9;
+  border-right: 1px solid hsl(0deg, 0%, 85%);
 }
 
 .hcVerticalLineSeperator > *:last-child {
@@ -611,7 +600,7 @@ html {
 }
 
 .hcTabContent .hcListDisctinctLines > *:nth-child(odd) {
-  background-color: #e6e6e6;
+  background-color: hsl(0deg, 0%, 90%);
 }
 
 .hcGaSce {
@@ -723,7 +712,7 @@ html {
 }
 .hcCardGaDataset h2 {
   font-size: 1.2rem;
-  color: #1a1a1a;
+  color: hsl(0deg, 0%, 10%);
 }
 
 .hcCardGaDataset--float {
@@ -742,7 +731,7 @@ html {
 
 .hcGaLayoutSplit:before {
   content: "";
-  border: 1px solid #e8e8e8;
+  border: 1px solid hsl(0deg, 0%, 91%);
   align-self: stretch;
 }
 
@@ -771,4 +760,51 @@ html {
 
 .ga-searcChoiceLink small {
   color: #3e3e3e;
+}
+
+.listNoListItem li {
+  list-style: none;
+}
+
+.ga3col {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  gap: 30px;
+}
+.ga3col > * {
+  flex: 1;
+}
+
+@media (min-width: 900px) {
+  .ga3col {
+    flex-direction: row;
+  }
+}
+.gaListItemLong {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  gap: 30px;
+  border-bottom: 1px solid hsl(0deg, 0%, 80%);
+}
+.gaListItemLong .gaListItemLong__img {
+  flex: 1;
+}
+.gaListItemLong .gaListItemLong__img img {
+  width: 100px;
+  height: auto;
+}
+.gaListItemLong .gaListItemLong__txt {
+  flex-grow: 1;
+}
+.gaListItemLong .gaListItemLong__link {
+  flex: 1;
+}
+
+@media (min-width: 900px) {
+  .gaListItemLong {
+    flex-direction: row;
+  }
 }

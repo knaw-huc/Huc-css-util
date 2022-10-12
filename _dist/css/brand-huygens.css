@@ -4,19 +4,19 @@ body {
 }
 
 a {
-  color: #086391;
+  color: hsl(200deg, 90%, 30%);
 }
 
 a .hcIconLinkColor {
-  fill: #086391;
+  fill: hsl(200deg, 90%, 30%);
 }
 
 .colorBgGrey {
-  background-color: #f6f6f6;
+  background-color: rgb(246, 246, 246);
 }
 
 .colorBgGreyLight {
-  background-color: #fafafa;
+  background-color: hsl(0deg, 0%, 98%);
 }
 
 .colorBgGreyPlus {
@@ -24,7 +24,7 @@ a .hcIconLinkColor {
 }
 
 .hcTxtColorGreyMid {
-  color: #666666;
+  color: hsl(0deg, 0%, 40%);
 }
 
 .bgColorBrand1 {
@@ -54,8 +54,8 @@ a .hcIconLinkColor {
 }
 
 hr {
-  color: #dee6ed;
-  background-color: #dee6ed;
+  color: hsl(210deg, 30%, 90%);
+  background-color: hsl(210deg, 30%, 90%);
 }
 
 .bgColorBrandIK {
@@ -66,7 +66,7 @@ hr {
 }
 
 .hcIKBgLight {
-  background-color: #f8f4f1;
+  background-color: hsl(27deg, 35%, 96%);
 }
 
 .hcSmallTxt {
@@ -84,7 +84,7 @@ hr {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  background-color: #f8f4f1;
+  background-color: hsl(27deg, 35%, 96%);
   padding: 1rem;
 }
 .hcIKkImageBlock img {
@@ -123,7 +123,7 @@ hr {
   flex-direction: column;
   align-items: center;
   justify-content: flex-start;
-  background-color: #f8f4f1;
+  background-color: hsl(27deg, 35%, 96%);
   padding: 0.5rem;
 }
 .hcIKkImageBlockResult img {
@@ -161,7 +161,7 @@ hr {
   align-items: center;
   width: 100%;
   white-space: nowrap;
-  border-bottom: 1px solid #e6e6e6;
+  border-bottom: 1px solid hsl(0deg, 0%, 90%);
   font-size: 0.9rem;
 }
 
@@ -182,7 +182,7 @@ hr {
 
 .hcIKselectedFacetVal {
   padding: 0rem 0.3rem;
-  background-color: #e4e4e4;
+  background-color: rgb(228, 228, 228);
   border-radius: 3px;
   margin-left: 0.5rem;
   display: flex;

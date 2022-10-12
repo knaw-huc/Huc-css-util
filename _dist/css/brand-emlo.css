@@ -4,19 +4,19 @@ body {
 }
 
 a {
-  color: #086391;
+  color: hsl(200deg, 90%, 30%);
 }
 
 a .hcIconLinkColor {
-  fill: #086391;
+  fill: hsl(200deg, 90%, 30%);
 }
 
 .colorBgGrey {
-  background-color: #f6f6f6;
+  background-color: rgb(246, 246, 246);
 }
 
 .colorBgGreyLight {
-  background-color: #fafafa;
+  background-color: hsl(0deg, 0%, 98%);
 }
 
 .colorBgGreyPlus {
@@ -24,7 +24,7 @@ a .hcIconLinkColor {
 }
 
 .hcTxtColorGreyMid {
-  color: #666666;
+  color: hsl(0deg, 0%, 40%);
 }
 
 .bgColorBrand1 {
@@ -92,7 +92,7 @@ a .hcIconLinkColor {
 .hcEmplHierarchy li:before {
   content: "+";
   padding-right: 8px;
-  color: #666666;
+  color: hsl(0deg, 0%, 40%);
 }
 
 .hcEmplList {
@@ -112,7 +112,7 @@ a .hcIconLinkColor {
 }
 
 .hcEmplListHeader {
-  background-color: whitesmoke;
+  background-color: hsl(0deg, 0%, 96%);
   font-weight: 700;
 }
 
@@ -150,7 +150,7 @@ a .hcIconLinkColor {
 }
 
 .hcEmplTabBar {
-  background-color: whitesmoke;
+  background-color: hsl(0deg, 0%, 96%);
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
@@ -166,7 +166,7 @@ a .hcIconLinkColor {
 
 .hcEmplEmbedBox {
   min-height: 300px;
-  border: 1px solid whitesmoke;
+  border: 1px solid hsl(0deg, 0%, 96%);
 }
 
 .hcEmplacesHierarchyItem > * {

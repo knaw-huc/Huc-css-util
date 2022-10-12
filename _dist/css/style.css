@@ -32,79 +32,79 @@ ul ul ul {
 }
 
 .hcClrBg_Info {
-  background-color: #1f96ad;
+  background-color: hsl(190deg, 70%, 40%);
 }
 
 .hcClrBg_InfoLight {
-  background-color: #ebf7fa;
+  background-color: hsl(190deg, 60%, 95%);
 }
 
 .hcClrBg_Reward {
-  background-color: #9fcf3f;
+  background-color: hsl(80deg, 60%, 53%);
 }
 
 .hcClrBg_RewardLight {
-  background-color: #d6ebad;
+  background-color: hsl(80deg, 60%, 80%);
 }
 
 .hcClrBg_Error {
-  background-color: #de6e6e;
+  background-color: hsl(0deg, 63%, 65%);
 }
 
 .hcClrBg_ErrorLight {
-  background-color: #ffaa99;
+  background-color: hsl(10deg, 100%, 80%);
 }
 
 .hcClrBg_Caution {
-  background-color: #e2c765;
+  background-color: hsl(47deg, 68%, 64%);
 }
 
 .hcClrBg_CautionLight {
-  background-color: #efe0a9;
+  background-color: hsl(47deg, 68%, 80%);
 }
 
 .hcTxt_Caution {
-  color: #c54a11;
+  color: hsl(19deg, 84%, 42%);
 }
 
 .hcClrBg_Grey05 {
-  background-color: #f2f2f2;
+  background-color: hsl(0deg, 0%, 95%);
 }
 
 .hcClrBg_Grey10 {
-  background-color: #e6e6e6;
+  background-color: hsl(0deg, 0%, 90%);
 }
 
 .hcClrBg_Grey15 {
-  background-color: #d9d9d9;
+  background-color: hsl(0deg, 0%, 85%);
 }
 
 .hcClrBg_Grey20 {
-  background-color: #cccccc;
+  background-color: hsl(0deg, 0%, 80%);
 }
 
 .hcClrBg_Grey30 {
-  background-color: #b3b3b3;
+  background-color: hsl(0deg, 0%, 70%);
 }
 
 .hcClrBg_Grey70 {
-  background-color: #4d4d4d;
+  background-color: hsl(0deg, 0%, 30%);
 }
 
 .hcClrBg_Grey80 {
-  background-color: #333333;
+  background-color: hsl(0deg, 0%, 20%);
 }
 
 .hcClrBg_Grey90 {
-  background-color: #1a1a1a;
+  background-color: hsl(0deg, 0%, 10%);
 }
 
 .hcClrTxt {
-  color: #1a1a1a;
+  color: hsl(0deg, 0%, 10%);
 }
 
 .hcClrTxt_Grey {
-  color: gray;
+  color: hsl(0deg, 0%, 50%);
 }
 
 .hcClrTxt_Dark {
@@ -117,19 +117,19 @@ body {
 }
 
 a {
-  color: #086391;
+  color: hsl(200deg, 90%, 30%);
 }
 
 a .hcIconLinkColor {
-  fill: #086391;
+  fill: hsl(200deg, 90%, 30%);
 }
 
 .colorBgGrey {
-  background-color: #f6f6f6;
+  background-color: rgb(246, 246, 246);
 }
 
 .colorBgGreyLight {
-  background-color: #fafafa;
+  background-color: hsl(0deg, 0%, 98%);
 }
 
 .colorBgGreyPlus {
@@ -137,7 +137,7 @@ a .hcIconLinkColor {
 }
 
 .hcTxtColorGreyMid {
-  color: #666666;
+  color: hsl(0deg, 0%, 40%);
 }
 
 body {
@@ -146,7 +146,7 @@ body {
   font-size: 18px;
   line-height: 140%;
   font-style: normal;
-  color: #1a1a1a;
+  color: hsl(0deg, 0%, 10%);
 }
 
 h1 {
@@ -179,11 +179,9 @@ h4 {
     font-size: 18px;
     line-height: 150%;
   }
-
   h1 {
     font-size: 2em;
   }
-
   h1, h2, h3, h4 {
     line-height: 150%;
   }
@@ -466,7 +464,7 @@ strong {
   padding-left: 0;
   padding-right: 0;
   padding-bottom: 1.2rem;
-  border-bottom: 1px solid #d9d9d9;
+  border-bottom: 1px solid hsl(0deg, 0%, 85%);
 }
 
 .hcListsItemRow {
@@ -503,13 +501,13 @@ strong {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  border-top: 1px solid #d9d9d9;
+  border-top: 1px solid hsl(0deg, 0%, 85%);
   padding-top: 0.7rem;
   padding-bottom: 0.7rem;
 }
 
 .hcList > *:hover {
-  background-color: #d9d9d9;
+  background-color: hsl(0deg, 0%, 85%);
   margin: 0 -1rem;
   padding-left: 1rem;
   padding-right: 1rem;
@@ -520,14 +518,14 @@ strong {
 }
 
 .hcListDisctinctLines > *:nth-child(odd) {
-  background-color: #f2f2f2;
+  background-color: hsl(0deg, 0%, 95%);
   margin: 0 -1rem;
   padding-left: 1rem;
   padding-right: 1rem;
 }
 
 .hcListDisctinctLines > *:nth-child(odd):hover {
-  background-color: #d9d9d9;
+  background-color: hsl(0deg, 0%, 85%);
 }
 
 .hcListDisctinctLines > *:nth-child(even) {
@@ -594,7 +592,7 @@ strong {
 }
 
 .hcKwic {
-  border-bottom: 3px dotted #e7da67;
+  border-bottom: 3px dotted rgb(231, 218, 103);
 }
 
 .hcListItemThumb {
@@ -644,7 +642,7 @@ dl dd {
   font-size: 0.85rem;
   line-height: 140%;
   font-style: italic;
-  background-color: whitesmoke;
+  background-color: hsl(0deg, 0%, 96%);
   border-radius: 4px;
 }
 
@@ -709,23 +707,18 @@ dl dd {
   .hc2columns, .hc3columns, .hc4columns, .hc5columns, .hc6columns {
     flex-direction: row;
   }
-
   .hc2columns > * {
     flex-basis: 50%;
   }
-
   .hc3columns > * {
     flex-basis: 33%;
   }
-
   .hc4columns > * {
     flex-basis: 25%;
   }
-
   .hc5columns > * {
     flex-basis: 20%;
   }
-
   .hc6columns > * {
     flex-basis: 15%;
   }
@@ -796,7 +789,7 @@ button {
   background: none;
   border: none;
   box-shadow: none;
-  color: #086391;
+  color: hsl(200deg, 90%, 30%);
 }
 
 .hcfixedSideButton {
@@ -872,19 +865,19 @@ input[type=checkbox] {
 }
 
 input::placeholder {
-  color: gray;
+  color: hsl(0deg, 0%, 50%);
   font-style: italic;
   font-size: 0.85rem;
 }
 
 .hcLabel {
-  color: #4d4d4d;
+  color: hsl(0deg, 0%, 30%);
   text-transform: uppercase;
   font-size: 0.85rem;
 }
 
 .hcLabelBold {
-  color: #4d4d4d;
+  color: hsl(0deg, 0%, 30%);
   text-transform: uppercase;
   font-size: 0.85rem;
   font-weight: 700;
@@ -918,7 +911,7 @@ input::placeholder {
   background-color: #fff;
   padding-top: 1rem;
   padding-bottom: 1rem;
-  border-top: 1px solid #d9d9d9;
+  border-top: 1px solid hsl(0deg, 0%, 85%);
 }
 
 .hcTextSnippit::before {
@@ -958,11 +951,11 @@ input::placeholder {
 .hcDensity {
   width: 100%;
   min-width: 100px;
-  background-color: #e3e3e3;
+  background-color: rgb(227, 227, 227);
 }
 
 .hcDensityBar {
-  background-color: #3aa5b0;
+  background-color: rgb(58, 165, 176);
   font-size: 0.5rem;
   color: #fff;
   padding: 0 0 0 0.5rem;
@@ -989,14 +982,12 @@ input::placeholder {
   .hcBarDataset {
     flex-direction: row;
   }
-
   span {
     display: flex;
     flex-direction: row;
     align-items: baseline;
     padding-right: 1rem;
   }
-
   select {
     background-color: none;
   }
@@ -1016,22 +1007,20 @@ input::placeholder {
 hr {
   border: none;
   height: 1px;
-  color: rgba(0, 0, 0, 0.15);
-  /* old IE */
-  background-color: rgba(0, 0, 0, 0.15);
-  /* Modern Browsers */
+  color: rgba(0, 0, 0, 0.15); /* old IE */
+  background-color: rgba(0, 0, 0, 0.15); /* Modern Browsers */
 }
 
 .hcStickOutBox {
   margin: -1rem;
   padding: 1rem;
-  background-color: #f2f2f2;
+  background-color: hsl(0deg, 0%, 95%);
 }
 
 .hcStickOutBoxAside {
   margin: 0 -1rem;
   padding: 0 1rem;
-  background-color: #f2f2f2;
+  background-color: hsl(0deg, 0%, 95%);
 }
 
 .hcRoundedCorners {
@@ -1050,15 +1039,15 @@ hr {
 }
 
 .hcMsg--info {
-  background-color: #e6f6ff;
-  border: 1px solid #b3d4e6;
-  color: #265873;
+  background-color: hsl(201deg, 100%, 95%);
+  border: 1px solid hsl(201deg, 50%, 80%);
+  color: hsl(201deg, 50%, 30%);
   border-radius: 4px;
   position: absolute;
   width: 100%;
   max-width: 720px;
   padding: 1rem;
-  box-shadow: 2px 2px 2px #d9d9d9;
+  box-shadow: 2px 2px 2px hsl(0deg, 0%, 85%);
 }
 
 .hcPointer {
@@ -1133,11 +1122,9 @@ hr {
   .hcLayoutBasicMainAside {
     flex-direction: row;
   }
-
   .hcLayoutAside {
     width: 300px;
   }
-
   .hcLayoutMain {
     width: calc(100vw - 300px);
     min-width: calc(800px - 300px);
@@ -1208,7 +1195,7 @@ hr {
   height: 230px;
   flex-direction: row;
   overflow-x: auto;
-  background-color: #fafafa;
+  background-color: hsl(0deg, 0%, 98%);
 }
 .hcLayoutFacetsToggel div {
   width: 250px;
@@ -1225,15 +1212,12 @@ hr {
   .hcLayoutFacet-Result {
     flex-direction: row;
   }
-
   .hcLayoutFacets {
     width: 350px;
   }
-
   .hcLayoutResults {
     width: calc(100% - 350px);
   }
-
   .hcLayoutFacetsToggel {
     display: block;
     overflow-x: none;
@@ -1245,7 +1229,6 @@ hr {
     width: 100%;
     margin-right: auto;
   }
-
   #showFacets {
     display: none;
     position: fixed;
@@ -1305,11 +1288,9 @@ hr {
   .hcLayout-right-sidebar {
     flex-direction: row;
   }
-
   .hcLayout-right-sidebar-main {
     width: calc(100% - 250px - 2rem);
   }
-
   .hcLayout-right-sidebar-aside {
     width: 250px;
   }
@@ -1348,7 +1329,6 @@ hr {
   .hcLayoutWideCols {
     flex-direction: row;
   }
-
   .hcWideColsFixedWidth {
     width: 100%;
     max-width: 25vw;
@@ -1366,18 +1346,18 @@ hr {
 
 .hcLayoutStaticAsideM {
   width: 100%;
-  background-color: #88d0db;
+  background-color: rgb(136, 208, 219);
   max-height: 50vh;
 }
 
 .hcLayoutStaticAsideL {
   width: 50%;
-  background-color: #ecd0db;
+  background-color: rgb(236, 208, 219);
 }
 
 .hcLayoutStaticAsideR {
   width: 50%;
-  background-color: #24d0db;
+  background-color: rgb(36, 208, 219);
 }
 
 @media (min-width: 1100px) {
@@ -1386,12 +1366,10 @@ hr {
     max-height: none;
     order: 2;
   }
-
   .hcLayoutStaticAsideL {
     width: 25%;
     order: 1;
   }
-
   .hcLayoutStaticAsideR {
     width: 25%;
     order: 3;
@@ -1470,11 +1448,9 @@ hr {
   .hcPageHeaderSimple {
     flex-direction: row;
   }
-
   .hcSecundairNav {
     display: flex;
   }
-
   .hcMenuButton {
     display: none;
   }
@@ -1548,7 +1524,7 @@ hr {
 }
 .hcTabs .hcSelectedTab {
   font-weight: 700;
-  background-color: #f2f2f2;
+  background-color: hsl(0deg, 0%, 95%);
 }
 
 .hcTabsVert {
@@ -1577,7 +1553,7 @@ hr {
   width: 100%;
   position: relative;
   z-index: 10;
-  background-image: linear-gradient(#f2f2f2, #fff 50px);
+  background-image: linear-gradient(hsl(0deg, 0%, 95%), #fff 50px);
 }
 
 @media (min-width: 500px) {
@@ -1635,7 +1611,6 @@ hr {
   .hcFormItemRow {
     flex-direction: row;
   }
-
   .hcFormItemExtra {
     width: 60%;
     display: flex;
@@ -1676,11 +1651,9 @@ hr {
   .hcFormStack {
     flex-direction: row;
   }
-
   .hcStackInfo {
     width: calc(30% - 2rem);
   }
-
   .hcStackFormItems {
     width: 70%;
     padding-top: 1.5rem;
@@ -1691,7 +1664,7 @@ hr {
   padding: 0 1.5rem;
   display: flex;
   justify-content: flex-start;
-  background-color: #494949;
+  background-color: rgb(73, 73, 73);
   color: #3e3e3e;
 }
 .hcProductBar .icon {
@@ -1729,7 +1702,6 @@ hr {
     width: 200px;
     color: #3e3e3e;
   }
-
   .hcProductBar + .hcContentContainer {
     margin-left: 4rem;
     width: calc(100% - 4rem);
@@ -1765,7 +1737,7 @@ hr {
 }
 .hcFacetItem .hcFacetItemSpan input[type=checkbox] {
   width: 15px;
-  background-color: #eee090;
+  background-color: rgb(238, 224, 144);
 }
 
 .hcFacetItemSelected {
@@ -1782,7 +1754,7 @@ hr {
 }
 
 .hcFacetCount {
-  color: #666666;
+  color: hsl(0deg, 0%, 40%);
 }
 
 .hcFacetSearch {
@@ -1800,7 +1772,7 @@ hr {
 .hcSelectedFacet {
   font-size: 0.85rem;
   padding: 0.2rem 0.5rem;
-  background-color: #f6f6f6;
+  background-color: rgb(246, 246, 246);
   border-radius: 3px;
   margin: 0 0.5rem 0.5rem 0;
   cursor: pointer;
@@ -1839,7 +1811,7 @@ hr {
 .hcFacetHelp {
   display: none;
   position: absolute;
-  background-color: #25a39a;
+  background-color: rgb(37, 163, 154);
   padding: 0.5rem;
   width: 250px;
 }
@@ -1898,11 +1870,11 @@ hr {
   height: 2.5rem;
 }
 .hcQBuildBlock .hcIconFill {
-  fill: #b3b3b3 !important;
+  fill: hsl(0deg, 0%, 70%) !important;
 }
 
 .hcQBuildBlock:hover {
-  box-shadow: 2px 2px 2px #d9d9d9;
+  box-shadow: 2px 2px 2px hsl(0deg, 0%, 85%);
 }
 
 .hcQueryBuilderRow {
@@ -1914,7 +1886,7 @@ hr {
 }
 
 .hcQBuildBlockInt {
-  border: 1px solid #cccccc;
+  border: 1px solid hsl(0deg, 0%, 80%);
   cursor: pointer;
 }
 
@@ -1925,16 +1897,16 @@ hr {
 }
 
 .hcQBuildBlockChoice > * {
-  border-top: 1px solid #cccccc;
-  border-left: 1px solid #cccccc;
-  border-right: 1px solid #cccccc;
+  border-top: 1px solid hsl(0deg, 0%, 80%);
+  border-left: 1px solid hsl(0deg, 0%, 80%);
+  border-right: 1px solid hsl(0deg, 0%, 80%);
   cursor: pointer;
   padding: 0.2rem 0.3rem;
   width: 8rem;
 }
 
 .hcQBuildBlockChoice > *:last-child {
-  border-bottom: 1px solid #cccccc;
+  border-bottom: 1px solid hsl(0deg, 0%, 80%);
   border-radius: 0 0 4px 4px;
 }
 
@@ -1943,7 +1915,7 @@ hr {
 }
 
 .hcQBuildBlockBrowse {
-  background-color: #e6e6e6;
+  background-color: hsl(0deg, 0%, 90%);
   height: 50vh;
   margin-bottom: calc(2.5rem - 50vh);
   z-index: 200;
@@ -1952,11 +1924,11 @@ hr {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
-  box-shadow: 2px 2px 2px #d9d9d9;
+  box-shadow: 2px 2px 2px hsl(0deg, 0%, 85%);
 }
 .hcQBuildBlockBrowse input {
   font-size: 0.85rem;
-  border: 1px solid #cccccc;
+  border: 1px solid hsl(0deg, 0%, 80%);
 }
 .hcQBuildBlockBrowse .hcList {
   font-weight: 300;
@@ -2023,7 +1995,7 @@ hr {
 
 .hcLogicBox-group {
   margin-bottom: 1rem;
-  border-left: 5px solid gray;
+  border-left: 5px solid hsl(0deg, 0%, 50%);
   padding-left: 2rem;
 }
 
@@ -2031,7 +2003,7 @@ hr {
   font-weight: 700;
   margin-bottom: 1rem;
   margin-left: -0.5rem;
-  color: gray;
+  color: hsl(0deg, 0%, 50%);
 }
 
 .hcTree {
@@ -2098,8 +2070,7 @@ body {
 [href="#main-content"] {
   position: absolute;
   top: 0;
-  right: 100%;
-  /* moves off screen */
+  right: 100%; /* moves off screen */
 }
 
 [href="#main-content"]:focus {

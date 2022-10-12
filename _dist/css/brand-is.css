@@ -4,19 +4,19 @@ body {
 }
 
 a {
-  color: #086391;
+  color: hsl(200deg, 90%, 30%);
 }
 
 a .hcIconLinkColor {
-  fill: #086391;
+  fill: hsl(200deg, 90%, 30%);
 }
 
 .colorBgGrey {
-  background-color: #f6f6f6;
+  background-color: rgb(246, 246, 246);
 }
 
 .colorBgGreyLight {
-  background-color: #fafafa;
+  background-color: hsl(0deg, 0%, 98%);
 }
 
 .colorBgGreyPlus {
@@ -24,7 +24,7 @@ a .hcIconLinkColor {
 }
 
 .hcTxtColorGreyMid {
-  color: #666666;
+  color: hsl(0deg, 0%, 40%);
 }
 
 .bgColorBrand1 {
@@ -34,7 +34,7 @@ a .hcIconLinkColor {
 
 .bgColorBrand2 {
   background-image: none !important;
-  background-color: #cd98a2;
+  background-color: hsl(349deg, 35%, 70%);
   color: #3e3e3e;
 }
 
@@ -116,16 +116,13 @@ a .hcIconLinkColor {
   .hcLayoutBasicMainAside {
     flex-direction: row;
   }
-
   .hcLayoutAside {
     width: 450px;
   }
-
   .hcLayoutMain {
     width: calc(100vw - 450px);
     min-width: calc(800px - 450px);
   }
-
   .hcColumnsEqual4 {
     column-count: 4;
   }

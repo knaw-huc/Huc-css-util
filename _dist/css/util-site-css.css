@@ -50,7 +50,7 @@ pre code::before {
 }
 
 .codeComment {
-  color: #a8a8a8;
+  color: rgb(168, 168, 168);
   font-style: italic;
 }
 

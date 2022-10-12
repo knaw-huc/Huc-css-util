@@ -457,3 +457,59 @@ $gaIconHeight: 1rem;
 	}
 
 }
+
+.listNoListItem {
+	li {
+		list-style: none;
+	}
+}
+
+
+.ga3col {
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	gap: 30px;
+
+	>* {
+		flex: 1;
+	}
+}
+
+
+@media (min-width: 900px) {
+	.ga3col {
+		flex-direction: row;
+	}
+}
+
+.gaListItemLong {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 100%;
+	gap: 30px;
+	border-bottom: 1px solid hsl(0, 0%, 80%);
+
+	.gaListItemLong__img {
+		flex: 1;
+		img{
+			width: 100px;
+			height: auto;
+		}
+	}
+
+	.gaListItemLong__txt {
+		flex-grow: 1
+	}
+
+	.gaListItemLong__link {
+		flex: 1;
+	}
+}
+
+@media (min-width: 900px) {
+	.gaListItemLong {
+		flex-direction: row;
+	}
+}
