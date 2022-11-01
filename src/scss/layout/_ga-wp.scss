@@ -89,6 +89,14 @@ $lightGray: hsl(0, 0%, 94%);
   .gaCardSplit {
     flex-direction: row;
     display: flex;
+    gap: 2rem;
+
+    .ga-org-homeCard-r img {
+
+      height: auto;
+      max-width: 200px;
+    }
+
   }
 
 }

@@ -22,9 +22,9 @@
           <small>Explore the Golden Agents datasets.</small></a>
         <a href="https://ga-wp3.sd.di.huc.knaw.nl/" target="_blank">Golden Agent Search<br>
           <small>Use SparQL or a querybuilder to anwser your research question. Our agents search overmultiple datasets.</small></a>
-        <a href="https://lenticularlens.org/" target="_blank">Lenticular Lens<br>
+        <a href="https://lenticularlens.goldenagents.org" target="_blank">Lenticular Lens<br>
           <small>A dataset alignment tool. It offers context-dependent user-guided entity matching across multiple datasets.</small></a>
-        <a href="https://lenticularlens.org/" target="_blank">Analiticcl<br>
+        <a href="https://github.com/proycon/analiticcl" target="_blank">Analiticcl<br>
           <small>Analiticcl is an approximate string matching or fuzzy-matching system that can be used for spelling correction or text normalisation
 </small></a>
       </div>
@@ -52,10 +52,12 @@
 
   </nav>
 
+
+{{#if userInfo}}
   <div class="hcGaHeader__Login">
     <img src="images/icons/icon_user.svg" alt="" class="user_icon">
     BasD
     <button type="button" name="button"  aria-label="Log out" >Logout</button>
-  </div>
+  </div>{{/if}}
 </header>
 <!-- // general GA tool header -->

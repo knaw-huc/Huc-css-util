@@ -9,6 +9,8 @@ $colorGoldenAgentsYGreen: #058f76;
 @import 'components/navSubList--vertical';
 @import 'layout/_layout_3col-vertNav';
 @import 'layout/_ga-wp';
+
+
 .bgColorBrand1 {
 	background-image: none !important;
 	background-color: $colorGoldenAgentsYellow;
@@ -512,4 +514,107 @@ $gaIconHeight: 1rem;
 	.gaListItemLong {
 		flex-direction: row;
 	}
+}
+
+
+#colNav {
+	align-self: start;
+	margin-top: 4.5rem;
+	padding-top: 2rem;
+	padding-bottom: 5rem;
+	border-radius: 3px;
+
+	background-color: hsl(0, 0%, 95%);
+
+	ul {
+		margin: 0;
+	}
+
+	li {
+		list-style: none;
+		margin: 0;
+
+		ul {
+			margin-left: 1rem;
+			margin-top: 0rem;
+			margin-bottom: .5rem;
+		}
+
+
+	}
+
+	a {
+		color: $colorTxt;
+	}
+
+	.current-menu-item, .current_page_parent>a {
+		font-weight: bold;
+	}
+
+	.menu-item-has-children >a::after {
+		content: url(https://beta-golden-agents.diginfra.net/wp-content/themes/wp-golden-agents/images/icons/icon_arrow-down-small.png);
+
+		display: inline-block;
+		transform: translate(3px, -5px);
+	}
+}
+
+.topMargin {
+	margin-top: 10rem;
+}
+
+.papersList {
+
+	li {
+		list-style: none;
+		margin-bottom: 2rem;
+		margin-left: 0;
+		border-bottom: 1px solid hsl(0, 0%, 90%);
+		padding-bottom: 2rem;
+	}
+
+	.smll {
+		font-size: .85rem;
+	}
+
+
+}
+
+strong {
+	font-weight: 700
+}
+
+
+.staffItems {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	gap: 40px;
+
+	>* {
+		flex: 1;
+		text-align:center;
+	}
+
+	.staffAvatar img{
+		width: 130px;
+		height: auto;
+		border-radius: 50%;
+
+	}
+
+	.smallGrey {
+		font-size: .85rem;
+
+	}
+}
+
+#colContentWide h2 {
+	margin-top: 3rem;
+}
+
+
+.sticky-ll {
+	position: sticky;
+	top: 150px
 }

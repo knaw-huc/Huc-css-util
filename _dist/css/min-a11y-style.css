@@ -15,7 +15,8 @@ body {
 [href="#main-content"] {
   position: absolute;
   top: 0;
-  right: 100%; /* moves off screen */
+  right: 100%;
+  /* moves off screen */
 }
 
 [href="#main-content"]:focus {

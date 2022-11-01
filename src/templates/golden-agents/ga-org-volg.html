@@ -10,12 +10,41 @@
     <p>Agents are employed to automate the process of querying the various data sets provided by the Cultural Heritage institutions in an integrated manner. In the most general sense, an agent is a piece of software that acts on its environment to
       achieve a certain goal[1]. A multiagent system is a collection of interacting agents working in the same environment.</p>
 
-    <p>In the Golden Agents project, we employ a multiagent system where the environment is a collection of cultural heritage data sets regarding the Dutch Golden Age. The multiagent system aims at answering users’ queries by consulting and combining
-      data from these various sources. To this end, three types of agents are being developed for this system: Data Source agents, Broker agents, and User agents. </p>
+<div class="staffItems">
+
+  {{#each staff.project_member}}
+    {{>custom/ga-org-staff-item}}
+  {{/each}}
+</div>
+
+
+
+<h2>Former project members</h2>
+<div class="staffItems">
+  {{#each staff.former_project_member}}
+    {{>custom/ga-org-staff-item}}
+  {{/each}}
+</div>
+
+
+    <div>
+      <ul class="papersList">
+      {{#each papers}}
+      <li>
+        <strong><em>{{title_paper}}</em></strong> {{{text}}}
+        <div class="smll"><a href="{{Links}}">{{Links}}</a></div>
+        <div class="smll">{{pub_date}} ({{type}})</div>
+        <div class="smll">{{#if c1}}{{c1}}{{/if}} {{#if c2}}, {{c2}}{{/if}} {{#if c3}}, {{c3}}{{/if}} {{#if c4}}, {{c4}}{{/if}} {{#if c5}}, {{c5}}{{/if}}</div>
+      </li>
+
+      {{/each}}
+      </ul>
+
+
+    </div>
 
   </div>
 </main>
-
 
 
 
