@@ -23,10 +23,13 @@ $lightGray: hsl(0, 0%, 94%);
   align-items: center;
 
   .ga_about__content {
-
-
     padding-top: 5rem;
     padding-bottom: 1rem;
+
+    a {
+      color: rgb(0, 0, 0);
+      text-decoration: underline;
+    }
   }
 
 
@@ -34,6 +37,15 @@ $lightGray: hsl(0, 0%, 94%);
 
   h1 {
     font-size: 1.3rem;
+    margin-top: 2rem;
+  }
+
+  .ga_about__p {
+    font-size: 1.2rem;
+  }
+
+  .ga_about__more{
+    font-size: .9rem;
   }
 }
 
@@ -139,7 +151,7 @@ $lightGray: hsl(0, 0%, 94%);
 }
 
 
-@media (min-width: 1500px) {
+@media (min-width: 1400px) {
   .ga_cards {
     flex: 2;
   }
@@ -156,20 +168,31 @@ $lightGray: hsl(0, 0%, 94%);
   //opacity: .3;
 }
 
-@media (min-width: 1000px) {
-  .ga-homePartners {
-    margin-top: 1rem;
-    background-color: $colorGoldenAgentsYellow;
-    background-image: url(../images/ga_partners.jpg);
-    background-blend-mode: darken;
-    background-repeat: no-repeat;
-    background-size: contain;
-    width: 300px;
-    height: 150px;
-    opacity: .5;
-    //background-color: rgba(78, 244, 231, 0.18);
+.ga-homePartners{
+  margin-top: 2rem;
+}
+.ga-homePartners__logo {
+  margin-top: .5rem;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap:20px;
+
+  img {
+    height: 30px;
+    width: auto;
+    opacity: .6;
+  }
+
+  .smaller {
+    height: 20px;
+  }
+
+  strong {
+    position: absolute;
   }
 }
+
 
 
 .gaLineButton {
@@ -185,5 +208,6 @@ $lightGray: hsl(0, 0%, 94%);
 
   a {
     color: $colorTxt;
+    text-decoration: none !important;
   }
 }

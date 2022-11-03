@@ -2438,8 +2438,19 @@ html {
   padding-top: 5rem;
   padding-bottom: 1rem;
 }
+.ga_about .ga_about__content a {
+  color: black;
+  text-decoration: underline;
+}
 .ga_about h1 {
   font-size: 1.3rem;
+  margin-top: 2rem;
+}
+.ga_about .ga_about__p {
+  font-size: 1.2rem;
+}
+.ga_about .ga_about__more {
+  font-size: 0.9rem;
 }
 
 @media (min-width: 600px) {
@@ -2514,7 +2525,7 @@ html {
     grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
   }
 }
-@media (min-width: 1500px) {
+@media (min-width: 1400px) {
   .ga_cards {
     flex: 2;
   }
@@ -2527,19 +2538,29 @@ html {
   border-bottom: 1px solid #f0f0f0;
 }
 
-@media (min-width: 1000px) {
-  .ga-homePartners {
-    margin-top: 1rem;
-    background-color: #efc501;
-    background-image: url(../images/ga_partners.jpg);
-    background-blend-mode: darken;
-    background-repeat: no-repeat;
-    background-size: contain;
-    width: 300px;
-    height: 150px;
-    opacity: 0.5;
-  }
+.ga-homePartners {
+  margin-top: 2rem;
 }
+
+.ga-homePartners__logo {
+  margin-top: 0.5rem;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 20px;
+}
+.ga-homePartners__logo img {
+  height: 30px;
+  width: auto;
+  opacity: 0.6;
+}
+.ga-homePartners__logo .smaller {
+  height: 20px;
+}
+.ga-homePartners__logo strong {
+  position: absolute;
+}
+
 .gaLineButton {
   border-radius: 10px;
   border: 1px solid #3e3e3e;
@@ -2553,6 +2574,7 @@ html {
 }
 .gaLineButton a {
   color: #3e3e3e;
+  text-decoration: none !important;
 }
 
 .bgColorBrand1 {
@@ -3028,4 +3050,16 @@ strong {
 .sticky-ll {
   position: sticky;
   top: 150px;
+}
+
+.gaBetaSign {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 0.8rem;
+  background-color: #058f76;
+  color: white;
+  padding: 0 0.3rem;
+  margin-right: 0.3rem;
+  border-radius: 3px;
 }
