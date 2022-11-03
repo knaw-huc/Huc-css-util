@@ -618,3 +618,17 @@ strong {
 	position: sticky;
 	top: 150px
 }
+
+
+.gaBetaSign {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: .8rem;
+	background-color: $colorGoldenAgentsYGreen;
+	color: hsl(0, 0%, 100%); //$colorGoldenAgentsYellow;
+	padding: 0 .3rem;
+	margin-right: .3rem;
+	border-radius: 3px;
+	//border: 1px solid hsl(0, 0%, 100%);
+}
